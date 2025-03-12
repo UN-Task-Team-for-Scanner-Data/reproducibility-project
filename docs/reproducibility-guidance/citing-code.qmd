@@ -5,3 +5,96 @@ format:
     toc: true
     toc-expand: 2
 ---
+
+Citing software is historically not something that researchers have done. Code can
+often be hard to cite and the software used to derive the results of a paper was
+usually seen as a "detail" that is not worth mentioning in the body of paper.
+(Perhaps to avoid too many questions about how, exactly, the results in the
+paper were derived.) The last decade has seen a move towards more reproducible
+research in economics---mainstream journals require code and usually data for
+quantitative papers---and the proliferation of open-source research software
+has made it easier to reliably cite the software used for research.
+
+Citing code is particularly important in the area of price statistics to
+facilitate reproducible research. There are a great many price index methods,
+often with fiddly variations, used by different researchers and it is important to know the exact
+implementation used to generate a price index in order to reproduce the
+construction of that index. Research for price statistics is also
+usually done by government agencies; transparency about the code to generate the results that inform
+the methods used by government agencies is important to maintain the trust in
+official statistics.
+
+For further reading, the [Turing Way](https://book.the-turing-way.org/communication/citable) provides
+a good overview for citing code in research and represents the current state of
+the world of open-source research software.
+
+## Citing research software
+
+Unlike academic papers, there is no one way to cite a piece of software. How to
+cite a piece of software usually depends on how easy the author makes it. For
+example, R packages are easy to cite within R using the `citation()` function.
+
+```{r}
+citation("IndexNumR")
+```
+
+Modern R packages tend to have their own [website with this information on
+display](https://marberts.github.io/piar/authors.html#citation)
+and all [CRAN packages get a DOI](https://cran.r-project.org/web/packages/PriceIndices/index.html)
+to facilitate referencing the use of R packages. Things are less standardized in
+the Python ecosystem, but the same ideas apply to make projects citeable
+(e.g., [pandas](https://doi.org/10.5281/zenodo.3509134)).
+
+Another way to cite a piece of research software is to the cite the paper
+introducing this software, usually in a journal like the [Journal of Open Source
+Software](https://joss.theoj.org/), the [Journal of Statistical Software](https://www.jstatsoft.org/index),
+or the [R Journal](https://journal.r-project.org/).
+
+```
+@article{RJ-2021-038,
+  author = {Saavedra-Nieves, Alejandro and Saavedra-Nieves, Paula},
+  title = {IndexNumber: An R Package for Measuring the Evolution of Magnitudes},
+  journal = {The R Journal},
+  year = {2021},
+  note = {https://rjournal.github.io/},
+  volume = {13},
+  issue = {1},
+  issn = {2073-4859},
+  pages = {253-275}
+}
+```
+
+Finally, for code that is not in a mainstream repository like CRAN, or does not
+have a website with citation information, [citation information can sometimes be
+found in the source code](https://raw.githubusercontent.com/marberts/piar/refs/heads/main/CITATION.cff).
+Github helps to find the citation information for a 
+package and displays a button to cite the repository.
+
+## Making software citable
+
+Given the variety of ways to cite research software, the key to making it
+citeable is making it easy to generate a reference for that software. For R
+packages this happens automatically if the package is available on CRAN; for
+Python packages (and R packages not on CRAN), a service like [Zenodo](https://zenodo.org/) can be used
+to get a DOI to facilitate referencing the software. Although consumers of
+software tend not to get it directly from a source-code
+repository, citation metadata can be added to github repositories to make them
+more citeable.
+
+## Example
+
+The {piar} R package is an example of a piece of software for making price indexes
+that is highly citeable.
+
+```{r}
+citation("piar")
+```
+
+This information is displayed on the [project website](https://marberts.github.io/piar/authors.html#citation)
+and [CRAN](https://cran.r-project.org/web/packages/piar/citation.html).
+The citation information is contained in the source code, and consequently displayed
+by github, and the readme for the project is adorned with badges giving citation
+information. The goal is to have citation information available at each entry
+point at which a prospective user may first engage with {piar} and to have it
+be easy to add to a reference list.
+

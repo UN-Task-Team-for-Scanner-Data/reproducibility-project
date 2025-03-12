@@ -18,3 +18,5 @@ build/*
 # Quarto components
 /.quarto/
 /_site/
+.Rproj.user
+*.Rproj
