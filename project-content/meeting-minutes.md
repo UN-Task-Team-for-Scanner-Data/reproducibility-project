@@ -82,7 +82,7 @@ This document summarizes the meetings of the workstream
 
 ### Agenda
 
--   Review mock up quarto site for the project, as well as contributing and coe of conduct
+-   Review mock up quarto site for the project, as well as contributing and code of conduct
 -   Review ongoing work prior to the soft launch at the 2025 CPI Expert Group
 -   Roundtable
 
