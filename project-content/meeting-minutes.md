@@ -81,7 +81,15 @@ This document summarizes the meetings of the workstream
 ## 2025-03-11
 
 ### Agenda
-- Discuss 
 
+-   Review mock up quarto site for the project, as well as contributing and coe of conduct
+-   Review ongoing work prior to the soft launch at the 2025 CPI Expert Group
+-   Roundtable
 
 ### Notes
+
+-   Team discussed [the mock up site](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/) structure with a home and two main sections, one on how to make your projects reproducible by publishing your code and on using open data.
+-   The team also discussed the basic [contributing guide](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/CONTRIBUTING.md "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/CONTRIBUTING.md") and [code of conduct](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/CODE_OF_CONDUCT.md "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/CODE_OF_CONDUCT.md").
+-   The deliverables to be presented at the 2025 CPI Expert Group were discussed as per the [view in the project roadmap](https://github.com/orgs/UN-Task-Team-for-Scanner-Data/projects/1/views/1?layout=roadmap).
+-   An approach on how to import data from a package was discussed. For instance if you have an R package (such as the PriceIndices package, which has datasets we would like to make list in the interim catalogue) and you wanted to import the data and use it in Python. A nuanced approach was accepted for now with the understanding that it is best to push the data to Zenodo or related repository, as they make importing the data simpler and they also mint DOIs.
+-   Support by the UN Global Platform team for the project was also discussed
