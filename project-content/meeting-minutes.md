@@ -93,3 +93,22 @@ This document summarizes the meetings of the workstream
 -   The deliverables to be presented at the 2025 CPI Expert Group were discussed as per the [view in the project roadmap](https://github.com/orgs/UN-Task-Team-for-Scanner-Data/projects/1/views/1?layout=roadmap).
 -   An approach on how to import data from a package was discussed. For instance, how should researchers use data from an R package (such as the PriceIndices package, which has datasets we would like to make list in the interim catalogue) and they wanted to import the data and use it in Python? The team discussed on a phased approach: guidance on how to download the dataset and use it in python from the R ecosystem will be proposed; a longer term approach could be to work with dataset owners to get them to publish it on a repository like Zenodo.
 -   Support by the UN Global Platform team for the project was also discussed
+   
+## 2025-03-25
+
+### Agenda
+
+-   Review of skeleton data catalogue
+-   Review of the changes to the project site, specifically how to cite code and how to cite data sections
+-   Review roadmap and discussion of topics left to finish in this phase of the project
+
+### Notes
+
+-   The team discussed the [skeleton of the proof of concecept data catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). The technical process to register new datasets is basically to (1) draft a new `yaml` file in the [`datasets/`](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/tree/main/datasets) folder using the [`datacontrac.cli`](https://cli.datacontract.com/) specifications, and then (2) when the PR is accepted (after releveant review) and merged with the `main` branch, the runner will rerender the catalogue and the dataset will show up.
+-   The team discussed next steps. The dataset in [#6](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/6) is still the third we'd want for presentation at CPI EG.
+-   There is a need to differentiate open versus proprietary but popular datasets. Open datasets will be the focus for now with potential for expansion after the conference.
+-   The team discussed [how to cite datasets](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/datasets-guidance/how-to-cite.html) and [how to cite code](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/citing-code.html) topics, and based on the example by the [recent Baker et al (2022) FAIR principles for software paper](https://www.nature.com/articles/s41597-022-01710-x#data-availability), we decided to go with a nuanced recomemndation for now:
+    -   if data or code that a research uses exists should be included in the bibliography
+    -   data or code that is created as part of the paper should be (ideally published to something that mints a DOI) but the links to the dataset or code are included at the end of the paper under "Data availability" and "Code availability" headers.
+    -   The idea of topics to discuss after the confernece was also brought up - the process of creating synthetic datasets.
+-   To support researchers to structure their code, the team also discussed and endoresed recommendign a [template RAP](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline). 
