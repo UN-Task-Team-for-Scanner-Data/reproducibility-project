@@ -1,0 +1,13 @@
+---
+title: "Frequently asked questions"
+format:
+  html:
+    toc: true
+    toc-expand: 2
+---
+
+::: {.callout-tip title="Help us fill this page!"}
+Have an idea for a common topic to add to this FAQ? Give us a shout! Submit an issue to the project and tag the the issue using the "question" label.
+:::
+
+How do I register a dataset to the catalogue (or recommend a dataset be registered)?
