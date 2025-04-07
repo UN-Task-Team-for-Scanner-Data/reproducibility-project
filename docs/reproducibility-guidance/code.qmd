@@ -1,9 +1,0 @@
----
-title: "Approaches to reproducible code"
-date: 2025-04-28
-date-format: YYYY-MM-DD
-format:
-  html:
-    toc: true
-    toc-expand: 2
----

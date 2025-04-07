@@ -48,9 +48,9 @@ While guidance will expand over time, the following sections and links can help 
 
 -   [Catalogue of open datasets available to price statisticians](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/)
 -   [Guidance on the open data catalogue and how to register new datasets](/docs/datasets-guidance/catalogue.qmd)
--   [Recommendations on making research code open](/docs/reproducibility-guidance/code.qmd)
+-   [Recommendations on making research code open](/docs/reproducibility-guidance/intro.qmd)
 -   [Guidance on how to cite others' code](/docs/reproducibility-guidance/citing-code.qmd) and [how to cite open datasets](/docs/datasets-guidance/how-to-cite.qmd) in your research.
--   [Options for those wanting to publish new datasets in the catalogue](/docs/datasets-guidance/opening-datasets.qmd)
+-   [Options for those wanting to publish new datasets in the catalogue](/docs/datasets-guidance/opening-up-datasets.qmd)
 
 We also recommend other guidance related to the topic but not specific to price statistics:
 

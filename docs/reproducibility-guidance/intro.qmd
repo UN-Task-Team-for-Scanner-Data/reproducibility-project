@@ -14,7 +14,7 @@ Reproducible research makes all elements of the research project available for o
 
 In a nutshell, a compendium includes all research objects necessary to reproduce the research. In a technical sense, these are often git repositories (in say GitHub) that include a structure similar to the one in Figure 1 below.
 
-![Figure 1: Exemplar [price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).](/docs/images/price-stats-exemplar.svg)
+![Figure 1: Exemplar [price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).](/docs/images/price-stats-exemplar.svg){fig-align="center" width="35%"}
 
 Specifically:
 
