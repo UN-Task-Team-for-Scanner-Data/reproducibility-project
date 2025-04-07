@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="LCp4_AXFhdLgKOSRJFyB">
+    <mxGraphModel dx="2068" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-12" value="Internal to the researcher / NSO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" parent="1" vertex="1">
+          <mxGeometry x="810" y="880" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-8" value="Internal to the researcher / NSO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" parent="1" vertex="1">
+          <mxGeometry x="200" y="705" width="330" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-9" value="Public&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" parent="1" vertex="1">
+          <mxGeometry x="530" y="705" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-1" value="paper" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.mscae.enterprise.document;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="602" y="765" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-2" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="320" y="760" width="58.8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-3" value="internal input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="230" y="760" width="48.6" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-71" value="Internal output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="420" y="755" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-74" value="Public&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" parent="1" vertex="1">
+          <mxGeometry x="810" y="565" width="510" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-75" value="paper" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.mscae.enterprise.document;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="625" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-76" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="930" y="615" width="58.8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-77" value="Open input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="840" y="620" width="48.6" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-80" value="Open output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="615" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-94" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5703708224826389;arrowSize=0.433331298828125;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;rotation=-15;" parent="1" vertex="1">
+          <mxGeometry x="740" y="650" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-96" value="&lt;b&gt;Status quo: &lt;/b&gt;To reproduce, researchers have to understand the aspects of the data and interpret (or at best request) the code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="655" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6WQPMh8JYxecZ4hOtQSG-98" value="&lt;b&gt;Option A&lt;/b&gt;: Open data and code is used. Researchers replicate the results or expand them, and can apply them on internal data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="810" y="515" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-1" value="Public&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" parent="1" vertex="1">
+          <mxGeometry x="910" y="880" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-2" value="paper" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.mscae.enterprise.document;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="940" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-3" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="930" y="930" width="58.8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-4" value="Open input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="840" y="935" width="48.6" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-5" value="Open output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="930" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-11" value="&lt;b&gt;Option B&lt;/b&gt;: Internal data is used but code is published. Researchers can replicate the process results, or can apply the method on internal data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="810" y="830" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-15" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5703708224826389;arrowSize=0.433331298828125;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;rotation=20;" parent="1" vertex="1">
+          <mxGeometry x="740" y="875" width="40" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

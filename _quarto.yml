@@ -38,6 +38,7 @@ website:
           - href: docs/datasets-guidance/intro.qmd
           - href: docs/datasets-guidance/catalogue.qmd
           - href: docs/datasets-guidance/how-to-cite.qmd
+          - href: docs/datasets-guidance/opening-datasets.qmd
 
   announcement: 
     icon: info-circle
