@@ -13,6 +13,6 @@ Do you have a dataset that you would like to register on the data catalogue? Fol
 The project does not have final guidance on the topic. For now, we recommend the following process:
 
 a.  Publish your dataset in a [data repository](https://book.the-turing-way.org/reproducible-research/rdm/rdm-repository#rr-rdm-repository-select) that mints a Digital Object Identifier (DOI). This will make your dataset citable by other researchers.
-b.  Register your dataset in the price statistics data catalogue. See the [contributing guidance of the data catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue) for more information.
+b.  Register your dataset in the price statistics data catalogue. See the [contributing guidance of the data catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md) for more information.
 
 We would like to hear of other datasets that may not fit this process (such as datasets that are not registered in an data repository like Zenodo). We are happy to work with you to get the dataset there.

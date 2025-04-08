@@ -31,43 +31,43 @@
         <mxCell id="6WQPMh8JYxecZ4hOtQSG-98" value="&lt;b&gt;Option A&lt;/b&gt;: Open data and code is used. Researchers replicate the results or expand them, and can apply them on internal data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="820" y="535" width="360" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="jeABVTtX3Q1DxEAOlglV-11" value="&lt;b&gt;Option B&lt;/b&gt;: Internal data is used but code is published. Researchers can replicate the process results, or can apply the method on internal data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="jeABVTtX3Q1DxEAOlglV-11" value="&lt;b&gt;Option B&lt;/b&gt;: Internal data is used but code is published. Researchers can undersand and then replicate the process with their own or open data." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="810" y="834" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jeABVTtX3Q1DxEAOlglV-15" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5703708224826389;arrowSize=0.433331298828125;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;rotation=20;" parent="1" vertex="1">
           <mxGeometry x="748" y="875" width="40" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-2" value="Public&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-2" value="Public&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" parent="1" vertex="1">
           <mxGeometry x="820" y="590" width="360" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-3" value="paper" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.mscae.enterprise.document;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-3" value="paper" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.mscae.enterprise.document;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="1122" y="650" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-4" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-4" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="920" y="645" width="58.8" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-5" value="internal input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-5" value="Open input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="839" y="645" width="48.6" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-6" value="Internal output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-6" value="Open output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="1017" y="640" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-7" value="Internal to the researcher / NSO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-7" value="Internal to the researcher / NSO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;" parent="1" vertex="1">
           <mxGeometry x="810" y="895" width="90" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-8" value="Public&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;shadow=0;glass=0;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-8" value="Public&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;sketchStyle=rough;shadow=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="900" y="895" width="280" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-9" value="paper" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.mscae.enterprise.document;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-9" value="paper" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.mscae.enterprise.document;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="1122" y="955" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-10" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-10" value="code" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="920" y="950" width="58.8" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-11" value="internal input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-11" value="internal input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="839" y="950" width="48.6" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-12" value="Internal output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" vertex="1" parent="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-12" value="Open output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="1017" y="945" width="40" height="60" as="geometry" />
         </mxCell>
       </root>

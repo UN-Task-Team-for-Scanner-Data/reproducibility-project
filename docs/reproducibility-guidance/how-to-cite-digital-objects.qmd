@@ -15,13 +15,13 @@ When writing a paper, researchers have several options in how to cite their rese
 
 ## Overall
 
-While researchers can reference and describe the data and code they use throughout their code in any number of ways that best fits the layout of the research paper, we recommend a simple process for citation depending on if there is a DOI for the data and code.
+While researchers can reference and describe the data and code they use throughout their code in any number of ways that best fits the layout of the research paper, we also recommend a simple process for citation depending on if there is a DOI for the data and code.
 
 ### Reference the research compendium and data made available in a structured way
 
-First off, we recommend the structure used in [Nature by the FAIR team in their Baker et al (2022) paper](https://www.nature.com/articles/s41597-022-01710-x#data-availability). Specifically, at the end of the paper just before the bibiliography, two sections are added on the data and the code available with this research. Adopting this structured approach is useful to quickly show readers how to find the various objects that are published alongside the paper.
+First off, we recommend the structure used in [Nature by the FAIR team in their Baker et al (2022) paper](https://www.nature.com/articles/s41597-022-01710-x#data-availability). Specifically, at the end of the paper just before the bibiliography, two sections are added on the data and the code made available with the research paper. Adopting this structured approach makes it easy to quickly show readers how to find the various objects that are published alongside the paper.
 
-A research compendium can be published to GitHub or on a repository (in a way that aligns with the requirements of the institution the researcher works at) and cited in the "Code availability" section. Datasets made available by this research project can be published on a data repository (ideally) and referenced in the "Data availability" section.
+A research compendium can be published to GitHub or on a data repository (in a way that aligns with the requirements of the institution the researcher works at) and cited in the "Code availability" section. Datasets made available by the research project can also be published on a data repository (also based on requirements of the institution the researcher is affiliated with) and referenced in the "Data availability" section. If the dataset may be useful for other research projects, the researcher [can look to register the dataset on the price statistics data catalogue](/docs/datasets-guidance/opening-up-datasets.qmd).
 
 ### Reference datasets and code in the bibliography
 

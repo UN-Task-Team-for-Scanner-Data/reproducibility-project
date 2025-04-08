@@ -14,7 +14,7 @@ There are two key challenges in the price statistics discipline when it comes to
 
 The idea of this data catalogue is to list open datasets available and often used within price statistics discipline. It describes each dataset in a structured and detailed manner, allowing researchers to search for a dataset that may fit their needs, understand the options, navigate to the site of the data provider that hosts that dataset, and then use it for their research.
 
-![Figure 1: Basic idea for what the data catalogue does](/docs/images/data-catalogue-idea.svg)
+![Figure 1: Basic idea of how we see the data catalogue working.](/docs/images/data-catalogue-idea.svg)
 
 ### What the catalogue does
 
