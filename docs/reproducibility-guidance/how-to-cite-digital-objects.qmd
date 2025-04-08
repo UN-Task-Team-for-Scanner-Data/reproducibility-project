@@ -1,0 +1,28 @@
+---
+title: "How to reference digital objects in papers"
+date: 2025-04-28
+date-format: YYYY-MM-DD
+format:
+  html:
+    toc: true
+    toc-expand: 2
+    
+execute: 
+  enabled: false
+---
+
+When writing a paper, researchers have several options in how to cite their research compendium, open data, as well as code they used.
+
+## Overall
+
+While researchers can reference and describe the data and code they use throughout their code in any number of ways that best fits the layout of the research paper, we recommend a simple process for citation depending on if there is a DOI for the data and code.
+
+### Reference the research compendium and data made available in a structured way
+
+First off, we recommend the structure used in [Nature by the FAIR team in their Baker et al (2022) paper](https://www.nature.com/articles/s41597-022-01710-x#data-availability). Specifically, at the end of the paper just before the bibiliography, two sections are added on the data and the code available with this research. Adopting this structured approach is useful to quickly show readers how to find the various objects that are published alongside the paper.
+
+A research compendium can be published to GitHub or on a repository (in a way that aligns with the requirements of the institution the researcher works at) and cited in the "Code availability" section. Datasets made available by this research project can be published on a data repository (ideally) and referenced in the "Data availability" section.
+
+### Reference datasets and code in the bibliography
+
+Others' code and datasets used as input to the research should be referenced in the bibliography/references section. Ideally both have a DOI so the object is easily findable and citable. The following two articles go into more details on how to cite and data as there are some nuances that may make it challenging.

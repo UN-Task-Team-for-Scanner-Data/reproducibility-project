@@ -6,8 +6,6 @@ format:
   html:
     toc: true
     toc-expand: 2
-execute: 
-  enabled: false
 ---
 
 Citing an open dataset for a research project is straightforward if it is
@@ -39,49 +37,3 @@ packages are highly citeable.
 
 Using these data is easy enough with R. Simply install the package and the
 datasets become available from within R.
-
-```{r}
-# install.packages("PriceIndices")
-head(PriceIndices::coffee)
-```
-
-Using these datasets is less convenient with, say, Python. One option is to simply
-export them in an interoperable format like Apache Parquet from R.
-
-```{r}
-arrow::write_parquet(PriceIndices::coffee, "coffee.parquet")
-```
-
-Now it is simple to use these data with Python.
-
-```{python}
-import pandas as pd
-
-pd.read_parquet("coffee.parquet").head()
-```
-
-Another approach, and one that doesn't use R, is to simply download the {PriceIndices}
-package from CRAN and use the [{rdata}](https://doi.org/10.21105/joss.07540) Python
-package to read the datasets in Python.
-
-```{bash}
-curl -s https://cran.r-project.org/src/contrib/PriceIndices_0.2.3.tar.gz -o PriceIndices_0.2.3.tar.gz
-tar -vxzf PriceIndices_0.2.3.tar.gz PriceIndices/data
-```
-
-```{python}
-import rdata
-import pandas as pd
-
-
-def date_constructor(obj, attr):
-    return pd.to_datetime(obj, unit="D")
-
-constructor_dict = {**rdata.conversion.DEFAULT_CLASS_MAP,
-                    "Date": date_constructor}
-
-coffee = rdata.read_rda("PriceIndices/data/coffee.rda",
-                        constructor_dict=constructor_dict)
-
-pd.DataFrame(coffee["coffee"]).head()
-```

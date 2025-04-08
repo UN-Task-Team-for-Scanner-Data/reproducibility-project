@@ -29,7 +29,7 @@ As there is a lot of great guidance on the topic already, including [The Turing 
 
 The idea is to make it easy for researchers to prioritize using [open data](/docs/datasets-guidance/catalogue.qmd) and publish their [research compendium](/docs/reproducibility-guidance/intro.qmd) (code and related objects) with their research. In either case, other researchers can reproduce the research, expand on it, and apply it to internal data.
 
-![Figure 1: Shifting from limited to fuller reproducibility](images/reserarch-objects-shifting-the-paradigm.svg)
+![Figure 1: Shifting from limited to fuller reproducibility (summarizing the main materials for a research, inspired by [Bontemps and Orozco (2020)](https://publications.ut-capitole.fr/id/eprint/41896/1/wp_tse_1161.pdf))](images/reserarch-objects-shifting-the-paradigm.svg)
 
 Stepping back a bit, let us first define what reproducibility means. While there are many definitions, the aim of reproducible research is to ensure that work can be independently recreated from the same data and the same code. If researchers don't have access to the same data (which may be locked down due to confidentiality reasons), researchers can aim to replicate the result with their own data.
 

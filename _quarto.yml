@@ -31,6 +31,7 @@ website:
       - text: "Reproducibility Guidance"
         menu:
           - href: docs/reproducibility-guidance/intro.qmd
+          - href: docs/reproducibility-guidance/how-to-cite-digital-objects.qmd
           - href: docs/reproducibility-guidance/citing-code.qmd
           - href: docs/reproducibility-guidance/citing-data.qmd
       - text: "Open Data"
