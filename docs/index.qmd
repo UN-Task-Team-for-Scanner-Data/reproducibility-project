@@ -33,7 +33,7 @@ The idea is to make it easy for researchers to that they prioritize using open d
 
 Stepping back a bit, let us first define what reproducibility means. While there are many definitions, the aim of reproducible research is to ensure that work can be independently recreated from th same data and the same code. If researchers don't have access to the same data (which may be locked down due to confidentiality reasons), researchers can aim to replicate the result with their own data.
 
-![Figure 2: Definitions of Reproducible Research by the Turing Way](https://book.the-turing-way.org/build/reproducible-matrix-bea83a866e18baad89bf703eef3fe6c3.jpg){fig-align="center" width="60%"}
+![Figure 2: Definitions of Reproducible Research by the Turing Way](https://book.the-turing-way.org/build/reproducible-matrix-4c629c0db1c1c416790052e1f27f7907.jpg){fig-align="center" width="60%"}
 
 To support open-science within price statistics, the project recommends:
 
