@@ -32,10 +32,10 @@ website:
         menu:
           - href: docs/reproducibility-guidance/intro.qmd
           - href: docs/reproducibility-guidance/citing-code.qmd
-      - text: "Open Datasets"
+          - href: docs/reproducibility-guidance/citing-data.qmd
+      - text: "Open Data"
         menu:
           - href: docs/datasets-guidance/catalogue.qmd
-          - href: docs/datasets-guidance/how-to-cite.qmd
           - href: docs/datasets-guidance/opening-up-datasets.qmd
 
   announcement: 
