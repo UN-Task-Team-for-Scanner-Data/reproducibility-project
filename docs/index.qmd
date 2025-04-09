@@ -18,9 +18,11 @@ The idea of this project is to help researchers by providing approachable guidan
 
 # How does it work in practice?
 
-The aim is can be visualized using the (input) data and analysis quadrant commonly applied for this case (see Figure 1). With proprietary data and non-open analysis (i.e. code and other digital artifacts), generalizability is the default. However, if the dataset used for the research is shared and the analysis is open, the method can be reproduced exactly. The goal of the project is to help make this happen. The backup is replicability, where the analysis is shared but different datasets are used (such as because the data cannot be shared).
+The aim is can be visualized using the (input) data and analysis quadrant commonly applied for this case (see Figure 1). With proprietary data and non-open analysis (i.e. code and other digital artifacts), generalizability is the default. However, if the dataset used for the research is shared and the analysis is open, the method can be reproduced exactly. The goal of the project is to help make this happen. The backup is replicability, where the analysis is shared but different datasets are used (such as because the data cannot be shared).[^1]
 
-![Figure 2: Definitions of Reproducible Research by the Turing Way](https://book.the-turing-way.org/build/reproducible-matrix-4c629c0db1c1c416790052e1f27f7907.jpg){fig-align="center" width="60%"}
+[^1]: See [Definitions in The The Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions) for more details.
+
+![Figure 2: Definitions of Reproducible Research, inspired by [the Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions#rr-overview-definitions-reproducibility).](/docs/images/reproducibility-grid.svg){fig-align="center" width="60%"}
 
 Visually, the status quo is a shift (see Figure 2). If [research compendium](/docs/reproducibility-guidance/intro.qmd) (code and related objects) are published alongside the research and (ideally) [open data](/docs/datasets-guidance/catalogue.qmd) is used, the goal can be achieved.
 
@@ -49,8 +51,8 @@ The project also makes resources available, such as:
 We recommend other guidance related to the topic but not specific to price statistics (on whom we mostly base our discipline-specific guidance):
 
 -   [The Turing Way](https://book.the-turing-way.org/) is a wonderful and comprehensive guide for open research
--   [The Reproducible Analytical Pipelines (or RAP)](https://nhsdigital.github.io/rap-community-of-practice/) is another very applicable paradigm for reproducibility, although has come to be applied within official statistics as a way to operationalize production processes. Many UN classes are nowadays teaching these principles as a basic minimum standard within official statistics and have been recommended by the ONS for price statistics.[^1][^2]
+-   [The Reproducible Analytical Pipelines (or RAP)](https://nhsdigital.github.io/rap-community-of-practice/) is another very applicable paradigm for reproducibility, although has come to be applied within official statistics as a way to operationalize production processes. Many UN classes are nowadays teaching these principles as a basic minimum standard within official statistics and have been recommended by the ONS for price statistics.[^2][^3]
 
-[^1]: For instance see class on RAP [by UN ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), [by UN SIAP](https://siap-elearning.org/enrol/index.php?id=256) for classes.
+[^2]: For instance see class on RAP [by UN ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), [by UN SIAP](https://siap-elearning.org/enrol/index.php?id=256) for classes.
 
-[^2]: See [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) for an overview of RAP to price statistics.
+[^3]: See [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) for an overview of RAP to price statistics.
