@@ -53,6 +53,6 @@ We recommend other guidance related to the topic but not specific to price stati
 -   [The Turing Way](https://book.the-turing-way.org/) is a wonderful and comprehensive guide for open research
 -   [The Reproducible Analytical Pipelines (or RAP)](https://nhsdigital.github.io/rap-community-of-practice/) is another very applicable paradigm for reproducibility, although has come to be applied within official statistics as a way to operationalize production processes. Many UN classes are nowadays teaching these principles as a basic minimum standard within official statistics and have been recommended by the ONS for price statistics.[^2][^3]
 
-[^2]: For instance see class on RAP [by UN ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), [by UN SIAP](https://siap-elearning.org/enrol/index.php?id=256) for classes.
+[^2]: For instance see sessions by [UN ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), [UN SIAP](https://siap-elearning.org/enrol/index.php?id=256), or [the University of Luxembourg](https://rap4mads.eu/) as example classes.
 
 [^3]: See [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) for an overview of RAP to price statistics.
