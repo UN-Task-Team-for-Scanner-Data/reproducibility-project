@@ -1,49 +1,49 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="hzjmTlX3qXp659-QOV2k">
-    <mxGraphModel dx="985" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="481" dy="281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bCbFLp-tGihp62CSrVYa-2" value="Reproducible" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-2" value="Reproducible" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-3" value="Replicable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-3" value="Replicable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-4" value="Robust" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-4" value="Robust" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-5" value="Generalisable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-5" value="Generalisable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-6" value="Same" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-6" value="Same" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="380" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-7" value="Different" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-7" value="Different" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="380" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-10" value="Same" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;sketchStyle=comic;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-10" value="Same" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;sketchStyle=comic;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="410" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-11" value="Different" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;sketchStyle=comic;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-11" value="Different" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;sketchStyle=comic;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="470" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-12" value="Analysis" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;fillColor=#b0e3e6;strokeColor=#0e8088;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-12" value="Analysis" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;fillColor=#b0e3e6;strokeColor=#0e8088;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="410" width="30" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-14" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-14" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;sketchStyle=comic;fontStyle=1;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="350" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-15" value="Same" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-15" value="Same" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="410" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-16" value="Different" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-16" value="Different" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-rl;rotation=-180;fillColor=#d0cee2;strokeColor=#56517e;sketchStyle=comic;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="470" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-17" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketchStyle=comic;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-17" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="232.75" y="500" width="24.5" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="bCbFLp-tGihp62CSrVYa-18" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketchStyle=comic;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="bCbFLp-tGihp62CSrVYa-18" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="370" y="350" width="24.3" height="30" as="geometry" />
         </mxCell>
       </root>

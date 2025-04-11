@@ -34,17 +34,17 @@ Visually, the status quo is a shift (see Figure 2). If [research compendium](/do
 
 The project thus helps make:
 
--   [Recommendations on making research code open](/docs/reproducibility-guidance/intro.qmd)
--   [Recommendations on structured ways to reference and include digital objects](/docs/reproducibility-guidance/how-to-cite-digital-objects.qmd)
+-   [Recommendations on making research code open](/docs/reproducibility-guidance/intro.qmd).
+-   [Recommendations on structured ways to reference and include digital objects](/docs/reproducibility-guidance/how-to-cite-digital-objects.qmd).
 -   [Recommendations on specific guidance on how to cite others' code](/docs/reproducibility-guidance/citing-code.qmd) and [how to cite open datasets](/docs/reproducibility-guidance/citing-data.qmd) in your research.
 
 ## Cataloguing all open datasets applicable to the discipline
 
 The project also makes resources available, such as:
 
--   [The Price Statistics Open Data Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/)
--   [Explain how the Price Statistics Open Data Catalogue works](/docs/datasets-guidance/catalogue.qmd)
--   [Guidance on how to publish data openly and contribute to the Price Statistics Data Catalogue](/docs/datasets-guidance/opening-up-datasets.qmd)
+-   [The Price Statistics Open Data Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/).
+-   [Guidance on how the Price Statistics Open Data Catalogue works](/docs/datasets-guidance/catalogue.qmd).
+-   [Guidance on how to publish data openly and contribute to the Price Statistics Data Catalogue](/docs/datasets-guidance/opening-up-datasets.qmd).
 
 # Interested about the reproducibility?
 

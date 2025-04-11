@@ -8,11 +8,13 @@ format:
     toc-expand: 2
 ---
 
-There are two key challenges in the price statistics discipline when it comes to using open data. On the one hand, there are few open data available as most datasets of sufficient size and quality are proprietary. On the other hand, it is hard to find out what datasets do exist as there is not discipline specific listing. As most researchers are employed at organizations (such as National Statistical Organizations or NSOs) naturally have access to internal datasets and often are under pressure to answer questions relating them, it is only natural to default to proprietary over datasets. To help alleviate this, the project has developed a basic discipline specific data catalogue.
+Researchers looking to leverage open data often struggle to find the right datasets to conduct their analysis and thus naturally adopt datasets that are (often) made available by their organization. Furthemore, if working with open data is hard, this disincentives the dissemination of new open datasets, further reinforcing the negative feedback loop!
+
+To help alleviate this, the project has developed a basic discipline specific data catalogue!
 
 ## [Price Statistics Open Data Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/index.html)
 
-The idea of this data catalogue is to list open datasets available and often used within price statistics discipline. It describes each dataset in a structured and detailed manner, allowing researchers to search for a dataset that may fit their needs, understand the options, navigate to the site of the data provider that hosts that dataset, and then use it for their research.
+The idea is simple. The catalogue simply lists open datasets of high value to the discipline, and describes each in a standardized way! Figure 1 (below) visually explains how the process works.
 
 ![Figure 1: Basic idea of how we see the data catalogue working.](/docs/images/data-catalogue-idea.svg)
 
@@ -29,3 +31,5 @@ The catalogue does not store the dataset itself but simply describes it in detai
 
 This will very likely not be the long-term stable data catalogue the discpline. The idea however it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.
 :::
+
+Have a dataset that should be included? We have [some guidance on the topic](opening-up-datasets.qmd)!

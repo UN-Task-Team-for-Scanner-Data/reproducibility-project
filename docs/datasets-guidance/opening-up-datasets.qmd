@@ -1,5 +1,5 @@
 ---
-title: "Options for making a dataset openly available"
+title: "Open a dataset and registering it to the catalogue"
 date: 2025-04-28
 date-format: YYYY-MM-DD
 format:
@@ -8,11 +8,22 @@ format:
     toc-expand: 2
 ---
 
-Do you have a dataset that you would like to register on the data catalogue? Follow the simple.
+If you have a dataset that you want to register on the catalogue (whether you own it or you simply know a good one for us to include), we'd like to hear from you!
 
-The project does not have final guidance on the topic. For now, we recommend the following process:
+## Some basic ideas on open data
 
-a.  Publish your dataset in a [data repository](https://book.the-turing-way.org/reproducible-research/rdm/rdm-repository#rr-rdm-repository-select) that mints a Digital Object Identifier (DOI). This will make your dataset citable by other researchers.
-b.  Register your dataset in the price statistics data catalogue. See the [contributing guidance of the data catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md) for more information.
+Data should ideally be [Findable, Accessible, Interoperable, and Reusable (i.e. FAIR)](https://www.go-fair.org/fair-principles/). In essence, it is best that it is shared in a data repository[^1] that creates a Digital Object Identifiers (or DOI) for the data. This makes it easy for anyone to find the data. Data repositories also support hosting a lot of information and metadata about the dataset and even make it possible to host private datasets where only metadata is available to the wider public. If the dataset needs to be expanded regularly, using a repository will make it easy for others to find both the parent dataset and understand what version of the historic dataset was used.
 
-We would like to hear of other datasets that may not fit this process (such as datasets that are not registered in an data repository like Zenodo). We are happy to work with you to get the dataset there.
+[^1]: Read more about [data repositories in the Turing Way](https://book.the-turing-way.org/reproducible-research/rdm/rdm-repository#rr-rdm-repository-select).
+
+::: callout-tip
+## Interim recommendation: Use a data repository (if you can) to host open data
+
+The project is investigating longer term solutions, however for now, we recommend that an option researchers consider is using a general purpose data repository, although you should always check with your institution first.
+:::
+
+## A quick process to follow to register the dataset on the catalogue.
+
+Once a dataset is hosted somewhere such as a data repository and the catalogue can cite it, we can register the dataset on the repository. In a nutshell, it is as simple as making a new dataset record in the `/datasets/` folder of the GitHub repository of the catalogue!
+
+A slightly more technical process is available in the [contributing guidance of the data catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md).
