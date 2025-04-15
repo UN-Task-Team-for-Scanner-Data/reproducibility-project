@@ -30,7 +30,7 @@ Visually, the status quo is a shift (see Figure 2). If [research compendium](/do
 
 # How the reproducibility project helps you?
 
-## Making guidance on reproducibility availableW
+## Making guidance on reproducibility available
 
 The project thus helps make:
 
