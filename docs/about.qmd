@@ -27,3 +27,32 @@ The project also builds on great efforts of early promoters of open science in t
 ## What this project does not aim to do
 
 As there is a lot of great guidance on the topic already, including [The Turing Way](https://book.the-turing-way.org/), [Reproducible Analytical Pipelines or RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/), and many more resources - the idea is to distilling key information for the price statistics community, not to create a new standard.
+
+# Project team members
+
+The following are current or historic members of Wortkream 5 of the UN Task Team.
+
+## Serge Goussev
+
+-   Role: Workstream lead (2024 - current)
+-   GitHub id: [sergegoussev](https://github.com/sergegoussev)
+
+## Name 2
+
+-   Role:
+-   GitHub id:
+
+## Name 3
+
+-   Role:
+-   GitHub id:
+
+## Name 4
+
+-   Role:
+-   GitHub id:
+
+## Name 5
+
+-   Role:
+-   GitHub id:
