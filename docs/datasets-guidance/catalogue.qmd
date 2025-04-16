@@ -8,28 +8,30 @@ format:
     toc-expand: 2
 ---
 
-Researchers looking to leverage open data often struggle to find the right datasets to conduct their analysis and thus naturally adopt datasets that are (often) made available by their organization. Furthemore, if working with open data is hard, this disincentives the dissemination of new open datasets, further reinforcing the negative feedback loop!
+Researchers often struggle to use open data. They may find it hard to find open datasets for their research projects. If they find open datasets, they may struggle to easily understand them in order to judge that the datasets easily work for their research. Finally they may find it challenging to know how to work with or even how to cite the dataset.
 
-To help alleviate this, the project has developed a basic discipline specific data catalogue!
+To help find, assess, and understand how to access open datasets, this project has developed a basic discipline specific catalogue.
 
-## [Price Statistics Open Data Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/index.html)
+## How the Price Statistics Open Data Catalogue works in a nutshell
 
-The idea is simple. The catalogue simply lists open datasets of high value to the discipline, and describes each in a standardized way! Figure 1 (below) visually explains how the process works.
+The idea is simple. The catalogue lists open datasets relevant to the discipline and is searchable according to standard data types (such as scanner data). It also provides basic information about each dataset that will allow researchers to assess its relevance and know how to access it. Visually this is shown in Figure 1.
 
 ![Figure 1: Basic idea of how we see the data catalogue working.](/docs/images/data-catalogue-idea.svg)
 
-### What the catalogue does
+## Where is the data catalogue?
 
-The purpose of the catalogue is to be a very simple listing of open datasets applicable for research purposes. It is searchable according to standard data types (such as scanner data), and describes the metadata necessary for researchers to understand and select the dataset most applicable to them.
+The data catalogue can be found here. It is basically a simple static site hosted on GitHub.
 
-### What the catalogue does not do
+## How to register an open dataset on the catalogue?
 
-The catalogue does not store the dataset itself but simply describes it in detail. The catalogue does provide a simple interface to common researcher questions, such as how to cite the dataset, limitations to its use, etc.
+The [CONTRIBUTING guidance in the catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md) summarizes it all. Have a look and help register a dataset or recommend one be registered!
+
+## What does the catalogue not do?
+
+As the catalogue does not store the dataset itself but simply describes it in detail. In other words, this catalogue is [not a data repository](https://book.the-turing-way.org/reproducible-research/rdm/rdm-repository#rr-rdm-repository-select).
 
 ::: callout-note
 ## This is an interim catalogue only!
 
 This will very likely not be the long-term stable data catalogue the discpline. The idea however it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.
 :::
-
-Have a dataset that should be included? We have [some guidance on the topic](opening-up-datasets.qmd)!
