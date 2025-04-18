@@ -23,6 +23,7 @@ website:
   navbar:
     background: primary
     logo: docs/images/logo.png
+    logo-href: https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/
     search: true
     title: "Price Statistics Reproducibility Project"
     left:
