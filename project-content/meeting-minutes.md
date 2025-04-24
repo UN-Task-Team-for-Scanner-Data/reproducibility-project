@@ -142,3 +142,4 @@ This document summarizes the meetings of the workstream
 -   The team discussed and endorsed the about team page, similar to how [the Turing way records contributors](https://book.the-turing-way.org/afterword/contributors-record). Action item for the team is either to contribute to the page directly via PR (see CONTRIBUTING) or coordinate offline.
 -   How this guide and the interim catalogue will be presented next week was discussed and approved
 -   For academic material, the group discussed possible guidance. Initial thoughts of the group was that while code can be in GitHub and follow compendium type structure, datasets do not need to be registered if they are small training datasets and could just be version controlled in GitHub directly. The policies of the university should take precedence.
+-   The group agreed to switch to a 3 week cadence with the next meeting three weeks after the conference.
