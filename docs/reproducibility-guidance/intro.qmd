@@ -25,7 +25,7 @@ The main principle of the [research compendium](https://book.the-turing-way.org/
 -   Make it much easier to transition a new method to production[^2]
 -   Increase research visibility and citations
 
-[^2]: Research compendia are conceptually quite similar to Reproducible Analytical Pipelines (RAPs), although the latter focuses more on production proceses. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
+[^2]: Research compendia are conceptually quite similar to **Reproducible Analytical Pipelines (RAPs)**, although the latter focuses more on production proceses. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
 
 ## How to structure the research compendium
 

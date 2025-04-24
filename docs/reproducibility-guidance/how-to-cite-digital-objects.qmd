@@ -1,28 +1,36 @@
 ---
-title: "How to reference digital objects in papers"
+title: "How to reference digital objects in your paper"
 date: 2025-04-28
 date-format: YYYY-MM-DD
 format:
   html:
     toc: true
     toc-expand: 2
-    
-execute: 
-  enabled: false
 ---
 
-When writing a paper, researchers have several options in how to cite their research compendium, open data, as well as code they used.
+When writing a paper, researchers have several options in how to [cite their research compendium](intro.qmd), open data, as well as code they used.
 
-## Overall
+## How to reference datasets you use or other people's code?
 
-While researchers can reference and describe the data and code they use throughout their code in any number of ways that best fits the layout of the research paper, we also recommend a simple process for citation depending on if there is a DOI for the data and code.
+The best place to reference other's code or open datasets is in the bibliography. Ideally either has a Digitial Object Identifier (or DOI) so it is unique and can be easily found. There may be harder cases, which are detailed out in more detail in separate articles:
 
-### Reference the research compendium and data made available in a structured way
+-   [How to cite data](citing-data.qmd)
+-   [How to cite others' code](citing-code.qmd)
 
-First off, we recommend the structure used in [Nature by the FAIR team in their Baker et al (2022) paper](https://www.nature.com/articles/s41597-022-01710-x#data-availability). Specifically, at the end of the paper just before the bibiliography, two sections are added on the data and the code made available with the research paper. Adopting this structured approach makes it easy to quickly show readers how to find the various objects that are published alongside the paper.
+### How to reference data or code created as part of the research?
 
-A research compendium can be published to GitHub or on a data repository (in a way that aligns with the requirements of the institution the researcher works at) and cited in the "Code availability" section. Datasets made available by the research project can also be published on a data repository (also based on requirements of the institution the researcher is affiliated with) and referenced in the "Data availability" section. If the dataset may be useful for other research projects, the researcher [can look to register the dataset on the price statistics data catalogue](/docs/datasets-guidance/opening-up-datasets.qmd).
+As there will be digital byproducts that are made available alongside the research (the research compendium and any new datasets created), inspired by [the FAIR research code approach](https://www.nature.com/articles/s41597-022-01710-x#data-availability), the project has guidance on how to reference that in the paper so that others can easily find it. We recommend adding two headers just after the conclusion and before the references section
 
-### Reference datasets and code in the bibliography
-
-Others' code and datasets used as input to the research should be referenced in the bibliography/references section. Ideally both have a DOI so the object is easily findable and citable. The following two articles go into more details on how to cite and data as there are some nuances that may make it challenging.
+> *... conclusion of the paper*
+>
+> ## Data availability
+>
+> *Summarize where datasets created as part of the paper are published. This could be on a data repository like Zenodo for instance.*
+>
+> ## Code availability
+>
+> *Add link to the GitHub repository where the research compendium is published.*
+>
+> ## References 
+>
+> *... rest of the references*
