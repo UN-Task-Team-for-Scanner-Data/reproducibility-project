@@ -113,7 +113,7 @@ This document summarizes the meetings of the workstream
     -   The idea of topics to discuss after the conference was also brought up - the process of creating synthetic datasets.
 -   To support researchers to structure their code, the team also discussed and endorsed recommending a [template RAP](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).
 
-# 2025-04-08
+## 2025-04-08
 
 ### Agenda
 
