@@ -128,3 +128,17 @@ This document summarizes the meetings of the workstream
     -   How should we assess and decide what is approved to be registered to the catalogue? The team will for now adopt a group consensus approach of approving new datasets following a discussion during one of the regular team meetings. The approach could be flushed out in more detail once there are several additional datasets to register.
     -   What is the scope for datasets registered to the catalogue? The team agreed that any dataset related to price statistics, whether consumer, producer, or otherwise, could be included - as the methods to be applied are similar, even if datasets and applications are slightly different. For more nuanced cases (such as elementary aggregate data), the justification to include may depend on value for researchers.
 -   Next steps for the group is to prepare for the upcoming CPI Expert Group conference by reviewing the mocked-up content and preparing the presentation material.
+
+## 2025-04-22
+
+### Agenda
+
+-   Adding an [“about the team” section in the about page](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/about.html) to showcase project members/contributors, [similar to the Turing way](https://book.the-turing-way.org/afterword/contributors-record).
+-   Review material to be presented during the CPI Expert Group
+-   Discussion on how material related to academic classes in price statistics can be positioned to be reproducible
+
+### Notes
+
+-   The team discussed and endorsed the about team page, similar to how [the Turing way records contributors](https://book.the-turing-way.org/afterword/contributors-record). Action item for the team is either to contribute to the page directly via PR (see CONTRIBUTING) or coordinate offline.
+-   How this guide and the interim catalogue will be presented next week was discussed and approved
+-   For academic material, the group discussed possible guidance. Initial thoughts of the group was that while code can be in GitHub and follow compendium type structure, datasets do not need to be registered if they are small training datasets and could just be version controlled in GitHub directly. The policies of the university should take precedence.
