@@ -67,6 +67,12 @@ Technically, this means making sure that the `.gitignore` skips this data file
 
 **Finally, a README to introduce the project**. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.
 
-# Notable example
+## How to share a research compendium?
+
+Version controlling the research compendium is key.[^3] Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust.
+
+[^3]: See overview and explanations of [version control in The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs) for more info.
+
+## Notable example
 
 To showcase an exemplar for price statistics, we created [a mock-up price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline) that researchers can explore.
