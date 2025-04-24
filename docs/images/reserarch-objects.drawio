@@ -67,7 +67,7 @@
         <mxCell id="aOlhjZEwEmY65jy0rKLj-11" value="internal input &lt;br&gt;dataset" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="839" y="950" width="48.6" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aOlhjZEwEmY65jy0rKLj-12" value="Open output &lt;br&gt;dataset" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#82b366;fillColor=#d5e8d4;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
+        <mxCell id="aOlhjZEwEmY65jy0rKLj-12" value="Open output &lt;br&gt;dataset&amp;nbsp;&lt;br&gt;(if possible)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#d79b00;fillColor=#ffe6cc;shape=mxgraph.azure.storage;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;sketchStyle=comic;" parent="1" vertex="1">
           <mxGeometry x="1017" y="945" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
