@@ -1,30 +1,72 @@
 ---
-title: "Why and how to approach reproducibility"
+title: "How to approach reproducibility"
 date: 2025-04-28
 date-format: YYYY-MM-DD
 format:
   html:
     toc: true
-    toc-expand: 2
+    toc-expand: 3
 ---
 
-Reproducible research projects set out to make all elements of the research project available for others openly so that the project can be reproduced. Specifically, it means that the [research compendium](https://book.the-turing-way.org/reproducible-research/compendia), which are these elements assembled together in a logical and clear fashion, are published alongside the research paper. The practice creating and publishing a research compendium may involve some technical skills, however it will help the research team leading the project, other researchers, and the discipline as a whole. It will also help publish official statistics with the methods being researched, as the Reproducible Analytical Pipelines (RAP) principles applied to reproducible and technically mature production processes leverage the very same technical best practices. Indeed, RAP and research compedia are conceptually the same things – the application of technical processes for reproducibility and process robustness -- its just one focuses more on research and the other on production of official statistics.
+## What is the idea of reproducibility?
 
-## Structuring the research compendium
+The goal of reproducible research projects is to make all elements of the research openly available to others so that results can be reproduced. This is achieved by creating and publishing a [**research compendium**](https://book.the-turing-way.org/reproducible-research/compendia) (a collection of digital parts of the research project that supports reuse, including data, code, protocols, metadata, etc) alongside the research paper.[^1]
+
+[^1]: See [Research Compendia in The Turing Way](https://book.the-turing-way.org/reproducible-research/compendia) for more detail on this concept.
+
+## Why does it help?
+
+The main principle of the [research compendium](https://book.the-turing-way.org/reproducible-research/compendia) is to provide all the information about the project with an applicable structure so that someone can understand and reuse all aspects of the project in some way. If done properly, the research compendium will help:
+
+-   Improve the transparency, reliability and reproducibility of research, as well as help its peer review.
+-   Facilitate data and code sharing
+-   Allow easy extension of the research
+-   Enable learners to understand the research
+-   Make it much easier to transition a new method to production[^2]
+-   Increase research visibility and citations
+
+[^2]: Research compendia are conceptually quite similar to Reproducible Analytical Pipelines (RAPs), although the latter focuses more on production proceses. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
+
+## How to structure the research compendium
+
+::: callout-tip
+## Consider this as interim guidance at this stage
+
+The guidance on research compendium is at an interim phase. The project team will flush this out to provide more clarity aligned with the needs of the discipline and how researchers can ramp up (as its not an all or nothing task).
+:::
+
+### Overview of the structure
 
 In a nutshell, a compendium includes all research objects necessary to reproduce the research. In a technical sense, these are often git repositories (in say GitHub) that include a structure similar to the one in Figure 1 below.
 
 ![Figure 1: Exemplar [price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).](/docs/images/price-stats-exemplar.svg){fig-align="center" width="35%"}
 
-Specifically:
+### A little about each aspect
 
--   A data folder stores the raw dataset used for the research project. Ideally the researcher uses an open dataset (which will make the whole process reproducible), but they may also use a proprietary dataset. Note the dataset itself should not be version controlled with the repository but the ability to save the dataset in this folder means that others can download the repository, save the dataset in the same folder, and replicate the results. In a technical sense, the data itself is ignored by making sure that it is listed in the `.gitignore` file.
--   A functions (or code) folder that does the research aspects. This could include the code to clean and prepare the raw dataset for research purposes, the code to create the processing and research experients, as well as notebooks where the data is explored and various aspects that feed the research paper are generated.
--   A folder for the output data. This data can be versioned (if it is not sensitive) with the repository and allows researchers to replicate the process. Note, if the output data can be used for research in its own right, it may be appropriate to register this dataset on a public repository (such as Zenodo) that mints a DOI.
--   A folder for the docs that explain how the various aspects of the research come together. This folder stores [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project) or [the project design](https://book.the-turing-way.org/project-design/pd-overview), however [code should also be documented](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-code) well.
--   A licence is included to tell users how they can use the code.
--   `.gitignore` file ignores various files (such as datasets) from being version controlled
--   A file to [recreate the environment](https://book.the-turing-way.org/reproducible-research/renv) so that the code can be run as it ran on the machine of the researcher.
--   Finally, a README to introduce the project when someone navigates to the project
+**A data folder that outlines where to store the raw dataset used for the research project**. Ideally the researcher uses an open dataset (which will make the whole process reproducible), but they may also use a proprietary dataset.
+
+::: callout-tip
+## Don't version control the main input dataset
+
+The dataset that acts as the main input dataset to the research should not be version controlled. The folder is created in order to ensure that when a local copy of the compendium is used by researchers, they know where to put the data to ensure that the code will replicate the results in full.
+
+Technically, this means making sure that the `.gitignore` skips this data file
+:::
+
+**A folder for functions (or other code) that helps process your data into the relevant outputs.** This could include the code to clean and prepare the raw dataset for research purposes, the code to create the processing and research experiments, as well as notebooks where the data is explored and various aspects that feed the research paper are generated.
+
+**A folder for the output data.** This data can be versioned (if it is not sensitive) with the repository and allows researchers to replicate the process. Note, if the output data can be used for research in its own right, it may be appropriate to register this dataset on a public repository (such as Zenodo) that mints a DOI.
+
+**A folder for documentation to that explain key aspects of the research**. This folder stores [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project) or [the project design](https://book.the-turing-way.org/project-design/pd-overview), however [code should also be documented](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-code) well.
+
+**A licence**. This will tell users how they can use the code.
+
+`A .gitignore` file. There are some files and folders that should not be version controlled. Notable example is datasets
+
+**A file to [recreate the environment](https://book.the-turing-way.org/reproducible-research/renv) on which the code will run identically**. A shift in one package version to another may change the output, hence its key to track exactly how to replicate the same environment and get the same result.
+
+**Finally, a README to introduce the project**. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.
+
+# Notable example
 
 To showcase an exemplar for price statistics, we created [a mock-up price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline) that researchers can explore.

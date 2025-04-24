@@ -34,9 +34,9 @@ Visually, the status quo is a shift (see Figure 2). If [research compendium](/do
 
 The project thus helps make:
 
--   [Recommendations on making research code open](/docs/reproducibility-guidance/intro.qmd).
+-   [Recommendations on how to approach reproducibility and structure your research compendium](/docs/reproducibility-guidance/intro.qmd).
 -   [Recommendations on structured ways to reference and include digital objects](/docs/reproducibility-guidance/how-to-cite-digital-objects.qmd).
--   [Recommendations on specific guidance on how to cite others' code](/docs/reproducibility-guidance/citing-code.qmd) and [how to cite open datasets](/docs/reproducibility-guidance/citing-data.qmd) in your research.
+-   [Recommendations on how to cite others' code](/docs/reproducibility-guidance/citing-code.qmd) and [how to cite open datasets](/docs/reproducibility-guidance/citing-data.qmd) in your research.
 
 ## Cataloguing all open datasets applicable to the discipline
 
