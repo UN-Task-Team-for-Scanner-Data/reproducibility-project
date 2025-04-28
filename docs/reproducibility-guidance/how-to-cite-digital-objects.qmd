@@ -8,14 +8,14 @@ format:
     toc-expand: 2
 ---
 
-When writing a paper, researchers have several options in how to [cite their research compendium](intro.qmd), open data, as well as code they used.
+When writing a paper, researchers have several options for how to [cite their research compendium](intro.qmd), open data, as well as code they used.
 
 ## How to reference datasets you use or other people's code?
 
-The best place to reference other's code or open datasets is in the bibliography. Ideally either has a Digitial Object Identifier (or DOI) so it is unique and can be easily found. There may be harder cases, which are detailed out in more detail in separate articles:
+The best place to reference others' code or open datasets is in the bibliography. Ideally these should have a Digitial Object Identifier (or DOI) so they are unique and can be easily found. There may be harder cases, which are detailed out in more detail in separate articles:
 
--   [How to cite data](citing-data.qmd)
--   [How to cite others' code](citing-code.qmd)
+-   [How to cite data](citing-data.qmd).
+-   [How to cite others' code](citing-code.qmd).
 
 ## How to reference data or code created as part of the research?
 

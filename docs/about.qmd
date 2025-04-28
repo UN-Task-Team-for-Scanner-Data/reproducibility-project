@@ -17,7 +17,7 @@ This project is led by Workstream 5 of the [UN Task Team on Scanner data](https:
 
 Research in the price statistics discipline is not as reproducible as it could be. Most researchers utilize proprietary datasets and don't publish the code alongside the research so that a specific methodology or finding can be easily reproduced. The idea of this project is to help in both topics! We aim to:
 
--   Provide clear and approachable guidance on how researchers in price statistics can make their projects reproducible (including by learning new skills, by understanding how to publish and cite code, and many other topics)
+-   Provide clear and approachable guidance on how researchers in price statistics can make their projects reproducible (including by learning new skills, by understanding how to publish and cite code, and many other topics).
 -   Support cataloging open datasets that can be used as benchmarks to use for research purposes. The idea is to have all findings trialed and demonstrated on open benchmark datasets.
 
 The project also builds on great efforts of early promoters of open science in the discipline![^1] We are aiming to continue to build momentum and make it easier for researchers to work openly!
@@ -26,4 +26,4 @@ The project also builds on great efforts of early promoters of open science in t
 
 ## What this project does not aim to do
 
-As there is a lot of great guidance on the topic already, including [The Turing Way](https://book.the-turing-way.org/), [Reproducible Analytical Pipelines or RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/), and many more resources - the idea is to distilling key information for the price statistics community, not to create a new standard.
+As there is a lot of great guidance on the topic already, including [The Turing Way](https://book.the-turing-way.org/), [Reproducible Analytical Pipelines or RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/), and many more resources---the idea is to distilling key information for the price statistics community, not to create a new standard.

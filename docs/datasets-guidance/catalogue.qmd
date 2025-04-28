@@ -14,9 +14,9 @@ To help find, assess, and understand how to access open datasets, this project h
 
 ## How the Price Statistics Open Data Catalogue works in a nutshell
 
-The idea is simple. The catalogue lists open datasets relevant to the discipline and is searchable according to standard data types (such as scanner data). It also provides basic information about each dataset that will allow researchers to assess its relevance and know how to access it. Visually this is shown in Figure 1.
+The idea is simple. The catalogue lists open datasets relevant to the discipline and is searchable according to standard data types (such as scanner data). It also provides basic information about each dataset that will allow researchers to assess its relevance and know how to access it. Visually this is shown in @fig-catalogue.
 
-![Figure 1: Basic idea of how we see the data catalogue working.](/docs/images/data-catalogue-idea.svg)
+![Basic idea of how we see the data catalogue working.](/docs/images/data-catalogue-idea.svg){#fig-catalogue}
 
 ## Where is the data catalogue?
 
@@ -33,5 +33,5 @@ As the catalogue does not store the dataset itself but simply describes it in de
 ::: callout-note
 ## This is an interim catalogue only!
 
-This will very likely not be the long-term stable data catalogue the discpline. The idea however it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.
+This will very likely not be the long-term stable data catalogue used in the discpline. The idea, however, it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.
 :::

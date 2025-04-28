@@ -22,29 +22,29 @@ The main principle of the [**research compendium**](https://book.the-turing-way.
 
 [^3]: See a more in depth overview of the [benefits of reproducible research](https://book.the-turing-way.org/reproducible-research/overview/overview-benefit), as well as [common barriers](https://book.the-turing-way.org/reproducible-research/overview/overview-barriers).
 
--   Improve the transparency, reliability and reproducibility of research
--   Simplify peer review
--   Facilitate data and code sharing
--   Allow easy extension of the research
--   Enable learners to understand the research
--   Make it much easier to transition a new method to production[^4]
--   Increase research visibility and citations
+-   Improve the transparency, reliability and reproducibility of research.
+-   Simplify peer review.
+-   Facilitate data and code sharing.
+-   Allow easy extension of the research.
+-   Enable learners to understand the research.
+-   Make it much easier to transition a new method to production.[^4]
+-   Increase research visibility and citations.
 
-[^4]: Research compendia are conceptually quite similar to **Reproducible Analytical Pipelines (RAPs)**, although the latter focuses more on production proceses. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
+[^4]: Research compendia are conceptually quite similar to **Reproducible Analytical Pipelines (RAPs)**, although the latter focuses more on production processes. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
 
 ## How to structure the research compendium
 
 ::: callout-warning
 ## Consider this as interim guidance at this stage
 
-The guidance on research compendium is at an interim phase. The project team will flush this out to provide more clarity aligned with the needs of the discipline and how researchers can ramp up (as its not an all or nothing task).
+The guidance on research compendium is at an interim phase. The project team will flesh this out to provide more clarity aligned with the needs of the discipline and how researchers can ramp up (as it's not an all or nothing task).
 :::
 
 ### Overview of the structure
 
-In a nutshell, a compendium includes all research objects necessary to reproduce the research. In a technical sense, these are often git repositories (in say GitHub) that include a structure similar to the one in Figure 1 below.
+In a nutshell, a compendium includes all research objects necessary to reproduce the research. In a technical sense, these are often git repositories (in say GitHub) that include a structure similar to the one in @fig-example below.
 
-![Figure 1: Exemplar [price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).](/docs/images/price-stats-exemplar.svg){fig-align="center" width="35%"}
+![Exemplar [price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).](/docs/images/price-stats-exemplar.svg){#fig-example fig-align="center" width="35%"}
 
 ### A little about each aspect
 
