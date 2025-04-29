@@ -93,7 +93,7 @@ This document summarizes the meetings of the workstream
 -   The deliverables to be presented at the 2025 CPI Expert Group were discussed as per the [view in the project roadmap](https://github.com/orgs/UN-Task-Team-for-Scanner-Data/projects/1/views/1?layout=roadmap).
 -   An approach on how to import data from a package was discussed. For instance, how should researchers use data from an R package (such as the PriceIndices package, which has datasets we would like to make list in the interim catalogue) and they wanted to import the data and use it in Python? The team discussed on a phased approach: guidance on how to download the dataset and use it in python from the R ecosystem will be proposed; a longer term approach could be to work with dataset owners to get them to publish it on a repository like Zenodo.
 -   Support by the UN Global Platform team for the project was also discussed
-   
+
 ## 2025-03-25
 
 ### Agenda
@@ -111,4 +111,20 @@ This document summarizes the meetings of the workstream
     -   if data or code that a research uses exists should be included in the bibliography
     -   data or code that is created as part of the paper should be (ideally published to something that mints a DOI) but the links to the dataset or code are included at the end of the paper under "Data availability" and "Code availability" headers.
     -   The idea of topics to discuss after the confernece was also brought up - the process of creating synthetic datasets.
--   To support researchers to structure their code, the team also discussed and endoresed recommendign a [template RAP](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline). 
+-   To support researchers to structure their code, the team also discussed and endoresed recommendign a [template RAP](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).
+
+# 2025-04-08
+
+### Agenda
+
+-   Review of [mock-up guidance on the project cite](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/ "https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/") and the [template RAP for price index methods](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline "https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline").
+-   Discussion of the [contributing guide](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/pull/10 "https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/pull/10") for the catalogue
+-   [Review roadmap](https://github.com/orgs/UN-Task-Team-for-Scanner-Data/projects/1/views/1 "https://github.com/orgs/UN-Task-Team-for-Scanner-Data/projects/1/views/1") and discussion of topics left to finish in this phase of the project
+
+### Notes
+
+-   The team discussed the flushed out project site with the initial guidance that could be provided during the upcoming CPI Expert Group conference and the mock-up price index RAP.
+-   The group particularly focused on the contributing guide for the catalogue and how to deal with various scenarios. Particularly:
+    -   How should we assess and decide what is approved to be registered to the catalogue? The team will for now adopt a group consensus approach of approving new datasets following a discussion during one of the regular team meetings. The approach could be flushed out in more detail once there are several additional datasets to register.
+    -   What is the scope for datasets registered to the catalogue? The team agreed that any dataset related to price statistics, whether consumer, producer, or otherwise, could be included - as the methods to be applied are similar, even if datasets and applications are slightly different. For more nuanced cases (such as elementary aggregate data), the justification to include may depend on value for researchers.
+-   Next steps for the group is to prepare for the upcoming CPI Expert Group conference by reviewing the mocked-up content and preparing the presentation material.

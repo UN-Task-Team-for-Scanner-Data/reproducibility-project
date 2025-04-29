@@ -1,5 +1,5 @@
 ---
-title: "How to cite code"
+title: "How to cite code leveraged as part of the research"
 date: 2025-04-28
 date-format: YYYY-MM-DD
 format:
