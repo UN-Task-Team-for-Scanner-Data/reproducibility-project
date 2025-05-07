@@ -26,6 +26,12 @@ The project also builds on great efforts of early promoters of open science in t
 
 ## What this project does not aim to do
 
+::: callout-warning
+## This section is still a WIP
+
+Not all team members are listed, we will update this section soon.
+:::
+
 As there is a lot of great guidance on the topic already, including [The Turing Way](https://book.the-turing-way.org/), [Reproducible Analytical Pipelines or RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/), and many more resources---the idea is to distilling key information for the price statistics community, not to create a new standard.
 
 # Project team members
