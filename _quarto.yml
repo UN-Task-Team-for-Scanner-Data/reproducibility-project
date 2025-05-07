@@ -41,7 +41,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Site work is being developed** - this website is will have its soft launch at [2025 Meeting of the Group of Experts on Consumer Price Indices](https://unece.org/info/events/event/394156). Please come back soon!"
+    content: "**This site shows interim guidance. We are actively updating this site. See our [project charter](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/project-content/project-charter.md) and [the GitHub project](https://github.com/orgs/UN-Task-Team-for-Scanner-Data/projects/1) for more info about what we are working on."
     type: secondary
     position: below-navbar
       
