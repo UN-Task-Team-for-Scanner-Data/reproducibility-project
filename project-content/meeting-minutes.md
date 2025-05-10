@@ -14,11 +14,11 @@ This document summarizes the meetings of the workstream
 ### Notes
 
 -   Group met with context that reproducibility is poor in price statistics research and we should improve it. The group then decided how to tackle this problem and how to properly scope the objectives to make things achievable. Main challenges currently faced in the discipline included:
-    -   Reserach is becoming increasingly empirical, hence we need processes to work with data and code to make the research more easily reproducible
+    -   Research is becoming increasingly empirical, hence we need processes to work with data and code to make the research more easily reproducible
     -   There are no agreed upon benchmark datasets *per se* in the discipline to test methods on
     -   The discipline will not own most of the datasets as most research is done on either confidential internal datasets owned by NSOs or on proprietary (purchased datasets). The open datasets that exist are not organized or cohesively documented/available.
     -   The reason **why** reproducibility is important is not as inherent/widely communicated as it could be, hence any attempts to solve the technical and processes aspects needs to include this aspect in the communication.
--   The group touched on goals to solve these aspects and on processes that can be set up to incentivize reproducibility, including by lowering the complexity and creating an easy 'on ramp' to making projects more reproducible (including by cataloging open datasets and showcasing how code can be made reproducible), coordinating with the two bi-annual confernece to recommend reproducibility be part of the paper submission process, embedding metadata standards into the data availbile to make it easier and more standardized when various benchmark datasets are used to evaluate a specific method, etc.
+-   The group touched on goals to solve these aspects and on processes that can be set up to incentivize reproducibility, including by lowering the complexity and creating an easy 'on ramp' to making projects more reproducible (including by cataloging open datasets and showcasing how code can be made reproducible), coordinating with the two bi-annual conference to recommend reproducibility be part of the paper submission process, embedding metadata standards into the data available to make it easier and more standardized when various benchmark datasets are used to evaluate a specific method, etc.
 -   The data catalogue for open datasets was seen as a major deliverable to the discipline, and one that needed to be phased. In other words we can set up a 'proof of concept' or interim catalogue in a simple way to demonstrate the use case, and later transition to a fuller and more comprehensive catalogue with more resources and infrastructure, potentially hosted by the UN Global Platform. Showcasing the interim solution and broadening the adoption to beyond just price statistics would help make this business case.
 -   The outcome of the discussion resolved to target two main deliverables: developing the proof of concept data catalogue, and writing guidance (for instance in the form of a white paper) on how to make projects more reproducible. This target scope was later summarized [through our project charter](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/project-charter.md).
 
@@ -36,7 +36,7 @@ This document summarizes the meetings of the workstream
 
 -   Group discussed objectives for the 2025 CPI Expert Group meeting. It was decided to focus on an interim data catalogue and provide interim guidance at the conference, with the fuller guidance to be developed over the next year.
 -   GitHub projects was agreed upon as the structure for PM activity
--   The draft data catalogue idea was given the green light to flush out further as our likely implementation of the interim version. Metadata strandards should be implemented but it would be hard to use a platform where we don't own the dataset (such as dominik's data).
+-   The draft data catalogue idea was given the green light to flush out further as our likely implementation of the interim version. Metadata standards should be implemented but it would be hard to use a platform where we don't own the dataset (such as dominik's data).
 -   Guidelines for how to develop reproducible research through git was seen as a good way, with the idea that the guidance we would produce would (a) provide the target state to aim for and (b) summarize maturity levels ([similar to RAP maturity levels](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/)) that showcase how researchers can start easily and progress over time.
 
 ## 2025-02-11
@@ -104,16 +104,16 @@ This document summarizes the meetings of the workstream
 
 ### Notes
 
--   The team discussed the [skeleton of the proof of concecept data catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). The technical process to register new datasets is basically to (1) draft a new `yaml` file in the [`datasets/`](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/tree/main/datasets) folder using the [`datacontrac.cli`](https://cli.datacontract.com/) specifications, and then (2) when the PR is accepted (after releveant review) and merged with the `main` branch, the runner will rerender the catalogue and the dataset will show up.
+-   The team discussed the [skeleton of the proof of concept data catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). The technical process to register new datasets is basically to (1) draft a new `yaml` file in the [`datasets/`](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/tree/main/datasets) folder using the [`datacontract.cli`](https://cli.datacontract.com/) specifications, and then (2) when the PR is accepted (after relevant review) and merged with the `main` branch, the runner will re-render the catalogue and the dataset will show up.
 -   The team discussed next steps. The dataset in [#6](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/6) is still the third we'd want for presentation at CPI EG.
 -   There is a need to differentiate open versus proprietary but popular datasets. Open datasets will be the focus for now with potential for expansion after the conference.
--   The team discussed [how to cite datasets](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/datasets-guidance/how-to-cite.html) and [how to cite code](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/citing-code.html) topics, and based on the example by the [recent Baker et al (2022) FAIR principles for software paper](https://www.nature.com/articles/s41597-022-01710-x#data-availability), we decided to go with a nuanced recomemndation for now:
+-   The team discussed [how to cite datasets](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/datasets-guidance/how-to-cite.html) and [how to cite code](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/citing-code.html) topics, and based on the example by the [recent Baker et al (2022) FAIR principles for software paper](https://www.nature.com/articles/s41597-022-01710-x#data-availability), we decided to go with a nuanced recommendation for now:
     -   if data or code that a research uses exists should be included in the bibliography
     -   data or code that is created as part of the paper should be (ideally published to something that mints a DOI) but the links to the dataset or code are included at the end of the paper under "Data availability" and "Code availability" headers.
-    -   The idea of topics to discuss after the confernece was also brought up - the process of creating synthetic datasets.
--   To support researchers to structure their code, the team also discussed and endoresed recommendign a [template RAP](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).
+    -   The idea of topics to discuss after the conference was also brought up - the process of creating synthetic datasets.
+-   To support researchers to structure their code, the team also discussed and endorsed recommending a [template RAP](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).
 
-# 2025-04-08
+## 2025-04-08
 
 ### Agenda
 
@@ -128,3 +128,18 @@ This document summarizes the meetings of the workstream
     -   How should we assess and decide what is approved to be registered to the catalogue? The team will for now adopt a group consensus approach of approving new datasets following a discussion during one of the regular team meetings. The approach could be flushed out in more detail once there are several additional datasets to register.
     -   What is the scope for datasets registered to the catalogue? The team agreed that any dataset related to price statistics, whether consumer, producer, or otherwise, could be included - as the methods to be applied are similar, even if datasets and applications are slightly different. For more nuanced cases (such as elementary aggregate data), the justification to include may depend on value for researchers.
 -   Next steps for the group is to prepare for the upcoming CPI Expert Group conference by reviewing the mocked-up content and preparing the presentation material.
+
+## 2025-04-22
+
+### Agenda
+
+-   Adding an [“about the team” section in the about page](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/about.html) to showcase project members/contributors, [similar to the Turing way](https://book.the-turing-way.org/afterword/contributors-record).
+-   Review material to be presented during the CPI Expert Group
+-   Discussion on how material related to academic classes in price statistics can be positioned to be reproducible
+
+### Notes
+
+-   The team discussed and endorsed the about team page, similar to how [the Turing way records contributors](https://book.the-turing-way.org/afterword/contributors-record). Action item for the team is either to contribute to the page directly via PR (see CONTRIBUTING) or coordinate offline.
+-   How this guide and the interim catalogue will be presented next week was discussed and approved
+-   For academic material, the group discussed possible guidance. Initial thoughts of the group was that while code can be in GitHub and follow compendium type structure, datasets do not need to be registered if they are small training datasets and could just be version controlled in GitHub directly. The policies of the university should take precedence.
+-   The group agreed to switch to a 3 week cadence with the next meeting three weeks after the conference.
