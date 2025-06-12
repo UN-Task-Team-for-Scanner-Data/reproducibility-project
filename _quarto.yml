@@ -35,6 +35,7 @@ website:
           - href: docs/reproducibility-guidance/how-to-cite-digital-objects.qmd
           - href: docs/reproducibility-guidance/citing-code.qmd
           - href: docs/reproducibility-guidance/citing-data.qmd
+          - href: docs/reproducibility-guidance/open-material.qmd
       - text: "About the Open Data Catalogue"
         href: docs/datasets-guidance/catalogue.qmd
 
