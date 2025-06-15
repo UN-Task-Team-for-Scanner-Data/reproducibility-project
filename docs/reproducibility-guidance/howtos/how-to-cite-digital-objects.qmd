@@ -1,11 +1,16 @@
 ---
 title: "How to reference digital objects in your paper"
+subtitle: "citation..."
 date: 2025-04-28
-date-format: YYYY-MM-DD
+summary: "summary of how to cite"
 format:
   html:
     toc: true
-    toc-expand: 2
+    toc-expand: 3
+
+categories:
+  - citation
+  - findability
 ---
 
 When writing a paper, researchers have several options for how to [cite their research compendium](intro.qmd), open data, as well as code they used.
