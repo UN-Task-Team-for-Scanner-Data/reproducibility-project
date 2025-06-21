@@ -1,0 +1,18 @@
+---
+title: "How to approach synthetic data"
+subtitle: "synthetic data..."
+draft: true
+sidebar: true
+date: 2025-XX-XX
+summary: "summary..."
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+::: callout-caution
+## WIP
+
+This page is still in the works
+:::
