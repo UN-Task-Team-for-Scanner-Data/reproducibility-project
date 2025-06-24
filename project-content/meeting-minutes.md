@@ -164,8 +164,12 @@ This document summarizes the meetings of the workstream
 
 ### Agenda
 
--   Discuss 
+-   Updated project charter and github project.
+-   Pull request on other open examples.
+-   Discuss possible style changes to the site
 
 ### Notes
 
--   The team
+-   The team discussed and agreed upon an updated project direction for the year. Specifically, the overall vision has been clarified with the goal of instilling of reproducibility practices in the price statistics discipline. Furthermore, a project management appraoch using objective and key results (KRs) that the team aims to achieve per year towards the vision was also set up. Note that the specific KRs may need to be tweaked and will be discussed at subsequent meetings.
+-   A [PR with other examples was discussed](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/pull/50). The papers section was discussed specifically - idea is to show papers with 'packaged' code as there could be many notable repos mentioned in papers and it could be challenging to be comprehensive. For really notable ones, we could encourage packaging. The section will be further refined before being pushed.
+-   Style changes were discussed for the site. We could test using an `<iframe>` to embed the catalogue into the site. We can also organize how to guides separately from initial introductory content. Site will be mocked up with proposed changes at a later meeting.
