@@ -158,3 +158,14 @@ This document summarizes the meetings of the workstream
 -   The team discussed how training (provided by workstream 3) could support the project. A notable example was RAP principles, which can be taught in a general way and options to apply them to either research or production could be given at the end. A process flow may also be applicable to support individuals knowing how to open their projects.
 -   The team discussed the difference between a researcher developing a new method (in which case open data is best) or a researcher is applying a tried method on their internal data (in which case use of proprietary data is absolutely fine).
 -   Team to add PR directly or email Serge to add their contact info to the [Project team members](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/about.html#project-team-members) section.
+
+
+## 2025-06-10
+
+### Agenda
+
+-   Discuss 
+
+### Notes
+
+-   The team
