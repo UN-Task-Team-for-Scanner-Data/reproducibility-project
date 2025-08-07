@@ -159,7 +159,6 @@ This document summarizes the meetings of the workstream
 -   The team discussed the difference between a researcher developing a new method (in which case open data is best) or a researcher is applying a tried method on their internal data (in which case use of proprietary data is absolutely fine).
 -   Team to add PR directly or email Serge to add their contact info to the [Project team members](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/about.html#project-team-members) section.
 
-
 ## 2025-06-10
 
 ### Agenda
@@ -173,3 +172,95 @@ This document summarizes the meetings of the workstream
 -   The team discussed and agreed upon an updated project direction for the year. Specifically, the overall vision has been clarified with the goal of instilling of reproducibility practices in the price statistics discipline. Furthermore, a project management appraoch using objective and key results (KRs) that the team aims to achieve per year towards the vision was also set up. Note that the specific KRs may need to be tweaked and will be discussed at subsequent meetings.
 -   A [PR with other examples was discussed](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/pull/50). The papers section was discussed specifically - idea is to show papers with 'packaged' code as there could be many notable repos mentioned in papers and it could be challenging to be comprehensive. For really notable ones, we could encourage packaging. The section will be further refined before being pushed.
 -   Style changes were discussed for the site. We could test using an `<iframe>` to embed the catalogue into the site. We can also organize how to guides separately from initial introductory content. Site will be mocked up with proposed changes at a later meeting.
+
+## 2025-07-22
+
+### Agenda
+
+-   Sign off meeting minutes from 10th June
+
+-   OKRs – review Serge’s changes
+
+-   Open material for price statistics
+
+### Meeting Minutes
+
+#### Previous meeting's minutes
+
+-   Meeting minutes approved from 06/10.
+
+#### OKRS (Objectives and Key Results)
+
+-   Agreed with OKR framework, but discussed best way to measure progress in our context.
+
+-   OKRS can be hard to measure - suggested maybe putting a percentage greater than 0%, as would be an increase regardless.
+
+-   It could be unfair to look at a percentages only could be relevant to a subset of papers
+
+-   Perhaps rather than a percentage, could put a more specific target, such as number of papers.
+
+-   **Action item: confirm number of papers for target & confirm with Serge when he returns.**
+
+#### Overview on open material for price statistics
+
+-   3 sections: generic (software for official statistics), software specifically for price statistics (needs to be on hosted on CRAN etc.), and older/inactive projects
+
+    -   Resources for reproducibility
+
+-   Code used to produce analysis vs actual packages. To make the list, it needs to be installable
+
+-   This should be a living document - would fall under longer term task team maintenance
+
+-   Question: Will we be contacting owners of packages, including outdated ones, to let them know their work is being included on this list?
+
+    -   Likely no as too time consuming/too much labour involved in sending emails
+
+    -   But there are in built features with technology like CRAN so that owners can see who uses their package
+
+    -   Can also add caveats around suing these packages, esp. old/outdated ones on the page (maybe a disclaimer)
+
+    -   And depends on target audience - likely technical anyway (licences attached)
+
+    -   Can also do things/push best practice of making software citable to help increase awareness
+
+-   Claude shared another resource to add to the page <https://unece.github.io/OSS/>
+
+    -   May help to give guidance on how to consume these resources
+
+    -   **Action item: Steve will include in page**
+
+-   **Action item: team to add comments**
+
+    -   Can add to the PR or send a message, and then Steve can merge the page once feedback has been incorporated , <https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/other-open-projects/docs/reproducibility-guidance/open-material.qmd> (aiming for Thursday)
+
+    -   Steve will send link to page
+
+#### Example from ONS
+
+-   Summary of suggested exercise/question from email:
+
+So we were planning to do a "This is how we went from proprietary code on proprietary data" with the code submitted alongside Tony's paper. A nice 'worked example', especially as it wasn't originally written to be publicly released (and there isn't the culture to do so yet) so the hope would be that this would show how other people and organisations could do the same (even post-hoc).
+
+The key question is how best to integrate this into the website; I do have some idea of doing it as part of the GitHub guidance - it could potentially serve as a framework to hang links to other guidance on (as it shows how we use the guidance). Or just be a standalone 'call to action' for making code more available and configuring it to work on public data?
+
+-   Have created public repo - can turn into worked example (from private to public). Github repo here: <https://github.com/ONSdigital/mean-splice-decomposition>
+
+-   In agreement that this would be a very useful use case/exercise.
+
+-   On ONS digital currently, part of the Geneva paper (Tony)
+
+-   **Action item: Team to look over git hub repo**
+
+-   Question: What would be the format for this guidance - should we use the quarto site, or a stand alone site?
+
+    -   Most likely quarto site under the navigate bar.
+
+    -   Steve to help once we get to the quarto stage.
+
+### Next agenda
+
+-   Chihiro's datasets, and creating a repo for them
+
+    -   Aim is to publish and link to data catalog
+
+-   UI discussion
