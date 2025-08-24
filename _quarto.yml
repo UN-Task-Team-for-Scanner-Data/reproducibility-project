@@ -53,8 +53,8 @@ website:
         - section: Getting started
           href: docs/reproducibility-guidance/intro.qmd
           contents:
-          - docs/reproducibility-guidance/how-to-start.qmd
           - docs/reproducibility-guidance/maturity-model.qmd
+          - docs/reproducibility-guidance/how-to-start.qmd
         - "---"
         - section: "Guides and how-tos"
           contents:
