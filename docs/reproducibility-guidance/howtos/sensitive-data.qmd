@@ -1,0 +1,19 @@
+---
+title: "Using sensitive data"
+subtitle: "using sensitive data but still using git"
+draft: true
+sidebar: true
+date: 2025-06-13
+summary: "using sensitive data but still using git"
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+::: callout-caution
+## WIP
+
+This page is still in the works. Possible topics:
+* using `.gitignore` and precommit hooks to ensure privacy
+:::
