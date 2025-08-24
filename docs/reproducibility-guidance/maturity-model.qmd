@@ -1,0 +1,26 @@
+---
+title: "Levels of reproducibility"
+date: 2025-XX-XX
+draft: true
+date-format: YYYY-MM-DD
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+::: callout-caution
+## WIP
+
+This page is still in the works
+:::
+
+# Intro
+
+# Levels
+
+## Level 1
+
+## Level 2
+
+## Level 3

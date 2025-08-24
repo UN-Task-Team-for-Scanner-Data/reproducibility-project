@@ -1,0 +1,15 @@
+---
+title: "How do I start?"
+date: 2025-XX-XX
+date-format: YYYY-MM-DD
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+::: callout-caution
+## WIP
+
+This page is still in the works - will have a process flow for researchers
+:::
