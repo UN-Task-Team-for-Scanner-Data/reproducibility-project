@@ -57,7 +57,13 @@ website:
           - docs/reproducibility-guidance/how-to-start.qmd
         - "---"
         - section: "Guides and how-tos"
+          href: docs/reproducibility-guidance/guides-summary.qmd
           contents:
+            - section: "About the research compendium"
+              contents:
+              - docs/reproducibility-guidance/howtos/research-compendium-structure.qmd
+              - docs/reproducibility-guidance/howtos/licences.qmd
+              - docs/reproducibility-guidance/howtos/publishing-research-compendium.qmd
             - section: "How to cite?"
               contents:
                 - docs/reproducibility-guidance/howtos/citing-code.qmd
@@ -67,9 +73,6 @@ website:
               contents:
               - docs/reproducibility-guidance/howtos/synthetic-data.qmd
               - docs/reproducibility-guidance/howtos/metadata.qmd
-            - section: "Ensure reusability"
-              contents:
-              - docs/reproducibility-guidance/howtos/licences.qmd
         - "---"
         - title: Other useful resources
           href: docs/reproducibility-guidance/open-material.qmd
