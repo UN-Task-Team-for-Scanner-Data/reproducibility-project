@@ -177,29 +177,16 @@ This document summarizes the meetings of the workstream
 
 ### Agenda
 
--   Sign off meeting minutes from 10th June
-
--   OKRs – review Serge’s changes
-
--   Open material for price statistics
+-   Review proposed OKR changes to structure goals for the year
+-   Discussion on "Open material for price statistics" guide
 
 ### Meeting Minutes
 
-#### Previous meeting's minutes
-
--   Meeting minutes approved from 06/10.
-
 #### OKRS (Objectives and Key Results)
 
--   Agreed with OKR framework, but discussed best way to measure progress in our context.
-
--   OKRS can be hard to measure - suggested maybe putting a percentage greater than 0%, as would be an increase regardless.
-
--   It could be unfair to look at a percentages only could be relevant to a subset of papers
-
--   Perhaps rather than a percentage, could put a more specific target, such as number of papers.
-
--   **Action item: confirm number of papers for target & confirm with Serge when he returns.**
+-   Team reviewed and agreed to OKR framework changes. Key challenge of how to measure was discussed. For growth for instance (KR3), its hard to measure as the demoninator (if we use a ratio) is tough to agree to (not all conference presentations are research materials).  , but discussed best way to measure progress in our context.
+-   Aiming for a specific number of papers may be easier to estimate.
+-   Next steps include the discussions on how to measure each Key Result. 
 
 #### Overview on open material for price statistics
 
@@ -256,11 +243,3 @@ The key question is how best to integrate this into the website; I do have some 
     -   Most likely quarto site under the navigate bar.
 
     -   Steve to help once we get to the quarto stage.
-
-### Next agenda
-
--   Chihiro's datasets, and creating a repo for them
-
-    -   Aim is to publish and link to data catalog
-
--   UI discussion
