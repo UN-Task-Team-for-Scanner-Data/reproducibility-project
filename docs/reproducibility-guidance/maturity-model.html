@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-04-28">
 
-<title>Catalogue of open data in price statistics – Price Statistics Reproducibility Project</title>
+<title>Levels of reproducibility – Price Statistics Reproducibility Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../docs/reproducibility-guidance/how-to-start.html" rel="next">
+<link href="../../docs/reproducibility-guidance/intro.html" rel="prev">
 <link href="../../docs/images/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -73,12 +74,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="quarto:status" content="draft">
 
 
 <link rel="stylesheet" href="../../docs/styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -243,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div>
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -264,36 +266,40 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../docs/index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../docs/reproducibility-guidance/intro.html" aria-current="page"> 
+<span class="menu-text">How to be reproducible</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/catalogue/catalogue.html"> 
+<span class="menu-text">Data Catalogue</span></a>
+  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reproducibility-guidance" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Reproducibility Guidance</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-reproducibility-guidance">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../docs/reproducibility-guidance/intro.html">
- <span class="dropdown-text">How to approach reproducibility</span></a>
+    <a class="dropdown-item" href="../../docs/about.html">
+ <span class="dropdown-text">About this project</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../docs/reproducibility-guidance/how-to-cite-digital-objects.html">
- <span class="dropdown-text">How to reference digital objects in your paper</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../docs/reproducibility-guidance/citing-code.html">
- <span class="dropdown-text">How to cite code leveraged as part of the research</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../docs/reproducibility-guidance/citing-data.html">
- <span class="dropdown-text">How to cite open data</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../docs/reproducibility-guidance/open-material.html">
- <span class="dropdown-text">Open material for price statistics</span></a>
+    <a class="dropdown-item" href="../../docs/faq.html">
+ <span class="dropdown-text">Frequently asked questions</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="../../docs/datasets-guidance/catalogue.html" aria-current="page"> 
-<span class="menu-text">About the Open Data Catalogue</span></a>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://unstats.un.org/wiki/display/GWGSD/Handbook+on+utilising+new+data+sources+in+the+production+of+consumer+price+statistics"> <i class="bi bi-globe" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://unstats.un.org/bigdata/task-teams/scanner/index.cshtml"> <i class="bi bi-person-raised-hand" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -302,6 +308,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/intro.html">Getting started</a></li><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/maturity-model.html">Levels of reproducibility</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
   <div id="quarto-announcement" data-announcement-id="1ced058f699c73dfae53a0721bb67d2b" class="alert alert-secondary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p>**This site shows interim guidance. We are actively updating this site. See our <a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/project-content/project-charter.md">project charter</a> and <a href="https://github.com/orgs/UN-Task-Team-for-Scanner-Data/projects/1">the GitHub project</a> for more info about what we are working on.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
@@ -309,26 +325,171 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Getting started</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/maturity-model.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Levels of reproducibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/how-to-start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How do I start?</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../docs/reproducibility-guidance/guides-summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Guides and how-tos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">About the research compendium</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/research-compendium-structure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research compendium: deeper dive</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/licences.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">What licences could I use?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publishing your research compendium</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">How to cite?</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/citing-code.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to cite code</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/citing-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to cite open data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to reference digital objects in your paper</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">More about data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/synthetic-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to approach synthetic data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metadata…</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/how-to-open-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Using or opening data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/sensitive-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Using sensitive data</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/open-material.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Open material for price statistics</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#how-the-price-statistics-open-data-catalogue-works-in-a-nutshell" id="toc-how-the-price-statistics-open-data-catalogue-works-in-a-nutshell" class="nav-link active" data-scroll-target="#how-the-price-statistics-open-data-catalogue-works-in-a-nutshell">How the Price Statistics Open Data Catalogue works in a nutshell</a></li>
-  <li><a href="#where-is-the-data-catalogue" id="toc-where-is-the-data-catalogue" class="nav-link" data-scroll-target="#where-is-the-data-catalogue">Where is the data catalogue?</a></li>
-  <li><a href="#how-to-register-an-open-dataset-on-the-catalogue" id="toc-how-to-register-an-open-dataset-on-the-catalogue" class="nav-link" data-scroll-target="#how-to-register-an-open-dataset-on-the-catalogue">How to register an open dataset on the catalogue?</a></li>
-  <li><a href="#what-does-the-catalogue-not-do" id="toc-what-does-the-catalogue-not-do" class="nav-link" data-scroll-target="#what-does-the-catalogue-not-do">What does the catalogue not do?</a></li>
+  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Intro</a></li>
+  <li><a href="#levels" id="toc-levels" class="nav-link" data-scroll-target="#levels">Levels</a>
+  <ul class="collapse">
+  <li><a href="#level-1" id="toc-level-1" class="nav-link" data-scroll-target="#level-1">Level 1</a></li>
+  <li><a href="#level-2" id="toc-level-2" class="nav-link" data-scroll-target="#level-2">Level 2</a></li>
+  <li><a href="#level-3" id="toc-level-3" class="nav-link" data-scroll-target="#level-3">Level 3</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/datasets-guidance/catalogue.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/maturity-model.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/intro.html">Getting started</a></li><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/maturity-model.html">Levels of reproducibility</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Catalogue of open data in price statistics</h1>
+<h1 class="title">Levels of reproducibility</h1>
 </div>
 
 
@@ -339,7 +500,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025-04-28</p>
+      <p class="date">Invalid Date</p>
     </div>
   </div>
   
@@ -351,48 +512,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Researchers often struggle to use open data. They may find it hard to find open datasets for their research projects. If they find open datasets, they may struggle to easily understand them in order to judge that the datasets easily work for their research. Finally they may find it challenging to know how to work with or even how to cite the dataset.</p>
-<p>To help find, assess, and understand how to access open datasets, this project has developed a basic discipline specific catalogue.</p>
-<section id="how-the-price-statistics-open-data-catalogue-works-in-a-nutshell" class="level2">
-<h2 class="anchored" data-anchor-id="how-the-price-statistics-open-data-catalogue-works-in-a-nutshell">How the Price Statistics Open Data Catalogue works in a nutshell</h2>
-<p>The idea is simple. The catalogue lists open datasets relevant to the discipline and is searchable according to standard data types (such as scanner data). It also provides basic information about each dataset that will allow researchers to assess its relevance and know how to access it. Visually this is shown in <a href="#fig-catalogue" class="quarto-xref">Figure&nbsp;1</a>.</p>
-<div id="fig-catalogue" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-catalogue-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../../docs/images/data-catalogue-idea.svg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-catalogue-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Basic idea of how we see the data catalogue working.
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="where-is-the-data-catalogue" class="level2">
-<h2 class="anchored" data-anchor-id="where-is-the-data-catalogue">Where is the data catalogue?</h2>
-<p>The <a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">data catalogue can be found here</a>. It is basically a simple static site hosted on GitHub.</p>
-</section>
-<section id="how-to-register-an-open-dataset-on-the-catalogue" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-register-an-open-dataset-on-the-catalogue">How to register an open dataset on the catalogue?</h2>
-<p>The <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md">CONTRIBUTING guidance in the catalogue</a> summarizes it all. Have a look and help register a dataset or recommend one be registered!</p>
-</section>
-<section id="what-does-the-catalogue-not-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-does-the-catalogue-not-do">What does the catalogue not do?</h2>
-<p>As the catalogue does not store the dataset itself but simply describes it in detail. In other words, this catalogue is <a href="https://book.the-turing-way.org/reproducible-research/rdm/rdm-repository#rr-rdm-repository-select">not a data repository</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-This is an interim catalogue only!
+WIP
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This will very likely not be the long-term stable data catalogue used in the discpline. The idea, however, it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.</p>
+<p>This page is still in the works</p>
 </div>
 </div>
+<section id="intro" class="level1">
+<h1>Intro</h1>
+</section>
+<section id="levels" class="level1">
+<h1>Levels</h1>
+<section id="level-1" class="level2">
+<h2 class="anchored" data-anchor-id="level-1">Level 1</h2>
+</section>
+<section id="level-2" class="level2">
+<h2 class="anchored" data-anchor-id="level-2">Level 2</h2>
+</section>
+<section id="level-3" class="level2">
+<h2 class="anchored" data-anchor-id="level-3">Level 3</h2>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -808,6 +956,18 @@ This is an interim catalogue only!
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../docs/reproducibility-guidance/intro.html" class="pagination-link" aria-label="Getting started">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Getting started</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../docs/reproducibility-guidance/how-to-start.html" class="pagination-link" aria-label="How do I start?">
+        <span class="nav-page-text">How do I start?</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -827,7 +987,7 @@ This is an interim catalogue only!
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/datasets-guidance/catalogue.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/maturity-model.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
