@@ -179,48 +179,20 @@ This document summarizes the meetings of the workstream
 
 -   Review proposed OKR changes to structure goals for the year
 -   Discussion on "Open material for price statistics" guide
+-   Discussion of an example that could serve as a proprietary to open guide
 
-### Meeting Minutes
+### Notes
 
-#### OKRS (Objectives and Key Results)
-
--   Team reviewed and agreed to OKR framework changes. Key challenge of how to measure was discussed. For growth for instance (KR3), its hard to measure as the demoninator (if we use a ratio) is tough to agree to (not all conference presentations are research materials).  , but discussed best way to measure progress in our context.
--   Aiming for a specific number of papers may be easier to estimate.
--   Next steps include the discussions on how to measure each Key Result. 
-
-#### Overview on open material for price statistics
-
--   3 sections: generic (software for official statistics), software specifically for price statistics (needs to be on hosted on CRAN etc.), and older/inactive projects
-
-    -   Resources for reproducibility
-
--   Code used to produce analysis vs actual packages. To make the list, it needs to be installable
-
--   This should be a living document - would fall under longer term task team maintenance
-
--   Question: Will we be contacting owners of packages, including outdated ones, to let them know their work is being included on this list?
-
-    -   Likely no as too time consuming/too much labour involved in sending emails
-
-    -   But there are in built features with technology like CRAN so that owners can see who uses their package
-
-    -   Can also add caveats around suing these packages, esp. old/outdated ones on the page (maybe a disclaimer)
-
-    -   And depends on target audience - likely technical anyway (licences attached)
-
-    -   Can also do things/push best practice of making software citable to help increase awareness
-
--   Claude shared another resource to add to the page <https://unece.github.io/OSS/>
-
-    -   May help to give guidance on how to consume these resources
-
-    -   **Action item: Steve will include in page**
-
--   **Action item: team to add comments**
-
-    -   Can add to the PR or send a message, and then Steve can merge the page once feedback has been incorporated , <https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/other-open-projects/docs/reproducibility-guidance/open-material.qmd> (aiming for Thursday)
-
-    -   Steve will send link to page
+-   Team reviewed and agreed to proposed changes to the OKRs with 3 KRs for one objective:
+   -   Key challenge of how to measure was discussed. For growth for instance (KR3), its hard to measure as the demoninator (if we use a ratio) is tough to agree to (not all conference presentations are research materials). Aming for a specific number of papers may be easier to estimate.
+   -   Next steps include the discussions on how to measure each Key Result.
+-   Team discussed the *Overview on open material for price statistics* page:
+   -   Article is made up of 3 sections: generic (software for official statistics), software specifically for price statistics (needs to be on hosted on CRAN etc.), and older/inactive projects. Actual packages are included, i.e. to make the list, it needs to be installable (not code used to produce analysis).
+   -   This should be a living document - would fall under longer term task team maintenance.
+   -   Infeasible to keep package owners notified that we included their package on the list. CRAN and other repos already let owners know who uses their packages.
+   -   Caveats around using packages, esp. old/outdated ones on the page (e.g. with a disclaimer) makes the list useful.
+   -   The list is intended to advocate best practice of making software citable to help increase awareness
+   -   Team to review draft PR by end of week
 
 #### Example from ONS
 
