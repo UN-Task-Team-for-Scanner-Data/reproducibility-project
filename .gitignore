@@ -20,4 +20,3 @@ build/*
 /_site/
 .Rproj.user
 *.Rproj
-/_freeze/

@@ -8,8 +8,6 @@ format:
   html:
     toc: true
     toc-expand: 2
-execute: 
-  echo: false
 
 categories:
   - citation
@@ -45,8 +43,7 @@ Unlike academic papers, there is no one way to cite a piece of software. How to
 cite a piece of software usually depends on how easy the author makes it. For
 example, R packages are easy to cite within R using the `citation()` function.
 
-```
-install.packages("IndexNumR")
+```{r}
 citation("IndexNumR")
 ```
 
@@ -98,7 +95,7 @@ more citeable.
 The {piar} R package is an example of a piece of software for making price indexes
 that is highly citeable.
 
-```
+```{r}
 citation("piar")
 ```
 

@@ -7,8 +7,6 @@ format:
   html:
     toc: true
     toc-expand: 2
-execute: 
-  echo: false
 
 categories:
   - citation
@@ -45,21 +43,20 @@ packages are highly citeable.
 Using these data is easy enough with R. Simply install the package and the
 datasets become available from within R.
 
-```r
-# install.packages("PriceIndices")
+```{r}
 head(PriceIndices::coffee)
 ```
 
 Using these datasets is less convenient with, say, Python. One option is to simply
 export them in an interoperable format like Apache Parquet from R.
 
-```r
+```{r}
 arrow::write_parquet(PriceIndices::coffee, "coffee.parquet")
 ```
 
 Now it is simple to use these data with Python.
 
-```python
+```{python}
 import pandas as pd
 
 pd.read_parquet("coffee.parquet").head()
@@ -69,12 +66,12 @@ Another approach, and one that doesn't use R, is to simply download the {PriceIn
 package from CRAN and use the [{rdata}](https://doi.org/10.21105/joss.07540) Python
 package to read the datasets in Python.
 
-```bash
+```{bash}
 curl -s https://cran.r-project.org/src/contrib/PriceIndices_0.2.3.tar.gz -o PriceIndices_0.2.3.tar.gz
 tar -vxzf PriceIndices_0.2.3.tar.gz PriceIndices/data
 ```
 
-```python
+```{python}
 import rdata
 import pandas as pd
 
