@@ -1,5 +1,5 @@
 ---
-title: "Catalogue of open data in price statistics"
+title: "Understand how it works"
 date: 2025-04-28
 date-format: YYYY-MM-DD
 format:

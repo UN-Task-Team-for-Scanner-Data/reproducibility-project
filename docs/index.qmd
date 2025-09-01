@@ -24,7 +24,7 @@ The aim can be visualized using the (input) data and analysis quadrant commonly 
 
 ![Definitions of Reproducible Research, inspired by [the Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions#rr-overview-definitions-reproducibility).](/docs/images/reproducibility-grid.svg){#fig-definitions fig-align="center" width="60%"}
 
-Visually, the status quo is a shift (see @fig-shift). If a [research compendium](/docs/reproducibility-guidance/intro.qmd) (code and related objects) is published alongside the research and (ideally) [open data](/docs/datasets-guidance/catalogue.qmd) are used, the goal can be achieved.
+Visually, the status quo is a shift (see @fig-shift). If a [research compendium](/docs/reproducibility-guidance/intro.qmd) (code and related objects) is published alongside the research and (ideally) [open data](/docs/catalogue/catalogue.qmd) are used, the goal can be achieved.
 
 ![Shifting from limited to fuller reproducibility (summarizing the main materials for a research, inspired by [Bontemps and Orozco (2020)](https://link.springer.com/chapter/10.1007/978-3-030-73249-3_30))](images/reserarch-objects-shifting-the-paradigm.svg){#fig-shift}
 
@@ -35,15 +35,15 @@ Visually, the status quo is a shift (see @fig-shift). If a [research compendium]
 The project thus helps make:
 
 -   [Recommendations on how to approach reproducibility and structure your research compendium](/docs/reproducibility-guidance/intro.qmd).
--   [Recommendations on structured ways to reference digital objects](/docs/reproducibility-guidance/how-to-cite-digital-objects.qmd).
--   [Recommendations on how to cite others' code](/docs/reproducibility-guidance/citing-code.qmd) and [how to cite open datasets](/docs/reproducibility-guidance/citing-data.qmd) in your research.
+-   [Recommendations on structured ways to reference digital objects](/docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.qmd).
+-   [Recommendations on how to cite others' code](/docs/reproducibility-guidance/howtos/citing-code.qmd) and [how to cite open datasets](/docs/reproducibility-guidance/howtos/citing-data.qmd) in your research.
 
 ## Cataloguing all open datasets applicable to the discipline
 
 The project also makes resources available, such as:
 
 -   [The Price Statistics Open Data Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/).
--   [Guidance on how the Price Statistics Open Data Catalogue works](/docs/datasets-guidance/catalogue.qmd).
+-   [Guidance on how the Price Statistics Open Data Catalogue works](/docs/catalogue/catalogue.qmd).
 -   [Guidance on how to register open dataset to the Price Statistics Data Catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md).
 
 # Interested about the reproducibility?

@@ -1,0 +1,19 @@
+---
+title: "How do I start?"
+date: 2025-XX-XX
+date-format: YYYY-MM-DD
+draft: true
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+::: callout-caution
+## WIP
+
+This page is still in the works - will have a process flow for researchers
+:::
+
+Even if you start at level 1, there are a few things you can do:
+...

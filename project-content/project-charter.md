@@ -16,11 +16,11 @@ Following the [OKR approach](https://www.whatmatters.com/okrs-explained), a targ
 
 ## Overall objective for the year between May 2025 and late April 2026
 
-| Objective: | Instill foundational reproducibility principles in methodological and teaching material shared within the discipline |
+| Objective: | Instill foundational reproducibility principles in methodological and teaching material shared within the discipline, as measured by |
 |---------|---------------------------------------------------------------|
-| Key Result 1: | Develop foundational guidance on reproducibility to ensure all critical use cases are covered. |
-| Key Result 2 | Catalogue 10 diverse and open datasets to support research with various methods |
-| Key Result 3 | Instill reproducibility best practices within the discipline |
+| Key Result 1: | Development of foundational guidance on reproducibility to ensure all critical use cases are covered. |
+| Key Result 2 | Cataloguing of 10 diverse and open datasets to support research with various methods |
+| Key Result 3 | Reproducibility in Ottawa Group proceedings up by at least N% |
 
 : 2025-26 OKRs
 

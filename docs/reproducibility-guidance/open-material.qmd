@@ -1,0 +1,155 @@
+---
+title: "Open material for price statistics"
+date: 2025-06-08
+date-format: YYYY-MM-DD
+format:
+  html:
+    toc: true
+    toc-expand: 2
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Software for official statistics
+
+There are many open-source software packages for official statistics and
+survey statistics. The two best lists of these packages are:
+
+-   [Awesome list of official statistics
+    software](https://github.com/SNStatComp/awesome-official-statistics-software)
+-   [CRAN task view for Official
+    Statistics](https://CRAN.R-project.org/view=OfficialStatistics)
+
+Eurostat also has a similar list that's worth exploring:
+
+-   [eurostat\@github](https://github.com/eurostat/README?tab=readme-ov-file)
+
+Although some of the packages on these lists are for computing index
+numbers (and are enumerated in the next section), there are several
+complementary tools for, e.g., sampling, seasonal adjustment, that are
+nonetheless important for price statistics.
+
+The [UNECE High-Level Group for the Modernisation of Official
+Statistics](https://unece.github.io/OSS/) gives a good overview of the
+role of open-source software in the production official statistics, and
+can help contextualize the software on these lists.
+
+## Software for price statistics
+
+::: {.callout-note title = "This list is a work in progress"}
+Please let us know about any software packages relevant for price statistics
+that we missed.
+:::
+
+Most software for price statistics is implemented in R, with the
+remainder in Python. The projects
+listed here may differ in various aspects, such as maturity level,
+maintenance status, licensing terms, and more. Users are encouraged to
+assess whether each open-source tool aligns with their specific
+requirements. Note that this list is for software *packages*
+related to price statistics that are broadly available on, e.g., CRAN or
+PyPI, not data analysis *scripts* used to derive a price index. Packages
+enable efficient code reuse across multiple projects and are more likely to
+be useful to the broader community. 
+
+Open-source software packages for price statistics are split into those for
+computing index numbers and those to facilitate accessible official
+statistics. There are also several software papers related to price statistics.
+
+### Computing price indexes
+
+#### Multilaterals and scanner data
+
+-   [IndexNumR
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=IndexNumR)
+-   [PriceIndices
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=PriceIndices)
+
+#### Aggregation
+
+-   [piar
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=piar)
+
+#### Housing
+
+-   [hpiR
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=hpiR)
+-   [rsmatrix
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=rsmatrix)
+
+#### General purpose
+
+-   [IndexNumberTools
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=IndexNumberTools)
+
+### Accessing price indexes
+
+-   [auxdex
+    {{< fa brands python >}}](https://github.com/rbturnbull/ausdex)
+-   [cansim
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=cansim)
+-   [hicp
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=hicp)
+-   [palewire {{< fa brands python >}}](https://github.com/palewire/cpi)
+
+### Software papers
+
+-   [dff](https://github.com/eurostat/dff)
+-   [IndexNumber: An R Package for Measuring the Evolution of
+    Magnitudes](https://doi.org/10.32614/RJ-2021-038)
+-   [piar: Price Index Aggregation in
+    R](https://doi.org/10.21105/joss.06781)
+
+### Older/inactive projects
+
+-   [FEWS
+    {{< fa brands r-project >}}](https://github.com/Donal-lynch/FEWS_package)
+-   [GEKSdecomp
+    {{< fa brands r-project >}}](https://github.com/MjStansfi/GEKSdecomp)
+-   [IndexNumber
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=IndexNumber)
+-   [Inflation
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=Inflation)
+-   [micEconIndex
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=micEconIndex)
+-   [multilateral
+    {{< fa brands r-project >}}](https://github.com/StatisticsNZ/multilateral)
+-   [precon
+    {{< fa brands python >}}](https://github.com/ONSBigData/precon)
+-   [PriceIndexCalc
+    {{< fa brands python >}}](https://github.com/drrobotk/PriceIndexCalc)
+-   [productivity
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=productivity)
+-   [TPDdecomp
+    {{< fa brands r-project >}}](https://github.com/MjStansfi/TPDdecomp)
+
+## Reproducibility resources
+
+There are several good resources for how to make data analysis and
+research projects reproducible. These are not about price statistics
+*per se*, but the ideas and tools are broadly applicable to the field.
+The [example of a price-index
+pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline)
+shows how these ideas around reproducibility can pair with the software
+listed above.
+
+### General
+
+-   [The Turing Way](https://book.the-turing-way.org/)
+-   [Awesome Reproducible
+    Research](https://github.com/leipzig/awesome-reproducible-research)
+
+### Reproducible analytical pipelines
+
+-   [RAP Companion](https://ukgovdatascience.github.io/rap_companion/)
+-   [Udemy course on RAP with
+    R](https://www.udemy.com/course/reproducible-analytical-pipelines/)
+-   [Reproducible Analytical Pipelines or RAP (NHS)
+    site](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/)
+-   [ESCAP training on RAP with web scraping application for price
+    statistics](https://escap-sd.github.io/ESCAP_RAP_class/docs/)
+-   [Building reproducible analytical pipelines with
+    R](https://raps-with-r.dev/)
+-   [Projects with
+    targets](https://books.ropensci.org/targets/projects.html)

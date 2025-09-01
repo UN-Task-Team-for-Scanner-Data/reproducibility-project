@@ -1,16 +1,25 @@
 ---
-title: "How to cite code leveraged as part of the research"
+title: "How to cite code"
+subtitle: "citation..."
 date: 2025-04-28
-date-format: YYYY-MM-DD
+summary: "summary of how to cite"
+sidebar: true
 format:
   html:
     toc: true
     toc-expand: 2
+execute: 
+  echo: false
+
+categories:
+  - citation
+  - findability
+  - code
 ---
 
 Citing software is historically not something that researchers have done. Code can
 often be hard to cite and the software used to derive the results of a paper was
-usually seen as a "detail" that is not worth mentioning in the body of paper.
+usually seen as a "detail" that is not worth mentioning in the body of paper. 
 (Perhaps to avoid too many questions about how, exactly, the results in the
 paper were derived.) The last decade has seen a move towards more reproducible
 research in economics---mainstream journals require code and usually data for
@@ -36,7 +45,8 @@ Unlike academic papers, there is no one way to cite a piece of software. How to
 cite a piece of software usually depends on how easy the author makes it. For
 example, R packages are easy to cite within R using the `citation()` function.
 
-```{r}
+```
+install.packages("IndexNumR")
 citation("IndexNumR")
 ```
 
@@ -88,7 +98,7 @@ more citeable.
 The {piar} R package is an example of a piece of software for making price indexes
 that is highly citeable.
 
-```{r}
+```
 citation("piar")
 ```
 

@@ -1,0 +1,21 @@
+---
+title: "Guides and how-tos"
+date: 2025-XX-XX
+date-format: YYYY-MM-DD
+draft: true
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+Find guides on topics that you specifically need
+
+# How to create and structure a research compendium
+
+
+# How to cite objects in your paper
+
+
+# What to do about data
+
