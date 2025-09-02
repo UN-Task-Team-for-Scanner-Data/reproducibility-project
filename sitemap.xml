@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/CONTRIBUTING.html</loc>
-    <lastmod>2025-08-25T21:52:28.848Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/how-to-start.html</loc>
-    <lastmod>2025-08-25T21:52:28.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/guides-summary.html</loc>
-    <lastmod>2025-08-25T21:52:28.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/metadata.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/synthetic-data.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/how-to-open-data.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/licences.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html</loc>
-    <lastmod>2025-08-25T21:52:28.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/faq.html</loc>
-    <lastmod>2025-08-25T21:52:28.856Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/catalogue/about.html</loc>
-    <lastmod>2025-08-25T21:52:28.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/catalogue/contributing.html</loc>
-    <lastmod>2025-08-25T21:52:28.856Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/project-content/meeting-minutes.html</loc>
-    <lastmod>2025-08-25T21:52:28.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/project-content/project-charter.html</loc>
-    <lastmod>2025-08-25T21:52:28.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/project-content/other-open-materials.html</loc>
-    <lastmod>2025-08-25T21:52:28.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/catalogue/catalogue.html</loc>
-    <lastmod>2025-08-25T21:52:28.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/about.html</loc>
-    <lastmod>2025-08-25T21:52:28.855Z</lastmod>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/CODE_OF_CONDUCT.html</loc>
+    <lastmod>2025-09-02T01:31:57.064Z</lastmod>
   </url>
   <url>
     <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/index.html</loc>
-    <lastmod>2025-08-25T21:52:28.863Z</lastmod>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
   </url>
   <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/catalogue/about.html</loc>
+    <lastmod>2025-09-02T01:31:57.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/catalogue/catalogue.html</loc>
+    <lastmod>2025-09-02T01:31:57.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/guides-summary.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
   </url>
   <url>
     <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/citing-code.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
   </url>
   <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/publishing-research-compendium.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/synthetic-data.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
   </url>
   <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/sensitive-data.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/licences.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
   </url>
   <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/citing-data.html</loc>
-    <lastmod>2025-08-25T21:52:28.864Z</lastmod>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/how-to-open-data.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
   </url>
   <url>
     <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/open-material.html</loc>
-    <lastmod>2025-08-25T21:52:28.865Z</lastmod>
+    <lastmod>2025-09-02T01:31:57.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/project-content/project-charter.html</loc>
+    <lastmod>2025-09-02T01:31:57.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/project-content/other-open-materials.html</loc>
+    <lastmod>2025-09-02T01:31:57.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/project-content/meeting-minutes.html</loc>
+    <lastmod>2025-09-02T01:31:57.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/how-to-start.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/sensitive-data.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/citing-data.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/publishing-research-compendium.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/metadata.html</loc>
+    <lastmod>2025-09-02T01:31:57.078Z</lastmod>
   </url>
   <url>
     <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/reproducibility-guidance/maturity-model.html</loc>
-    <lastmod>2025-08-25T21:52:28.865Z</lastmod>
+    <lastmod>2025-09-02T01:31:57.079Z</lastmod>
   </url>
   <url>
-    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2025-08-25T21:52:28.848Z</lastmod>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/faq.html</loc>
+    <lastmod>2025-09-02T01:31:57.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/catalogue/contributing.html</loc>
+    <lastmod>2025-09-02T01:31:57.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/docs/about.html</loc>
+    <lastmod>2025-09-02T01:31:57.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UN-Task-Team-for-Scanner-Data.github.io/reproducibility-project/CONTRIBUTING.html</loc>
+    <lastmod>2025-09-02T01:31:57.064Z</lastmod>
   </url>
 </urlset>

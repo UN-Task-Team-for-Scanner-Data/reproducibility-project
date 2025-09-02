@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -40,14 +75,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-befe23ebd2f54d8af2c8a89d1a1611f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-732d54f3ae650aa9bd115a655fc744b1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-148ad218715ca7565a81e899d3570e0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-732d54f3ae650aa9bd115a655fc744b1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-a7caf8a165a1d26e18127b5388d1be16.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-34553eea0433b21b926ecb412dc67f80.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-a7caf8a165a1d26e18127b5388d1be16.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -520,8 +555,29 @@ ul.task-list li input[type="checkbox"] {
 <section id="citing-research-software" class="level2">
 <h2 class="anchored" data-anchor-id="citing-research-software">Citing research software</h2>
 <p>Unlike academic papers, there is no one way to cite a piece of software. How to cite a piece of software usually depends on how easy the author makes it. For example, R packages are easy to cite within R using the <code>citation()</code> function.</p>
-<pre><code>install.packages("IndexNumR")
-citation("IndexNumR")</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">citation</span>(<span class="st">"IndexNumR"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>To cite package 'IndexNumR' in publications use:
+
+  White G (2023). _IndexNumR: Index Number Calculation_. R package
+  version 0.6.0, &lt;https://github.com/grahamjwhite/IndexNumR&gt;.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {IndexNumR: Index Number Calculation},
+    author = {Graham White},
+    year = {2023},
+    note = {R package version 0.6.0},
+    url = {https://github.com/grahamjwhite/IndexNumR},
+  }
+
+ATTENTION: This citation information has been auto-generated from the
+package DESCRIPTION file and may need manual editing, see
+'help("citation")'.</code></pre>
+</div>
+</div>
 <p>Modern R packages tend to have their own <a href="https://marberts.github.io/piar/authors.html#citation">website with this information on display</a> and all <a href="https://cran.r-project.org/web/packages/PriceIndices/index.html">CRAN packages get a DOI</a> to facilitate referencing the use of R packages. Things are less standardized in the Python ecosystem, but the same ideas apply to make projects citeable (e.g., <a href="https://doi.org/10.5281/zenodo.3509134">pandas</a>).</p>
 <p>Another way to cite a piece of research software is to the cite the paper introducing this software, usually in a journal like the <a href="https://joss.theoj.org/">Journal of Open Source Software</a>, the <a href="https://www.jstatsoft.org/index">Journal of Statistical Software</a>, or the <a href="https://journal.r-project.org/">R Journal</a>.</p>
 <pre><code>@article{RJ-2021-038,
@@ -544,7 +600,25 @@ citation("IndexNumR")</code></pre>
 <section id="example" class="level2">
 <h2 class="anchored" data-anchor-id="example">Example</h2>
 <p>The {piar} R package is an example of a piece of software for making price indexes that is highly citeable.</p>
-<pre><code>citation("piar")</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">citation</span>(<span class="st">"piar"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>To cite package 'piar' in publications use:
+
+  Martin S (2024). "piar: Price Index Aggregation R." _Journal of Open
+  Source Software_, *9*(101), 6781. doi:10.21105/joss.06781
+  &lt;https://doi.org/10.21105/joss.06781&gt;.
+
+  Martin S (2025). _piar: Price Index Aggregation_.
+  doi:10.5281/zenodo.10110046
+  &lt;https://doi.org/10.5281/zenodo.10110046&gt;, R package version 0.8.2,
+  &lt;https://cran.r-project.org/package=piar&gt;.
+
+To see these entries in BibTeX format, use 'print(&lt;citation&gt;,
+bibtex=TRUE)', 'toBibtex(.)', or set
+'options(citation.bibtex.max=999)'.</code></pre>
+</div>
+</div>
 <p>This information is displayed on the <a href="https://marberts.github.io/piar/authors.html#citation">project website</a> and <a href="https://cran.r-project.org/web/packages/piar/citation.html">CRAN</a>. The citation information is contained in the source code, and consequently displayed by github, and the readme for the project is adorned with badges giving citation information. The goal is to have citation information available at each entry point at which a prospective user may first engage with {piar} and to have it be easy to add to a reference list.</p>
 
 
