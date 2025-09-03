@@ -159,7 +159,6 @@ This document summarizes the meetings of the workstream
 -   The team discussed the difference between a researcher developing a new method (in which case open data is best) or a researcher is applying a tried method on their internal data (in which case use of proprietary data is absolutely fine).
 -   Team to add PR directly or email Serge to add their contact info to the [Project team members](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/about.html#project-team-members) section.
 
-
 ## 2025-06-10
 
 ### Agenda
@@ -173,3 +172,25 @@ This document summarizes the meetings of the workstream
 -   The team discussed and agreed upon an updated project direction for the year. Specifically, the overall vision has been clarified with the goal of instilling of reproducibility practices in the price statistics discipline. Furthermore, a project management appraoch using objective and key results (KRs) that the team aims to achieve per year towards the vision was also set up. Note that the specific KRs may need to be tweaked and will be discussed at subsequent meetings.
 -   A [PR with other examples was discussed](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/pull/50). The papers section was discussed specifically - idea is to show papers with 'packaged' code as there could be many notable repos mentioned in papers and it could be challenging to be comprehensive. For really notable ones, we could encourage packaging. The section will be further refined before being pushed.
 -   Style changes were discussed for the site. We could test using an `<iframe>` to embed the catalogue into the site. We can also organize how to guides separately from initial introductory content. Site will be mocked up with proposed changes at a later meeting.
+
+## 2025-07-22
+
+### Agenda
+
+-   Review proposed OKR changes to structure goals for the year
+-   Discussion on "Open material for price statistics" guide
+-   Discussion of an example that could serve as a proprietary to open guide
+
+### Notes
+
+-   Team reviewed and agreed to proposed changes to the OKRs with 3 KRs for one objective:
+    -   Key challenge of how to measure was discussed. For growth for instance (KR3), its hard to measure as the denominator  (if we use a ratio) is tough to agree to (not all conference presentations are research materials). Aiming for a specific number of papers may be easier to estimate.
+    -   Next steps include the discussions on how to measure each Key Result.
+-   Team discussed the *Overview on open material for price statistics* page:
+    -   Article is made up of 3 sections: generic (software for official statistics), software specifically for price statistics (needs to be on hosted on CRAN etc.), and older/inactive projects. Actual packages are included, i.e. to make the list, it needs to be installable (not code used to produce analysis).
+    -   This should be a living document - would fall under longer term task team maintenance.
+    -   Infeasible to keep package owners notified that we included their package on the list. CRAN and other repos already let owners know who uses their packages.
+    -   Caveats around using packages, esp. old/outdated ones on the page (e.g. with a disclaimer) makes the list useful.
+    -   The list is intended to advocate best practice of making software citable to help increase awareness
+    -   Team to review draft PR by end of week
+-   Team discussed the [GEKS decomposition code](https://github.com/ONSdigital/mean-splice-decomposition) that was published alongside [Liu (2025) Practical Decompositions of mean-spliced on published indices](https://unece.org/sites/default/files/2025-04/geneva%20paper.pdf). The paper was initially written with  internal data and internal code in mind but converted to use open data and published its code alongside the paper. Thus, the example could use as a good use case as guidance (say as a 'call to action'). Group agreed on the value and will look to return to the article to decide on best approach.  
