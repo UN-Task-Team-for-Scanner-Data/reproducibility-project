@@ -184,7 +184,7 @@ This document summarizes the meetings of the workstream
 ### Notes
 
 -   Team reviewed and agreed to proposed changes to the OKRs with 3 KRs for one objective:
-    -   Key challenge of how to measure was discussed. For growth for instance (KR3), its hard to measure as the denominator  (if we use a ratio) is tough to agree to (not all conference presentations are research materials). Aiming for a specific number of papers may be easier to estimate.
+    -   Key challenge of how to measure was discussed. For growth for instance (KR3), its hard to measure as the denominator (if we use a ratio) is tough to agree to (not all conference presentations are research materials). Aiming for a specific number of papers may be easier to estimate.
     -   Next steps include the discussions on how to measure each Key Result.
 -   Team discussed the *Overview on open material for price statistics* page:
     -   Article is made up of 3 sections: generic (software for official statistics), software specifically for price statistics (needs to be on hosted on CRAN etc.), and older/inactive projects. Actual packages are included, i.e. to make the list, it needs to be installable (not code used to produce analysis).
@@ -193,4 +193,20 @@ This document summarizes the meetings of the workstream
     -   Caveats around using packages, esp. old/outdated ones on the page (e.g. with a disclaimer) makes the list useful.
     -   The list is intended to advocate best practice of making software citable to help increase awareness
     -   Team to review draft PR by end of week
--   Team discussed the [GEKS decomposition code](https://github.com/ONSdigital/mean-splice-decomposition) that was published alongside [Liu (2025) Practical Decompositions of mean-spliced on published indices](https://unece.org/sites/default/files/2025-04/geneva%20paper.pdf). The paper was initially written with  internal data and internal code in mind but converted to use open data and published its code alongside the paper. Thus, the example could use as a good use case as guidance (say as a 'call to action'). Group agreed on the value and will look to return to the article to decide on best approach.  
+-   Team discussed the [GEKS decomposition code](https://github.com/ONSdigital/mean-splice-decomposition) that was published alongside [Liu (2025) Practical Decompositions of mean-spliced on published indices](https://unece.org/sites/default/files/2025-04/geneva%20paper.pdf). The paper was initially written with internal data and internal code in mind but converted to use open data and published its code alongside the paper. Thus, the example could use as a good use case as guidance (say as a 'call to action'). Group agreed on the value and will look to return to the article to decide on best approach.
+
+## 2025-08-25
+
+### Agenda
+
+-   UI enhancements to the project site
+-   Request to steering committees of the CPI Expert Group and Ottawa Group conferences about referencing our material
+-   Discussion about how to measure the KRs
+
+### Notes
+
+-   Team discussed and approved UI enhancements to the project site, including (1) a cleaner structure for guides grouped first by a section on how to get started, three sections for targeted guides on research compendium, citation, and data topics, and a section on other open material, and (2) a cleaner data catalogue section that includes embedding the catalogue itself into the site as an `<iframe>`.
+-   The team discussed and approved the email to request that the two main price statistics conferences reference our material:
+    -   Specifically the goal would be for the conference call for papers to (1) reference our project and reproducibility guidance, (2) reference the data catalogue, and (3) invite participants to reach out to us to propose additional open datasets.
+    -   As some visitors to the site may still be confused, the team decided on a streamlined approach on how we could help. Issue #64 created to track the work.
+-   Team started discussing how to [measure the KRs to meet this year’s objective](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/project-content/project-charter.md#overall-objective-for-the-year-between-may-2025-and-late-april-2026 "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/project-content/project-charter.md#overall-objective-for-the-year-between-may-2025-and-late-april-2026") to have clear and set agreement on the definition of success. Proposed approach on how to measure [KR1](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/59 "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/59"), [KR2](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/18 "https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/18"), [KR3](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/61 "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/61") are mocked up and will be discussed in greater detail during a further couple meetings.
