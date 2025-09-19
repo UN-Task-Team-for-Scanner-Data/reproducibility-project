@@ -210,3 +210,18 @@ This document summarizes the meetings of the workstream
     -   Specifically the goal would be for the conference call for papers to (1) reference our project and reproducibility guidance, (2) reference the data catalogue, and (3) invite participants to reach out to us to propose additional open datasets.
     -   As some visitors to the site may still be confused, the team decided on a streamlined approach on how we could help. [Issue 64](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/64) to track the work .
 -   Team started discussing how to [measure the KRs to meet this year’s objective](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/project-content/project-charter.md#overall-objective-for-the-year-between-may-2025-and-late-april-2026 "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/project-content/project-charter.md#overall-objective-for-the-year-between-may-2025-and-late-april-2026") to have clear and set agreement on the definition of success. Proposed approach on how to measure [KR1](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/59 "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/59"), [KR2](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/18 "https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/18"), [KR3](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/61 "https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/61") are mocked up and will be discussed in greater detail during a further couple meetings.
+
+## 2025-09-09
+
+### Agenda
+
+-   Turvey datasets as a potential to add to the catalogue
+-   Continue scoring KRs discussion
+
+### Notes
+
+-   Team discussed the [Turvey dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/17) and agreed that its highly applicable and should be registered to the catalogue. Next steps:
+    1.  Register the dataset as is and reference versions on GitHub so that users can get it easily. Team to review the record at subsequent meeting.
+    2.  Coordiante with IWGPS/ILO to clarify license and simplify access. Specifically, ask the ILO to make a `csv` and publish to zenodo.
+-   Team discussed datasets to prioritize to help develop examples for the guides – especially as guides would help those we collaborate with (like the ILO). The NZ dataset, PriceIndices ones, or synthetic ones were discussed with existing ones likely the easiest.
+-   Team discussed [scoring approach to registering datasets Key Result](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/18) and target for the year. A bit more work is needed to clearly flush out steps of the registry and zenodo process in the contributing section of the catalogue prior to confirming the methodology. Finalize and discuss next meeting
