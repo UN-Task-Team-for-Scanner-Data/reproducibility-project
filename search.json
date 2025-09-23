@@ -87,7 +87,7 @@
     "href": "docs/catalogue/about.html#what-does-the-catalogue-not-do",
     "title": "Understand how it works",
     "section": "What does the catalogue not do?",
-    "text": "What does the catalogue not do?\nAs the catalogue does not store the dataset itself but simply describes it in detail. In other words, this catalogue is not a data repository.\n\n\n\n\n\n\nThis is an interim catalogue only!\n\n\n\nThis will very likely not be the long-term stable data catalogue used in the discpline. The idea, however, it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.",
+    "text": "What does the catalogue not do?\nAs the catalogue does not store the dataset itself but simply describes it in detail. In other words, this catalogue is not a data repository.\n\n\n\n\n\n\nNoteThis is an interim catalogue only!\n\n\n\nThis will very likely not be the long-term stable data catalogue used in the discpline. The idea, however, it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.",
     "crumbs": [
       "Data Catalogue",
       "About the catalogue",
@@ -143,7 +143,7 @@
     "href": "docs/reproducibility-guidance/intro.html#how-to-structure-the-research-compendium",
     "title": "How to approach reproducibility",
     "section": "How to structure the research compendium",
-    "text": "How to structure the research compendium\n\n\n\n\n\n\nConsider this as interim guidance at this stage\n\n\n\nThe guidance on research compendium is at an interim phase. The project team will flesh this out to provide more clarity aligned with the needs of the discipline and how researchers can ramp up (as it’s not an all or nothing task).\n\n\n\nOverview of the structure\nIn a nutshell, a compendium includes all research objects necessary to reproduce the research. In a technical sense, these are often git repositories (in say GitHub) that include a structure similar to the one in Figure 1 below.\n\n\n\n\n\n\nFigure 1: Exemplar price index pipeline.\n\n\n\n\n\nA little about each aspect\nA data folder that outlines where to store the raw dataset used for the research project. Ideally the researcher uses an open dataset (which will make the whole process reproducible), but they may also use a proprietary dataset.\n\n\n\n\n\n\nDon’t version control the main input dataset\n\n\n\nThe dataset that acts as the main input dataset to the research should not be version controlled. The folder is created in order to ensure that when a local copy of the compendium is used by researchers, they know where to put the data to ensure that the code will replicate the results in full.\nTechnically, this means making sure that the .gitignore skips this data file\n\n\nA folder for functions (or other code) that helps process your data into the relevant outputs. This could include the code to clean and prepare the raw dataset for research purposes, the code to create the processing and research experiments, as well as notebooks where the data is explored and various aspects that feed the research paper are generated.\nA folder for the output data. This data can be versioned (if it is not sensitive) with the repository and allows researchers to replicate the process. Note, if the output data can be used for research in its own right, it may be appropriate to register this dataset on a public repository (such as Zenodo) that mints a DOI.\nA folder for documentation to that explain key aspects of the research. This folder stores project documentation or the project design, however code should also be documented well.\nA license. This will tell users how they can use the code.\nA .gitignore file. There are some files and folders that should not be version controlled. Notable example is datasets\nA file to recreate the environment on which the code will run identically. A shift in one package version to another may change the output, hence its key to track exactly how to replicate the same environment and get the same result.\nFinally, a README to introduce the project. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.",
+    "text": "How to structure the research compendium\n\n\n\n\n\n\nWarningConsider this as interim guidance at this stage\n\n\n\nThe guidance on research compendium is at an interim phase. The project team will flesh this out to provide more clarity aligned with the needs of the discipline and how researchers can ramp up (as it’s not an all or nothing task).\n\n\n\nOverview of the structure\nIn a nutshell, a compendium includes all research objects necessary to reproduce the research. In a technical sense, these are often git repositories (in say GitHub) that include a structure similar to the one in Figure 1 below.\n\n\n\n\n\n\nFigure 1: Exemplar price index pipeline.\n\n\n\n\n\nA little about each aspect\nA data folder that outlines where to store the raw dataset used for the research project. Ideally the researcher uses an open dataset (which will make the whole process reproducible), but they may also use a proprietary dataset.\n\n\n\n\n\n\nTipDon’t version control the main input dataset\n\n\n\nThe dataset that acts as the main input dataset to the research should not be version controlled. The folder is created in order to ensure that when a local copy of the compendium is used by researchers, they know where to put the data to ensure that the code will replicate the results in full.\nTechnically, this means making sure that the .gitignore skips this data file\n\n\nA folder for functions (or other code) that helps process your data into the relevant outputs. This could include the code to clean and prepare the raw dataset for research purposes, the code to create the processing and research experiments, as well as notebooks where the data is explored and various aspects that feed the research paper are generated.\nA folder for the output data. This data can be versioned (if it is not sensitive) with the repository and allows researchers to replicate the process. Note, if the output data can be used for research in its own right, it may be appropriate to register this dataset on a public repository (such as Zenodo) that mints a DOI.\nA folder for documentation to that explain key aspects of the research. This folder stores project documentation or the project design, however code should also be documented well.\nA license. This will tell users how they can use the code.\nA .gitignore file. There are some files and folders that should not be version controlled. Notable example is datasets\nA file to recreate the environment on which the code will run identically. A shift in one package version to another may change the output, hence its key to track exactly how to replicate the same environment and get the same result.\nFinally, a README to introduce the project. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.",
     "crumbs": [
       "How to be reproducible",
       "Getting started"
@@ -250,7 +250,7 @@
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html",
     "title": "How to approach synthetic data",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -263,7 +263,7 @@
     "href": "docs/reproducibility-guidance/howtos/licences.html",
     "title": "What licences could I use?",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -315,7 +315,7 @@
     "href": "docs/reproducibility-guidance/howtos/how-to-open-data.html",
     "title": "Using or opening data",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works. Possible topics: * How to save data in the /data/ folder * when to push your /output/ data to zenodo\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works. Possible topics: * How to save data in the /data/ folder * when to push your /output/ data to zenodo\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -350,7 +350,7 @@
     "href": "docs/reproducibility-guidance/open-material.html#software-for-price-statistics",
     "title": "Open material for price statistics",
     "section": "Software for price statistics",
-    "text": "Software for price statistics\n\n\n\n\n\n\nThis list is a work in progress\n\n\n\nPlease let us know about any software packages relevant for price statistics that we missed.\n\n\nMost software for price statistics is implemented in R, with the remainder in Python. The projects listed here may differ in various aspects, such as maturity level, maintenance status, licensing terms, and more. Users are encouraged to assess whether each open-source tool aligns with their specific requirements. Note that this list is for software packages related to price statistics that are broadly available on, e.g., CRAN or PyPI, not data analysis scripts used to derive a price index. Packages enable efficient code reuse across multiple projects and are more likely to be useful to the broader community.\nOpen-source software packages for price statistics are split into those for computing index numbers and those to facilitate accessible official statistics. There are also several software papers related to price statistics.\n\nComputing price indexes\n\nMultilaterals and scanner data\n\nIndexNumR \nPriceIndices \n\n\n\nAggregation\n\npiar \n\n\n\nHousing\n\nhpiR \nrsmatrix \n\n\n\nGeneral purpose\n\nIndexNumberTools \n\n\n\n\nAccessing price indexes\n\nauxdex \ncansim \nhicp \npalewire \n\n\n\nSoftware papers\n\ndff\nIndexNumber: An R Package for Measuring the Evolution of Magnitudes\npiar: Price Index Aggregation in R\n\n\n\nOlder/inactive projects\n\nFEWS \nGEKSdecomp \nIndexNumber \nInflation \nmicEconIndex \nmultilateral \nprecon \nPriceIndexCalc \nproductivity \nTPDdecomp",
+    "text": "Software for price statistics\n\n\n\n\n\n\nNoteThis list is a work in progress\n\n\n\nPlease let us know about any software packages relevant for price statistics that we missed.\n\n\nMost software for price statistics is implemented in R, with the remainder in Python. The projects listed here may differ in various aspects, such as maturity level, maintenance status, licensing terms, and more. Users are encouraged to assess whether each open-source tool aligns with their specific requirements. Note that this list is for software packages related to price statistics that are broadly available on, e.g., CRAN or PyPI, not data analysis scripts used to derive a price index. Packages enable efficient code reuse across multiple projects and are more likely to be useful to the broader community.\nOpen-source software packages for price statistics are split into those for computing index numbers and those to facilitate accessible official statistics. There are also several software papers related to price statistics.\n\nComputing price indexes\n\nMultilaterals and scanner data\n\nIndexNumR \nPriceIndices \n\n\n\nAggregation\n\npiar \n\n\n\nHousing\n\nhpiR \nrsmatrix \n\n\n\nGeneral purpose\n\nIndexNumberTools \n\n\n\n\nAccessing price indexes\n\nauxdex \ncansim \nhicp \npalewire \n\n\n\nSoftware papers\n\ndff\nIndexNumber: An R Package for Measuring the Evolution of Magnitudes\npiar: Price Index Aggregation in R\n\n\n\nOlder/inactive projects\n\nFEWS \nGEKSdecomp \nIndexNumber \nInflation \nmicEconIndex \nmultilateral \nprecon \nPriceIndexCalc \nproductivity \nTPDdecomp",
     "crumbs": [
       "How to be reproducible",
       "Open material for price statistics"
@@ -512,7 +512,7 @@
     "href": "docs/reproducibility-guidance/how-to-start.html",
     "title": "How do I start?",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works - will have a process flow for researchers\n\n\nEven if you start at level 1, there are a few things you can do: …\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works - will have a process flow for researchers\n\n\nEven if you start at level 1, there are a few things you can do: …\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Getting started",
@@ -524,7 +524,7 @@
     "href": "docs/reproducibility-guidance/howtos/sensitive-data.html",
     "title": "Using sensitive data",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works. Possible topics: * using .gitignore and precommit hooks to ensure privacy\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works. Possible topics: * using .gitignore and precommit hooks to ensure privacy\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -563,7 +563,7 @@
     "href": "docs/reproducibility-guidance/howtos/publishing-research-compendium.html",
     "title": "Publishing your research compendium",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -576,7 +576,7 @@
     "href": "docs/reproducibility-guidance/howtos/research-compendium-structure.html",
     "title": "Research compendium: deeper dive",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -589,7 +589,7 @@
     "href": "docs/reproducibility-guidance/howtos/metadata.html",
     "title": "Metadata…",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -602,7 +602,7 @@
     "href": "docs/reproducibility-guidance/maturity-model.html",
     "title": "Levels of reproducibility",
     "section": "",
-    "text": "WIP\n\n\n\nThis page is still in the works",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works",
     "crumbs": [
       "How to be reproducible",
       "Getting started",
@@ -650,7 +650,7 @@
     "href": "docs/faq.html",
     "title": "Frequently asked questions",
     "section": "",
-    "text": "Help us fill this page!\n\n\n\nHave an idea for a common topic to add to this FAQ? Give us a shout! Submit an issue to the project and tag the the issue using the “question” label.\n\n\n\nHow do I register a dataset to the catalogue (or recommend a dataset be registered)?\nWe provide guidance on how you can do both here.\n\n\nWhat training can I take to practice technical skills to create and publish a research compendium for my project?\nWe are exploring more targeted support, however for now we recommend that practice is the best training. Try it out! The following guides are great to review and get started:\n\nThe Turing Way\nThe RAP Community of Practice (hosted by the NHS in the UK)\n\n\n\nHow do I select the appropriate tools (GitHub) or data repository?\nFirstly, you should follow the guidance of your organization. They will guide you what you can and cannot do. For instance they may have processes to follow to publish to GitHub or a specific data repository/process to use for data you want to publish.\n\n\n\n\n Back to top"
+    "text": "TipHelp us fill this page!\n\n\n\nHave an idea for a common topic to add to this FAQ? Give us a shout! Submit an issue to the project and tag the the issue using the “question” label.\n\n\n\nHow do I register a dataset to the catalogue (or recommend a dataset be registered)?\nWe provide guidance on how you can do both here.\n\n\nWhat training can I take to practice technical skills to create and publish a research compendium for my project?\nWe are exploring more targeted support, however for now we recommend that practice is the best training. Try it out! The following guides are great to review and get started:\n\nThe Turing Way\nThe RAP Community of Practice (hosted by the NHS in the UK)\n\n\n\nHow do I select the appropriate tools (GitHub) or data repository?\nFirstly, you should follow the guidance of your organization. They will guide you what you can and cannot do. For instance they may have processes to follow to publish to GitHub or a specific data repository/process to use for data you want to publish.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "docs/catalogue/contributing.html",
@@ -669,7 +669,7 @@
     "href": "docs/catalogue/contributing.html#requirements-to-contribute-to-the-data-catalogue",
     "title": "How to contribute",
     "section": "Requirements to contribute to the data catalogue",
-    "text": "Requirements to contribute to the data catalogue\nIn order to contribute to the catalogue, the following criteria must be met:\n\nThe dataset must be real. We recommend that synthetic not be registered in the dataset but instead the code that generated it be made publicly available as part of that research projects’ research compendium.\nThe dataset must be publicly available for researchers. There are proprietary datasets that could in theory also be listed, however until the price statistics reproducibility project figures out the process for this, we request that only fully open datasets are registered. We woulds till love to hear from you if you have a valuable proprietary dataset that should be registered, however we will not register it until we flush out this process.\nThe dataset must be related to the price statistics discipline. Price statisticians most typically track change in prices, such as through price index methods - thus the dataset should support this use case. Other use cases, such as for machine learning applications when it comes to classification, can also be submitted, but should be as close to the needs of the discipline as possible.\nBe of value to the discipline. Many data catalogues that are too loose with the registration process become filled with many datasets of incremental value. As a result, users start to struggle to find highly valuable datasets among the smaller and incremental ones, which eventually causes the catalogue to be unused and thus of little value. To avoid this, the value of the dataset to researchers in the discipline should be clearly and sufficiently outlined.\nThe contributor must document the dataset in full when the dataset is to be registered. Having partially documented datasets on the catalogue will take away from user experience and will thus takeaway from the push to be open.",
+    "text": "Requirements to contribute to the data catalogue\nIn order to contribute to the catalogue, the following criteria must be met:\n\nThe dataset must be publicly available for researchers. There are proprietary datasets that could in theory also be listed, however until the price statistics reproducibility project figures out the process for this, we request that only fully open datasets are registered. We woulds till love to hear from you if you have a valuable proprietary dataset that should be registered, however we will not register it until we flush out this process.\nThe dataset must be related to the price statistics discipline. Price statisticians most typically track change in prices, such as through price index methods - thus the dataset should support this use case. Other use cases, such as for machine learning applications when it comes to classification, can also be submitted, but should be as close to the needs of the discipline as possible.\nBe of value to the discipline. Many data catalogues that are too loose with the registration process become filled with many datasets of incremental value. As a result, users start to struggle to find highly valuable datasets among the smaller and incremental ones, which eventually causes the catalogue to be unused and thus of little value. To avoid this, the value of the dataset to researchers in the discipline should be clearly and sufficiently outlined.\nThe contributor must document the dataset in full when the dataset is to be registered. Having partially documented datasets on the catalogue will take away from user experience and will thus takeaway from the push to be open.\nThe dataset should be real, although some artificial datasets are possible if they are of value to reproducibility. We recommend that synthetic not be registered in the dataset if it can be avoided but instead the code that generated it be made publicly available as part of that research projects’ research compendium.\n\nSome synthetic/artificial datasets may be proposed, such as if the artificial dataset has become of high value and is used everywhere as if its a real dataset (such as the Turvey dataset).\n\nThe dataset is already published somewhere easy to download and in a machine readable format. Make sure that users can download and use the dataset easily. Several options for hosting a dataset are possible.",
     "crumbs": [
       "Data Catalogue",
       "About the catalogue",
@@ -707,7 +707,7 @@
     "href": "docs/about.html#what-this-project-does-not-aim-to-do",
     "title": "About this project",
     "section": "What this project does not aim to do",
-    "text": "What this project does not aim to do\n\n\n\n\n\n\nThis section is still a WIP\n\n\n\nNot all team members are listed, we will update this section soon.\n\n\nAs there is a lot of great guidance on the topic already, including The Turing Way, Reproducible Analytical Pipelines or RAP, and many more resources—the idea is to distill key information for the price statistics community, not to create a new standard."
+    "text": "What this project does not aim to do\n\n\n\n\n\n\nWarningThis section is still a WIP\n\n\n\nNot all team members are listed, we will update this section soon.\n\n\nAs there is a lot of great guidance on the topic already, including The Turing Way, Reproducible Analytical Pipelines or RAP, and many more resources—the idea is to distill key information for the price statistics community, not to create a new standard."
   },
   {
     "objectID": "docs/about.html#serge-goussev",
