@@ -17,11 +17,13 @@ If you have a dataset that you would like to register on the catalogue, the foll
 
 In order to contribute to the catalogue, the following criteria must be met:
 
--   **The dataset must be real.** We recommend that synthetic not be registered in the dataset but instead the code that generated it be made publicly available as part of that research projects' [research compendium](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html).
 -   **The dataset must be publicly available for researchers**. There are proprietary datasets that could in theory also be listed, however until the price statistics reproducibility project figures out the process for this, we request that only fully open datasets are registered. We woulds till love to hear from you if you have a valuable proprietary dataset that should be registered, however we will not register it until we flush out this process.
 -   T**he dataset must be related to the price statistics discipline**. Price statisticians most typically track change in prices, such as through price index methods - thus the dataset should support this use case. Other use cases, such as for machine learning applications when it comes to classification, can also be submitted, but should be as close to the needs of the discipline as possible.
 -   **Be of value to the discipline**. Many data catalogues that are too loose with the registration process become filled with many datasets of incremental value. As a result, users start to struggle to find highly valuable datasets among the smaller and incremental ones, which eventually causes the catalogue to be unused and thus of little value. To avoid this, the value of the dataset to researchers in the discipline should be clearly and sufficiently outlined.
 -   **The contributor must document the dataset in full when the dataset is to be registered**. Having partially documented datasets on the catalogue will take away from user experience and will thus takeaway from the push to be open.
+-   **The dataset should be real, although some artificial datasets are possible if they are of value to reproducibility.** We recommend that synthetic not be registered in the dataset if it can be avoided but instead the code that generated it be made publicly available as part of that research projects' [research compendium](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html).
+    -   Some synthetic/artificial datasets may be proposed, such as if the artificial dataset has become of high value and is used everywhere **as if** its a real dataset (such as the Turvey dataset).
+-   **The dataset is already published somewhere easy to download and in a machine readable format**. Make sure that users can download and use the dataset easily. Several options for hosting a dataset are possible.
 
 ## Where to host the dataset
 
