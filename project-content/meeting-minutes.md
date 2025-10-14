@@ -225,3 +225,18 @@ This document summarizes the meetings of the workstream
     2.  Coordiante with IWGPS/ILO to clarify license and simplify access. Specifically, ask the ILO to make a `csv` and publish to zenodo.
 -   Team discussed datasets to prioritize to help develop examples for the guides – especially as guides would help those we collaborate with (like the ILO). The NZ dataset, PriceIndices ones, or synthetic ones were discussed with existing ones likely the easiest.
 -   Team discussed [scoring approach to registering datasets Key Result](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/18) and target for the year. A bit more work is needed to clearly flush out steps of the registry and zenodo process in the contributing section of the catalogue prior to confirming the methodology. Finalize and discuss next meeting
+
+## 2025-09-23
+
+### Agenda
+
+-   Discuss information to convsider when registering a dataset using Turvey record as example
+-   Discuss Italian web scraped food dataset as consdieration to the catalogue
+
+### Notes
+
+-   Team discussed the information necessary to consider a dataset fully registered using the [modified Turvey dataset record](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/turvey.html) as an example.
+    -   Three considerations were discussed as key to aim for: hosting the dataset (ideally in a data repository like Zenodo); citation (with proper instructions); and cataloguing (i.e. adding all relevant information).
+    -   The team discused if the version of the dataset catalogue record mattered and concluded that it does not but should be tied to what the data repository uses. If datasets change (such as if its regularly updated and expanded), the catalogue record would reflect the latest version that was assessed and catalogued.
+    -   Ideally a method or data paper is available to link when we catalogue the dataset.
+-   A newly proposed [web scraped dataset on food prices from several retailers in Italy](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/19) was discussed and agreed as applicable to register by the group.
