@@ -240,3 +240,20 @@ This document summarizes the meetings of the workstream
     -   The team discussed if the version of the dataset catalogue record mattered and concluded that it does not but should be tied to what the data repository uses. If datasets change (such as if its regularly updated and expanded), the catalogue record would reflect the latest version that was assessed and catalogued.
     -   Ideally a method or data paper is available to link when we catalogue the dataset.
 -   A newly proposed [web scraped dataset on food prices from several retailers in Italy](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/19) was discussed and agreed as applicable to register by the group.
+
+## 2025-10-14
+
+### Agenda
+
+-   Updates on progress registering Turvey and next steps
+-   Discuss if we write a data exploration blog on the project site for new datasets to the catalogue
+-   Discuss idea of registering COICOP2018 to the catalogue
+
+### Notes
+
+-   Futher to last meetings' conversation on datasets like the Turvey dataset, the team agreed that the catalogue record should point to the easiest to use version (wherever it happens to be) as an interim measure while the team works with the dataset owner to move it to a data repository and save it in an open-source format.
+-   Building on last meetings' conversations – the team considered whether we should write an empirical blog on the 'Blog' section of the project site. Benefits of a data blog include:
+    -   A walk through of the dataset (alike to a detailed data paper) with example code to visually demonstrate key features like product churn, geographic coverage, etc.
+    -   The blog could be written jointly with the dataset owners, thereby incentivizing participation by the community.
+-   The team proposed crating a maturity level for dataset registry to the catalogue, with the 'gold' level to include a dataset exploration blog.
+-   COICOP2018 was discussed and was not seen as a dataset of sufficient value to register to the catalogue. Taxonomies were seen as already well documented and available on organizational sites, meaning the catalogue would not add much value. Furthermore, registering one would imply that all should be registered, which would could add a large number of low-value added records to the catalogue.
