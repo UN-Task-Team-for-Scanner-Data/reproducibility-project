@@ -1,6 +1,7 @@
 ---
-title: "Understand how it works"
+title: "How does the catalogue work?"
 date: 2025-04-28
+date-modified: last-modified
 date-format: YYYY-MM-DD
 format:
   html:
@@ -8,30 +9,60 @@ format:
     toc-expand: 2
 ---
 
-Researchers often struggle to use open data. They may find it hard to find open datasets for their research projects. If they find open datasets, they may struggle to easily understand them in order to judge that the datasets easily work for their research. Finally they may find it challenging to know how to work with or even how to cite the dataset.
+Researchers often struggle to use open data. They may find it hard to find open datasets for their research projects. If they find open datasets, they may struggle to easily understand them in order to confirm which works best for their research. Finally they may find it challenging to know how to work with or even how to cite the dataset.
 
-To help find, assess, and understand how to access open datasets, this project has developed a basic discipline specific catalogue.
+The Price Statistics Open Data Catlogue helps find, assess, and understand how to access open datasets.
 
 ## How the Price Statistics Open Data Catalogue works in a nutshell
 
-The idea is simple. The catalogue lists open datasets relevant to the discipline and is searchable according to standard data types (such as scanner data). It also provides basic information about each dataset that will allow researchers to assess its relevance and know how to access it. Visually this is shown in @fig-catalogue.
+The idea is simple. The catalogue lists open datasets relevant to the discipline and is searchable according to standard tags (more on tags below). It also provides basic information about each dataset that allows researchers to assess its relevance and know how to access it. Visually this is shown in @fig-catalogue.
 
 ![Basic idea of how we see the data catalogue working.](/docs/images/data-catalogue-idea.svg){#fig-catalogue}
 
-## Where is the data catalogue?
+## What are the tags used in the catalogue?
 
-The [data catalogue can be found here](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). It is basically a simple static site hosted on GitHub.
+The catalogue uses the following tag structure to help categorize the datasets.
 
-## How to register an open dataset on the catalogue?
+::: callout-note
+## Tags may change
 
-The [CONTRIBUTING guidance in the catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md) summarizes it all. Have a look and help register a dataset or recommend one be registered!
+Tags will evolve and change over time, especially as new datasets are registered.
+:::
+
+### Data type
+
+The first set of tags categorize the dataset on common types used in price statistics.
+
+-   `scanner`
+-   `web-scraped`
+-   `administrative`
+-   `field-or-sample`
+
+### Dataset Topic
+
+The second set of tags focus on the uses of the data within price statistics. This relates most closely to categories of the area being measured as this implies the use of specific features in the data and specific set of methods.
+
+-   `electronics-and-applicances`
+-   `housing`
+-   `groceries-and-food`
+-   `fuels`
+
+::: callout-note
+## Labels to be expanded over time
+
+As new datasets are catalogued, this list will be expanded.
+:::
+
+## Where is the stadalone data catalogue?
+
+The standalone [data catalogue can be found here](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). It is a static site hosted on a separate GitHub repository.
 
 ## What does the catalogue not do?
 
-As the catalogue does not store the dataset itself but simply describes it in detail. In other words, this catalogue is [not a data repository](https://book.the-turing-way.org/reproducible-research/rdm/rdm-repository#rr-rdm-repository-select).
+As the catalogue does not store the dataset itself or make decisions on key aspects of the dataset, but simply describes it in detail. In other words, this catalogue is [not a data repository](https://book.the-turing-way.org/reproducible-research/rdm/rdm-repository#rr-rdm-repository-select). Catalogue records point to the wherever the dataset lives. If more than one version is available, the dataset version that is easiest for researchers to use is referenced.
 
 ::: callout-note
 ## This is an interim catalogue only!
 
-This will very likely not be the long-term stable data catalogue used in the discpline. The idea, however, it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.
+This will likely not be the long-term stable data catalogue used in the discipline. The idea, however, it to start with this interim (and very simple open-source) catalogue, while the project investigates a more viable longer term solution.
 :::

@@ -2,6 +2,11 @@
 title: "Browse the catalogue"
 ---
 
+::: callout-tip
+## The catalogue is actually a standalone site
+
+This page integrates the catalogue into the page for simplicity – however if you wish to browse the catalogue directly outside this site, [check out its site here](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/).
+:::
 
 ```{=html}
 <iframe width="100%" height="100%" src="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/" title="Price Statistics Data Catalogue"></iframe>

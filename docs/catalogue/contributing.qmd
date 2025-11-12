@@ -1,6 +1,7 @@
 ---
-title: "How to contribute"
-date: 2025-XX-XX
+title: "How can you contribute?"
+date: 2025-04-08
+date-modified: last-modified
 date-format: YYYY-MM-DD
 draft: true
 format:
@@ -9,7 +10,9 @@ format:
     toc-expand: 2
 ---
 
-If you have a dataset that you would like to register on the catalogue, the following process outlines how to do this.
+If you have a dataset that you would like to register on the catalogue, the following process outlines how to do this. @process-flow-fig outlines this in high level, with details on each step below.
+
+![High level process flow to register a dataset](/docs/images/Registering-dataset-process-flow.drawio.svg){#process-flow-fig fig-align="center" width="100%"}
 
 # Before you start
 
@@ -17,15 +20,15 @@ If you have a dataset that you would like to register on the catalogue, the foll
 
 In order to contribute to the catalogue, the following criteria must be met:
 
--   **The dataset must be publicly available for researchers**. There are proprietary datasets that could in theory also be listed, however until the price statistics reproducibility project figures out the process for this, we request that only fully open datasets are registered. We woulds till love to hear from you if you have a valuable proprietary dataset that should be registered, however we will not register it until we flush out this process.
--   T**he dataset must be related to the price statistics discipline**. Price statisticians most typically track change in prices, such as through price index methods - thus the dataset should support this use case. Other use cases, such as for machine learning applications when it comes to classification, can also be submitted, but should be as close to the needs of the discipline as possible.
--   **Be of value to the discipline**. Many data catalogues that are too loose with the registration process become filled with many datasets of incremental value. As a result, users start to struggle to find highly valuable datasets among the smaller and incremental ones, which eventually causes the catalogue to be unused and thus of little value. To avoid this, the value of the dataset to researchers in the discipline should be clearly and sufficiently outlined.
--   **The contributor must document the dataset in full when the dataset is to be registered**. Having partially documented datasets on the catalogue will take away from user experience and will thus takeaway from the push to be open.
--   **The dataset should be real, although some artificial datasets are possible if they are of value to reproducibility.** We recommend that synthetic not be registered in the dataset if it can be avoided but instead the code that generated it be made publicly available as part of that research projects' [research compendium](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html).
+-   **The dataset should be publicly available for researchers**. There are proprietary datasets that could in theory also be listed, however until the price statistics reproducibility project figures out the process for this, we request that only fully open datasets are registered. We encourage requests on valuable proprietary datasets, however these will not be catalogued until the process is flushed out.
+-   **The dataset must be related to the price statistics discipline**. Price statisticians most typically track change in prices, such as through price index methods – thus the dataset should support this use case. Other use cases, such as for machine learning applications when it comes to classification, can also be submitted, but should be as close to the needs of the discipline as possible.
+-   **Be of value to the discipline**. Many data catalogues that are too lax with the cataloguing process become filled with many datasets of incremental value. As a result, users struggle to find highly valuable datasets, which eventually causes a dropoff in use of the catalogue. To avoid this, the value of the dataset to researchers in the discipline should be clear. The reproducibility team will review and approve each proposed submission during each meeting.
+-   **The contributor must document the dataset in full when the dataset is to be registered**. Having partially documented datasets on the catalogue will take away from user experience and will thus takeaway from the push to be open. A [Maturity model of registered datasets](#maturity-model) is provided below to showcase how to document a dataset.
+-   **The dataset should be real, although artificial and modified datasets are accepted if they are of value to reproducibility.** Specifically, synthetic datasets generated as part of a research process may not need to be registered if they can be reproduced through code published with the research, in which case we recommend that the code that generated it be made publicly available as part of that research projects' [research compendium](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html).
     -   Some synthetic/artificial datasets may be proposed, such as if the artificial dataset has become of high value and is used everywhere **as if** its a real dataset (such as the Turvey dataset).
--   **The dataset is already published somewhere easy to download and in a machine readable format**. Make sure that users can download and use the dataset easily. Several options for hosting a dataset are possible.
+-   **The dataset is already published somewhere easy to download and in a machine readable format**. Make sure that users can download and use the dataset easily. Several options for hosting a dataset are possible (see next section on where to host datasets).
 
-## Where to host the dataset
+## Where to host the dataset itself
 
 As the price statistics data catalogue describes datasets already hosted elsewhere (in other words it is not a data repository), the first step is to host the dataset somewhere. This is fundamentally up to the researcher and the institution they work at. Ideally a data repository is used that mints a Digitial Object Identifier (DOI) so that the dataset can be easily cited and found. Data repositories often allow a researcher to host private datasets and lock down access but still create a DOI. Regardless of where, the DOI should be ready when the dataset is registered in the catalogue so that researchers can find the dataset itself and know how to cite the dataset.
 
@@ -33,20 +36,59 @@ Read more about [data repositories in the Turing Way](https://book.the-turing-wa
 
 # How to register a dataset on the catalogue?
 
-The catalogue uses the open-source python package [`datacontract-cli`](https://cli.datacontract.com/) to render the simple to use static site. Each dataset is stored as a `yaml` file following the structure of this package is saved in the `/datasets/` directory of this GitHub repository. Contributors have the following options:
+Once the above aspects are considered, a dataset can be registered to the catalogue.
 
-### Request to add a new dataset yourself (or modify a dataset that exists):
+::: callout-tip
+## How is the catalogue rendered?
 
-The best way is to directly propose a dataset and start the process of registering it (such as by fully describing the dataset).
+The catalogue uses the open-source python package [`datacontract-cli`](https://cli.datacontract.com/) to render the dataset record as a static html site from a structured `yaml` file that stores the relevant information. Basically if there is a `dataset.yaml` in [the `/datasets/` folder](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/tree/main/datasets) of the data catalogue repository, [the GitHub workflow](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/.github/workflows/deploy.yml) renders it a an html alongside other datasets.
+
+Read more about the configuration of the `yaml` file and the open standard it is based on [here](https://datacontract.com/).
+:::
+
+There are two ways to request that a dataset be registered to the catalogue
+
+### Option 1: Document the dataset yourself
+
+The best way is to directly propose a dataset and start the process of registering it (such as by fully describing the dataset):
 
 1.  Fork [the catalogue repo](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue) and mock up a new dataset in the `/datasets/` directory of your fork.
-2.  Submit a PR to request that we add it to the catalogue. Please tag it to the [dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/labels/dataset) label.
-3.  We will review your request and coordinate with you as appropriate (such as if we need more info) or help further flush out the metadata so that the dataset is well defined before it is published.
+2.  Submit a PR to request from your fork to the main catalogue repository. Please tag the PR to the [dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/labels/dataset) label.
+3.  We will review your request and coordinate with you as appropriate (such as if we need more info) or help further flush out the metadata so that the dataset is well defined before it is published. We may work with you to propose more detailed documentation based on the maturity level, such as (see below).
+    -   For instance if you see value in writing a data exploration blog to describe the dataset, we can work with you to do so and make it part of the reproducibility project site.
 
 When we are ready, we will either merge your PR and thus register your dataset or reject the dataset if it is not appropriate.
 
-### Request that we add a new dataset:
+### Option 2: Request that we consider a dataset
 
 You could also just give us a ping to let us know that a good dataset exists and we can review and register it when we get a chance.
 
 1.  Create [a new issue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/new) and describe the dataset you wish that we register. Include the relevant details that we can use to find out more about the dataset. Please also tag the issue with the [dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/labels/dataset) label.
+
+# Maturity model of registered datasets {#maturity-model}
+
+As not all datasets can be documented to the same level, we've broken up the structure into a maturity model to aspire to for each dataset record, starting from the benchmark to the top 'gold standard' level.
+
+## Level 1
+
+This level sets a bare minimum a dataset needs to have to be registered to the catalogue
+
+-   [ ] The dataset has a basic description to introduce it to any users in the discipline
+-   [ ] The data model (structure of the data and each variable) is documented
+-   [ ] The dataset is available openly and the data file format is anything that is machine readable (for instance a proprietary format like `.xlsx` or language specific data formats like `.Rdata` are fine, however a pdf is not) is referenced.
+-   [ ] The license (or at minimum terms of the use of the dataset) is listed so that it is clear how the dataset can be used and how it cannot.
+-   [ ] Information on how to cite the dataset is available.
+
+## Level 2
+
+Level 2 implies a higher level of maturity to simplify the process for data
+
+-   [ ] The dataset is stored in an open file format
+-   [ ] Dataset quality considerations and detailed nuances of the data are discussed. This is best done in specific quality section of each variable or for the table/dataset as a whole.
+
+## Level 3
+
+This implies a 'gold standard' for a dataset
+
+-   [ ] The dataset is made available in a data repository (such as Zenodo) that mints a DOI. This DOI is listed as part of the dataset.
+-   [ ] A data paper detailing the dataset is available and linked. Alternatively, a blog can also be written on the project site to introduce the dataset with the dataset owner.

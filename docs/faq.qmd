@@ -1,5 +1,7 @@
 ---
 title: "Frequently asked questions"
+date-modified: last-modified
+date-format: YYYY-MM-DD
 format:
   html:
     toc: true
@@ -12,7 +14,7 @@ Have an idea for a common topic to add to this FAQ? Give us a shout! Submit an i
 
 # How do I register a dataset to the catalogue (or recommend a dataset be registered)?
 
-We provide guidance on [how you can do both here](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md).
+Check out the detailed guidance on [in the contributing section](/docs/catalogue/contributing.qmd).
 
 # What training can I take to practice technical skills to create and publish a research compendium for my project?
 
@@ -24,3 +26,15 @@ We are exploring more targeted support, however for now we recommend that practi
 # How do I select the appropriate tools (GitHub) or data repository?
 
 Firstly, you should follow the guidance of your organization. They will guide you what you can and cannot do. For instance they may have processes to follow to publish to GitHub or a specific data repository/process to use for data you want to publish.
+
+# I have questions (on reproducibility or cataloging a dataset). How and who do I reach out to?
+
+You have two options
+
+## Option 1: Submit an issue in the repo
+
+Create [a new issue](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new) under the project with your question and [the team](/docs/about.qmd) will get back to you as soon as we can!
+
+## Option 2: Contact us directly
+
+Check out the [about the team section](/docs/about.qmd) for our info. The project lead's email will be included if you wish to use it.

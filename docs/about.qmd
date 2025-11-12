@@ -1,5 +1,7 @@
 ---
 title: "About this project"
+date-modified: last-modified
+date-format: YYYY-MM-DD
 format:
   html:
     toc: true
@@ -64,6 +66,11 @@ The following are current or historic members of Workstream 5 of the UN Task Tea
 ## Ben Hillman
 
 -   Role: Contributor (2024 - current)
+
+## Caroline White
+
+-   Role: Contributor (2024 - current)
+-   GitHub id: [carolinewsc](https://github.com/carolinewsc)
 
 ## Jens Mehrhoff
 
