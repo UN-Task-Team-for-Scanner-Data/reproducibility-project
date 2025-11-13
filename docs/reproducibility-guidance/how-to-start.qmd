@@ -1,6 +1,6 @@
 ---
 title: "How do I start?"
-date: 2025-XX-XX
+date: 2025-11-12
 date-format: YYYY-MM-DD
 draft: true
 format:
@@ -9,11 +9,88 @@ format:
     toc-expand: 3
 ---
 
-::: callout-caution
-## WIP
+You've seen the [ideal state](/docs/reproducibility-guidance/intro.qmd#what-does-the-ideal-look-like), but how do you start?
 
-This page is still in the works - will have a process flow for researchers
-:::
+## In a nutshell
 
-Even if you start at level 1, there are a few things you can do:
-...
+The strategy to make a computational research project reproducible is to cast it into the framework of a [reproducible analytical pipeline (RAP)](https://nhsdigital.github.io/rap-community-of-practice/). This is a natural framework to represent a research project and, by following the framework, the research project inherits good properties for open and reproducible research. Structuring a research project as a RAP fits with the model of a [research compendium](https://book.the-turing-way.org/reproducible-research/compendia/), with the latter encompassing all parts of the project.
+
+Structuring a project as a RAP involves adopting some tools traditionally found in the realm of software development and using these to structure and automate many parts of a research project, enabling it to be reproducible. Although this has proven to be a popular and useful strategy in the world of open science, it comes with the disadvantage that it involves many new tools and ideas. Consequently, it can be difficult and time consuming to adopt the RAP framework.
+
+The purpose of this guide is **to give a gentler introduction** that is useful for projects in the domain of **price statistics**.[^1] See [the example](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline) for a pipeline that's relevant for price statistics and incorporates most of these ideas.
+
+[^1]: The RAP framework is not limited to research projects and is also useful for the [regular production of price statistics](https://voorburggroup.org/Documents/2025%20Copenhagen/Papers/1002.pdf).
+
+## Getting started
+
+The [RAP maturity framework](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/) has three levels of maturity---baseline, silver, gold---that characterize the sophistication of a reproducible analytical pipeline. Incorporating all the features of a gold-level pipeline is a lot of work and not always appropriate for all projects. The guidance here is how to get started on making reproducible projects in the price-statistics domain that aligns with the RAP framework while focusing on the key pieces early.
+
+The cornerstone of any reproducible project rests on five key idea.
+
+1.  Use **open tools** for research so that anyone is free to use those same tools. In practice this tends to mean **R and Python** for empirical work.
+2.  Keep track of **the version of the project** so that it is unambiguous how the research was done. In practice this means **using git** to manage the evolution of a project.
+3.  Explain **how to reproduce** the project. In practice this means making a **file called `README.md`** to outlines the steps to reproduce the project (.md stands for markdown, an easy way to markup text).
+4.  Make the project **available for others**. In practice this leverages 1, 2, and 3 by putting the steps to recreate a research project on a service like **GitHub or GitLab**.
+5.  If your reseach project trials a new method, if you can, **evaluate it with publicly available data**. There are a [few open datasets](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/) that are commonly used in the discipline.
+
+Although the baseline level for a RAP involves more than just these things, these are the core features of any reproducible project.
+
+The biggest hurdle to making a project reproducible is using git. This is a complex piece of software intended for software developers and can feel frustrating and unnecessary if you're not used to it. (But trust me: once you get it, you'll never want to turn back.) [The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs) has a nice introduction to version control and git for researchers. [Happy Git and GitHub for the useR](https://happygitwithr.com/) is a more involved introduction to git and github. Although it is targeted primary at users of R, most of the ideas are not restricted to R.
+
+## Levelling up
+
+The next step towards making a project reproducible involves putting some structure on the project and following certain conventions. This makes it easier for someone to replicate your research, but it also much easier to execute your project because it follows a proven recipe---no need to reinvent it.
+
+The key improvements involve structuring how your project is organized.
+
+- Follow a [standard directory structure](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/project-structure-and-packaging/).
+- Manage the [computational environment](https://book.the-turing-way.org/reproducible-research/renv/).
+- [Automate the execution of the project](https://book.the-turing-way.org/reproducible-research/make/).
+
+In each case there are several ways to accomplish these things. For example, R and Python have different (but not disjoint) tools for managing packages with an eye towards reproducibility, each with their own tradeoffs and resulting degree of reproducibility. However, while the details may differ depending on the specific tools, the overall idea is the same.
+
+## Mastering reproducibility
+
+The final steps to make a research project highly reproducible are less about structure and more about how the computational parts of the research are done. Much like having clean and well-structured proofs is important for theory work, the scripts and code for an empirical project should not just be executable but also understandable.
+
+- Follow a [style guide](https://book.the-turing-way.org/reproducible-research/code-quality/code-quality-style/).
+- [Structure](https://book.the-turing-way.org/reproducible-research/code-quality/) and [document](https://book.the-turing-way.org/reproducible-research/code-documentation/) code in a way that makes it easy to follow.
+- Have [automated tests](https://book.the-turing-way.org/reproducible-research/testing/).
+
+Although this may feel like a foray away from research and into software development, once you adopt these workflows it is hard to go back. [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) gives a book-length treatment of RAPs with a nice focus on these elements of reproducibility.
+
+## Checklist
+
+Rather than a strictly-defined list of requirements, this is intended to provide suggestions for how you can improve your project with RAP principles. You're encouraged to consider the objective of your work and then determine which suggestions best support those objectives.
+
+### Baseline
+
+-   [ ] Make the code available online. GitHub is free and considered the best option, but using an institution's website, or even a public blog, is better than nothing.
+
+-   [ ] Use a widely-accepted language, ideally an open-source one. R and Python are both free and widely used, and using a commonly-understood language makes the code more accessible.
+
+-   [ ] Make input data available online when possible. Zenodo is a free-to-use option. You can also use existing open datasets if you don't want to go through the hastle of making your data availible.
+
+-   [ ] Make documentation explaining the code and data available online. These should be sufficient for a user to repeat the analysis.
+
+### Silver
+
+-   [ ] The code repository is well-structured, conforming to a well-known standard (such as standard directory format) or other logical layout.
+
+-   [ ] The code adheres to a coding standard for the language, such as PEP8 for Python.
+
+-   [ ] The data are well-structured, conforming to a well-known standard (such as Tidy data format) or other logical layout and include suitable metadata.
+
+-   [ ] The explanatory documentation includes docstrings, methodology explainers, dependency/computational environment information, and more comprehensive guidance for less confident users.
+
+### Gold
+
+-   [ ] The code repository employs tools to provide additional utility (such as CI/CD or GitHub Actions).
+
+-   [ ] The code includes functions to help the user run it, or is fully packaged.
+
+-   [ ] The output data's metadata is comprehensive (e.g. frequency of update, quality controls, license requirements).
+
+-   [ ] The explanatory documentation covers major changes over time (e.g., Semantic Versioning).
+
+-   [ ] The project is automated end-to-end, including the writeup of the paper published alongside the code. In essense, it is clear how each figure and table in the paper was generated.
