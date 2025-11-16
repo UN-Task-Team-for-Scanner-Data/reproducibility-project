@@ -11,7 +11,7 @@ format:
 
 Researchers often struggle to use open data. They may find it hard to find open datasets for their research projects. If they find open datasets, they may struggle to easily understand them in order to confirm which works best for their research. Finally they may find it challenging to know how to work with or even how to cite the dataset.
 
-The Price Statistics Open Data Catlogue helps find, assess, and understand how to access open datasets.
+The Price Statistics Open Data Catalogue helps find, assess, and understand how to access open datasets.
 
 ## How the Price Statistics Open Data Catalogue works in a nutshell
 
@@ -53,7 +53,7 @@ The second set of tags focus on the uses of the data within price statistics. Th
 As new datasets are catalogued, this list will be expanded.
 :::
 
-## Where is the stadalone data catalogue?
+## Where is the standalone data catalogue?
 
 The standalone [data catalogue can be found here](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). It is a static site hosted on a separate GitHub repository.
 

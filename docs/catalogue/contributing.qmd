@@ -10,9 +10,9 @@ format:
     toc-expand: 2
 ---
 
-If you have a dataset that you would like to register on the catalogue, the following process outlines how to do this. @process-flow-fig outlines this in high level, with details on each step below.
+If you have a dataset that you would like to register on the catalogue, the following process outlines how to do this. @fig-process-flow outlines this in high level, with details on each step below.
 
-![High level process flow to register a dataset](/docs/images/Registering-dataset-process-flow.drawio.svg){#process-flow-fig fig-align="center" width="100%"}
+![High level process flow to register a dataset](/docs/images/Registering-dataset-process-flow.drawio.svg){#fig-process-flow fig-align="center" width="100%"}
 
 # Before you start
 

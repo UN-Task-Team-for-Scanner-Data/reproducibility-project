@@ -29,7 +29,7 @@ Firstly, you should follow the guidance of your organization. They will guide yo
 
 # I have questions (on reproducibility or cataloging a dataset). How and who do I reach out to?
 
-You have two options
+You have two options.
 
 ## Option 1: Submit an issue in the repo
 
