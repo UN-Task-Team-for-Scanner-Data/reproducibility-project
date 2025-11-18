@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-11-12">
 
 <title>How do I start? – Price Statistics Reproducibility Project</title>
 <style>
@@ -30,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../docs/reproducibility-guidance/maturity-model.html" rel="prev">
+<link href="../../docs/reproducibility-guidance/intro.html" rel="prev">
 <link href="../../docs/images/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -340,12 +341,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/reproducibility-guidance/maturity-model.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Levels of reproducibility</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../docs/reproducibility-guidance/how-to-start.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">How do I start?</span></a>
   </div>
@@ -469,8 +464,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#in-a-nutshell" id="toc-in-a-nutshell" class="nav-link active" data-scroll-target="#in-a-nutshell">In a nutshell</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a></li>
+  <li><a href="#levelling-up" id="toc-levelling-up" class="nav-link" data-scroll-target="#levelling-up">Levelling up</a></li>
+  <li><a href="#mastering-reproducibility" id="toc-mastering-reproducibility" class="nav-link" data-scroll-target="#mastering-reproducibility">Mastering reproducibility</a></li>
+  <li><a href="#checklist" id="toc-checklist" class="nav-link" data-scroll-target="#checklist">Checklist</a>
+  <ul class="collapse">
+  <li><a href="#baseline" id="toc-baseline" class="nav-link" data-scroll-target="#baseline">Baseline</a></li>
+  <li><a href="#silver" id="toc-silver" class="nav-link" data-scroll-target="#silver">Silver</a></li>
+  <li><a href="#gold" id="toc-gold" class="nav-link" data-scroll-target="#gold">Gold</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/how-to-start.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -489,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">2025-11-12</p>
     </div>
   </div>
   
@@ -501,24 +511,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Caution</span>WIP
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is still in the works - will have a process flow for researchers</p>
-</div>
-</div>
-<p>Even if you start at level 1, there are a few things you can do: …</p>
+<p>You’ve seen the <a href="../../docs/reproducibility-guidance/intro.html#what-does-the-ideal-look-like">ideal state</a>, but how do you start?</p>
+<section id="in-a-nutshell" class="level2">
+<h2 class="anchored" data-anchor-id="in-a-nutshell">In a nutshell</h2>
+<p>The strategy to make a computational research project reproducible is to cast it into the framework of a <a href="https://nhsdigital.github.io/rap-community-of-practice/">reproducible analytical pipeline (RAP)</a>. This is a natural framework to represent a research project and, by following the framework, the research project inherits good properties for open and reproducible research. Structuring a research project as a RAP fits with the model of a <a href="https://book.the-turing-way.org/reproducible-research/compendia/">research compendium</a>, with the latter encompassing all parts of the project.</p>
+<p>Structuring a project as a RAP involves adopting some tools traditionally found in the realm of software development and using these to structure and automate many parts of a research project, enabling it to be reproducible. Although this has proven to be a popular and useful strategy in the world of open science, it comes with the disadvantage that it involves many new tools and ideas. Consequently, it can be difficult and time consuming to adopt the RAP framework.</p>
+<p>The purpose of this guide is <strong>to give a gentler introduction</strong> that is useful for projects in the domain of <strong>price statistics</strong>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> See <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline">the example</a> for a pipeline that’s relevant for price statistics and incorporates most of these ideas.</p>
+</section>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
+<p>The <a href="https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/">RAP maturity framework</a> has three levels of maturity—baseline, silver, gold—that characterize the sophistication of a reproducible analytical pipeline. Incorporating all the features of a gold-level pipeline is a lot of work and not always appropriate for all projects. The guidance here is how to get started on making reproducible projects in the price-statistics domain that aligns with the RAP framework while focusing on the key pieces early.</p>
+<p>The cornerstone of any reproducible project rests on five key idea.</p>
+<ol type="1">
+<li>Use <strong>open tools</strong> for research so that anyone is free to use those same tools. In practice this tends to mean <strong>R and Python</strong> for empirical work.</li>
+<li>Keep track of <strong>the version of the project</strong> so that it is unambiguous how the research was done. In practice this means <strong>using git</strong> to manage the evolution of a project.</li>
+<li>Explain <strong>how to reproduce</strong> the project. In practice this means making a <strong>file called <code>README.md</code></strong> to outlines the steps to reproduce the project (.md stands for markdown, an easy way to markup text).</li>
+<li>Make the project <strong>available for others</strong>. In practice this leverages 1, 2, and 3 by putting the steps to recreate a research project on a service like <strong>GitHub or GitLab</strong>.</li>
+<li>If your reseach project trials a new method, if you can, <strong>evaluate it with publicly available data</strong>. There are a <a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">few open datasets</a> that are commonly used in the discipline.</li>
+</ol>
+<p>Although the baseline level for a RAP involves more than just these things, these are the core features of any reproducible project.</p>
+<p>The biggest hurdle to making a project reproducible is using git. This is a complex piece of software intended for software developers and can feel frustrating and unnecessary if you’re not used to it. (But trust me: once you get it, you’ll never want to turn back.) <a href="https://book.the-turing-way.org/reproducible-research/vcs">The Turing Way</a> has a nice introduction to version control and git for researchers. <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> is a more involved introduction to git and github. Although it is targeted primary at users of R, most of the ideas are not restricted to R.</p>
+</section>
+<section id="levelling-up" class="level2">
+<h2 class="anchored" data-anchor-id="levelling-up">Levelling up</h2>
+<p>The next step towards making a project reproducible involves putting some structure on the project and following certain conventions. This makes it easier for someone to replicate your research, but it also much easier to execute your project because it follows a proven recipe—no need to reinvent it.</p>
+<p>The key improvements involve structuring how your project is organized.</p>
+<ul>
+<li>Follow a <a href="https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/project-structure-and-packaging/">standard directory structure</a>.</li>
+<li>Manage the <a href="https://book.the-turing-way.org/reproducible-research/renv/">computational environment</a>.</li>
+<li><a href="https://book.the-turing-way.org/reproducible-research/make/">Automate the execution of the project</a>.</li>
+</ul>
+<p>In each case there are several ways to accomplish these things. For example, R and Python have different (but not disjoint) tools for managing packages with an eye towards reproducibility, each with their own tradeoffs and resulting degree of reproducibility. However, while the details may differ depending on the specific tools, the overall idea is the same.</p>
+</section>
+<section id="mastering-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="mastering-reproducibility">Mastering reproducibility</h2>
+<p>The final steps to make a research project highly reproducible are less about structure and more about how the computational parts of the research are done. Much like having clean and well-structured proofs is important for theory work, the scripts and code for an empirical project should not just be executable but also understandable.</p>
+<ul>
+<li>Follow a <a href="https://book.the-turing-way.org/reproducible-research/code-quality/code-quality-style/">style guide</a>.</li>
+<li><a href="https://book.the-turing-way.org/reproducible-research/code-quality/">Structure</a> and <a href="https://book.the-turing-way.org/reproducible-research/code-documentation/">document</a> code in a way that makes it easy to follow.</li>
+<li>Have <a href="https://book.the-turing-way.org/reproducible-research/testing/">automated tests</a>.</li>
+</ul>
+<p>Although this may feel like a foray away from research and into software development, once you adopt these workflows it is hard to go back. <a href="https://raps-with-r.dev/">Building reproducible analytical pipelines with R</a> gives a book-length treatment of RAPs with a nice focus on these elements of reproducibility.</p>
+</section>
+<section id="checklist" class="level2">
+<h2 class="anchored" data-anchor-id="checklist">Checklist</h2>
+<p>Rather than a strictly-defined list of requirements, this is intended to provide suggestions for how you can improve your project with RAP principles. You’re encouraged to consider the objective of your work and then determine which suggestions best support those objectives.</p>
+<section id="baseline" class="level3">
+<h3 class="anchored" data-anchor-id="baseline">Baseline</h3>
+<ul class="task-list">
+<li><p><label><input type="checkbox">Make the code available online. GitHub is free and considered the best option, but using an institution’s website, or even a public blog, is better than nothing.</label></p></li>
+<li><p><label><input type="checkbox">Use a widely-accepted language, ideally an open-source one. R and Python are both free and widely used, and using a commonly-understood language makes the code more accessible.</label></p></li>
+<li><p><label><input type="checkbox">Make input data available online when possible. Zenodo is a free-to-use option. You can also use existing open datasets if you don’t want to go through the hastle of making your data availible.</label></p></li>
+<li><p><label><input type="checkbox">Make documentation explaining the code and data available online. These should be sufficient for a user to repeat the analysis.</label></p></li>
+</ul>
+</section>
+<section id="silver" class="level3">
+<h3 class="anchored" data-anchor-id="silver">Silver</h3>
+<ul class="task-list">
+<li><p><label><input type="checkbox">The code repository is well-structured, conforming to a well-known standard (such as standard directory format) or other logical layout.</label></p></li>
+<li><p><label><input type="checkbox">The code adheres to a coding standard for the language, such as PEP8 for Python.</label></p></li>
+<li><p><label><input type="checkbox">The data are well-structured, conforming to a well-known standard (such as Tidy data format) or other logical layout and include suitable metadata.</label></p></li>
+<li><p><label><input type="checkbox">The explanatory documentation includes docstrings, methodology explainers, dependency/computational environment information, and more comprehensive guidance for less confident users.</label></p></li>
+</ul>
+</section>
+<section id="gold" class="level3">
+<h3 class="anchored" data-anchor-id="gold">Gold</h3>
+<ul class="task-list">
+<li><p><label><input type="checkbox">The code repository employs tools to provide additional utility (such as CI/CD or GitHub Actions).</label></p></li>
+<li><p><label><input type="checkbox">The code includes functions to help the user run it, or is fully packaged.</label></p></li>
+<li><p><label><input type="checkbox">The output data’s metadata is comprehensive (e.g.&nbsp;frequency of update, quality controls, license requirements).</label></p></li>
+<li><p><label><input type="checkbox">The explanatory documentation covers major changes over time (e.g., Semantic Versioning).</label></p></li>
+<li><p><label><input type="checkbox">The project is automated end-to-end, including the writeup of the paper published alongside the code. In essense, it is clear how each figure and table in the paper was generated.</label></p></li>
+</ul>
 
 
+</section>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The RAP framework is not limited to research projects and is also useful for the <a href="https://voorburggroup.org/Documents/2025%20Copenhagen/Papers/1002.pdf">regular production of price statistics</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -934,8 +1010,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../docs/reproducibility-guidance/maturity-model.html" class="pagination-link" aria-label="Levels of reproducibility">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Levels of reproducibility</span>
+      <a href="../../docs/reproducibility-guidance/intro.html" class="pagination-link" aria-label="Getting started">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Getting started</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -960,7 +1036,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/how-to-start.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/how-to-start.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
