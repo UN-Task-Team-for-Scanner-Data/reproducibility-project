@@ -257,3 +257,17 @@ This document summarizes the meetings of the workstream
     -   The blog could be written jointly with the dataset owners, thereby incentivizing participation by the community.
 -   The team proposed crating a maturity level for dataset registry to the catalogue, with the 'gold' level to include a dataset exploration blog.
 -   COICOP2018 was discussed and was not seen as a dataset of sufficient value to register to the catalogue. Taxonomies were seen as already well documented and available on organizational sites, meaning the catalogue would not add much value. Furthermore, registering one would imply that all should be registered, which would could add a large number of low-value added records to the catalogue.
+
+## 2025-11-04
+
+### Agenda
+
+-   Maturity model and labels for datasets registered to the catalogue
+-   Maturity model for reproducibility and getting started article
+-   Articles to prioritize that should be at least draft so that our colleagues submitting absracts to the Ottawa Group call for papers can reference them
+
+### Notes
+
+-   A rough maturity model was discussed for cataloging datasets, with level 1 as an acceptable starting poing and level 3 as the top level with 'bells and whistles'. Labels to categorized datasets was also introduced. Data type (of the main types of alterantive data) and topic the dataset covers (as this would drive application of the dataset towards testing applicable methods) was agreed as a good starting point. Sections will be finalized for discussed at the next meeting.
+-   As guidance for researchers making their projects reproducible, the value of having a clear maturity level checklist was discussed to expand on general getting started guide. It was agreed that a checklist was of value to ensure that it was discipline specific and [more approachable to the 3 NHS leves of RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/). Material will be finalized for discussion at the next meeting.
+-   It was agreed that drafting [How to structure a research compendium](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html), [Using open data (or opening data)](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/how-to-open-data.html), and [how to work with sensitive or proprietary data](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46) are valuable articles to prioritize.
