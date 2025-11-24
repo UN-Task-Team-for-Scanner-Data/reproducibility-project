@@ -44,7 +44,11 @@ So what to do instead?
 
 -   **Test the automation** to ensure that anyone (including yourself at a later time) can process the **same outputs** with the **same raw data**.
 
--   If you're up for it, you could even automate the rendering of the analysis paper, such as through the [manuscripts feature of Quarto](https://quarto-ext.github.io/manuscript-template-jupyter/). For instance @fig-quarto-to-render shows visually how a `.qmd` file and some notebooks in the repository can be automated to generate the final analysis paper.
+-   If you're up for it, you could even automate the rendering of the analysis paper, such as through the [manuscripts feature of Quarto](https://quarto-ext.github.io/manuscript-template-jupyter/).
+
+    -   For instance @fig-quarto-to-render shows visually how a `.qmd` file and some notebooks in the repository can be automated to generate the final analysis paper.
+
+    -   Using [`makefile` file](https://book.the-turing-way.org/reproducible-research/make/) or [dvc](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline/tree/main) are other examples of tools to automate the process.
 
 ![See [walk-through by Alex Emmons](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/GettingStarted_with_Quarto_orig.html) for more detail.](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/images/quarto_process.png){#fig-quarto-to-render fig-align="center"}
 
