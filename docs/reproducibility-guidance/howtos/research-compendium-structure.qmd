@@ -1,18 +1,51 @@
 ---
 title: "Research compendium: deeper dive"
-subtitle: "structure..."
+subtitle: "Tips on structuring your project for automation, clarity, and reproducibility"
+date: 2025-11-24
 draft: true
 sidebar: true
-date: 2025-06-13
-summary: "summary of how to structure your repo"
 format:
   html:
     toc: true
     toc-expand: 3
 ---
 
-::: callout-caution
-## WIP
+The purpose of this guide is on clarifying **why you should care** about structure and automation when it comes to initial setup and use of your research compendium as you are expanding it during your research. While these are slightly more advanced topics (we see [structure as silver level](/docs/reproducibility-guidance/how-to-start.qmd#silver) and [automation as gold](/docs/reproducibility-guidance/how-to-start.qmd#gold)), we think that conscious the design at the beginning and a bit of discipline throughout adds great value to yourself and to others! You will indeed thank yourself later!
 
-This page is still in the works
-:::
+# The Why
+
+## Why use a standard directory structure?
+
+As outlined in the ideal case, a structured approach is at minimum **organized** and **clear**. Anyone can:
+
+1.  Put the same input data as you used in the `/data/` folder
+2.  Run the pre-processing scripts in `/src/processing`
+3.  Repeat the notebooks in `/src/notebooks/`and get the same results
+
+In other words, the research becomes very clear and the *value add* is the contributions, with a lower cognitive load placed on anyone (including yourself at a later date) trying to understand it. The project probably had a messy but implicit structure, you are just making it explicit and coherent.
+
+What happens if you don't make the structure explicit but keep it implicit?
+
+-   When you come to it fresh (either it is new for you or you are coming back to your own material much later), you **waste** time trying to get into the context.
+
+-   The implicit structure (by nature of being implicit) is likely to be messier than if it was well thought through, hence its more likely to be harder to extend the research,
+
+-   The cognitive burden placed on the pre-requisite of understanding something not clearly structured means its less likely to be material you learn from. In other words, fewer people will review, evaluate or try what you are doing–meaning that your contribution stays in the generalizable category.
+
+## Why take the effort of avoiding manual steps?
+
+Further to structure, avoid manual steps (especially manipulation of spreadsheets!!) if you can. If you've ever read a paper where pre-processing was described in a few short and unclear sentences which made it **nearly impossible** to reproduce the process **without contacting the researcher** – you know what we mean!
+
+So what to do instead?
+
+-   Ensure all steps can be executed through code (and version control this code with the repository). In other words, make sure there are **no manual steps**.
+
+-   Structure the code to be logical (or better yet, describe in the docs the order of operations).
+
+## Why invest in documentation?
+
+No matter how clear the structure and clear the script naming covention, the narrative explanation of steps to follow will still require some documentation. The **why** and the **how** of the experiments run will also benefit from being made explicit.
+
+# What does this look like?
+
+Example...
