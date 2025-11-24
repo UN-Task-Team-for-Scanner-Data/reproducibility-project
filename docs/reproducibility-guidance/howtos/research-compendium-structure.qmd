@@ -1,7 +1,7 @@
 ---
 title: "Research compendium: deeper dive"
 subtitle: "Tips on structuring your project for automation, clarity, and reproducibility"
-date: 2025-11-24
+date: 2025-11-25
 draft: true
 sidebar: true
 format:
@@ -19,8 +19,8 @@ The purpose of this guide is on clarifying **why you should care** about structu
 As outlined in the ideal case, a structured approach is at minimum **organized** and **clear**. Anyone can:
 
 1.  Put the same input data as you used in the `/data/` folder
-2.  Run the pre-processing scripts in `/src/processing`
-3.  Repeat the notebooks in `/src/notebooks/`and get the same results
+2.  Run the preprocessing scripts in `/src/processing`
+3.  Repeat the analysis notebooks in `/src/analysis/`and get the same results
 
 In other words, the research becomes very clear and the *value add* is the contributions, with a lower cognitive load placed on anyone (including yourself at a later date) trying to understand it. The project probably had a messy but implicit structure, you are just making it explicit and coherent.
 
@@ -30,22 +30,34 @@ What happens if you don't make the structure explicit but keep it implicit?
 
 -   The implicit structure (by nature of being implicit) is likely to be messier than if it was well thought through, hence its more likely to be harder to extend the research,
 
--   The cognitive burden placed on the pre-requisite of understanding something not clearly structured means its less likely to be material you learn from. In other words, fewer people will review, evaluate or try what you are doing–meaning that your contribution stays in the generalizable category.
+-   The cognitive burden placed on the prerequisite of understanding something not clearly structured means its less likely to be material you learn from. In other words, fewer people will review, evaluate or try what you are doing–meaning that your contribution stays in the generalizable category.
 
 ## Why take the effort of avoiding manual steps?
 
-Further to structure, avoid manual steps (especially manipulation of spreadsheets!!) if you can. If you've ever read a paper where pre-processing was described in a few short and unclear sentences which made it **nearly impossible** to reproduce the process **without contacting the researcher** – you know what we mean!
+Further to structuring your project, avoiding manual steps (especially manipulation of spreadsheets!!) is key. If you've ever read a paper where preprocessing was described in a few short and unclear sentences which made it **nearly impossible** to reproduce the process **without contacting the researcher** – you can probably see what we mean!
 
 So what to do instead?
 
--   Ensure all steps can be executed through code (and version control this code with the repository). In other words, make sure there are **no manual steps**.
+-   Ensure all steps can be executed through code (and version control this code with the repository). In other words, make sure there are **no manual steps**. This also means that yous should version control all code, including the data preprocessing code.
 
--   Structure the code to be logical (or better yet, describe in the docs the order of operations).
+-   Structure the steps to follow a **clear order of operations** and use a specific folder structure for code and data that is processed along the way.
+
+-   **Test the automation** to ensure that anyone (including yourself at a later time) can process the **same outputs** with the **same raw data**.
+
+-   If you're up for it, you could even automate the rendering of the analysis paper, such as through the [manuscripts feature of Quarto](https://quarto-ext.github.io/manuscript-template-jupyter/). For instance @fig-quarto-to-render shows visually how a `.qmd` file and some notebooks in the repository can be automated to generate the final analysis paper.
+
+![See [walk-through by Alex Emmons](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/GettingStarted_with_Quarto_orig.html) for more detail.](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/images/quarto_process.png){#fig-quarto-to-render fig-align="center"}
 
 ## Why invest in documentation?
 
-No matter how clear the structure and clear the script naming covention, the narrative explanation of steps to follow will still require some documentation. The **why** and the **how** of the experiments run will also benefit from being made explicit.
+No matter how clear the structure or the script naming convention, the narrative explanation of steps to follow will still require some documentation. Indeed the **what** may be clear from the analysis steps, but the **why** and the **how** will also benefit from being made explicit.
 
 # What does this look like?
 
-Example...
+Lets take a look at [price-index-pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline)
+
+::: callout-caution
+## Section WIP
+
+This section will be expanded soon
+:::
