@@ -1,10 +1,8 @@
 ---
 title: "Publishing your research compendium"
-subtitle: "How to push to zenodo..."
+subtitle: "Publish to GitHub and to a repository that mints a DOI"
 draft: true
 sidebar: true
-date: 2025-06-13
-summary: "to get a DOI to help include in your paper"
 format:
   html:
     toc: true
@@ -14,5 +12,13 @@ format:
 ::: callout-caution
 ## WIP
 
-This page is still in the works
+This page is still in the works. Scope to include:
+
+-   Starting off, publish to GitHub - you can cite a paper in GitHub
+
+-   Push the research compendium to a repository that assigns a DOI
+
+    -   Zenodo for Python
+
+    -   CRAN for R
 :::

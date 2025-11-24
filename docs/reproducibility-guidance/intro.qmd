@@ -60,7 +60,7 @@ Technically, this means making sure that the `.gitignore` skips this data file
 
 **A license**. This will tell users how they can use the code.
 
-**`A .gitignore` file.** There are some files and folders that should not be version controlled. Notable example is datasets
+**A `.gitignore` file.** There are some files and folders that should not be version controlled. Notable example is datasets
 
 **A file to [recreate the environment](https://book.the-turing-way.org/reproducible-research/renv) on which the code will run identically**. A shift in one package version to another may change the output, hence its key to track exactly how to replicate the same environment and get the same result.
 

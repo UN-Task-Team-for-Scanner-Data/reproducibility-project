@@ -1,10 +1,8 @@
 ---
 title: "What licences could I use?"
-subtitle: "licences..."
+subtitle: "Summary of common code and data licences to use"
 draft: true
 sidebar: true
-date: 2025-06-13
-summary: "summary of how to approach licences"
 format:
   html:
     toc: true
@@ -14,5 +12,9 @@ format:
 ::: callout-caution
 ## WIP
 
-This page is still in the works
+This page is still in the works. It will refer to guidance, including:
+
+-   Licenses for code (such as by [NHS RAP guide](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/publishing_code/licensing-your-code/#what-is-a-software-licence))
+
+-   Data licenses (such as [by How to FAIR](https://www.howtofair.dk/how-to-fair/data-licences/))
 :::
