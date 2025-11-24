@@ -63,5 +63,5 @@ Lets take a look at [price-index-pipeline](https://github.com/UN-Task-Team-for-S
 ::: callout-caution
 ## Section WIP
 
-This section will be expanded soon
+This section will be expanded soon. Idea is to show an end-to-end automated example from raw data that needs preprocessing to final paper
 :::
