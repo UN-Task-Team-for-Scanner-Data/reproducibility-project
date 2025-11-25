@@ -50,11 +50,25 @@ So what to do instead?
 
     -   Using [`makefile` file](https://book.the-turing-way.org/reproducible-research/make/) or [dvc](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline/tree/main) are other examples of tools to automate the process.
 
-![See [walk-through by Alex Emmons](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/GettingStarted_with_Quarto_orig.html) for more detail.](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/images/quarto_process.png){#fig-quarto-to-render fig-align="center"}
+    <div>
+
+    ![See [walk-through by Alex Emmons](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/GettingStarted_with_Quarto_orig.html) for more detail.](https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/images/quarto_process.png){#fig-quarto-to-render fig-align="center"}
+
+    </div>
 
 ## Why invest in documentation?
 
-No matter how clear the structure or the script naming convention, the narrative explanation of steps to follow will still require some documentation. Indeed the **what** may be clear from the analysis steps, but the **why** and the **how** will also benefit from being made explicit.
+No matter how clear the structure or the script naming convention, the narrative explanation of steps to follow will still require some documentation. Indeed the list of specific steps may be clear from the analysis steps, but the **why** and the **how** will not be – hence both will also benefit from being made explicit.
+
+A good way to provide clarity to any user without the context is to create a visual of the process flow. For instance, you can outline the process using [**mermaid diagrams**](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/#example-using-markdown-and-mermaid), or use open source diagram tool (like [draw.io](https://app.diagrams.net/) or [lucidchart](https://www.lucidchart.com/pages)) to draw the process yourself, export the image and embed that into the documentation (be sure you version to diagram file itself so that you can always tune the diagram and don't have to recreate it!).[^1]
+
+[^1]: Check out this [overview guide on process mapping by the NHS](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/).
+
+::: callout-note
+## We use draw.io for reproducibility diagrams
+
+All raw `draw.io` and exports for this site are saved in [`/docs/images/`](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/tree/main/docs/images)
+:::
 
 # What does this look like?
 
