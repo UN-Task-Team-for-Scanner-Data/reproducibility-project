@@ -1,0 +1,20 @@
+---
+title: "Using or opening data"
+subtitle: "Using open data, or opening up your own data..."
+draft: true
+sidebar: true
+date: 2025-06-13
+summary: "Using open data, or opening up your own data..."
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+::: callout-caution
+## WIP
+
+This page is still in the works. Possible topics:
+* How to save data in the `/data/` folder
+* when to push your `/output/` data to zenodo
+:::
