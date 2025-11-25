@@ -1,0 +1,20 @@
+---
+title: "What to do with data your research project creates"
+subtitle: "When to keep it in GitHub and when to publish it to a data repository"
+draft: true
+sidebar: true
+format:
+  html:
+    toc: true
+    toc-expand: 3
+---
+
+::: callout-caution
+## WIP
+
+This page is still in the works. Possible topics:
+
+-   When to push your `/output/` data to zenodo
+
+-   Note, the guide should not focus on opening a new dataset that can be used as `input` for the resarch. This is covered in the [contributing to the catalog](/docs/catalogue/contributing.qmd#where-to-host-the-dataset-itself) section. 
+:::

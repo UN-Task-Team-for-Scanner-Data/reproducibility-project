@@ -1,10 +1,9 @@
 ---
-title: "Using sensitive data"
-subtitle: "using sensitive data but still using git"
+title: "What to do with input data to your project"
+subtitle: "Common best practices, whether data is sensitive or not"
+date: 2025-11-25
 draft: true
 sidebar: true
-date: 2025-06-13
-summary: "using sensitive data but still using git"
 format:
   html:
     toc: true

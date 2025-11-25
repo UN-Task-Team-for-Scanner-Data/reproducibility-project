@@ -70,10 +70,10 @@ website:
                 - docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.qmd
             - section: "More about data"
               contents:
+              - docs/reproducibility-guidance/howtos/input-data.qmd
               - docs/reproducibility-guidance/howtos/synthetic-data.qmd
               - docs/reproducibility-guidance/howtos/metadata.qmd
-              - docs/reproducibility-guidance/howtos/how-to-open-data.qmd
-              - docs/reproducibility-guidance/howtos/sensitive-data.qmd
+              - docs/reproducibility-guidance/howtos/opening-data.qmd
         - "---"
         - title: Other useful resources
           href: docs/reproducibility-guidance/open-material.qmd
