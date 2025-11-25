@@ -1,8 +1,8 @@
 ---
-title: "How to reference digital objects in your paper"
-subtitle: "citation..."
+title: "How to reference digital objects you create"
+subtitle: "Recommendation for a structured approach to citing digitial objects in papers"
 date: 2025-04-28
-summary: "summary of how to cite"
+date-modified: 2025-11-25
 format:
   html:
     toc: true
@@ -13,18 +13,13 @@ categories:
   - findability
 ---
 
-When writing a paper, researchers have several options for how to [cite their research compendium](how-to-cite-digital-objects.qmd), open data, as well as code they used.
+When writing a paper, a structured approach to citing your research compendium is useful as it creates a coherent approach among the discipline.
 
-## How to reference datasets you use or other people's code?
+## Proposed sensible default
 
-The best place to reference others' code or open datasets is in the bibliography. Ideally these should have a Digitial Object Identifier (or DOI) so they are unique and can be easily found. There may be harder cases, which are detailed out in more detail in separate articles:
+Inspired by [the FAIR research code approach](https://www.nature.com/articles/s41597-022-01710-x#data-availability), we recommend including references to the digital byproducts made available alongside the research (i.e. the research compendium and any new datasets created) in the following manner at the end of your paper.
 
--   [How to cite data](citing-data.qmd).
--   [How to cite others' code](citing-code.qmd).
-
-## How to reference data or code created as part of the research?
-
-As there will be digital byproducts that are made available alongside the research (the research compendium and any new datasets created), inspired by [the FAIR research code approach](https://www.nature.com/articles/s41597-022-01710-x#data-availability), the project has guidance on how to reference that in the paper so that others can easily find it. We recommend adding two headers just after the conclusion and before the references section
+Add two headers just after the conclusion and before the references section:
 
 > *... conclusion of the paper*
 >
@@ -36,6 +31,13 @@ As there will be digital byproducts that are made available alongside the resear
 >
 > *Add link to the GitHub repository where the research compendium is published.*
 >
-> ## References 
+> ## References
 >
 > *... rest of the references*
+
+## What about datasets you use or other people's code?
+
+The best place to reference others' code or open datasets is in the bibliography. Ideally these should have a Digitial Object Identifier (or DOI) so they are unique and can be easily found. There may be harder cases, which are detailed out in more detail in separate articles:
+
+-   [How to cite data](citing-data.qmd).
+-   [How to cite others' code](citing-code.qmd).

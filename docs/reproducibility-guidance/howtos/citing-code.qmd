@@ -1,8 +1,6 @@
 ---
 title: "How to cite code"
-subtitle: "citation..."
 date: 2025-04-28
-summary: "summary of how to cite"
 sidebar: true
 format:
   html:

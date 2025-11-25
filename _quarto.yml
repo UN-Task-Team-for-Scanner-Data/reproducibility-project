@@ -63,17 +63,17 @@ website:
               - docs/reproducibility-guidance/howtos/research-compendium-structure.qmd
               - docs/reproducibility-guidance/howtos/licences.qmd
               - docs/reproducibility-guidance/howtos/publishing-research-compendium.qmd
-            - section: "How to cite?"
-              contents:
-                - docs/reproducibility-guidance/howtos/citing-code.qmd
-                - docs/reproducibility-guidance/howtos/citing-data.qmd
-                - docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.qmd
-            - section: "More about data"
+            - section: "About about data"
               contents:
               - docs/reproducibility-guidance/howtos/input-data.qmd
               - docs/reproducibility-guidance/howtos/synthetic-data.qmd
               - docs/reproducibility-guidance/howtos/metadata.qmd
               - docs/reproducibility-guidance/howtos/opening-data.qmd
+            - section: "How to cite what you use"
+              contents:
+                - docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.qmd
+                - docs/reproducibility-guidance/howtos/citing-code.qmd
+                - docs/reproducibility-guidance/howtos/citing-data.qmd
         - "---"
         - title: Other useful resources
           href: docs/reproducibility-guidance/open-material.qmd

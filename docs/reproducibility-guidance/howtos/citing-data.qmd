@@ -1,8 +1,6 @@
 ---
 title: "How to cite open data"
-subtitle: "citation..."
 date: 2025-04-28
-summary: "summary of how to cite"
 format:
   html:
     toc: true

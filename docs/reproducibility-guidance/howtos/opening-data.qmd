@@ -14,7 +14,7 @@ format:
 
 This page is still in the works. Possible topics:
 
--   When to push your `/output/` data to zenodo
+-   When to push your `/output/` data to zenodo so that others can benefit from it or to keep it in your GitHub repo.
 
 -   Note, the guide should not focus on opening a new dataset that can be used as `input` for the resarch. This is covered in the [contributing to the catalog](/docs/catalogue/contributing.qmd#where-to-host-the-dataset-itself) section. 
 :::
