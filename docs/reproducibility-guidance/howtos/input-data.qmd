@@ -13,6 +13,20 @@ format:
 ::: callout-caution
 ## WIP
 
-This page is still in the works. Possible topics:
-* using `.gitignore` and precommit hooks to ensure privacy
+This page is still in the works. Overview of possible topics to summarize:
+
+-   Save input data into `/data/` folder and use `.gitignore` to ensure that the raw data is not saved - as per the deeper dive on structure:
+
+    -   If data and analysis is simple, the analysis scripts in `/src/analysis/` will take the data and generate relevant outputs (data and visuals) in `/output/`
+
+    -   If data cleaning is more complex, you can create a `/data/raw`, a `/data/clean/`, and a `/src/data_cleaning.py` that converts from raw to clean (before analysis). This way anyone can reproduce this process and modify the analysis with new data as they can understand exactly how to preprocess the data before analysis.
+
+-   Use `precommit` hooks to ensure that analysis notebooks don't render the output that may be sensitive. precommit hooks to ensure privacy
+
+-   Make sure you don't commit other sensitive information with the code and writeup - like access tokens or secrets. There are ways to set this up in a way that others can repeat that doesn't commit it in git.
+
+-   Off course avoid mentioning sensitive things in the prose (say the documentation)
+
+**NOTE**: Use of these best practices is key you use sensitive or confidential data. For public data, `.gitignore` is still a good practice so that you don't repost the raw data. Should also touch upon how researchers should approach propietary datasets ([#46](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46))
+
 :::

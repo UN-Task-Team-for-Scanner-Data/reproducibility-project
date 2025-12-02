@@ -12,7 +12,7 @@ format:
 ::: callout-caution
 ## WIP
 
-This page is still in the works. It will refer to guidance, including:
+This page is still in the works. Possile topics (see [#52](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/52) for more info) could include:
 
 -   Licenses for code (such as by [NHS RAP guide](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/publishing_code/licensing-your-code/#what-is-a-software-licence))
 

@@ -1,10 +1,9 @@
 ---
 title: "How to approach synthetic data"
-subtitle: "synthetic data..."
+subtitle: "Creating and sharing synthetic (or real but modified) data"
 draft: true
 sidebar: true
-date: 2025-XX-XX
-summary: "summary..."
+date: 2025-12-01
 format:
   html:
     toc: true
@@ -14,5 +13,11 @@ format:
 ::: callout-caution
 ## WIP
 
-This page is still in the works
+This page is still in the works. Possible topics (see [#43](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/43) for more info) to include:
+
+-   Common packages for making synthetic data. You could include these in research compendium and others could recreate your data.
+
+-   To publish synthetic data or not (to say Zenodo)
+
+-   Modifying real data so that it can be shared.
 :::

@@ -1,10 +1,9 @@
 ---
-title: "Metadata..."
-subtitle: "metadata..."
+title: "How metadata helps the research process"
+subtitle: "Summary of the basic metadata concepts and how they can help"
 draft: true
 sidebar: true
-date: 2025-06-13
-summary: "metadata summary..."
+date: 2025-12-01
 format:
   html:
     toc: true
@@ -14,5 +13,39 @@ format:
 ::: callout-caution
 ## WIP
 
-This page is still in the works
+This page is still in the works. The guide ([#51](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51)) could cover such topics as:
+
+-   Metadata is to help find, reuse, understand everything. [How-to-fair guide on the topic](https://www.howtofair.dk/how-to-fair/metadata/) provides an intro, the [FAIR cookbook ](https://faircookbook.elixir-europe.org/content/home.html)is also not bad.
+
+-   Possible metadata that are key to know about:
+
+    -   Metadata that helps findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be citable: In price statistics, some already exist/are possible, and others are not yet set up:
+
+        -   Researchers in the discipline can sign up to create an ORCID. This helps you be found and get fair recognition for your work.
+
+        -   Datasets published to data repositories like zenodo help mint DOIs. TBC how to handle proprietary datasets though (i.e. [#46](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46))
+
+        -   Papers in official journals have DOIs that the journal creates as part of the publication process. Ideally [papers published as part of conference proceedings could also have DOIs](https://datascience.codata.org/articles/dsj-2022-011) (as many disciplines now do), however this isn't yet done in price stats.
+
+        -   Code (i.e. the research compendium) is published in a way that mints a persistent identifier. Note that GitHub doesn't mint a DOI but that may be okay for interim code and published code could be pushed to zenodo (which does).
+
+    -   Metadata that helps interoperability:
+
+        -   The descriptive and structural metadata (i.e. info about each dataset) is outlined in the catalogue – hence we aim to help solve some of this with the catalogue.
+
+            -   While not exclusive, we are trying to follow the basic [dublin core](https://www.dublincore.org/resources/metadata-basics/)
+
+            -   The way we define various things is as standard as possible so that its easy to use
+
+        -   The idea is that researchers (and their programs) can more easily understand open datasets they use for their research, understand them, etc.
+
+    -   Accessiblity:
+
+        -   Ways to get the data is as simple as possible - say using [download_zenodo (in R)](https://rdrr.io/github/inbo/inborutils/man/download_zenodo.html) to automate the downloading of data via its DOI
+
+    -   Metadata that helps reusability:
+
+        -   Knowing how datasets or code is licensed so that you know when and how to research it. We document this in the limitations section of the dataset record
+
+        -   Provenance is clear. Say a dataset is made available on zenodo - where it came from and how it was created/modified is clear.
 :::
