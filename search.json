@@ -108,7 +108,7 @@
     "href": "docs/reproducibility-guidance/howtos/input-data.html",
     "title": "What to do with input data to your project",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works. Possible topics: * using .gitignore and precommit hooks to ensure privacy\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works. Overview of possible topics to summarize:\n\nSave input data into /data/ folder and use .gitignore to ensure that the raw data is not saved - as per the deeper dive on structure:\n\nIf data and analysis is simple, the analysis scripts in /src/analysis/ will take the data and generate relevant outputs (data and visuals) in /output/\nIf data cleaning is more complex, you can create a /data/raw, a /data/clean/, and a /src/data_cleaning.py that converts from raw to clean (before analysis). This way anyone can reproduce this process and modify the analysis with new data as they can understand exactly how to preprocess the data before analysis.\n\nUse precommit hooks to ensure that analysis notebooks don’t render the output that may be sensitive. precommit hooks to ensure privacy\nMake sure you don’t commit other sensitive information with the code and writeup - like access tokens or secrets. There are ways to set this up in a way that others can repeat that doesn’t commit it in git.\nOff course avoid mentioning sensitive things in the prose (say the documentation)\n\nNOTE: Use of these best practices is key you use sensitive or confidential data. For public data, .gitignore is still a good practice so that you don’t repost the raw data. Should also touch upon how researchers should approach propietary datasets (#46)\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -119,14 +119,14 @@
   {
     "objectID": "docs/reproducibility-guidance/howtos/metadata.html",
     "href": "docs/reproducibility-guidance/howtos/metadata.html",
-    "title": "Metadata…",
+    "title": "How metadata helps the research process",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works. The guide (#51) could cover such topics as:\n\nMetadata is to help find, reuse, understand everything. How-to-fair guide on the topic provides an intro, the FAIR cookbookis also not bad.\nPossible metadata that are key to know about:\n\nMetadata that helps findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be citable: In price statistics, some already exist/are possible, and others are not yet set up:\n\nResearchers in the discipline can sign up to create an ORCID. This helps you be found and get fair recognition for your work.\nDatasets published to data repositories like zenodo help mint DOIs. TBC how to handle proprietary datasets though (i.e. #46)\nPapers in official journals have DOIs that the journal creates as part of the publication process. Ideally papers published as part of conference proceedings could also have DOIs (as many disciplines now do), however this isn’t yet done in price stats.\nCode (i.e. the research compendium) is published in a way that mints a persistent identifier. Note that GitHub doesn’t mint a DOI but that may be okay for interim code and published code could be pushed to zenodo (which does).\n\nMetadata that helps interoperability:\n\nThe descriptive and structural metadata (i.e. info about each dataset) is outlined in the catalogue – hence we aim to help solve some of this with the catalogue.\n\nWhile not exclusive, we are trying to follow the basic dublin core\nThe way we define various things is as standard as possible so that its easy to use\n\nThe idea is that researchers (and their programs) can more easily understand open datasets they use for their research, understand them, etc.\n\nAccessiblity:\n\nWays to get the data is as simple as possible - say using download_zenodo (in R) to automate the downloading of data via its DOI\n\nMetadata that helps reusability:\n\nKnowing how datasets or code is licensed so that you know when and how to research it. We document this in the limitations section of the dataset record\nProvenance is clear. Say a dataset is made available on zenodo - where it came from and how it was created/modified is clear.\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "About about data",
-      "Metadata..."
+      "How metadata helps the research process"
     ]
   },
   {
@@ -790,7 +790,7 @@
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html",
     "title": "How to approach synthetic data",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works. Possible topics (see #43 for more info) to include:\n\nCommon packages for making synthetic data. You could include these in research compendium and others could recreate your data.\nTo publish synthetic data or not (to say Zenodo)\nModifying real data so that it can be shared.\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -881,7 +881,7 @@
     "href": "docs/reproducibility-guidance/howtos/licences.html",
     "title": "What licences could I use?",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works. It will refer to guidance, including:\n\nLicenses for code (such as by NHS RAP guide)\nData licenses (such as by How to FAIR)\n\n\n\n\n\n\n Back to top",
+    "text": "CautionWIP\n\n\n\nThis page is still in the works. Possile topics (see #52 for more info) could include:\n\nLicenses for code (such as by NHS RAP guide)\nData licenses (such as by How to FAIR)\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",

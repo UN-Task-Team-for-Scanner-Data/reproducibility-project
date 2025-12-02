@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-06-13">
+<meta name="dcterms.date" content="2025-12-01">
 
-<title>Metadata… – Price Statistics Reproducibility Project</title>
+<title>How metadata helps the research process – Price Statistics Reproducibility Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -316,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">About about data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">Metadata…</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">About about data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">How metadata helps the research process</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -411,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Metadata…</span></a>
+ <span class="menu-text">How metadata helps the research process</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -472,10 +472,10 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">About about data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">Metadata…</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">About about data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">How metadata helps the research process</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Metadata…</h1>
-<p class="subtitle lead">metadata…</p>
+<h1 class="title">How metadata helps the research process</h1>
+<p class="subtitle lead">Summary of the basic metadata concepts and how they can help</p>
 </div>
 
 
@@ -486,7 +486,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 13, 2025</p>
+      <p class="date">December 1, 2025</p>
     </div>
   </div>
   
@@ -508,7 +508,38 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This page is still in the works</p>
+<p>This page is still in the works. The guide (<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51">#51</a>) could cover such topics as:</p>
+<ul>
+<li><p>Metadata is to help find, reuse, understand everything. <a href="https://www.howtofair.dk/how-to-fair/metadata/">How-to-fair guide on the topic</a> provides an intro, the <a href="https://faircookbook.elixir-europe.org/content/home.html">FAIR cookbook</a>is also not bad.</p></li>
+<li><p>Possible metadata that are key to know about:</p>
+<ul>
+<li><p>Metadata that helps findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be citable: In price statistics, some already exist/are possible, and others are not yet set up:</p>
+<ul>
+<li><p>Researchers in the discipline can sign up to create an ORCID. This helps you be found and get fair recognition for your work.</p></li>
+<li><p>Datasets published to data repositories like zenodo help mint DOIs. TBC how to handle proprietary datasets though (i.e.&nbsp;<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46">#46</a>)</p></li>
+<li><p>Papers in official journals have DOIs that the journal creates as part of the publication process. Ideally <a href="https://datascience.codata.org/articles/dsj-2022-011">papers published as part of conference proceedings could also have DOIs</a> (as many disciplines now do), however this isn’t yet done in price stats.</p></li>
+<li><p>Code (i.e.&nbsp;the research compendium) is published in a way that mints a persistent identifier. Note that GitHub doesn’t mint a DOI but that may be okay for interim code and published code could be pushed to zenodo (which does).</p></li>
+</ul></li>
+<li><p>Metadata that helps interoperability:</p>
+<ul>
+<li><p>The descriptive and structural metadata (i.e.&nbsp;info about each dataset) is outlined in the catalogue – hence we aim to help solve some of this with the catalogue.</p>
+<ul>
+<li><p>While not exclusive, we are trying to follow the basic <a href="https://www.dublincore.org/resources/metadata-basics/">dublin core</a></p></li>
+<li><p>The way we define various things is as standard as possible so that its easy to use</p></li>
+</ul></li>
+<li><p>The idea is that researchers (and their programs) can more easily understand open datasets they use for their research, understand them, etc.</p></li>
+</ul></li>
+<li><p>Accessiblity:</p>
+<ul>
+<li>Ways to get the data is as simple as possible - say using <a href="https://rdrr.io/github/inbo/inborutils/man/download_zenodo.html">download_zenodo (in R)</a> to automate the downloading of data via its DOI</li>
+</ul></li>
+<li><p>Metadata that helps reusability:</p>
+<ul>
+<li><p>Knowing how datasets or code is licensed so that you know when and how to research it. We document this in the limitations section of the dataset record</p></li>
+<li><p>Provenance is clear. Say a dataset is made available on zenodo - where it came from and how it was created/modified is clear.</p></li>
+</ul></li>
+</ul></li>
+</ul>
 </div>
 </div>
 

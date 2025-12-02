@@ -411,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Metadata…</span></a>
+ <span class="menu-text">How metadata helps the research process</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -508,7 +508,18 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This page is still in the works. Possible topics: * using <code>.gitignore</code> and precommit hooks to ensure privacy</p>
+<p>This page is still in the works. Overview of possible topics to summarize:</p>
+<ul>
+<li><p>Save input data into <code>/data/</code> folder and use <code>.gitignore</code> to ensure that the raw data is not saved - as per the deeper dive on structure:</p>
+<ul>
+<li><p>If data and analysis is simple, the analysis scripts in <code>/src/analysis/</code> will take the data and generate relevant outputs (data and visuals) in <code>/output/</code></p></li>
+<li><p>If data cleaning is more complex, you can create a <code>/data/raw</code>, a <code>/data/clean/</code>, and a <code>/src/data_cleaning.py</code> that converts from raw to clean (before analysis). This way anyone can reproduce this process and modify the analysis with new data as they can understand exactly how to preprocess the data before analysis.</p></li>
+</ul></li>
+<li><p>Use <code>precommit</code> hooks to ensure that analysis notebooks don’t render the output that may be sensitive. precommit hooks to ensure privacy</p></li>
+<li><p>Make sure you don’t commit other sensitive information with the code and writeup - like access tokens or secrets. There are ways to set this up in a way that others can repeat that doesn’t commit it in git.</p></li>
+<li><p>Off course avoid mentioning sensitive things in the prose (say the documentation)</p></li>
+</ul>
+<p><strong>NOTE</strong>: Use of these best practices is key you use sensitive or confidential data. For public data, <code>.gitignore</code> is still a good practice so that you don’t repost the raw data. Should also touch upon how researchers should approach propietary datasets (<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46">#46</a>)</p>
 </div>
 </div>
 
