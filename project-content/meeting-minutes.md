@@ -271,3 +271,19 @@ This document summarizes the meetings of the workstream
 -   A rough maturity model was discussed for cataloging datasets, with level 1 as an acceptable starting poing and level 3 as the top level with 'bells and whistles'. Labels to categorized datasets was also introduced. Data type (of the main types of alterantive data) and topic the dataset covers (as this would drive application of the dataset towards testing applicable methods) was agreed as a good starting point. Sections will be finalized for discussed at the next meeting.
 -   As guidance for researchers making their projects reproducible, the value of having a clear maturity level checklist was discussed to expand on general getting started guide. It was agreed that a checklist was of value to ensure that it was discipline specific and [more approachable to the 3 NHS leves of RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/). Material will be finalized for discussion at the next meeting.
 -   It was agreed that drafting [How to structure a research compendium](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html), [Using open data (or opening data)](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/how-to-open-data.html), and [how to work with sensitive or proprietary data](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46) are valuable articles to prioritize.
+
+## 2025-12-02
+
+### Agenda
+
+-   Finalized getting started guidance and the maturity model for reproducibility
+-   Updated process to propose datasets to the catalogue and the maturity model for how well flushed out a dataset can be
+-   Updates to other draft/WIP sections to ensure that the site does not look empty
+-   Validate topics for next meeting
+
+### Notes
+
+-   The [getting started guide with a maturity model for reproducibility](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/how-to-start.html) has been drafted and summarized to the group for review. Its purpose is serve as a gentler intro to RAP. Team to review the draft over the coming weeks async.
+-   Guidance on [how to propose ideas to the catalogue](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/contributing.html) was flushed out, along side with [standardized dataset labels](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/about.html#what-are-the-tags-used-in-the-catalogue) that can serve as a starting point, and a [few additional FAQs](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/faq.html). Creation of an issue and PR template to simplify the process still in the works ([#25](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/25)). Team to review over the coming weeks async.
+-   Inital draft mocked up to [research compendium deep dive](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html), as well as WIP callouts flushed out (the [metadata](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/metadata.html) one is detailed) so that researchers drafting abstracts for the Ottawa group who visit the site will see a semi put together product.
+-   [New Zealand modified scanner consumer electronics dataset](https://code.officialstatistics.org/scanner-task-team-gwg/FEWS_package/-/blob/master/data/SampleDataSet.csv?ref_type=heads) to be mocked for discussion at a future meeting.
