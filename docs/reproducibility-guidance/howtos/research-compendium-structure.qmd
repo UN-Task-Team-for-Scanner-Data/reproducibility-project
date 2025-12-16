@@ -10,35 +10,35 @@ format:
     toc-expand: 3
 ---
 
-The purpose of this guide is on clarifying **why you should care** about structure and automation when it comes to initial setup and use of your research compendium as you are expanding it during your research. While these are slightly more advanced topics (we see [structure as silver level](/docs/reproducibility-guidance/how-to-start.qmd#silver) and [automation as gold](/docs/reproducibility-guidance/how-to-start.qmd#gold)), we think that conscious the design at the beginning and a bit of discipline throughout adds great value to yourself and to others! You will indeed thank yourself later!
+The purpose of this guide is on clarifying **why you should care** about structure and automation when it comes to initial setup and use of your research compendium as you are expanding it during your research. While these are slightly more advanced topics (we see [structure as silver level](/docs/reproducibility-guidance/how-to-start.qmd#silver) and [automation as gold](/docs/reproducibility-guidance/how-to-start.qmd#gold)), we think that considering the design at the beginning and a bit of discipline throughout adds great value to yourself and to others! You will indeed thank yourself later!
 
 # The Why
 
 ## Why use a standard directory structure?
 
-As outlined in the ideal case, a structured approach is at minimum **organized** and **clear**. Anyone can:
+As outlined in the ideal case, a structured approach is at a minimum **organized** and **clear**. Anyone can:
 
-1.  Put the same input data as you used in the `/data/` folder
-2.  Run the preprocessing scripts in `/src/processing`
-3.  Repeat the analysis notebooks in `/src/analysis/`and get the same results
+1.  Put the same input data as you used in the `/data/` folder.
+2.  Run the preprocessing scripts in `/src/processing`.
+3.  Repeat the analysis notebooks in `/src/analysis/`and get the same results.
 
-In other words, the research becomes very clear and the *value add* is the contributions, with a lower cognitive load placed on anyone (including yourself at a later date) trying to understand it. The project probably had a messy but implicit structure, you are just making it explicit and coherent.
+In other words, the research becomes very clear and the *value added* is the contribution, with a lower cognitive load placed on anyone (including yourself at a later date) trying to understand it. The project probably had a messy but implicit structure, you are just making it explicit and coherent.
 
 What happens if you don't make the structure explicit but keep it implicit?
 
 -   When you come to it fresh (either it is new for you or you are coming back to your own material much later), you **waste** time trying to get into the context.
 
--   The implicit structure (by nature of being implicit) is likely to be messier than if it was well thought through, hence its more likely to be harder to extend the research,
+-   The implicit structure (by nature of being implicit) is likely to be messier than if it was well thought through, hence it's more likely to be harder to extend the research,
 
--   The cognitive burden placed on the prerequisite of understanding something not clearly structured means its less likely to be material you learn from. In other words, fewer people will review, evaluate or try what you are doing–meaning that your contribution stays in the generalizable category.
+-   The cognitive burden placed on the prerequisite of understanding something not clearly structured means it's less likely to be material you learn from. In other words, fewer people will review, evaluate or try what you are doing---meaning that your contribution stays in the generalizable category.
 
 ## Why take the effort of avoiding manual steps?
 
-Further to structuring your project, avoiding manual steps (especially manipulation of spreadsheets!!) is key. If you've ever read a paper where preprocessing was described in a few short and unclear sentences which made it **nearly impossible** to reproduce the process **without contacting the researcher** – you can probably see what we mean!
+Further to structuring your project, avoiding manual steps (especially manipulation of spreadsheets!!) is key. If you've ever read a paper where preprocessing was described in a few short and unclear sentences which made it **nearly impossible** to reproduce the process **without contacting the researcher**---you can probably see what we mean!
 
 So what to do instead?
 
--   Ensure all steps can be executed through code (and version control this code with the repository). In other words, make sure there are **no manual steps**. This also means that yous should version control all code, including the data preprocessing code.
+-   Ensure all steps can be executed through code (and version control this code with the repository). In other words, make sure there are **no manual steps**. This also means that you should version control all code, including the data preprocessing code.
 
 -   Structure the steps to follow a **clear order of operations** and use a specific folder structure for code and data that is processed along the way.
 
@@ -48,7 +48,7 @@ So what to do instead?
 
     -   For instance @fig-quarto-to-render shows visually how a `.qmd` file and some notebooks in the repository can be automated to generate the final analysis paper.
 
-    -   Using [`makefile` file](https://book.the-turing-way.org/reproducible-research/make/) or [dvc](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline/tree/main) are other examples of tools to automate the process.
+    -   Using [make](https://book.the-turing-way.org/reproducible-research/make/) or [dvc](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline/tree/main) are other examples of tools to automate the process.
 
     <div>
 
@@ -58,7 +58,7 @@ So what to do instead?
 
 ## Why invest in documentation?
 
-No matter how clear the structure or the script naming convention, the narrative explanation of steps to follow will still require some documentation. Indeed the list of specific steps may be clear from the analysis steps, but the **why** and the **how** will not be – hence both will also benefit from being made explicit.
+No matter how clear the structure or the script naming convention, the narrative explanation of steps to follow will still requires some documentation. Indeed the list of specific steps may be clear from the analysis steps, but the **why** and the **how** will not be---hence both will also benefit from being made explicit.
 
 A good way to provide clarity to any user without the context is to create a visual of the process flow. For instance, you can outline the process using [**mermaid diagrams**](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/#example-using-markdown-and-mermaid), or use open source diagram tool (like [draw.io](https://app.diagrams.net/) or [lucidchart](https://www.lucidchart.com/pages)) to draw the process yourself, export the image and embed that into the documentation (be sure you version to diagram file itself so that you can always tune the diagram and don't have to recreate it!).[^1]
 
