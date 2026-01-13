@@ -1,6 +1,6 @@
 ---
-title: "How metadata helps the research process"
-subtitle: "Summary of the basic metadata concepts and how they can help"
+title: "How metadata and persistent identifiers help the research process"
+subtitle: "Summary of the basic metadata concepts, how persistent idenfifiers tie in, and how they can help"
 draft: true
 sidebar: true
 date: 2025-12-01
@@ -11,15 +11,23 @@ format:
 ---
 
 ::: callout-caution
+## This section is still in the works
+:::
+
+Building on the previous introduction of citation, we can take a deeper dive into metadata in order to understand how it helps make the reseach project reproducible.
+
+::: callout-caution
 ## WIP
 
-This page is still in the works. The guide ([#51](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51)) could cover such topics as:
+The guide ([#51](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51)) could cover such topics as:
 
--   Metadata is to help find, reuse, understand everything. [How-to-fair guide on the topic](https://www.howtofair.dk/how-to-fair/metadata/) provides an intro, the [FAIR cookbook ](https://faircookbook.elixir-europe.org/content/home.html)is also not bad.
+-   Metadata is to help find, reuse, understand everything. [How-to-fair guide on the topic](https://www.howtofair.dk/how-to-fair/metadata/) provides an intro, the [FAIR cookbook](https://faircookbook.elixir-europe.org/content/home.html)is also not bad.
+
+![Citing research objects](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg){#fig-citing-research-objects alt="Citing research objects" fig-align="center"}
 
 -   Possible metadata that are key to know about:
 
-    -   Metadata that helps findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be citable: In price statistics, some already exist/are possible, and others are not yet set up:
+    -   Metadata that helps Findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be Citable (i.e. making @fig-citing-research-objects easier. In price statistics, some already exist/are possible, and others are not yet set up:
 
         -   Researchers in the discipline can sign up to create an ORCID. This helps you be found and get fair recognition for your work.
 

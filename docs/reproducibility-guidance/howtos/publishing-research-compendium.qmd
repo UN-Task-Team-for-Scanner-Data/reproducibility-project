@@ -14,11 +14,9 @@ format:
 
 This page is still in the works. Scope to include:
 
--   Starting off, publish to GitHub - you can cite a paper in GitHub
+-   For active projects, publishing to GitHub is sufficient - you can cite a paper in GitHub if you want (and the paper can be archived).
 
--   Push the research compendium to a repository that assigns a DOI
+-   Ideally (given the processes researchers need to follow with their research institutes), a 'snapshot' of the research compendium to a repository that mints a DOI will ensure that the compendium **in the state matching the paper** has a persistent ID. 
 
-    -   Zenodo for Python
-
-    -   CRAN for R
+-   Publishing data to a repository that mints a DOI is also a way to make the object persist and give it a unique ID.
 :::

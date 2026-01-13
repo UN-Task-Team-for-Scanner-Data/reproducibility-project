@@ -1,6 +1,6 @@
 ---
 title: "What licences could I use?"
-subtitle: "Summary of common code and data licences to use"
+subtitle: "Brief intro to licences in the research proces"
 draft: true
 sidebar: true
 format:
@@ -10,11 +10,11 @@ format:
 ---
 
 ::: callout-caution
-## WIP
+## Section in progress
 
-This page is still in the works. Possile topics (see [#52](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/52) for more info) could include:
+Licences are a complex topic. We cannot offer much more than what others have already written -- so while we work on a succinct and accurate summary that applies most to the discipline, we recommend a few of the following that cover the topic quite well:
 
--   Licenses for code (such as by [NHS RAP guide](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/publishing_code/licensing-your-code/#what-is-a-software-licence))
+-   The quite comprehensive [Turing Way chapter on Licences](https://book.the-turing-way.org/reproducible-research/licensing/)
 
--   Data licenses (such as [by How to FAIR](https://www.howtofair.dk/how-to-fair/data-licences/))
+-   [How to FAIR's guide on Data Licenses](https://www.howtofair.dk/how-to-fair/data-licences/) is robust and succinct
 :::

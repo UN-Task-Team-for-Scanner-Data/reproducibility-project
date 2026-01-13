@@ -43,8 +43,8 @@ The project thus helps make:
 The project also makes resources available, such as:
 
 -   [The Price Statistics Open Data Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/).
--   [Guidance on how the Price Statistics Open Data Catalogue works](/docs/catalogue/catalogue.qmd).
--   [Guidance on how to register open dataset to the Price Statistics Data Catalogue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/CONTRIBUTING.md).
+-   [Guidance on how the Price Statistics Open Data Catalogue works](/docs/catalogue/about.qmd).
+-   [Guidance on how to register open dataset to the Price Statistics Data Catalogue](/docs/catalogue/contributing.qmd).
 
 # Interested about the reproducibility?
 
