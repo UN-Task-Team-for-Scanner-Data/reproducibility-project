@@ -3,21 +3,56 @@ title: "How to approach synthetic data"
 subtitle: "Creating and sharing synthetic (or real but modified) data"
 draft: true
 sidebar: true
-date: 2025-12-01
+date: 2025-12-30
 format:
   html:
     toc: true
     toc-expand: 3
 ---
 
-::: callout-caution
-## WIP
+It is not always possible to disclose the internal dataset used in a research project. Nevertheless, publishing some form of data in the research compendium can enhance openness and reproducibility and can help to better illustrate the objectives of the research. 
 
-This page is still in the works. Possible topics (see [#43](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/43) for more info) to include:
+In certain cases, providing a dummy file alongside the code can be helpful. This allows others to execute and test the code, while offering a basic understanding of the data’s structure and characteristics. However, the analytical value of such dummy files is often limited. For this reason, it may be worthwhile to explore alternative approaches that better address analytical needs and support validation of the research.
 
--   Common packages for making synthetic data. You could include these in research compendium and others could recreate your data.
+There are two broad approaches to obtain data that can be released:
 
--   To publish synthetic data or not (to say Zenodo)
+1. Create a new, synthetic, dataset 
+2. Modify the original, internal, dataset
 
--   Modifying real data so that it can be shared.
-:::
+There are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility—ensuring the data retains analytical value—and privacy—minimizing disclosure risks.A comprehensive overview of existing methods can be found in the [ESS Statistical Disclosure Control Handbook](https://sdctools.github.io/HandbookSDC/Handbook-on-Statistical-Disclosure-Control.pdf). The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives. 
+
+In price statistics, variables are typically continuous (e.g., prices, quantities) and often organized as panel data, with repeated observations over time. More practical implementations and shared experiences in that context are needed to identify effective approaches and establish good practices.
+
+
+## Create synthetic data
+
+Datasets can  be created using synthetic data generation methods. These techniques produce a new, artificial dataset that preserves specific statistical properties of the original data. The [UNECE Starter Guide on Synthetic Data](https://unece.org/sites/default/files/2022-11/ECECESSTAT20226.pdf) provides an overview of various methods and good practices for implementing these approaches.
+
+One approach to synthetic data generation consists of creating data from an underlying probability distribution or model:
+
+* **Log-normal Distributions and CES Model**:
+Prices often follow a log-normal distribution. By specifying the parameters of this distribution (mean and standard deviation), random data points can be generated. Some studies in price statistics use prices and quantities that satisfy the Constant Elasticity of Substitution (CES) assumption. The R package [PriceIndices](https://CRAN.R-project.org/package=PriceIndices) includes functions for generating artificial datasets where prices and quantities are lognormally distributed and comply with the CES model (see functions *generate* and *generate_CES*).
+* **Time Series**: 
+Price data can also be represented as time series. The R package [gratis](https://CRAN.R-project.org/package=gratis) enables the generation of synthetic time series based on various univariate time series models, providing flexibility for simulating realistic price dynamics.
+* **Fully Conditional Specification (FCS)**: Starting from the original data, a model is estimated from which a new, synthetic, data is then generated. FCS methods generate one variable at a time, conditioning each new variable on those already created. This sequential modeling helps preserve both the marginal distributions and, to some extent, the relationships among variables. The R package [synthpop](https://synthpop.org.uk/) is a popular tool for implementing FCS. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g., between prices and quantities), and patterns of missingness (e.g., product churn).
+
+In addition, data may be also be created using advanced AI models. For example, Large Language Models, possibly combined with some knowledge base, could be leveraged to create product labels.
+
+
+## Modify the original data
+
+The original data could be modified in a way that that it can be publicly released. 
+
+Some simple transformations can enhance data protection. For instance, product or outlet names can be replaced with artificial identifiers. Absolute values may be converted into relative measures, which is particularly useful since many price indices can be compiled using only relative information, such as price changes or expenditure shares.
+
+Below are some examples of methods that introduce some kind of perturbation in the original data and that may be useful to protect price statistics data:
+
+*   **Noise Addition Methods**: 
+Various algorithms exist for adding random noise to data. In the context of price statistics, introducing (multiplicative) random noise to prices or quantities can make the original dataset less identifiable while preserving plausibility and analytical value.
+*  **Micro-Aggregation Methods**: 
+Micro-aggregation involves grouping individual records into clusters of sufficient size so that specific records cannot be distinguished. There are several strategies for forming these groups. This approach aligns well with common practices in price statistics, such as averaging across time periods, outlets, and products.
+
+## Publish the data
+...
+
+
