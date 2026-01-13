@@ -43,9 +43,9 @@ The next step towards making a project reproducible involves putting some struct
 
 The key improvements involve structuring how your project is organized.
 
-- Follow a [standard directory structure](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/project-structure-and-packaging/).
-- Manage the [computational environment](https://book.the-turing-way.org/reproducible-research/renv/).
-- [Automate the execution of the project](https://book.the-turing-way.org/reproducible-research/make/).
+-   Follow a [standard directory structure](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/project-structure-and-packaging/).
+-   Manage the [computational environment](https://book.the-turing-way.org/reproducible-research/renv/).
+-   [Automate the execution of the project](https://book.the-turing-way.org/reproducible-research/make/).
 
 In each case there are several ways to accomplish these things. For example, R and Python have different (but not disjoint) tools for managing packages with an eye towards reproducibility, each with their own tradeoffs and resulting degree of reproducibility. However, while the details may differ depending on the specific tools, the overall idea is the same.
 
@@ -53,9 +53,9 @@ In each case there are several ways to accomplish these things. For example, R a
 
 The final steps to make a research project highly reproducible are less about structure and more about how the computational parts of the research are done. Much like having clean and well-structured proofs is important for theory work, the scripts and code for an empirical project should not just be executable but also understandable.
 
-- Follow a [style guide](https://book.the-turing-way.org/reproducible-research/code-quality/code-quality-style/).
-- [Structure](https://book.the-turing-way.org/reproducible-research/code-quality/) and [document](https://book.the-turing-way.org/reproducible-research/code-documentation/) code in a way that makes it easy to follow.
-- Have [automated tests](https://book.the-turing-way.org/reproducible-research/testing/).
+-   Follow a [style guide](https://book.the-turing-way.org/reproducible-research/code-quality/code-quality-style/).
+-   [Structure](https://book.the-turing-way.org/reproducible-research/code-quality/) and [document](https://book.the-turing-way.org/reproducible-research/code-documentation/) code in a way that makes it easy to follow.
+-   Have [automated tests](https://book.the-turing-way.org/reproducible-research/testing/).
 
 Although this may feel like a foray away from research and into software development, once you adopt these workflows it is hard to go back. [Building reproducible analytical pipelines with R](https://raps-with-r.dev/) gives a book-length treatment of RAPs with a nice focus on these elements of reproducibility.
 

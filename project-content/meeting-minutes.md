@@ -287,3 +287,16 @@ This document summarizes the meetings of the workstream
 -   Guidance on [how to propose ideas to the catalogue](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/contributing.html) was flushed out, along side with [standardized dataset labels](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/about.html#what-are-the-tags-used-in-the-catalogue) that can serve as a starting point, and a [few additional FAQs](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/faq.html). Creation of an issue and PR template to simplify the process still in the works ([#25](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/25)). Team to review over the coming weeks async.
 -   Inital draft mocked up to [research compendium deep dive](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html), as well as WIP callouts flushed out (the [metadata](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/metadata.html) one is detailed) so that researchers drafting abstracts for the Ottawa group who visit the site will see a semi put together product.
 -   [New Zealand modified scanner consumer electronics dataset](https://code.officialstatistics.org/scanner-task-team-gwg/FEWS_package/-/blob/master/data/SampleDataSet.csv?ref_type=heads) to be mocked for discussion at a future meeting.
+
+## 2025-12-16
+
+### Agenda
+
+-   Discussion on recent minor changes
+-   Discussion on PR and issue templates for dataset registration
+-   Project management update - review of progress and next steps
+
+### Notes
+
+-   The team reviewed recent proposed changes and did a callout for other review. Review of the material that was already drafted and a slight expansion could help as we could request a link to our project website be included in the response to researchers accepted to the 2026 Ottawa Group conference. 
+-   A standardized issue template and a PR template for dataset registration was discussed. The issue template creates a simple 'workflow' in asking key questions for anyone proposing new datasets to the catalogue. The PR template would offer some structure to how a PR is described. Templates approved and will be moved over to the catalogue repo shortly.
