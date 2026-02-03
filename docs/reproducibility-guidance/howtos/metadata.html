@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2025-12-01">
 
-<title>How metadata helps the research process – Price Statistics Reproducibility Project</title>
+<title>How metadata and persistent identifiers help the research process – Price Statistics Reproducibility Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../docs/reproducibility-guidance/howtos/opening-data.html" rel="next">
-<link href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html" rel="prev">
+<link href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" rel="next">
+<link href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html" rel="prev">
 <link href="../../../docs/images/logo.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -316,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">About about data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">How metadata helps the research process</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html">Publishig artifacts and citation</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">How metadata and persistent identifiers help the research process</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -333,13 +333,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Getting started</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to approach reproducibility</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/how-to-start.html" class="sidebar-item-text sidebar-link">
@@ -351,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/reproducibility-guidance/guides-summary.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Guides and how-tos</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -361,7 +367,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
- <span class="menu-text">About the research compendium</span></a>
+ <span class="menu-text">The research compendium</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -370,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research compendium: deeper dive</span></a>
+ <span class="menu-text">Components, structure and why they matter</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -379,23 +385,17 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">What licences could I use?</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publishing your research compendium</span></a>
-  </div>
-</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">About about data</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">The data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/input-data.html" class="sidebar-item-text sidebar-link">
@@ -410,12 +410,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">How metadata helps the research process</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/opening-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">What to do with data your research project creates</span></a>
   </div>
@@ -424,17 +418,29 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
- <span class="menu-text">How to cite what you use</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Publishig artifacts and citation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to reference digital objects you create</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">How metadata and persistent identifiers help the research process</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publishing your research compendium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -472,10 +478,10 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">About about data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">How metadata helps the research process</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html">Publishig artifacts and citation</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/metadata.html">How metadata and persistent identifiers help the research process</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">How metadata helps the research process</h1>
-<p class="subtitle lead">Summary of the basic metadata concepts and how they can help</p>
+<h1 class="title">How metadata and persistent identifiers help the research process</h1>
+<p class="subtitle lead">Summary of the basic metadata concepts, how persistent idenfifiers tie in, and how they can help</p>
 </div>
 
 
@@ -498,6 +504,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="callout callout-style-default callout-caution callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>This section is still in the works
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>Building on the previous introduction of citation, we can take a deeper dive into metadata in order to understand how it helps make the reseach project reproducible.</p>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -508,12 +528,24 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This page is still in the works. The guide (<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51">#51</a>) could cover such topics as:</p>
+<p>The guide (<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51">#51</a>) could cover such topics as:</p>
 <ul>
-<li><p>Metadata is to help find, reuse, understand everything. <a href="https://www.howtofair.dk/how-to-fair/metadata/">How-to-fair guide on the topic</a> provides an intro, the <a href="https://faircookbook.elixir-europe.org/content/home.html">FAIR cookbook</a>is also not bad.</p></li>
+<li>Metadata is to help find, reuse, understand everything. <a href="https://www.howtofair.dk/how-to-fair/metadata/">How-to-fair guide on the topic</a> provides an intro, the <a href="https://faircookbook.elixir-europe.org/content/home.html">FAIR cookbook</a>is also not bad.</li>
+</ul>
+<div id="fig-citing-research-objects" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-citing-research-objects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../../docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-citing-research-objects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Citing research objects
+</figcaption>
+</figure>
+</div>
+<ul>
 <li><p>Possible metadata that are key to know about:</p>
 <ul>
-<li><p>Metadata that helps findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be citable: In price statistics, some already exist/are possible, and others are not yet set up:</p>
+<li><p>Metadata that helps Findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be Citable (i.e.&nbsp;making <a href="#fig-citing-research-objects" class="quarto-xref">Figure&nbsp;1</a> easier. In price statistics, some already exist/are possible, and others are not yet set up:</p>
 <ul>
 <li><p>Researchers in the discipline can sign up to create an ORCID. This helps you be found and get fair recognition for your work.</p></li>
 <li><p>Datasets published to data repositories like zenodo help mint DOIs. TBC how to handle proprietary datasets though (i.e.&nbsp;<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46">#46</a>)</p></li>
@@ -961,13 +993,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html" class="pagination-link" aria-label="How to approach synthetic data">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How to approach synthetic data</span>
+      <a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html" class="pagination-link" aria-label="How to reference digital objects you create">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How to reference digital objects you create</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../docs/reproducibility-guidance/howtos/opening-data.html" class="pagination-link" aria-label="What to do with data your research project creates">
-        <span class="nav-page-text">What to do with data your research project creates</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="pagination-link" aria-label="Publishing your research compendium">
+        <span class="nav-page-text">Publishing your research compendium</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

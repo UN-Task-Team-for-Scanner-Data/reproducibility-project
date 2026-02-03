@@ -314,7 +314,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/intro.html">Getting started</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/intro.html">Getting started</a></li><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/intro.html">How to approach reproducibility</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -331,13 +331,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link active">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Getting started</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">How to approach reproducibility</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../docs/reproducibility-guidance/how-to-start.html" class="sidebar-item-text sidebar-link">
@@ -349,7 +355,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../docs/reproducibility-guidance/guides-summary.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Guides and how-tos</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -359,7 +365,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
- <span class="menu-text">About the research compendium</span></a>
+ <span class="menu-text">The research compendium</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -368,7 +374,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../docs/reproducibility-guidance/howtos/research-compendium-structure.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research compendium: deeper dive</span></a>
+ <span class="menu-text">Components, structure and why they matter</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -377,18 +383,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">What licences could I use?</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publishing your research compendium</span></a>
-  </div>
-</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">About about data</span></a>
+ <span class="menu-text">The data</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -408,12 +408,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How metadata helps the research process</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../docs/reproducibility-guidance/howtos/opening-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">What to do with data your research project creates</span></a>
   </div>
@@ -423,7 +417,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
- <span class="menu-text">How to cite what you use</span></a>
+ <span class="menu-text">Publishig artifacts and citation</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -433,6 +427,18 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to reference digital objects you create</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How metadata and persistent identifiers help the research process</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publishing your research compendium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -470,13 +476,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#what-is-reproducibility" id="toc-what-is-reproducibility" class="nav-link active" data-scroll-target="#what-is-reproducibility">What is reproducibility?</a></li>
   <li><a href="#why-does-it-help" id="toc-why-does-it-help" class="nav-link" data-scroll-target="#why-does-it-help">Why does it help?</a></li>
-  <li><a href="#what-does-the-ideal-look-like" id="toc-what-does-the-ideal-look-like" class="nav-link" data-scroll-target="#what-does-the-ideal-look-like">What does the ideal look like?</a>
+  <li><a href="#key-components-in-a-research-project" id="toc-key-components-in-a-research-project" class="nav-link" data-scroll-target="#key-components-in-a-research-project">Key components in a research project</a>
   <ul class="collapse">
-  <li><a href="#overview-of-the-structure" id="toc-overview-of-the-structure" class="nav-link" data-scroll-target="#overview-of-the-structure">Overview of the structure</a></li>
-  <li><a href="#a-little-about-each-aspect" id="toc-a-little-about-each-aspect" class="nav-link" data-scroll-target="#a-little-about-each-aspect">A little about each aspect</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">(1) The data</a></li>
+  <li><a href="#the-research-compendium" id="toc-the-research-compendium" class="nav-link" data-scroll-target="#the-research-compendium">(2) The research compendium</a></li>
+  <li><a href="#key-software" id="toc-key-software" class="nav-link" data-scroll-target="#key-software">(3) Key software</a></li>
+  <li><a href="#the-paper" id="toc-the-paper" class="nav-link" data-scroll-target="#the-paper">(4) The paper</a></li>
   </ul></li>
-  <li><a href="#how-to-share-a-research-compendium" id="toc-how-to-share-a-research-compendium" class="nav-link" data-scroll-target="#how-to-share-a-research-compendium">How to share a research compendium?</a></li>
-  <li><a href="#notable-example" id="toc-notable-example" class="nav-link" data-scroll-target="#notable-example">Notable example</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/intro.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -484,7 +490,7 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/intro.html">Getting started</a></li><li class="breadcrumb-item"><a href="../../docs/reproducibility-guidance/intro.html">How to approach reproducibility</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">How to approach reproducibility</h1>
 </div>
@@ -511,7 +517,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="what-is-reproducibility" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-reproducibility">What is reproducibility?</h2>
-<p>For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The primary way this is achieved by creating and publicly publishing a <a href="https://book.the-turing-way.org/reproducible-research/compendia"><strong>research compendium</strong></a> along with the paper. A <strong>research compendium</strong> is a collection of digital parts of the research project that supports reuse, including data, code, protocols, metadata, etc.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The primary way this is achieved by creating and publicly publishing a <a href="https://book.the-turing-way.org/reproducible-research/compendia"><strong>research compendium</strong></a> along with the paper. A <strong>research compendium</strong> is a collection of digital parts of the research project that supports reuse, including data, code, protocols, documentation, metadata, etc.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 </section>
 <section id="why-does-it-help" class="level2">
 <h2 class="anchored" data-anchor-id="why-does-it-help">Why does it help?</h2>
@@ -526,57 +532,77 @@ ul.task-list li input[type="checkbox"] {
 <li>Increase research visibility and citations.</li>
 </ul>
 </section>
-<section id="what-does-the-ideal-look-like" class="level2">
-<h2 class="anchored" data-anchor-id="what-does-the-ideal-look-like">What does the ideal look like?</h2>
-<section id="overview-of-the-structure" class="level3">
-<h3 class="anchored" data-anchor-id="overview-of-the-structure">Overview of the structure</h3>
-<p>In a nutshell, along with a resarch paper, a compendium is shared that includes all research objects necessary to reproduce the research. These are often git repositories (in say GitHub) that include a structure similar to the one in <a href="#fig-example" class="quarto-xref">Figure&nbsp;1</a> below.</p>
-<div id="fig-example" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="key-components-in-a-research-project" class="level2">
+<h2 class="anchored" data-anchor-id="key-components-in-a-research-project">Key components in a research project</h2>
+<p>To make a research project reproducible, it is key to to observe that there is not one object that is produced (i.e.&nbsp;the paper), but 4. <a href="#fig-research-objects" class="quarto-xref">Figure&nbsp;1</a> provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.</p>
+<div id="fig-research-objects" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="../../docs/images/price-stats-exemplar.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:35.0%">
+<div aria-describedby="fig-research-objects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg" class="img-fluid quarto-figure quarto-figure-center figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Exemplar <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline">price index pipeline</a>.
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-research-objects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Research process
 </figcaption>
 </figure>
 </div>
+<section id="the-data" class="level3">
+<h3 class="anchored" data-anchor-id="the-data">(1) The data</h3>
+<p>It is key to differentiate <strong>input data</strong> and <strong>output data</strong>:</p>
+<ul>
+<li><p><strong>Input data</strong> is the data used to answer research questions. It may be open, closed (proprietary or sensitive), or synthetic. Each is approached separately. Some notable aspects:</p>
+<ul>
+<li><p>Ideally open data is used as this ensures the research can be fully reproducible and the dataset used can act as a benchmark if other methods are tried on it. We list a few available open datasets in the <a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">discipline specific catalogue</a>.</p></li>
+<li><p>While input data is ingested and processed by the research, in itself it is <em>ignored</em> by the research compendium (such as by listing the data files in the <code>.gitingore</code>). Read more in the <a href="../../docs/reproducibility-guidance/howtos/input-data.html">input data guide</a>.</p></li>
+</ul></li>
+<li><p><strong>Ouput data</strong> is data created as part of the research process. Whether (and how) its shared depends on various circumstances and value to later research projects (to say act as an input dataset for other projects). Read <a href="../../docs/reproducibility-guidance/howtos/opening-data.html">about this process here</a>.</p></li>
+</ul>
 </section>
-<section id="a-little-about-each-aspect" class="level3">
-<h3 class="anchored" data-anchor-id="a-little-about-each-aspect">A little about each aspect</h3>
-<p><strong>A data folder that outlines where to store the raw dataset used for the research project</strong>. Ideally the researcher uses an open dataset (which will make the whole process reproducible), but they may also use a proprietary dataset.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<section id="the-research-compendium" class="level3">
+<h3 class="anchored" data-anchor-id="the-research-compendium">(2) The research compendium</h3>
+<p>The research compendium is a <strong>structured object</strong> that contains <strong>all the aspects</strong> to recreate the output (i.e.&nbsp;results shared in the paper). Some key sub-components include:</p>
+<ul>
+<li><p>Its logical <strong>structure</strong> ensures maturity and helps others (or you later) in trying to peer review, reproduce or extend the research. Read more about how and why to set up an appropriate structure <a href="../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">here</a>.</p></li>
+<li><p>The code and workflows <strong>ingest and processes</strong> input data to <strong>create relevant outputs</strong> (output data, figures, etc) in an automated fashion (i.e.&nbsp;avoiding manual steps). As mentioned above, the <strong>input data</strong> itself however <strong>is not</strong> a part of the compendium and is not republished.</p></li>
+<li><p>The source for the paper is included so that raw input to final paper can be reproduced in an automated fashion. This allows you to regenerate and change the paper as needed.</p></li>
+</ul>
+<p>It is key to differentiate between <strong>active</strong> and <strong>archived</strong> versions of the compendium:</p>
+<section id="a.-active-research-compendium" class="level4">
+<h4 class="anchored" data-anchor-id="a.-active-research-compendium">2A. Active research compendium</h4>
+<p>When a project is active, it is best to use a version control process (such as GitHub/GitLab) to store and version the whole object. This is a sensible default for research projects.</p>
+<p>There is a risk however with GitHub/GitLab for long term archival as they are not permanent records - i.e.&nbsp;the GitHub repository can be deleted or changed and the URL could change.</p>
+</section>
+<section id="b.-archived-research-compendium" class="level4">
+<h4 class="anchored" data-anchor-id="b.-archived-research-compendium">2B. Archived research compendium</h4>
+<p>When a research project is complete, the compendium should thus be archived in a repository. The snapshot created at this time should align to the paper that was published. Repositories (such as Zenodo) mint DOIs (or Digitial Object Identifiers) that are unique and are immutable (i.e.&nbsp;don’t change). This ensures that you can find that same snapshot at any point in the future.</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Don’t version control the main input dataset
+<span class="screen-reader-only">Note</span>Adoption depends on the organization
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The dataset that acts as the main input dataset to the research should not be version controlled. The folder is created in order to ensure that when a local copy of the compendium is used by researchers, they know where to put the data to ensure that the code will replicate the results in full.</p>
-<p>Technically, this means making sure that the <code>.gitignore</code> skips this data file</p>
+<p>Use of repositories such as Zenodo depends on the researchers and the organization they are in. It is best to follow your organization’s rules for which repository it is best to publish from. The main idea is to publish to a repository that helps create a DOI which is (ideally) immutable.</p>
 </div>
 </div>
-<p><strong>A folder for functions (or other code) that helps process your data into the relevant outputs.</strong> This could include the code to clean and prepare the raw dataset for research purposes, the code to create the processing and research experiments, as well as notebooks where the data is explored and various aspects that feed the research paper are generated.</p>
-<p><strong>A folder for the output data.</strong> This data can be versioned (if it is not sensitive) with the repository and allows researchers to replicate the process. Note, if the output data can be used for research in its own right, it may be appropriate to register this dataset on a public repository (such as Zenodo) that mints a DOI.</p>
-<p><strong>A folder for documentation to that explain key aspects of the research</strong>. This folder stores <a href="https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project">project documentation</a> or <a href="https://book.the-turing-way.org/project-design/pd-overview">the project design</a>, however <a href="https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-code">code should also be documented</a> well.</p>
-<p><strong>A license</strong>. This will tell users how they can use the code.</p>
-<p><strong>A <code>.gitignore</code> file.</strong> There are some files and folders that should not be version controlled. Notable example is datasets</p>
-<p><strong>A file to <a href="https://book.the-turing-way.org/reproducible-research/renv">recreate the environment</a> on which the code will run identically</strong>. A shift in one package version to another may change the output, hence its key to track exactly how to replicate the same environment and get the same result.</p>
-<p><strong>Finally, a README to introduce the project</strong>. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.</p>
 </section>
 </section>
-<section id="how-to-share-a-research-compendium" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-share-a-research-compendium">How to share a research compendium?</h2>
-<p>Version controlling the research compendium is key.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust.</p>
+<section id="key-software" class="level3">
+<h3 class="anchored" data-anchor-id="key-software">(3) Key software</h3>
+<p>Not all code in the research compendium will be written by the researchers from scratch using vanilla code. It is likely to use packages to abstract away some or most of the complexity and automate the work. There are two sensible rules of thumb that can be applied:</p>
+<ul>
+<li><p>If the code is pivotal to the methodology (for instance the package was used to calculate price indices), then it is best to acknowledge this in the paper (<a href="../../docs/reproducibility-guidance/howtos/citing-code.html">by citing it</a>).</p></li>
+<li><p>A snapshot of the <strong>computational environment</strong> should be taken and included in the research compendium. This ensures that the exact computation requirement can be replicated, but also to ensure that dependencies on specific versions of other packages is saved.</p></li>
+</ul>
 </section>
-<section id="notable-example" class="level2">
-<h2 class="anchored" data-anchor-id="notable-example">Notable example</h2>
-<p>To showcase an exemplar for price statistics, we created <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline">a mock-up price index pipeline</a> that researchers can explore.</p>
+<section id="the-paper" class="level3">
+<h3 class="anchored" data-anchor-id="the-paper">(4) The paper</h3>
+<p>Finally, the paper is generated as the output. As the research compendium should (ideally) have the source to generate the paper (such as by using Quarto to render a <code>paper.qmd</code> as a pdf), outputs or images in the paper can be traced back from the body of the image to the code that generated them.</p>
 
 
+</section>
 </section>
 
 
@@ -587,7 +613,6 @@ Figure&nbsp;1: Exemplar <a href="https://github.com/UN-Task-Team-for-Scanner-Dat
 <li id="fn2"><p>See <a href="https://book.the-turing-way.org/reproducible-research/compendia">Research Compendia in The Turing Way</a> for more detail on this concept.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>See a more in depth overview of the <a href="https://book.the-turing-way.org/reproducible-research/overview/overview-benefit">benefits of reproducible research</a>, as well as <a href="https://book.the-turing-way.org/reproducible-research/overview/overview-barriers">common barriers</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>Research compendia are conceptually quite similar to <strong>Reproducible Analytical Pipelines (RAPs)</strong>, although the latter focuses more on production processes. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a <a href="https://escap-sd.github.io/ESCAP_RAP_class/docs/">RAP class recently done by ESCAP</a>, as well as a good paper by <a href="https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf">Price and Marques (2023)</a> showcasing RAP for production processes.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>See overview and explanations of <a href="https://book.the-turing-way.org/reproducible-research/vcs">version control in The Turing Way</a> for more info.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

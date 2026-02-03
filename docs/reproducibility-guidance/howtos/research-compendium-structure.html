@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2025-11-25">
 
-<title>Research compendium: deeper dive – Price Statistics Reproducibility Project</title>
+<title>Components, structure and why they matter – Price Statistics Reproducibility Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../docs/reproducibility-guidance/howtos/licences.html" rel="next">
-<link href="../../../docs/reproducibility-guidance/guides-summary.html" rel="prev">
 <link href="../../../docs/images/logo.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -316,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">About the research compendium</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">Research compendium: deeper dive</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">The research compendium</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">Components, structure and why they matter</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -333,13 +332,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Getting started</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to approach reproducibility</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/how-to-start.html" class="sidebar-item-text sidebar-link">
@@ -351,7 +356,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/reproducibility-guidance/guides-summary.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Guides and how-tos</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -361,7 +366,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">About the research compendium</span></a>
+ <span class="menu-text">The research compendium</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -370,7 +375,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Research compendium: deeper dive</span></a>
+ <span class="menu-text">Components, structure and why they matter</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -379,18 +384,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">What licences could I use?</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publishing your research compendium</span></a>
-  </div>
-</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">About about data</span></a>
+ <span class="menu-text">The data</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -410,12 +409,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How metadata helps the research process</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/opening-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">What to do with data your research project creates</span></a>
   </div>
@@ -425,7 +418,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
- <span class="menu-text">How to cite what you use</span></a>
+ <span class="menu-text">Publishig artifacts and citation</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -435,6 +428,18 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to reference digital objects you create</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How metadata and persistent identifiers help the research process</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publishing your research compendium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -470,13 +475,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-why" id="toc-the-why" class="nav-link active" data-scroll-target="#the-why">The Why</a>
+  <li><a href="#what-structure-do-you-need" id="toc-what-structure-do-you-need" class="nav-link active" data-scroll-target="#what-structure-do-you-need">What structure do you need?</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#a-little-about-each-aspect" id="toc-a-little-about-each-aspect" class="nav-link" data-scroll-target="#a-little-about-each-aspect">A little about each aspect</a></li>
+  </ul></li>
+  <li><a href="#how-to-share-your-active-research-compendium-while" id="toc-how-to-share-your-active-research-compendium-while" class="nav-link" data-scroll-target="#how-to-share-your-active-research-compendium-while">How to share your active research compendium while?</a></li>
+  </ul></li>
+  <li><a href="#the-why" id="toc-the-why" class="nav-link" data-scroll-target="#the-why">The Why</a>
   <ul class="collapse">
   <li><a href="#why-use-a-standard-directory-structure" id="toc-why-use-a-standard-directory-structure" class="nav-link" data-scroll-target="#why-use-a-standard-directory-structure">Why use a standard directory structure?</a></li>
   <li><a href="#why-take-the-effort-of-avoiding-manual-steps" id="toc-why-take-the-effort-of-avoiding-manual-steps" class="nav-link" data-scroll-target="#why-take-the-effort-of-avoiding-manual-steps">Why take the effort of avoiding manual steps?</a></li>
-  <li><a href="#why-invest-in-documentation" id="toc-why-invest-in-documentation" class="nav-link" data-scroll-target="#why-invest-in-documentation">Why invest in documentation?</a></li>
+  <li><a href="#why-invest-in-documentation-on-top-of-the-paper" id="toc-why-invest-in-documentation-on-top-of-the-paper" class="nav-link" data-scroll-target="#why-invest-in-documentation-on-top-of-the-paper">Why invest in documentation (on top of the paper)?</a>
+  <ul class="collapse">
+  <li><a href="#what-type-of-docs" id="toc-what-type-of-docs" class="nav-link" data-scroll-target="#what-type-of-docs">What type of docs?</a></li>
   </ul></li>
-  <li><a href="#what-does-this-look-like" id="toc-what-does-this-look-like" class="nav-link" data-scroll-target="#what-does-this-look-like">What does this look like?</a></li>
+  <li><a href="#notable-example" id="toc-notable-example" class="nav-link" data-scroll-target="#notable-example">Notable example</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/research-compendium-structure.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -484,9 +500,9 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">About the research compendium</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">Research compendium: deeper dive</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">The research compendium</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">Components, structure and why they matter</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Research compendium: deeper dive</h1>
+<h1 class="title">Components, structure and why they matter</h1>
 <p class="subtitle lead">Tips on structuring your project for automation, clarity, and reproducibility</p>
 </div>
 
@@ -502,6 +518,12 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 3, 2026</p>
+    </div>
+  </div>
     
   </div>
   
@@ -510,18 +532,100 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The purpose of this guide is on clarifying <strong>why you should care</strong> about structure and automation when it comes to initial setup and use of your research compendium as you are expanding it during your research. While these are slightly more advanced topics (we see <a href="../../../docs/reproducibility-guidance/how-to-start.html#silver">structure as silver level</a> and <a href="../../../docs/reproducibility-guidance/how-to-start.html#gold">automation as gold</a>), we think that considering the design at the beginning and a bit of discipline throughout adds great value to yourself and to others! You will indeed thank yourself later!</p>
+<p>The purpose of this guide is on clarifying <strong>why you should care</strong> about structure and automation when it comes to initial setup and use of your research compendium as you are expanding it during your research. It also outlines the target structure and lists the key sub-objects that are typically present.</p>
+<p>While structure is a slightly more advanced topic (we see <a href="../../../docs/reproducibility-guidance/how-to-start.html#silver">structure as silver level</a> and <a href="../../../docs/reproducibility-guidance/how-to-start.html#gold">automation as gold</a>), we think that considering the design at the beginning and a bit of discipline throughout adds great value to yourself and to others! You will indeed thank yourself later!</p>
+<section id="what-structure-do-you-need" class="level1">
+<h1>What structure do you need?</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>In a nutshell, as a compendium is shared alongside the published paper that includes all research objects necessary to reproduce the research, it is key to ensure the structure is logical and intuitive. We can visualize the structure in two ways – visually (see <a href="#fig-example" class="quarto-xref">Figure&nbsp;1</a>) or through a directory structure.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Visual (high level)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Directory structure (more detailed)</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="fig-example" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../../docs/images/price-stats-exemplar.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Exemplar <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline">price index pipeline</a>.
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<pre class="raw"><code>price-index-pipeline/
+├── data/
+│   ├── raw/                # READ ONLY raw input data
+│   └── processed/          # Processed data ready for analysis
+│
+├── functions/              # Code that processes and analysis the data
+│   ├── process_data.R      # Process the raw data to prepare it for analysis
+│   └── index_utils.R       # Functions used in the analysis step (keeps heavy)
+│                           #  processing out of the paper.qmd 
+│
+├── output/                 # Generated data and artifacts
+│   ├── figures/            # Figures embedded into the paper
+│   └── tables/             # Output data
+│
+├── docs/                   # Project documentation/paper
+│   ├── paper.qmd           # The main manuscript (imports data, runs analysis).
+│   ├── references.bib      # Bibliography.
+│   └── charter.md          # Project charter (and other project management materials)
+│
+├── _quarto.yml             # Project configuration (if you use Quarto)
+├── README.md               # The "Home Page" for the compendium
+├── LICENSE                 # CC-BY (text/media) and MIT (code).
+├── renv.lock               # The "Time Capsule" for the computational evironment
+├── .gitignore              # Specify which files should not be versioned controlled
+└── makefile                # Automate the end-to-end workflow</code></pre>
+</div>
+</div>
+</div>
+<section id="a-little-about-each-aspect" class="level3">
+<h3 class="anchored" data-anchor-id="a-little-about-each-aspect">A little about each aspect</h3>
+<p><strong>A data folder that outlines where to store the raw (input) dataset used for the research project</strong>. Ideally the researcher uses an open dataset (which will make the whole process reproducible), but they may also use a proprietary dataset.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Don’t version control the main input dataset
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The dataset that acts as the main input dataset to the research should not be version controlled. The folder is created in order to ensure that when a local copy of the compendium is used by researchers, they know where to put the data to ensure that the code will replicate the results in full.</p>
+<p>Technically, this means making sure that the <code>.gitignore</code> skips this data file</p>
+</div>
+</div>
+<p><strong>A folder for functions (or other code) that helps process your data into the relevant outputs.</strong> This could include the code to clean and prepare the raw dataset for research purposes, the code to create the processing and research experiments, as well as notebooks where the data is explored and various aspects that feed the research paper are generated. Note this is sometimes also called <code>/src/</code> or <code>/R/</code> folder.</p>
+<p><strong>A folder for the output data.</strong> This data can be versioned (if it is not sensitive) with the repository and allows researchers to replicate the process. Note, if the output data can be used for research in its own right, it may be appropriate to register this dataset on a public repository (such as Zenodo) that mints a DOI.</p>
+<p><strong>A folder for documentation to that explain key aspects of the research</strong>. This folder stores <a href="https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project">project documentation</a> or <a href="https://book.the-turing-way.org/project-design/pd-overview">the project design</a>, <a href="https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-code/">code documention</a>, as well as the source code for the paper.</p>
+<p><strong>A license</strong>. This will tell users how they can use the code.</p>
+<p><strong>A <code>.gitignore</code> file.</strong> There are some files and folders that should not be version controlled. Notable example is datasets</p>
+<p><strong>A file to <a href="https://book.the-turing-way.org/reproducible-research/renv">recreate the computational environment</a> on which the code will run identically</strong>. A shift in one package version to another may change the output, hence its key to track exactly how to replicate the same environment and get the same result.</p>
+<p>An <strong>orchestrator of all the steps</strong> to automate the data cleaning, processing, and analysis steps that results in the final paper. Options like <a href="https://book.the-turing-way.org/reproducible-research/make/">make</a>, <a href="https://quarto.org/docs/projects/scripts.html#pre-and-post-render"><code>pre-render</code> in Quarto</a>, or <a href="https://dvc.org/blog/best-practices-of-orchestrating-python-and-r-code-in-ml-projects/">dvc</a> are some notable examples. This helps ensure that you don’t have to remember the order of scripts in the <code>/functions</code> folder.</p>
+<p><strong>Finally, a README to introduce the project</strong>. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.</p>
+</section>
+</section>
+<section id="how-to-share-your-active-research-compendium-while" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-share-your-active-research-compendium-while">How to share your active research compendium while?</h2>
+<p>Version controlling the research compendium is key.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust. Later, <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html">we will cover how to publish your research compendium</a> to a repository like Zenodo in order to create a ‘snapshot’ for archival purposes.</p>
+</section>
+</section>
 <section id="the-why" class="level1">
 <h1>The Why</h1>
 <section id="why-use-a-standard-directory-structure" class="level2">
 <h2 class="anchored" data-anchor-id="why-use-a-standard-directory-structure">Why use a standard directory structure?</h2>
-<p>As outlined in the ideal case, a structured approach is at a minimum <strong>organized</strong> and <strong>clear</strong>. Anyone can:</p>
+<p>As outlined above, a structured approach is at a minimum <strong>organized</strong> and <strong>clear</strong>. Anyone can:</p>
 <ol type="1">
-<li>Put the same input data as you used in the <code>/data/</code> folder.</li>
-<li>Run the preprocessing scripts in <code>/src/processing</code>.</li>
-<li>Repeat the analysis notebooks in <code>/src/analysis/</code>and get the same results.</li>
+<li>The input data goes in the <code>/data/</code> folder.</li>
+<li>The preprocessing scripts in <code>/functions/processing.py</code> convert the raw data into processed data.</li>
+<li>Analysis in <code>/functions/analysis.py</code> output data and images that can be embedded directly in the paper.</li>
 </ol>
-<p>In other words, the research becomes very clear and the <em>value added</em> is the contribution, with a lower cognitive load placed on anyone (including yourself at a later date) trying to understand it. The project probably had a messy but implicit structure, you are just making it explicit and coherent.</p>
+<p>In other words, the research becomes very clear and the <em>value added</em> is the contribution, with a lower cognitive load placed on anyone (including yourself at a later date) trying to understand it.</p>
 <p>What happens if you don’t make the structure explicit but keep it implicit?</p>
 <ul>
 <li><p>When you come to it fresh (either it is new for you or you are coming back to your own material much later), you <strong>waste</strong> time trying to get into the context.</p></li>
@@ -534,12 +638,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Further to structuring your project, avoiding manual steps (especially manipulation of spreadsheets!!) is key. If you’ve ever read a paper where preprocessing was described in a few short and unclear sentences which made it <strong>nearly impossible</strong> to reproduce the process <strong>without contacting the researcher</strong>—you can probably see what we mean!</p>
 <p>So what to do instead?</p>
 <ul>
-<li><p>Ensure all steps can be executed through code (and version control this code with the repository). In other words, make sure there are <strong>no manual steps</strong>. This also means that you should version control all code, including the data preprocessing code.</p></li>
+<li><p>Ensure all steps can be executed through code (and version control this code with the repository). In other words, make sure there are <strong>no manual steps</strong>. This also means that you should version control all code, including the data preprocessing code.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
 <li><p>Structure the steps to follow a <strong>clear order of operations</strong> and use a specific folder structure for code and data that is processed along the way.</p></li>
 <li><p><strong>Test the automation</strong> to ensure that anyone (including yourself at a later time) can process the <strong>same outputs</strong> with the <strong>same raw data</strong>.</p></li>
 <li><p>If you’re up for it, you could even automate the rendering of the analysis paper, such as through the <a href="https://quarto-ext.github.io/manuscript-template-jupyter/">manuscripts feature of Quarto</a>.</p>
 <ul>
-<li><p>For instance <a href="#fig-quarto-to-render" class="quarto-xref">Figure&nbsp;1</a> shows visually how a <code>.qmd</code> file and some notebooks in the repository can be automated to generate the final analysis paper.</p></li>
+<li><p>For instance <a href="#fig-quarto-to-render" class="quarto-xref">Figure&nbsp;2</a> shows visually how a <code>.qmd</code> file and some notebooks in the repository can be automated to generate the final analysis paper.</p></li>
 <li><p>Using <a href="https://book.the-turing-way.org/reproducible-research/make/">make</a> or <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline/tree/main">dvc</a> are other examples of tools to automate the process.</p></li>
 </ul>
 <div>
@@ -549,17 +653,22 @@ ul.task-list li input[type="checkbox"] {
 <img src="https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/images/quarto_process.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-quarto-to-render-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: See <a href="https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/GettingStarted_with_Quarto_orig.html">walk-through by Alex Emmons</a> for more detail.
+Figure&nbsp;2: See <a href="https://bioinformatics.ccr.cancer.gov/docs/btep-coding-club/CC2024/Quarto/GettingStarted_with_Quarto_orig.html">walk-through by Alex Emmons</a> for more detail.
 </figcaption>
 </figure>
 </div>
 </div></li>
 </ul>
 </section>
-<section id="why-invest-in-documentation" class="level2">
-<h2 class="anchored" data-anchor-id="why-invest-in-documentation">Why invest in documentation?</h2>
-<p>No matter how clear the structure or the script naming convention, the narrative explanation of steps to follow will still requires some documentation. Indeed the list of specific steps may be clear from the analysis steps, but the <strong>why</strong> and the <strong>how</strong> will not be—hence both will also benefit from being made explicit.</p>
-<p>A good way to provide clarity to any user without the context is to create a visual of the process flow. For instance, you can outline the process using <a href="https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/#example-using-markdown-and-mermaid"><strong>mermaid diagrams</strong></a>, or use open source diagram tool (like <a href="https://app.diagrams.net/">draw.io</a> or <a href="https://www.lucidchart.com/pages">lucidchart</a>) to draw the process yourself, export the image and embed that into the documentation (be sure you version to diagram file itself so that you can always tune the diagram and don’t have to recreate it!).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<section id="why-invest-in-documentation-on-top-of-the-paper" class="level2">
+<h2 class="anchored" data-anchor-id="why-invest-in-documentation-on-top-of-the-paper">Why invest in documentation (on top of the paper)?</h2>
+<section id="what-type-of-docs" class="level3">
+<h3 class="anchored" data-anchor-id="what-type-of-docs">What type of docs?</h3>
+<ul>
+<li><p><strong>Project management/design</strong> documentation – such as the project charter, <a href="https://book.the-turing-way.org/reproducible-research/rdm/rdm-dmp/">data management plan</a>, etc. These help clearly <a href="https://book.the-turing-way.org/project-design/pd-overview/">state the success criteria for a project and keep you on track</a>.</p></li>
+<li><p>Documenation that <strong>explains the code</strong>. No matter how clear the structure or the scripts, the narrative explanation of steps to follow will still requires some documentation. Indeed the list of specific steps may be clear from the analysis steps, but the <strong>why</strong> and the <strong>how</strong> will not be—hence both will also benefit from being made explicit.</p></li>
+<li><p>Documenation to <strong>explain the process</strong>. A good way to provide clarity to any user without the context is to create a visual of the process flow. For instance, you can outline the process using <a href="https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/#example-using-markdown-and-mermaid"><strong>mermaid diagrams</strong></a>, or use open source diagram tool (like <a href="https://app.diagrams.net/">draw.io</a> or <a href="https://www.lucidchart.com/pages">lucidchart</a>) to draw the process yourself, export the image and embed that into the documentation (be sure you version to diagram file itself so that you can always tune the diagram and don’t have to recreate it!).<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p></li>
+</ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -575,31 +684,21 @@ Figure&nbsp;1: See <a href="https://bioinformatics.ccr.cancer.gov/docs/btep-codi
 </div>
 </section>
 </section>
-<section id="what-does-this-look-like" class="level1">
-<h1>What does this look like?</h1>
-<p>Lets take a look at <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline">price-index-pipeline</a></p>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Caution</span>Section WIP
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This section will be expanded soon. Idea is to show an end-to-end automated example from raw data that needs preprocessing to final paper</p>
-</div>
-</div>
+<section id="notable-example" class="level2">
+<h2 class="anchored" data-anchor-id="notable-example">Notable example</h2>
+<p>To showcase an exemplar for price statistics, we created <a href="https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline">a mock-up price index pipeline</a> that researchers can explore.</p>
 
 
+</section>
 </section>
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Check out this <a href="https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/">overview guide on process mapping by the NHS</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>See overview and explanations of <a href="https://book.the-turing-way.org/reproducible-research/vcs">version control in The Turing Way</a> for more info.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>There are multiple ways to do this, such as using <a href="https://quarto.org/docs/projects/scripts.html#pre-and-post-render">Quarto scripts</a> to pre-process input data, a light orchestration such as using DVC, developing and versioning a <a href="https://book.the-turing-way.org/reproducible-research/make/">Makefile</a>, etc.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Check out this <a href="https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/">overview guide on process mapping by the NHS</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1017,9 +1116,6 @@ Figure&nbsp;1: See <a href="https://bioinformatics.ccr.cancer.gov/docs/btep-codi
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../docs/reproducibility-guidance/guides-summary.html" class="pagination-link" aria-label="Guides and how-tos">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Guides and how-tos</span>
-      </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../../../docs/reproducibility-guidance/howtos/licences.html" class="pagination-link" aria-label="What licences could I use?">

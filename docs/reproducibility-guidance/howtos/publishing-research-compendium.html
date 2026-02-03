@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../docs/reproducibility-guidance/howtos/input-data.html" rel="next">
-<link href="../../../docs/reproducibility-guidance/howtos/licences.html" rel="prev">
+<link href="../../../docs/reproducibility-guidance/howtos/citing-code.html" rel="next">
+<link href="../../../docs/reproducibility-guidance/howtos/metadata.html" rel="prev">
 <link href="../../../docs/images/logo.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -315,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">About the research compendium</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html">Publishing your research compendium</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html">Publishig artifacts and citation</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html">Publishing your research compendium</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -332,13 +332,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Getting started</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to approach reproducibility</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/how-to-start.html" class="sidebar-item-text sidebar-link">
@@ -350,7 +356,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/reproducibility-guidance/guides-summary.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Guides and how-tos</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -359,17 +365,17 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">About the research compendium</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">The research compendium</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research compendium: deeper dive</span></a>
+ <span class="menu-text">Components, structure and why they matter</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -378,18 +384,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">What licences could I use?</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Publishing your research compendium</span></a>
-  </div>
-</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">About about data</span></a>
+ <span class="menu-text">The data</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -409,12 +409,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How metadata helps the research process</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/opening-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">What to do with data your research project creates</span></a>
   </div>
@@ -423,17 +417,29 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
- <span class="menu-text">How to cite what you use</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Publishig artifacts and citation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to reference digital objects you create</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How metadata and persistent identifiers help the research process</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Publishing your research compendium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -471,7 +477,7 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/guides-summary.html">Guides and how-tos</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">About the research compendium</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html">Publishing your research compendium</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html">Publishig artifacts and citation</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html">Publishing your research compendium</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Publishing your research compendium</h1>
 <p class="subtitle lead">Publish to GitHub and to a repository that mints a DOI</p>
@@ -503,12 +509,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="callout-body-container callout-body">
 <p>This page is still in the works. Scope to include:</p>
 <ul>
-<li><p>Starting off, publish to GitHub - you can cite a paper in GitHub</p></li>
-<li><p>Push the research compendium to a repository that assigns a DOI</p>
-<ul>
-<li><p>Zenodo for Python</p></li>
-<li><p>CRAN for R</p></li>
-</ul></li>
+<li><p>For active projects, publishing to GitHub is sufficient - you can cite a paper in GitHub if you want (and the paper can be archived).</p></li>
+<li><p>Ideally (given the processes researchers need to follow with their research institutes), a ‘snapshot’ of the research compendium to a repository that mints a DOI will ensure that the compendium <strong>in the state matching the paper</strong> has a persistent ID.</p></li>
+<li><p>Publishing data to a repository that mints a DOI is also a way to make the object persist and give it a unique ID.</p></li>
 </ul>
 </div>
 </div>
@@ -931,13 +934,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../docs/reproducibility-guidance/howtos/licences.html" class="pagination-link" aria-label="What licences could I use?">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">What licences could I use?</span>
+      <a href="../../../docs/reproducibility-guidance/howtos/metadata.html" class="pagination-link" aria-label="How metadata and persistent identifiers help the research process">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How metadata and persistent identifiers help the research process</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../docs/reproducibility-guidance/howtos/input-data.html" class="pagination-link" aria-label="What to do with input data to your project">
-        <span class="nav-page-text">What to do with input data to your project</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../docs/reproducibility-guidance/howtos/citing-code.html" class="pagination-link" aria-label="How to cite code">
+        <span class="nav-page-text">How to cite code</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
