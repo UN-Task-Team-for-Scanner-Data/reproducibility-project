@@ -10,7 +10,7 @@ format:
 
 ## What is reproducibility?
 
-For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.[^1] The primary way this is achieved by creating and publicly publishing a [**research compendium**](https://book.the-turing-way.org/reproducible-research/compendia) along with the paper. A **research compendium** is a collection of digital parts of the research project that supports reuse, including data, code, protocols, metadata, etc.[^2]
+For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.[^1] The primary way this is achieved by creating and publicly publishing a [**research compendium**](https://book.the-turing-way.org/reproducible-research/compendia) along with the paper. A **research compendium** is a collection of digital parts of the research project that supports reuse, including data, code, protocols, documentation, metadata, etc.[^2]
 
 [^1]: A good overview of [reproducible research is done by the Turing Way](https://book.the-turing-way.org/reproducible-research/overview). The book also covers [open research](https://book.the-turing-way.org/reproducible-research/open) and many other topics.
 
@@ -32,46 +32,60 @@ The main principle of the [**research compendium**](https://book.the-turing-way.
 
 [^4]: Research compendia are conceptually quite similar to **Reproducible Analytical Pipelines (RAPs)**, although the latter focuses more on production processes. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
 
-## What does the ideal look like?
+## Key components in a research project
 
-### Overview of the structure
+To make a research project reproducible, it is key to to observe that there is not one object that is produced (i.e. the paper), but 4. @fig-research-objects provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.
 
-In a nutshell, along with a resarch paper, a compendium is shared that includes all research objects necessary to reproduce the research. These are often git repositories (in say GitHub) that include a structure similar to the one in @fig-example below.
+![Research process](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg){#fig-research-objects fig-align="center"}
 
-![Exemplar [price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline).](/docs/images/price-stats-exemplar.svg){#fig-example fig-align="center" width="35%"}
+### (1) The data
 
-### A little about each aspect
+It is key to differentiate **input data** and **output data**:
 
-**A data folder that outlines where to store the raw dataset used for the research project**. Ideally the researcher uses an open dataset (which will make the whole process reproducible), but they may also use a proprietary dataset.
+-   **Input data** is the data used to answer research questions. It may be open, closed (proprietary or sensitive), or synthetic. Each is approached separately. Some notable aspects:
 
-::: callout-tip
-## Don't version control the main input dataset
+    -   Ideally open data is used as this ensures the research can be fully reproducible and the dataset used can act as a benchmark if other methods are tried on it. We list a few available open datasets in the [discipline specific catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/).
 
-The dataset that acts as the main input dataset to the research should not be version controlled. The folder is created in order to ensure that when a local copy of the compendium is used by researchers, they know where to put the data to ensure that the code will replicate the results in full.
+    -   While input data is ingested and processed by the research, in itself it is *ignored* by the research compendium (such as by listing the data files in the `.gitingore`). Read more in the [input data guide](/docs/reproducibility-guidance/howtos/input-data.qmd).
 
-Technically, this means making sure that the `.gitignore` skips this data file
+-   **Ouput data** is data created as part of the research process. Whether (and how) its shared depends on various circumstances and value to later research projects (to say act as an input dataset for other projects). Read [about this process here](/docs/reproducibility-guidance/howtos/opening-data.qmd).
+
+### (2) The research compendium
+
+The research compendium is a **structured object** that contains **all the aspects** to recreate the output (i.e. results shared in the paper). Some key sub-components include:
+
+-   Its logical **structure** ensures maturity and helps others (or you later) in trying to peer review, reproduce or extend the research. Read more about how and why to set up an appropriate structure [here](/docs/reproducibility-guidance/howtos/research-compendium-structure.qmd).
+
+-   The code and workflows **ingest and processes** input data to **create relevant outputs** (output data, figures, etc) in an automated fashion (i.e. avoiding manual steps). As mentioned above, the **input data** itself however **is not** a part of the compendium and is not republished.
+
+-   The source for the paper is included so that raw input to final paper can be reproduced in an automated fashion. This allows you to regenerate and change the paper as needed.
+
+It is key to differentiate between **active** and **archived** versions of the compendium:
+
+#### 2A. Active research compendium
+
+When a project is active, it is best to use a version control process (such as GitHub/GitLab) to store and version the whole object. This is a sensible default for research projects.
+
+There is a risk however with GitHub/GitLab for long term archival as they are not permanent records - i.e. the GitHub repository can be deleted or changed and the URL could change.
+
+#### 2B. Archived research compendium
+
+When a research project is complete, the compendium should thus be archived in a repository. The snapshot created at this time should align to the paper that was published. Repositories (such as Zenodo) mint DOIs (or Digitial Object Identifiers) that are unique and are immutable (i.e. don't change). This ensures that you can find that same snapshot at any point in the future.
+
+::: callout-note
+## Adoption depends on the organization
+
+Use of repositories such as Zenodo depends on the researchers and the organization they are in. It is best to follow your organization's rules for which repository it is best to publish from. The main idea is to publish to a repository that helps create a DOI which is (ideally) immutable.
 :::
 
-**A folder for functions (or other code) that helps process your data into the relevant outputs.** This could include the code to clean and prepare the raw dataset for research purposes, the code to create the processing and research experiments, as well as notebooks where the data is explored and various aspects that feed the research paper are generated.
+### (3) Key software
 
-**A folder for the output data.** This data can be versioned (if it is not sensitive) with the repository and allows researchers to replicate the process. Note, if the output data can be used for research in its own right, it may be appropriate to register this dataset on a public repository (such as Zenodo) that mints a DOI.
+Not all code in the research compendium will be written by the researchers from scratch using vanilla code. It is likely to use packages to abstract away some or most of the complexity and automate the work. There are two sensible rules of thumb that can be applied:
 
-**A folder for documentation to that explain key aspects of the research**. This folder stores [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project) or [the project design](https://book.the-turing-way.org/project-design/pd-overview), however [code should also be documented](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-code) well.
+-   If the code is pivotal to the methodology (for instance the package was used to calculate price indices), then it is best to acknowledge this in the paper ([by citing it](/docs/reproducibility-guidance/howtos/citing-code.qmd)).
 
-**A license**. This will tell users how they can use the code.
+-   A snapshot of the **computational environment** should be taken and included in the research compendium. This ensures that the exact computation requirement can be replicated, but also to ensure that dependencies on specific versions of other packages is saved.
 
-**A `.gitignore` file.** There are some files and folders that should not be version controlled. Notable example is datasets
+### (4) The paper
 
-**A file to [recreate the environment](https://book.the-turing-way.org/reproducible-research/renv) on which the code will run identically**. A shift in one package version to another may change the output, hence its key to track exactly how to replicate the same environment and get the same result.
-
-**Finally, a README to introduce the project**. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.
-
-## How to share a research compendium?
-
-Version controlling the research compendium is key.[^5] Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust.
-
-[^5]: See overview and explanations of [version control in The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs) for more info.
-
-## Notable example
-
-To showcase an exemplar for price statistics, we created [a mock-up price index pipeline](https://github.com/UN-Task-Team-for-Scanner-Data/price-index-pipeline) that researchers can explore.
+Finally, the paper is generated as the output. As the research compendium should (ideally) have the source to generate the paper (such as by using Quarto to render a `paper.qmd` as a pdf), outputs or images in the paper can be traced back from the body of the image to the code that generated them.

@@ -51,27 +51,26 @@ website:
       align: left
       contents:
         - section: Getting started
-          href: docs/reproducibility-guidance/intro.qmd
           contents:
+          - docs/reproducibility-guidance/intro.qmd
           - docs/reproducibility-guidance/how-to-start.qmd
         - "---"
         - section: "Guides and how-tos"
-          href: docs/reproducibility-guidance/guides-summary.qmd
           contents:
-            - section: "About the research compendium"
+            - section: "The research compendium"
               contents:
               - docs/reproducibility-guidance/howtos/research-compendium-structure.qmd
               - docs/reproducibility-guidance/howtos/licences.qmd
-              - docs/reproducibility-guidance/howtos/publishing-research-compendium.qmd
-            - section: "About about data"
+            - section: "The data"
               contents:
               - docs/reproducibility-guidance/howtos/input-data.qmd
               - docs/reproducibility-guidance/howtos/synthetic-data.qmd
-              - docs/reproducibility-guidance/howtos/metadata.qmd
               - docs/reproducibility-guidance/howtos/opening-data.qmd
-            - section: "How to cite what you use"
+            - section: "Publishig artifacts and citation"
               contents:
                 - docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.qmd
+                - docs/reproducibility-guidance/howtos/metadata.qmd
+                - docs/reproducibility-guidance/howtos/publishing-research-compendium.qmd
                 - docs/reproducibility-guidance/howtos/citing-code.qmd
                 - docs/reproducibility-guidance/howtos/citing-data.qmd
         - "---"
