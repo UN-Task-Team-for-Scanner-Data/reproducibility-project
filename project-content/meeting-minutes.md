@@ -292,11 +292,11 @@ This document summarizes the meetings of the workstream
 
 ### Agenda
 
--   Discussion on recent minor changes
--   Discussion on PR and issue templates for dataset registration
+-   Recent minor changes and what is left in scope
+-   PR and issue templates for dataset registration in the catalogue
 -   Project management update - review of progress and next steps
 
 ### Notes
 
--   The team reviewed recent proposed changes and did a callout for other review. Review of the material that was already drafted and a slight expansion could help as we could request a link to our project website be included in the response to researchers accepted to the 2026 Ottawa Group conference. 
--   A standardized issue template and a PR template for dataset registration was discussed. The issue template creates a simple 'workflow' in asking key questions for anyone proposing new datasets to the catalogue. The PR template would offer some structure to how a PR is described. Templates approved and will be moved over to the catalogue repo shortly.
+-   The team reviewed recent changes and did a call out for review among the group. The material already drafted and a slight expansion could help in the short term as it would be useful to have Ottawa Group 2026 organizers include a link to our project website in the response to researchers accepted to the conference.
+-   A standardized issue and a PR template for dataset registration was discussed. The issue template creates a simple 'workflow' in asking key questions for anyone proposing new datasets to the catalogue. The PR template offers some structure to how a PR is described in Markdown. Templates approved and will be moved over to the catalogue repo shortly.
