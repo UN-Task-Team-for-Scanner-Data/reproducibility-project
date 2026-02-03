@@ -300,3 +300,15 @@ This document summarizes the meetings of the workstream
 
 -   The team reviewed recent changes and did a call out for review among the group. The material already drafted and a slight expansion could help in the short term as it would be useful to have Ottawa Group 2026 organizers include a link to our project website in the response to researchers accepted to the conference.
 -   A standardized issue and a PR template for dataset registration was discussed. The issue template creates a simple 'workflow' in asking key questions for anyone proposing new datasets to the catalogue. The PR template offers some structure to how a PR is described in Markdown. Templates approved and will be moved over to the catalogue repo shortly.
+
+## 2026-01-13
+
+### Agenda
+
+-   Changes to how reproducibility is introduced and the overview of citation guidance
+-   Discussion on draft guidance on creating synthetic input data
+
+### Notes
+
+-   Discussion on proposed changes to how reproducibility is introduced in the intro page of the "How to be reproducible" guidance, focusing on 4 main components of the research project. Team conditionally accepted with review and feedback to be provided over the coming weeks.
+-   Team discussed draft guidance on synthetic data. Contextualizing the need for synthetic data would be useful and will be added prior to merging the synthetic guidance specifically. Furthermore, guidance on what other actions are possible (such as putting a dummy dataset that can at least run the analysis) if no synthetic data is created. Further review and discussions will follow.
