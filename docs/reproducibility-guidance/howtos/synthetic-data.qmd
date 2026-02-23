@@ -60,6 +60,6 @@ The following tools may be helpful when generating synthetic or modified data:
 
 - The R packacke [sdcMicro](https://CRAN.R-project.org/package=sdcMicro) is a popular tool that can be used for the generation of anonymized microdata, implementing a wide range of anonymization methods.
 
-- Tghe R package [synthsizer](https://CRAN.R-project.org/package=synthesizer) is a tool to generate synthesize different types of data.  single parameter allows balancing between high-quality synthetic data that represents correlations of the original data and lower quality but more privacy safe synthetic data without correlations. 
+- The R package [synthsizer](https://CRAN.R-project.org/package=synthesizer) is a tool to generate synthesize different types of data. In this emthod, a single parameter allows balancing between high-quality synthetic data that represents correlations of the original data and lower quality but more privacy safe synthetic data without correlations. 
 
 
