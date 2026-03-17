@@ -312,3 +312,18 @@ This document summarizes the meetings of the workstream
 
 -   Discussion on proposed changes to how reproducibility is introduced in the intro page of the "How to be reproducible" guidance, focusing on 4 main components of the research project. Team conditionally accepted with review and feedback to be provided over the coming weeks.
 -   Team discussed draft guidance on synthetic data. Contextualizing the need for synthetic data would be useful and will be added prior to merging the synthetic guidance specifically. Furthermore, guidance on what other actions are possible (such as putting a dummy dataset that can at least run the analysis) if no synthetic data is created. Further review and discussions will follow.
+
+## 2026-02-03
+
+### Agenda
+
+-   Discussion on guidance and potential direction for the work stream after the Ottawa Group conference
+-   Discussion on draft guidance on creating synthetic data
+-   Proposal to register Polish food scanner dataset
+
+### Notes
+
+-   The team discussed objectives for May and what work remains afterwards. Longer term goals included working with institutions to improve reproducibility as a whole, investigating more challenging guidance topics, investigating registry of proprietary dataset that could be purchased to the catalogue, potentially hosting training on this materials at the 2027 CPI EG conference, and many other topics.
+-   The approach to review already drafted material was discussed, with slight preference for gradual light review with more detailed review nearer the conference.
+-   Disussion on draft synthetic data guidance centered around how to best describe it to simplify understanding and adoption by researchers. Material still a WIP.
+-   The [polish open dataset](https://zenodo.org/records/18342253) was accepted as valuable to be registered to the catalogue.
