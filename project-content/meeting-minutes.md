@@ -327,3 +327,15 @@ This document summarizes the meetings of the workstream
 -   The approach to review already drafted material was discussed, with slight preference for gradual light review with more detailed review nearer the conference.
 -   Disussion on draft synthetic data guidance centered around how to best describe it to simplify understanding and adoption by researchers. Material still a WIP.
 -   The [polish open dataset](https://zenodo.org/records/18342253) was accepted as valuable to be registered to the catalogue.
+
+## 2026-02-24
+
+### Agenda
+
+-   Discussion on recent updates
+-   Ideas for future work items
+
+### Notes
+
+-   The team reviewed recent changes to data catalogue: (1) [a detailed issue template](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/tree/main/.github/ISSUE_TEMPLATE) and [PR template](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/.github/pull_request_template.md) was recently added to simplify contributing to the catalogue; (2) the conversion of the metadata standard for each dataset record to [the ODCS standard](https://bitol-io.github.io/open-data-contract-standard/v3.1.0/) and other UX changes; (3) the addition of the New Zealand modified electronics dataset; and (4) the addition of the polish scanner dataset.
+-   The team discussed upcoming priorities and changes, including the assignment of topics still needing documentation, and whether [the IMF synthetic house price dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/28) was useful for the catalogue.
