@@ -9,14 +9,14 @@ format:
     toc-expand: 3
 ---
 
-::: callout-caution
-## WIP
+Congratulation! You've structured your project as a [research compendium](research-compendium-structure.qmd) so that your work can easily be reproduced. But at the moment this is only useful for you---how do you share it so that others can reproduce your work? This is the job of an archive for research objects.
 
-This page is still in the works. Scope to include:
+There are a few different archives for research objects in operation by different organizations, such as [figshare](https://figshare.com/) or [Harvard's dataverse](https://data.harvard.edu/dataverse). We have the most experience with [Zenodo](https://zenodo.org/), and so this section will focus on that particular research archive, but these services all serve the same role of providing a long-term and citable location for research outputs.
 
--   For active projects, publishing to GitHub is sufficient - you can cite a paper in GitHub if you want (and the paper can be archived).
+It's important to recognize that a source-code repository like github isn't a substitute for a research archive. Although github is useful for sharing code and collaborating with co-authors, it is not suitable for housing data nor does it give an easy way to cite or reference a particular research project.[^1] By contrast, a service like Zenodo can house *all* the components of a research project, making it easier to reproduce, and mints a DOI for the archive to facilitate referencing and citing this work. This DOI can be added to a github repo to help link these separate parts of a project.
 
--   Ideally (given the processes researchers need to follow with their research institutes), a 'snapshot' of the research compendium to a repository that mints a DOI will ensure that the compendium **in the state matching the paper** has a persistent ID. 
+[^1]: Although github does offer some functionality for citation with a `CITATION.cff` file, it neither mints a DOI nor keeps track of versions of a research compendium. That said, for smaller scale projects without data, it may be sufficient to treat a repo on github as an archieve.
 
--   Publishing data to a repository that mints a DOI is also a way to make the object persist and give it a unique ID.
-:::
+Zenodo is easy to use. You can sign up with your ORCID and then upload the content of your research project. You'll need to supply some information about the archive, such as information about co-authors and a [license](licences.qmd), and this will depend in part of the type of research object that you're archiving. For example, a piece of research software requires different information than a research compendium that's linked to a published paper or a stand-alone dataset. You can also link Zenodo with your github account to automate the archiving versions of this software, something often done to help make [software more citable](citing-code.qmd).
+
+Once complete, you now have a persistent, citable archive with the necessary material to reproduce your research project.
