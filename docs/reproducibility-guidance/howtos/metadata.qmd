@@ -10,50 +10,16 @@ format:
     toc-expand: 3
 ---
 
-::: callout-caution
-## This section is still in the works
-:::
+Just because you can't fit an econometric model on metadata doesn't mean it's not important---instead, metadata are a key part of making a research project reproducible. Metadata is a big topic, and the [How To Fair guide](https://www.howtofair.dk/how-to-fair/metadata/) gives more detail. But the essential piece we'll focus on here is persistent identifiers to unambiguously refer to the inputs and outputs of research. Aspects of this have already been covered in [citing code](citing-code.qmd), [citing data](citing-data.qmd), [publishing research compendia](publishing-research-compendium.qmd), [licensing](licences.qmd), and [citing digital objects](how-to-cite-digital-objects.qmd), so this section is about how these topics relate to each other, as summarized in @fig-citing-research-objects.
 
-Building on the previous introduction of citation, we can take a deeper dive into metadata in order to understand how it helps make the reseach project reproducible.
+![Citing research objects](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg){#fig-citing-research-objects fig-align="center"}
 
-::: callout-caution
-## WIP
+The first thing to identify are the input data used for a research project. This is probably the most difficult part of a research project to reference and, unfortunately, probably one of the most important. Having a clear understanding of the source of the input data for a project is key to being able to reproduce it. Unambiguously referring to input data is easy in cases where these data come from an open dataset in a research archive (like Zenodo), as the DOI gives a persistent identifier for the input data to a project. At the other extreme are proprietary data, and it is not always straightforward to identify these inputs.
 
-The guide ([#51](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51)) could cover such topics as:
+The next thing to identify is the process used to conduct the research. This is fairly straightforward, as covered by [publishing research compendia](publishing-research-compendium.qmd), and can be done by using a research archive that mints a DOI. In some cases a source-code repository like github also works, although it does not mint DOIs and, consequently, it is more difficult to refer to a github repo at a point in time.
 
--   Metadata is to help find, reuse, understand everything. [How-to-fair guide on the topic](https://www.howtofair.dk/how-to-fair/metadata/) provides an intro, the [FAIR cookbook](https://faircookbook.elixir-europe.org/content/home.html)is also not bad.
+An often neglected piece of metadata is the software and tools used as part of a research project. As with identifying input data, citing research software is only as easy as the authors make it, and in some cases tools like [`{grateful}`](https://cran.r-project.org/web/packages/grateful/index.html) can help automate this process. Licensing is an important piece of metadata here, as depending on software that is not freely available greatly impedes reproducibility.
 
-![Citing research objects](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg){#fig-citing-research-objects alt="Citing research objects" fig-align="center"}
+Finally, references to previous work are a well-established piece of metadata for any research project. Most published work now has a DOI, but conferences papers, for example, often do not, making them more difficult to reference. An important part of identifying the authors of previous work is having a persistent identifier for you, the researcher. This is the role of an [ORCID](https://orcid.org/), which uniquely identifies a researcher and is connected to their research.
 
--   Possible metadata that are key to know about:
-
-    -   Metadata that helps Findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be Citable (i.e. making @fig-citing-research-objects easier. In price statistics, some already exist/are possible, and others are not yet set up:
-
-        -   Researchers in the discipline can sign up to create an ORCID. This helps you be found and get fair recognition for your work.
-
-        -   Datasets published to data repositories like zenodo help mint DOIs. TBC how to handle proprietary datasets though (i.e. [#46](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46))
-
-        -   Papers in official journals have DOIs that the journal creates as part of the publication process. Ideally [papers published as part of conference proceedings could also have DOIs](https://datascience.codata.org/articles/dsj-2022-011) (as many disciplines now do), however this isn't yet done in price stats.
-
-        -   Code (i.e. the research compendium) is published in a way that mints a persistent identifier. Note that GitHub doesn't mint a DOI but that may be okay for interim code and published code could be pushed to zenodo (which does).
-
-    -   Metadata that helps interoperability:
-
-        -   The descriptive and structural metadata (i.e. info about each dataset) is outlined in the catalogue – hence we aim to help solve some of this with the catalogue.
-
-            -   While not exclusive, we are trying to follow the basic [dublin core](https://www.dublincore.org/resources/metadata-basics/)
-
-            -   The way we define various things is as standard as possible so that its easy to use
-
-        -   The idea is that researchers (and their programs) can more easily understand open datasets they use for their research, understand them, etc.
-
-    -   Accessiblity:
-
-        -   Ways to get the data is as simple as possible - say using [download_zenodo (in R)](https://rdrr.io/github/inbo/inborutils/man/download_zenodo.html) to automate the downloading of data via its DOI
-
-    -   Metadata that helps reusability:
-
-        -   Knowing how datasets or code is licensed so that you know when and how to research it. We document this in the limitations section of the dataset record
-
-        -   Provenance is clear. Say a dataset is made available on zenodo - where it came from and how it was created/modified is clear.
-:::
+Good metadata ins't just about attribution; it can also help to make the different parts of a research project more accessible and interoperable. For example, research archives on Zenodo can be [downloaded directly for R](https://inbo.github.io/inborutils/reference/download_zenodo.html) based on the DOI.
