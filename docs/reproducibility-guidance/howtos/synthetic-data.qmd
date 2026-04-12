@@ -10,9 +10,9 @@ format:
     toc-expand: 3
 ---
 
-It is not always possible to disclose the internal dataset used in a research project. Nevertheless, publishing some form of data in the research compendium can enhance openness and reproducibility and can help to better illustrate the objectives of the research. 
+It is not always possible to disclose the internal dataset used in a research project. Nevertheless, publishing some form of data in the research compendium can enhance openness and reproducibility, and can help to illustrate the objectives of the research. 
 
-There are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility—ensuring the data retains analytical value—and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives. 
+There are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility — ensuring the data retains analytical value — and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives. 
 
 A comprehensive overview of existing methods can be found in the [ESS Statistical Disclosure Control Handbook](https://sdctools.github.io/HandbookSDC/Handbook-on-Statistical-Disclosure-Control.pdf). In price statistics, variables are typically continuous (e.g., prices, quantities) and often organized as panel data, with repeated observations over time. More practical implementations and shared experiences in that context are needed to identify effective approaches and establish good practices.
 
@@ -28,9 +28,9 @@ In certain cases, providing a dummy file alongside the code can be helpful. A du
 Datasets can  be created using synthetic data generation methods. These techniques produce a new, artificial dataset that preserves specific statistical properties of the original data. The [UNECE Starter Guide on Synthetic Data](https://unece.org/sites/default/files/2022-11/ECECESSTAT20226.pdf) provides an overview of various methods and good practices for implementing these approaches.
 
 
-One approach to synthetic data generation consists of creating data from an underlying probability distribution or model.For example, prices often follow a log-normal distribution. By specifying the parameters of this distribution (mean and standard deviation), random data points can be generated. Some studies in price statistics use prices and quantities that satisfy the Constant Elasticity of Substitution (CES) assumption. One practical option would be to create datasets that are consistent with the CES model.
+One approach to synthetic data generation consists of creating data from an underlying probability distribution or model. For example, prices often follow a log-normal distribution. By specifying the parameters of this distribution (mean and standard deviation), random data points can be generated. Some studies in price statistics use prices and quantities that satisfy the Constant Elasticity of Substitution (CES) assumption. A practical option would be to create datasets that are consistent with the CES model.
 
-Instead of publishing theoretic data sets, more realistic datasets can be created that are . First a model is estimated for the original data. This model then serves to generate a new, synthetic, data.  
+Instead of publishing theoretic datasets, more realistic datasets can be created. One way for achieving this is to estimate a model from the original data. This model then serves to generate a new, synthetic, data.  
 
 Data may be also be created using advanced AI models. For example, Large Language Models, possibly combined with some knowledge base, could be leveraged to create product labels.
 
@@ -56,10 +56,10 @@ The following tools may be helpful when generating synthetic or modified data:
 
 - The R package [gratis](https://CRAN.R-project.org/package=gratis) enables the generation of synthetic time series based on various univariate time series models, providing flexibility for simulating realistic price dynamics.
 
-- The R package [synthpop](https://synthpop.org.uk/) is a popular tool for implementing FCS. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g., between prices and quantities), and patterns of missingness (e.g., product churn).
+- The R package [synthpop](https://synthpop.org.uk/) is a popular tool for implementing the The Fully Conditional Specification (FCS) method. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g. between prices and quantities), and patterns of missingness (e.g. product churn).
 
 - The R packacke [sdcMicro](https://CRAN.R-project.org/package=sdcMicro) is a popular tool that can be used for the generation of anonymized microdata, implementing a wide range of anonymization methods.
 
-- The R package [synthsizer](https://CRAN.R-project.org/package=synthesizer) is a tool to generate synthesize different types of data. In this emthod, a single parameter allows balancing between high-quality synthetic data that represents correlations of the original data and lower quality but more privacy safe synthetic data without correlations. 
+- The R package [synthsizer](https://CRAN.R-project.org/package=synthesizer) is a tool that can adapt to different types of data. A single parameter allows balancing between high-quality synthetic data that represents correlations of the original data and lower quality but more privacy safe synthetic data without correlations. 
 
 
