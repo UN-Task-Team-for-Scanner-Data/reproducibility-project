@@ -339,3 +339,15 @@ This document summarizes the meetings of the workstream
 
 -   The team reviewed recent changes to data catalogue: (1) [a detailed issue template](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/tree/main/.github/ISSUE_TEMPLATE) and [PR template](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/.github/pull_request_template.md) was recently added to simplify contributing to the catalogue; (2) the conversion of the metadata standard for each dataset record to [the ODCS standard](https://bitol-io.github.io/open-data-contract-standard/v3.1.0/) and other UX changes; (3) the addition of the New Zealand modified electronics dataset; and (4) the addition of the polish scanner dataset.
 -   The team discussed upcoming priorities and changes, including the assignment of topics still needing documentation, and whether [the IMF synthetic house price dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/28) was useful for the catalogue.
+
+## 2026-03-17
+
+### Agenda
+
+-   Discussion on remaining guidance
+-   Discussion on priorities for the catalogue
+
+### Notes
+
+-   The team discussed guidance that remains to be completed. Final topics were assigned and will be prioritized in the next few weeks. Review by the team can commence after to help prepare for Ottawa Group.
+-   The team also agreed that adding additional datasets to the catalogue should be lower priority before the Ottawa Group.
