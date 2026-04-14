@@ -661,14 +661,66 @@
   {
     "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html",
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html",
-    "title": "How to approach synthetic data",
+    "title": "How to approach publication of data",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works. Possible topics (see #43 for more info) to include:\n\nCommon packages for making synthetic data. You could include these in research compendium and others could recreate your data.\nTo publish synthetic data or not (to say Zenodo)\nModifying real data so that it can be shared.\n\n\n\n\n\n\n Back to top",
+    "text": "It is not always possible to disclose the internal dataset used in a research project. Nevertheless, publishing some form of data in the research compendium can enhance openness and reproducibility, and can help to illustrate the objectives of the research.\nThere are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility — ensuring the data retains analytical value — and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives.\nA comprehensive overview of existing methods can be found in the ESS Statistical Disclosure Control Handbook. In price statistics, variables are typically continuous (e.g., prices, quantities) and often organized as panel data, with repeated observations over time. More practical implementations and shared experiences in that context are needed to identify effective approaches and establish good practices.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The data",
-      "How to approach synthetic data"
+      "How to approach publication of data"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#publish-dummy-files",
+    "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#publish-dummy-files",
+    "title": "How to approach publication of data",
+    "section": "Publish dummy files",
+    "text": "Publish dummy files\nIn certain cases, providing a dummy file alongside the code can be helpful. A dummy file contains data with the variables in the required format. The datat itself can be randomly created. As a minimum, this allows others to execute and test the code, while offering a basic understanding of the data’s structure and characteristics. However, the analytical value of such dummy files is often limited. For this reason, it may be worthwhile to explore alternative approaches that better address analytical needs and support validation of the research.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "How to approach publication of data"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#create-synthetic-data",
+    "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#create-synthetic-data",
+    "title": "How to approach publication of data",
+    "section": "Create synthetic data",
+    "text": "Create synthetic data\nDatasets can be created using synthetic data generation methods. These techniques produce a new, artificial dataset that preserves specific statistical properties of the original data. The UNECE Starter Guide on Synthetic Data provides an overview of various methods and good practices for implementing these approaches.\nOne approach to synthetic data generation consists of creating data from an underlying probability distribution or model. For example, prices often follow a log-normal distribution. By specifying the parameters of this distribution (mean and standard deviation), random data points can be generated. Some studies in price statistics use prices and quantities that satisfy the Constant Elasticity of Substitution (CES) assumption. A practical option would be to create datasets that are consistent with the CES model.\nInstead of publishing theoretic datasets, more realistic datasets can be created. One way for achieving this is to estimate a model from the original data. This model then serves to generate a new, synthetic, data.\nData may be also be created using advanced AI models. For example, Large Language Models, possibly combined with some knowledge base, could be leveraged to create product labels.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "How to approach publication of data"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#modify-the-original-data",
+    "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#modify-the-original-data",
+    "title": "How to approach publication of data",
+    "section": "Modify the original data",
+    "text": "Modify the original data\nThe original data could be modified in a way that that it can be publicly released.\nSome simple transformations can enhance data protection. For instance, product or outlet names can be replaced with artificial identifiers. Absolute values may be converted into relative measures, which is particularly useful since many price indices can be compiled using only relative information, such as price changes or expenditure shares.\nBelow are some examples of methods that introduce some kind of perturbation in the original data and that may be useful to protect price statistics data:\n\nNoise Addition Methods: Various algorithms exist for adding random noise to data. In the context of price statistics, introducing (multiplicative) random noise to prices or quantities can make the original dataset less identifiable while preserving plausibility and analytical value.\nMicro-Aggregation Methods: Micro-aggregation involves grouping individual records into clusters of sufficient size so that specific records cannot be distinguished. There are several strategies for forming these groups. This approach aligns well with common practices in price statistics, such as averaging across time periods, outlets, and products.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "How to approach publication of data"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#tools",
+    "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#tools",
+    "title": "How to approach publication of data",
+    "section": "Tools",
+    "text": "Tools\nThe following tools may be helpful when generating synthetic or modified data:\n\nThe R package PriceIndices includes functions for generating artificial datasets where prices and quantities are lognormally distributed and comply with the CES model (see functions generate and generate_CES).\nThe R package gratis enables the generation of synthetic time series based on various univariate time series models, providing flexibility for simulating realistic price dynamics.\nThe R package synthpop is a popular tool for implementing the The Fully Conditional Specification (FCS) method. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g. between prices and quantities), and patterns of missingness (e.g. product churn).\nThe R packacke sdcMicro is a popular tool that can be used for the generation of anonymized microdata, implementing a wide range of anonymization methods.\nThe R package synthsizer is a tool that can adapt to different types of data. A single parameter allows balancing between high-quality synthetic data that represents correlations of the original data and lower quality but more privacy safe synthetic data without correlations.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "How to approach publication of data"
     ]
   },
   {

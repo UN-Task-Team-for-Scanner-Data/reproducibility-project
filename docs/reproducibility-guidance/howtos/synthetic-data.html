@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-01">
+<meta name="dcterms.date" content="2026-02-23">
 
-<title>How to approach synthetic data – Price Statistics Reproducibility Project</title>
+<title>How to approach publication of data – Price Statistics Reproducibility Project</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -318,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html">How to approach synthetic data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html">How to approach publication of data</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -407,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">How to approach synthetic data</span></a>
+ <span class="menu-text">How to approach publication of data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -473,17 +473,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#publish-dummy-files" id="toc-publish-dummy-files" class="nav-link active" data-scroll-target="#publish-dummy-files">Publish dummy files</a></li>
+  <li><a href="#create-synthetic-data" id="toc-create-synthetic-data" class="nav-link" data-scroll-target="#create-synthetic-data">Create synthetic data</a></li>
+  <li><a href="#modify-the-original-data" id="toc-modify-the-original-data" class="nav-link" data-scroll-target="#modify-the-original-data">Modify the original data</a></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/synthetic-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html">How to approach synthetic data</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html">How to approach publication of data</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">How to approach synthetic data</h1>
-<p class="subtitle lead">Creating and sharing synthetic (or real but modified) data</p>
+<h1 class="title">How to approach publication of data</h1>
+<p class="subtitle lead">Publish dummy files, create synthetic data or modifiy the original data</p>
 </div>
 
 
@@ -494,7 +503,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 1, 2025</p>
+      <p class="date">February 23, 2026</p>
     </div>
   </div>
   
@@ -506,26 +515,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Caution</span>WIP
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is still in the works. Possible topics (see <a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/43">#43</a> for more info) to include:</p>
+<p>It is not always possible to disclose the internal dataset used in a research project. Nevertheless, publishing some form of data in the research compendium can enhance openness and reproducibility, and can help to illustrate the objectives of the research.</p>
+<p>There are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility — ensuring the data retains analytical value — and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives.</p>
+<p>A comprehensive overview of existing methods can be found in the <a href="https://sdctools.github.io/HandbookSDC/Handbook-on-Statistical-Disclosure-Control.pdf">ESS Statistical Disclosure Control Handbook</a>. In price statistics, variables are typically continuous (e.g., prices, quantities) and often organized as panel data, with repeated observations over time. More practical implementations and shared experiences in that context are needed to identify effective approaches and establish good practices.</p>
+<section id="publish-dummy-files" class="level2">
+<h2 class="anchored" data-anchor-id="publish-dummy-files">Publish dummy files</h2>
+<p>In certain cases, providing a dummy file alongside the code can be helpful. A dummy file contains data with the variables in the required format. The datat itself can be randomly created. As a minimum, this allows others to execute and test the code, while offering a basic understanding of the data’s structure and characteristics. However, the analytical value of such dummy files is often limited. For this reason, it may be worthwhile to explore alternative approaches that better address analytical needs and support validation of the research.</p>
+</section>
+<section id="create-synthetic-data" class="level2">
+<h2 class="anchored" data-anchor-id="create-synthetic-data">Create synthetic data</h2>
+<p>Datasets can be created using synthetic data generation methods. These techniques produce a new, artificial dataset that preserves specific statistical properties of the original data. The <a href="https://unece.org/sites/default/files/2022-11/ECECESSTAT20226.pdf">UNECE Starter Guide on Synthetic Data</a> provides an overview of various methods and good practices for implementing these approaches.</p>
+<p>One approach to synthetic data generation consists of creating data from an underlying probability distribution or model. For example, prices often follow a log-normal distribution. By specifying the parameters of this distribution (mean and standard deviation), random data points can be generated. Some studies in price statistics use prices and quantities that satisfy the Constant Elasticity of Substitution (CES) assumption. A practical option would be to create datasets that are consistent with the CES model.</p>
+<p>Instead of publishing theoretic datasets, more realistic datasets can be created. One way for achieving this is to estimate a model from the original data. This model then serves to generate a new, synthetic, data.</p>
+<p>Data may be also be created using advanced AI models. For example, Large Language Models, possibly combined with some knowledge base, could be leveraged to create product labels.</p>
+</section>
+<section id="modify-the-original-data" class="level2">
+<h2 class="anchored" data-anchor-id="modify-the-original-data">Modify the original data</h2>
+<p>The original data could be modified in a way that that it can be publicly released.</p>
+<p>Some simple transformations can enhance data protection. For instance, product or outlet names can be replaced with artificial identifiers. Absolute values may be converted into relative measures, which is particularly useful since many price indices can be compiled using only relative information, such as price changes or expenditure shares.</p>
+<p>Below are some examples of methods that introduce some kind of perturbation in the original data and that may be useful to protect price statistics data:</p>
 <ul>
-<li><p>Common packages for making synthetic data. You could include these in research compendium and others could recreate your data.</p></li>
-<li><p>To publish synthetic data or not (to say Zenodo)</p></li>
-<li><p>Modifying real data so that it can be shared.</p></li>
+<li><strong>Noise Addition Methods</strong>: Various algorithms exist for adding random noise to data. In the context of price statistics, introducing (multiplicative) random noise to prices or quantities can make the original dataset less identifiable while preserving plausibility and analytical value.</li>
+<li><strong>Micro-Aggregation Methods</strong>: Micro-aggregation involves grouping individual records into clusters of sufficient size so that specific records cannot be distinguished. There are several strategies for forming these groups. This approach aligns well with common practices in price statistics, such as averaging across time periods, outlets, and products.</li>
 </ul>
-</div>
-</div>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<p>The following tools may be helpful when generating synthetic or modified data:</p>
+<ul>
+<li><p>The R package <a href="https://CRAN.R-project.org/package=PriceIndices">PriceIndices</a> includes functions for generating artificial datasets where prices and quantities are lognormally distributed and comply with the CES model (see functions <em>generate</em> and <em>generate_CES</em>).</p></li>
+<li><p>The R package <a href="https://CRAN.R-project.org/package=gratis">gratis</a> enables the generation of synthetic time series based on various univariate time series models, providing flexibility for simulating realistic price dynamics.</p></li>
+<li><p>The R package <a href="https://synthpop.org.uk/">synthpop</a> is a popular tool for implementing the The Fully Conditional Specification (FCS) method. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g.&nbsp;between prices and quantities), and patterns of missingness (e.g.&nbsp;product churn).</p></li>
+<li><p>The R packacke <a href="https://CRAN.R-project.org/package=sdcMicro">sdcMicro</a> is a popular tool that can be used for the generation of anonymized microdata, implementing a wide range of anonymization methods.</p></li>
+<li><p>The R package <a href="https://CRAN.R-project.org/package=synthesizer">synthsizer</a> is a tool that can adapt to different types of data. A single parameter allows balancing between high-quality synthetic data that represents correlations of the original data and lower quality but more privacy safe synthetic data without correlations.</p></li>
+</ul>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -972,7 +998,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/synthetic-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/synthetic-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
