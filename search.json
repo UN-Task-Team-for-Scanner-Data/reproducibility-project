@@ -765,14 +765,40 @@
   {
     "objectID": "docs/reproducibility-guidance/howtos/licences.html",
     "href": "docs/reproducibility-guidance/howtos/licences.html",
-    "title": "What licences could I use?",
+    "title": "What licence should I use?",
     "section": "",
-    "text": "CautionSection in progress\n\n\n\nLicences are a complex topic. We cannot offer much more than what others have already written – so while we work on a succinct and accurate summary that applies most to the discipline, we recommend a few of the following that cover the topic quite well:\n\nThe quite comprehensive Turing Way chapter on Licences\nHow to FAIR’s guide on Data Licenses is robust and succinct\n\n\n\n\n\n\n Back to top",
+    "text": "Creating a research compendium for a project and making it publicly available for others to see is necessary but not quite sufficient for making the research project reproducible. The issue is that, by default, the author retains all rights to the research compendium. This limits what others can do, such as making a copy to reproduce the results of the project. The solution to this problem is to attach a license to the compendium to allow others to use this research artifact in a way that enables reproducible research. There are a great many open licenses that are used for this purpose, and the goal of this section is to outline what types of licenses can apply to which types of projects. In all cases, using a license consists of placing a file called LICENSE in the top level of your research compendium with the standard content of the license.\nLicences are a complex topic. The quite comprehensive Turing Way chapter on Licences gives a broad overview of licenses and their role for reproducible research. Rather than try to summarize this complex topic, the goal here is to give some practical advice on how licensing interacts with a research project. The Choose a License tool can help if you’re unsure about picking a license.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The research compendium",
-      "What licences could I use?"
+      "What licence should I use?"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/licences.html#picking-a-license-for-a-research-project",
+    "href": "docs/reproducibility-guidance/howtos/licences.html#picking-a-license-for-a-research-project",
+    "title": "What licence should I use?",
+    "section": "Picking a license for a research project",
+    "text": "Picking a license for a research project\nIn most cases a research compendium is a collection of scripts along with some documentation to take data and produce research results. A common license for this type of project is one of the Creative Commons licenses. These are general-purpose licenses for any copyrightable work (except software) that enables authors to grant public permissions to use their works. These licenses are also useful for research papers (e.g., articles are licensed as CC BY-NC 4.0 for the Journal of Official Statistics and CC BY 4.0 for the Journal of Open Source Software) and data sets. There are other licenses in this space, and some very colourful ones, but the Creative Commons licenses appear to be the most common.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The research compendium",
+      "What licence should I use?"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/licences.html#picking-a-license-for-research-software",
+    "href": "docs/reproducibility-guidance/howtos/licences.html#picking-a-license-for-research-software",
+    "title": "What licence should I use?",
+    "section": "Picking a license for research software",
+    "text": "Picking a license for research software\nSoftware licenses are different than the general-purpose Creative Commons licenses. Without getting into the details, the practical difference is that making a piece of research software generally available for others to use requires releasing that software with an open-source software license. For example, releasing an R package on CRAN requires that the package has one of the standard open-source licenses. Some research projects will have software as part of the research project, and consequently there may be different licenses for different parts of the project.\nIn contrast to the general-purpose licenses, there are two flavors to software licenses: permissive and copyleft. The MIT license is a popular permissive license that puts minimal restrictions on what someone can do with a piece of software. By contrast, the GPL, probably the most well-known copyleft license, prevents open-source software from getting repackaged as non-open software. For most research projects there is little practical difference between these licenses, as they all fulfill the purpose of making research software accessible to others. The R Packages book has an excellent chapter on software licenses for research software.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The research compendium",
+      "What licence should I use?"
     ]
   },
   {
@@ -780,7 +806,20 @@
     "href": "docs/reproducibility-guidance/howtos/publishing-research-compendium.html",
     "title": "Publishing your research compendium",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works. Scope to include:\n\nFor active projects, publishing to GitHub is sufficient - you can cite a paper in GitHub if you want (and the paper can be archived).\nIdeally (given the processes researchers need to follow with their research institutes), a ‘snapshot’ of the research compendium to a repository that mints a DOI will ensure that the compendium in the state matching the paper has a persistent ID.\nPublishing data to a repository that mints a DOI is also a way to make the object persist and give it a unique ID.\n\n\n\n\n\n\n Back to top",
+    "text": "Congratulation! You’ve structured your project as a research compendium so that your work can easily be reproduced. But at the moment this is only useful for you—how do you share it so that others can reproduce your work? This is the job of an archive for research objects.\nThere are a few different archives for research objects in operation by different organizations, such as figshare or Harvard’s dataverse. We have the most experience with Zenodo, and so this section will focus on that particular research archive, but these services all serve the same role of providing a long-term and citable location for research outputs.\nIt’s important to recognize that a source-code repository like github isn’t a substitute for a research archive. Although github is useful for sharing code and collaborating with co-authors, it is not suitable for housing data nor does it give an easy way to cite or reference a particular research project.1 By contrast, a service like Zenodo can house all the components of a research project, making it easier to reproduce, and mints a DOI for the archive to facilitate referencing and citing this work. This DOI can be added to a github repo to help link these separate parts of a project.\nZenodo is easy to use. You can sign up with your ORCID and then upload the content of your research project. You’ll need to supply some information about the archive, such as information about co-authors and a license, and this will depend in part of the type of research object that you’re archiving. For example, a piece of research software requires different information than a research compendium that’s linked to a published paper or a stand-alone dataset. You can also link Zenodo with your github account to automate archiving versions of this software, something often done to help make software more citable.\nOnce complete, you now have a persistent, citable archive with the necessary material to reproduce your research project.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "Publishig artifacts and citation",
+      "Publishing your research compendium"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/publishing-research-compendium.html#footnotes",
+    "href": "docs/reproducibility-guidance/howtos/publishing-research-compendium.html#footnotes",
+    "title": "Publishing your research compendium",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAlthough github does offer some functionality for citation with a CITATION.cff file, it neither mints a DOI nor keeps track of versions of a research compendium. That said, for smaller scale projects without data, it may be sufficient to treat a repo on github as an archieve.↩︎",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",

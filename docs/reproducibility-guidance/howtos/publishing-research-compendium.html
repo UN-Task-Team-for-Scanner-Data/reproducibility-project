@@ -77,7 +77,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="quarto:status" content="draft">
 
 
 <link rel="stylesheet" href="../../../docs/styles.css">
@@ -248,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div>
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -383,7 +382,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/licences.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">What licences could I use?</span></a>
+ <span class="menu-text">What licence should I use?</span></a>
   </div>
 </li>
       </ul>
@@ -499,28 +498,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Caution</span>WIP
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is still in the works. Scope to include:</p>
-<ul>
-<li><p>For active projects, publishing to GitHub is sufficient - you can cite a paper in GitHub if you want (and the paper can be archived).</p></li>
-<li><p>Ideally (given the processes researchers need to follow with their research institutes), a ‘snapshot’ of the research compendium to a repository that mints a DOI will ensure that the compendium <strong>in the state matching the paper</strong> has a persistent ID.</p></li>
-<li><p>Publishing data to a repository that mints a DOI is also a way to make the object persist and give it a unique ID.</p></li>
-</ul>
-</div>
-</div>
+<p>Congratulation! You’ve structured your project as a <a href="../../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">research compendium</a> so that your work can easily be reproduced. But at the moment this is only useful for you—how do you share it so that others can reproduce your work? This is the job of an archive for research objects.</p>
+<p>There are a few different archives for research objects in operation by different organizations, such as <a href="https://figshare.com/">figshare</a> or <a href="https://data.harvard.edu/dataverse">Harvard’s dataverse</a>. We have the most experience with <a href="https://zenodo.org/">Zenodo</a>, and so this section will focus on that particular research archive, but these services all serve the same role of providing a long-term and citable location for research outputs.</p>
+<p>It’s important to recognize that a source-code repository like github isn’t a substitute for a research archive. Although github is useful for sharing code and collaborating with co-authors, it is not suitable for housing data nor does it give an easy way to cite or reference a particular research project.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> By contrast, a service like Zenodo can house <em>all</em> the components of a research project, making it easier to reproduce, and mints a DOI for the archive to facilitate referencing and citing this work. This DOI can be added to a github repo to help link these separate parts of a project.</p>
+<p>Zenodo is easy to use. You can sign up with your ORCID and then upload the content of your research project. You’ll need to supply some information about the archive, such as information about co-authors and a <a href="../../../docs/reproducibility-guidance/howtos/licences.html">license</a>, and this will depend in part of the type of research object that you’re archiving. For example, a piece of research software requires different information than a research compendium that’s linked to a published paper or a stand-alone dataset. You can also link Zenodo with your github account to <a href="https://help.zenodo.org/docs/github/">automate archiving</a> versions of this software, something often done to help make <a href="../../../docs/reproducibility-guidance/howtos/citing-code.html">software more citable</a>.</p>
+<p>Once complete, you now have a persistent, citable archive with the necessary material to reproduce your research project.</p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Although github does offer some functionality for citation with a <code>CITATION.cff</code> file, it neither mints a DOI nor keeps track of versions of a research compendium. That said, for smaller scale projects without data, it may be sufficient to treat a repo on github as an archieve.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
