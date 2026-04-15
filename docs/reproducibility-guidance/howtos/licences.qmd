@@ -1,4 +1,5 @@
 ---
+mpy ---
 title: "What licence should I use?"
 subtitle: "Brief introduction to licences in the research process"
 draft: true
@@ -9,9 +10,13 @@ format:
     toc-expand: 3
 ---
 
-Creating a research compendium for a project and making it publicly available for others to see is necessary but not quite sufficient for making the research project reproducible. The issue is that, by default, the author retains all rights to the research compendium. This limits what others can do, such as making a copy to reproduce the results of the project. The solution to this problem is to attach a license to the compendium to allow others to use this research artifact in a way that enables reproducible research. There are a great many open licenses that are used for this purpose, and the goal of this section is to outline what type of license applies to which type of project. In all cases, using a license consists of placing a file called `LICENSE` in the top level of your research compendium with the standard content of the license.
+Creating a research compendium for a project and making it publicly available for others to see is necessary but not quite sufficient for making the research project reproducible. The issue is that, by default, the author retains all rights to the research compendium. This limits what others can do, such as making a copy to reproduce the results of the project. The solution to this problem is to attach a license to the compendium to allow others to use this research artifact in a way that enables reproducible research. There are a great many open licenses that are used for this purpose, and the goal of this section is to outline what types of licenses can apply to which types of projects. In all cases, using a license consists of placing a file called `LICENSE` in the top level of your research compendium with the standard content of the license.
 
-Licences are a complex topic. The quite comprehensive [Turing Way chapter on Licences](https://book.the-turing-way.org/reproducible-research/licensing/) gives a broad overview of licenses and their role for reproducible research. Rather than try to summarize this complex topic, the goal here is to give some practical advice on how licensing interacts with a research project. Note that licensing is a legal concept, so the details can vary by location and, to the extent that your employer retains the copyright to your work, may be decided by institutional policy. The [Choose a License](https://choosealicense.com/) tool can help if you're unsure about picking a license.
+Licences are a complex topic. The quite comprehensive [Turing Way chapter on Licences](https://book.the-turing-way.org/reproducible-research/licensing/) gives a broad overview of licenses and their role for reproducible research. Rather than try to summarize this complex topic, the goal here is to give some practical advice on how licensing interacts with a research project. The [Choose a License](https://choosealicense.com/) tool can help if you're unsure about picking a license.
+
+::: callout-caution
+Note that licensing is a legal concept, so the details can vary by location and, to the extent that your employer retains the copyright to your work, may be decided by institutional policy.
+:::
 
 ## Picking a license for a research project
 
