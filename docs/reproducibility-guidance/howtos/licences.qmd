@@ -1,8 +1,6 @@
 ---
-mpy ---
 title: "What licence should I use?"
 subtitle: "Brief introduction to licences in the research process"
-draft: true
 sidebar: true
 format:
   html:

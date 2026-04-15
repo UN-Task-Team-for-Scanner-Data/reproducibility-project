@@ -1,7 +1,6 @@
 ---
 title: "Publishing your research compendium"
 subtitle: "Publish to GitHub and to a repository that mints a DOI"
-draft: true
 sidebar: true
 format:
   html:
