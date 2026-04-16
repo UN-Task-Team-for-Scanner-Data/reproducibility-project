@@ -46,10 +46,9 @@ The following are current or historic members of Workstream 5 of the UN Task Tea
 -   GitHub id: [sergegoussev](https://github.com/sergegoussev)
 -   Email: [serge.goussev\@statcan.gc.ca](mailto:%20serge.goussev@statcan.gc.ca)
 
-## Steve Martin
+## Steve Martin [{{< fa brands orcid >}}](https://orcid.org/0000-0003-2544-9480) [{{< fa brands github >}}](https://github.com/marberts)
 
 -   Role: Contributor (2024 - current)
--   GitHub id: [marberts](https://github.com/marberts)
 
 ## Claude Lamboray
 

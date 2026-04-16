@@ -10,7 +10,7 @@ format:
 
 ## What is reproducibility?
 
-For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.[^1] The primary way this is achieved by creating and publicly publishing a [**research compendium**](https://book.the-turing-way.org/reproducible-research/compendia) along with the paper. A **research compendium** is a collection of digital parts of the research project that supports reuse, including data, code, protocols, documentation, metadata, etc.[^2]
+For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.[^1] The primary way this is achieved is by creating and publicly publishing a [**research compendium**](https://book.the-turing-way.org/reproducible-research/compendia) along with the paper. A **research compendium** is a collection of digital parts of the research project that supports reuse, including data, code, protocols, documentation, metadata, etc.[^2]
 
 [^1]: A good overview of [reproducible research is done by the Turing Way](https://book.the-turing-way.org/reproducible-research/overview). The book also covers [open research](https://book.the-turing-way.org/reproducible-research/open) and many other topics.
 
@@ -34,7 +34,7 @@ The main principle of the [**research compendium**](https://book.the-turing-way.
 
 ## Key components in a research project
 
-To make a research project reproducible, it is key to to observe that there is not one object that is produced (i.e. the paper), but 4. @fig-research-objects provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.
+To make a research project reproducible, it is key to  observe that there is not one object that is produced (i.e., the paper), but 4. @fig-research-objects provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.
 
 ![Research process](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg){#fig-research-objects fig-align="center"}
 
@@ -46,7 +46,7 @@ It is key to differentiate **input data** and **output data**:
 
     -   Ideally open data is used as this ensures the research can be fully reproducible and the dataset used can act as a benchmark if other methods are tried on it. We list a few available open datasets in the [discipline specific catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/).
 
-    -   While input data is ingested and processed by the research, in itself it is *ignored* by the research compendium (such as by listing the data files in the `.gitingore`). Read more in the [input data guide](/docs/reproducibility-guidance/howtos/input-data.qmd).
+    -   While input data is ingested and processed by the research, in itself it is *ignored* by the research compendium (such as by listing the data files in the `.gitignore`). Read more in the [input data guide](/docs/reproducibility-guidance/howtos/input-data.qmd).
 
 -   **Ouput data** is data created as part of the research process. Whether (and how) its shared depends on various circumstances and value to later research projects (to say act as an input dataset for other projects). Read [about this process here](/docs/reproducibility-guidance/howtos/opening-data.qmd).
 
@@ -66,11 +66,11 @@ It is key to differentiate between **active** and **archived** versions of the c
 
 When a project is active, it is best to use a version control process (such as GitHub/GitLab) to store and version the whole object. This is a sensible default for research projects.
 
-There is a risk however with GitHub/GitLab for long term archival as they are not permanent records - i.e. the GitHub repository can be deleted or changed and the URL could change.
+There is a risk however with GitHub/GitLab for long term archival as they are not permanent records---i.e., the GitHub repository can be deleted or changed and the URL could change.
 
 #### 2B. Archived research compendium
 
-When a research project is complete, the compendium should thus be archived in a repository. The snapshot created at this time should align to the paper that was published. Repositories (such as Zenodo) mint DOIs (or Digitial Object Identifiers) that are unique and are immutable (i.e. don't change). This ensures that you can find that same snapshot at any point in the future.
+When a research project is complete, the compendium should thus be archived in a repository. The snapshot created at this time should align to the paper that was published. Repositories (such as Zenodo) mint DOIs (or Digitial Object Identifiers) that are unique and are immutable (i.e., don't change). This ensures that you can find that same snapshot at any point in the future.
 
 ::: callout-note
 ## Adoption depends on the organization
