@@ -78,7 +78,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="quarto:status" content="draft">
 
 
 <link rel="stylesheet" href="../../../docs/styles.css">
@@ -249,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div>
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -473,8 +472,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#identifying-the-inputs" id="toc-identifying-the-inputs" class="nav-link active" data-scroll-target="#identifying-the-inputs">Identifying the inputs</a></li>
+  <li><a href="#metadata-for-data-are-different" id="toc-metadata-for-data-are-different" class="nav-link" data-scroll-target="#metadata-for-data-are-different">Metadata for data are different</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/metadata.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -506,34 +512,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-caution callout-empty-content callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Caution</span>This section is still in the works
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-<p>Building on the previous introduction of citation, we can take a deeper dive into metadata in order to understand how it helps make the reseach project reproducible.</p>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Caution</span>WIP
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The guide (<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/51">#51</a>) could cover such topics as:</p>
-<ul>
-<li>Metadata is to help find, reuse, understand everything. <a href="https://www.howtofair.dk/how-to-fair/metadata/">How-to-fair guide on the topic</a> provides an intro, the <a href="https://faircookbook.elixir-europe.org/content/home.html">FAIR cookbook</a>is also not bad.</li>
-</ul>
+<p>Just because you can’t fit an econometric model on metadata doesn’t mean it’s not important—instead, metadata are a key part of making a research project reproducible. Metadata is a big topic, and the <a href="https://www.howtofair.dk/how-to-fair/metadata/">How To Fair guide</a> gives more detail. But the essential piece we’ll focus on here is persistent identifiers to unambiguously refer to the inputs and outputs of research (citation metadata). Aspects of this have already been covered in <a href="../../../docs/reproducibility-guidance/howtos/citing-code.html">citing code</a>, <a href="../../../docs/reproducibility-guidance/howtos/citing-data.html">citing data</a>, <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html">publishing research compendia</a>, <a href="../../../docs/reproducibility-guidance/howtos/licences.html">licensing</a>, and <a href="../../../docs/reproducibility-guidance/howtos/how-to-cite-digital-objects.html">citing digital objects</a>, so this section is about how these topics relate to each other, as summarized in <a href="#fig-citing-research-objects" class="quarto-xref">Figure&nbsp;1</a>.</p>
 <div id="fig-citing-research-objects" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-citing-research-objects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -544,40 +523,20 @@ Figure&nbsp;1: Citing research objects
 </figcaption>
 </figure>
 </div>
-<ul>
-<li><p>Possible metadata that are key to know about:</p>
-<ul>
-<li><p>Metadata that helps Findability - ideally all objects of a research process should have persistent identifiers (or PIDs) so that these can be easily found and be Citable (i.e.&nbsp;making <a href="#fig-citing-research-objects" class="quarto-xref">Figure&nbsp;1</a> easier. In price statistics, some already exist/are possible, and others are not yet set up:</p>
-<ul>
-<li><p>Researchers in the discipline can sign up to create an ORCID. This helps you be found and get fair recognition for your work.</p></li>
-<li><p>Datasets published to data repositories like zenodo help mint DOIs. TBC how to handle proprietary datasets though (i.e.&nbsp;<a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46">#46</a>)</p></li>
-<li><p>Papers in official journals have DOIs that the journal creates as part of the publication process. Ideally <a href="https://datascience.codata.org/articles/dsj-2022-011">papers published as part of conference proceedings could also have DOIs</a> (as many disciplines now do), however this isn’t yet done in price stats.</p></li>
-<li><p>Code (i.e.&nbsp;the research compendium) is published in a way that mints a persistent identifier. Note that GitHub doesn’t mint a DOI but that may be okay for interim code and published code could be pushed to zenodo (which does).</p></li>
-</ul></li>
-<li><p>Metadata that helps interoperability:</p>
-<ul>
-<li><p>The descriptive and structural metadata (i.e.&nbsp;info about each dataset) is outlined in the catalogue – hence we aim to help solve some of this with the catalogue.</p>
-<ul>
-<li><p>While not exclusive, we are trying to follow the basic <a href="https://www.dublincore.org/resources/metadata-basics/">dublin core</a></p></li>
-<li><p>The way we define various things is as standard as possible so that its easy to use</p></li>
-</ul></li>
-<li><p>The idea is that researchers (and their programs) can more easily understand open datasets they use for their research, understand them, etc.</p></li>
-</ul></li>
-<li><p>Accessiblity:</p>
-<ul>
-<li>Ways to get the data is as simple as possible - say using <a href="https://rdrr.io/github/inbo/inborutils/man/download_zenodo.html">download_zenodo (in R)</a> to automate the downloading of data via its DOI</li>
-</ul></li>
-<li><p>Metadata that helps reusability:</p>
-<ul>
-<li><p>Knowing how datasets or code is licensed so that you know when and how to research it. We document this in the limitations section of the dataset record</p></li>
-<li><p>Provenance is clear. Say a dataset is made available on zenodo - where it came from and how it was created/modified is clear.</p></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
+<section id="identifying-the-inputs" class="level2">
+<h2 class="anchored" data-anchor-id="identifying-the-inputs">Identifying the inputs</h2>
+<p>The first thing to identify are the input data used for a research project. This is probably the most difficult part of a research project to reference and, unfortunately, probably one of the most important. Having a clear understanding of the source of the input data for a project is key to being able to reproduce it. Unambiguously referring to input data is easy in cases where these data come from an open dataset in a research archive (like Zenodo), as the DOI gives a persistent identifier for the input data to a project. At the other extreme are proprietary data, and it is not always straightforward to identify these inputs.</p>
+<p>The next thing to identify is the process used to conduct the research. This is fairly straightforward, as covered by <a href="../../../docs/reproducibility-guidance/howtos/publishing-research-compendium.html">publishing research compendia</a>, and can be done by using a research archive that mints a DOI. In some cases a source-code repository like github also works, although it does not mint DOIs and, consequently, it is more difficult to refer to a github repo at a point in time.</p>
+<p>An often neglected piece of metadata is the software and tools used as part of a research project. As with identifying input data, citing research software is only as easy as the authors make it, and in some cases tools like <a href="https://cran.r-project.org/web/packages/grateful/index.html"><code>{grateful}</code></a> can help automate this process. Licensing is an important piece of metadata here, as depending on software that is not freely available greatly impedes reproducibility.</p>
+<p>Finally, references to previous work are a well-established piece of metadata for any research project. Most published work now has a DOI, but conferences papers, for example, often do not, making them more difficult to reference. An important part of identifying the authors of previous work is having a persistent identifier for you, the researcher. This is the role of an <a href="https://orcid.org/">ORCID</a>, which uniquely identifies a researcher and is connected to their research.</p>
+<p>Good metadata isn’t just about attribution; it can also help to make the different parts of a research project more accessible and interoperable. For example, research archives on Zenodo can be <a href="https://inbo.github.io/inborutils/reference/download_zenodo.html">downloaded directly for R</a> based on the DOI.</p>
+</section>
+<section id="metadata-for-data-are-different" class="level2">
+<h2 class="anchored" data-anchor-id="metadata-for-data-are-different">Metadata for data are different</h2>
+<p>If a dataset is the output of a project, rather than an input to the project, then metadata become more complex—it is now longer just about proper attribution but rather effectively describing the dataset (structural metadata). Both <a href="https://sdmx.org/">SDMX</a> and <a href="https://ddialliance.org/">DDI</a> are standards for documentating statistical data, although the details are beyond the scope of this guide. But these only matter for <em>producing</em> data and making it usable by others; consumers of data need only references those data (ideally with a DOI).</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1024,7 +983,7 @@ Figure&nbsp;1: Citing research objects
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/metadata.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/metadata.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
