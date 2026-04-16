@@ -1,7 +1,6 @@
 ---
 title: "How metadata and persistent identifiers help the research process"
 subtitle: "Summary of the basic metadata concepts, how persistent idenfifiers tie in, and how they can help"
-draft: true
 sidebar: true
 date: 2025-12-01
 format:
@@ -10,9 +9,11 @@ format:
     toc-expand: 3
 ---
 
-Just because you can't fit an econometric model on metadata doesn't mean it's not important---instead, metadata are a key part of making a research project reproducible. Metadata is a big topic, and the [How To Fair guide](https://www.howtofair.dk/how-to-fair/metadata/) gives more detail. But the essential piece we'll focus on here is persistent identifiers to unambiguously refer to the inputs and outputs of research. Aspects of this have already been covered in [citing code](citing-code.qmd), [citing data](citing-data.qmd), [publishing research compendia](publishing-research-compendium.qmd), [licensing](licences.qmd), and [citing digital objects](how-to-cite-digital-objects.qmd), so this section is about how these topics relate to each other, as summarized in @fig-citing-research-objects.
+Just because you can't fit an econometric model on metadata doesn't mean it's not important---instead, metadata are a key part of making a research project reproducible. Metadata is a big topic, and the [How To Fair guide](https://www.howtofair.dk/how-to-fair/metadata/) gives more detail. But the essential piece we'll focus on here is persistent identifiers to unambiguously refer to the inputs and outputs of research (citation metadata). Aspects of this have already been covered in [citing code](citing-code.qmd), [citing data](citing-data.qmd), [publishing research compendia](publishing-research-compendium.qmd), [licensing](licences.qmd), and [citing digital objects](how-to-cite-digital-objects.qmd), so this section is about how these topics relate to each other, as summarized in @fig-citing-research-objects.
 
 ![Citing research objects](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg){#fig-citing-research-objects fig-align="center"}
+
+## Identifying the inputs
 
 The first thing to identify are the input data used for a research project. This is probably the most difficult part of a research project to reference and, unfortunately, probably one of the most important. Having a clear understanding of the source of the input data for a project is key to being able to reproduce it. Unambiguously referring to input data is easy in cases where these data come from an open dataset in a research archive (like Zenodo), as the DOI gives a persistent identifier for the input data to a project. At the other extreme are proprietary data, and it is not always straightforward to identify these inputs.
 
@@ -22,4 +23,8 @@ An often neglected piece of metadata is the software and tools used as part of a
 
 Finally, references to previous work are a well-established piece of metadata for any research project. Most published work now has a DOI, but conferences papers, for example, often do not, making them more difficult to reference. An important part of identifying the authors of previous work is having a persistent identifier for you, the researcher. This is the role of an [ORCID](https://orcid.org/), which uniquely identifies a researcher and is connected to their research.
 
-Good metadata ins't just about attribution; it can also help to make the different parts of a research project more accessible and interoperable. For example, research archives on Zenodo can be [downloaded directly for R](https://inbo.github.io/inborutils/reference/download_zenodo.html) based on the DOI.
+Good metadata isn't just about attribution; it can also help to make the different parts of a research project more accessible and interoperable. For example, research archives on Zenodo can be [downloaded directly for R](https://inbo.github.io/inborutils/reference/download_zenodo.html) based on the DOI.
+
+## Metadata for data are different
+
+If a dataset is the output of a project, rather than an input to the project, then metadata become more complex---it is now longer just about proper attribution but rather effectively describing the dataset (structural metadata). Both [SDMX](https://sdmx.org/) and [DDI](https://ddialliance.org/) are standards for documentating statistical data, although the details are beyond the scope of this guide. But these only matter for _producing_ data and making it usable by others; consumers of data need only references those data (ideally with a DOI).
