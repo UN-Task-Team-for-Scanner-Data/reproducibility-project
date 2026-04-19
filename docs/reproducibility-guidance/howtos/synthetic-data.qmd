@@ -56,7 +56,7 @@ The following tools may be helpful when generating synthetic or modified data:
 
 - The R package [gratis](https://CRAN.R-project.org/package=gratis) enables the generation of synthetic time series based on various univariate time series models, providing flexibility for simulating realistic price dynamics.
 
-- The R package [synthpop](https://synthpop.org.uk/) is a popular tool for implementing the The Fully Conditional Specification (FCS) method. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g. between prices and quantities), and patterns of missingness (e.g. product churn).
+- The R package [synthpop](https://synthpop.org.uk/) is a popular tool for implementing the The Fully Conditional Specification (FCS) method. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g. between prices and quantities), and patterns of missingness (e.g., product churn).
 
 - The R packacke [sdcMicro](https://CRAN.R-project.org/package=sdcMicro) is a popular tool that can be used for the generation of anonymized microdata, implementing a wide range of anonymization methods.
 

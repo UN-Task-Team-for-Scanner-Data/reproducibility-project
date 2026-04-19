@@ -67,7 +67,7 @@ You could also just give us a ping to let us know that a good dataset exists and
 
 # Maturity model of registered datasets {#maturity-model}
 
-As not all datasets can be documented to the same level, we've broken up the structure into a maturity model to aspire to for each dataset record, starting from the benchmark to the top 'gold standard' level.
+As not all datasets can be documented to the same level, we've broken up the structure into a maturity model to aspire to for each dataset record, starting from the benchmark to the top "gold standard" level.
 
 ## Level 1
 
@@ -88,7 +88,7 @@ Level 2 implies a higher level of maturity to simplify the process for data.
 
 ## Level 3
 
-This implies a 'gold standard' for a dataset.
+This implies a "gold standard" for a dataset.
 
 -   [ ] The dataset is made available in a data repository (such as Zenodo) that mints a DOI. This DOI is listed as part of the dataset.
 -   [ ] A data paper detailing the dataset is available and linked. Alternatively, a blog can also be written on the project site to introduce the dataset with the dataset owner.

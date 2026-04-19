@@ -18,7 +18,7 @@ The idea of this project is to help researchers by providing approachable guidan
 
 # How does it work in practice?
 
-The aim can be visualized using the (input) data and analysis quadrant commonly applied for this case (see @fig-definitions). With proprietary data and non-open analysis (i.e. code and other digital artifacts), generalizability is the default. However, if the dataset used for the research is shared and the analysis is open, the method can be reproduced exactly. The goal of the project is to help make this happen. The backup is replicability, where the analysis is shared but different datasets are used (such as because the data cannot be shared).[^1]
+The aim can be visualized using the (input) data and analysis quadrant commonly applied for this case (see @fig-definitions). With proprietary data and non-open analysis (i.e., code and other digital artifacts), generalizability is the default. However, if the dataset used for the research is shared and the analysis is open, the method can be reproduced exactly. The goal of the project is to help make this happen. The backup is replicability, where the analysis is shared but different datasets are used (such as because the data cannot be shared).[^1]
 
 [^1]: See [Definitions in The The Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions) for more details.
 

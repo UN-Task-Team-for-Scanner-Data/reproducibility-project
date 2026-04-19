@@ -52,11 +52,11 @@ It is key to differentiate **input data** and **output data**:
 
 ### (2) The research compendium
 
-The research compendium is a **structured object** that contains **all the aspects** to recreate the output (i.e. results shared in the paper). Some key sub-components include:
+The research compendium is a **structured object** that contains **all the aspects** to recreate the output (i.e., results shared in the paper). Some key sub-components include:
 
 -   Its logical **structure** ensures maturity and helps others (or you later) in trying to peer review, reproduce or extend the research. Read more about how and why to set up an appropriate structure [here](/docs/reproducibility-guidance/howtos/research-compendium-structure.qmd).
 
--   The code and workflows **ingest and processes** input data to **create relevant outputs** (output data, figures, etc) in an automated fashion (i.e. avoiding manual steps). As mentioned above, the **input data** itself however **is not** a part of the compendium and is not republished.
+-   The code and workflows **ingest and processes** input data to **create relevant outputs** (output data, figures, etc) in an automated fashion (i.e., avoiding manual steps). As mentioned above, the **input data** itself however **is not** a part of the compendium and is not republished.
 
 -   The source for the paper is included so that raw input to final paper can be reproduced in an automated fashion. This allows you to regenerate and change the paper as needed.
 

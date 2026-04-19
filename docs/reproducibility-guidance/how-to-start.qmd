@@ -89,7 +89,7 @@ Rather than a strictly-defined list of requirements, this list is intended to pr
 
 -   [ ] The code includes functions to help the user run it, or is fully packaged.
 
--   [ ] The output data's metadata is comprehensive (e.g. frequency of update, quality controls, license requirements).
+-   [ ] The output data's metadata is comprehensive (e.g., frequency of update, quality controls, license requirements).
 
 -   [ ] The explanatory documentation covers major changes over time (e.g., Semantic Versioning).
 
