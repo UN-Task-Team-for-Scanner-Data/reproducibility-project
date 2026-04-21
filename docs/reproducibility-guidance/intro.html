@@ -519,7 +519,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="what-is-reproducibility" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-reproducibility">What is reproducibility?</h2>
-<p>For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The primary way this is achieved by creating and publicly publishing a <a href="https://book.the-turing-way.org/reproducible-research/compendia"><strong>research compendium</strong></a> along with the paper. A <strong>research compendium</strong> is a collection of digital parts of the research project that supports reuse, including data, code, protocols, documentation, metadata, etc.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>For robust scientific progress, new methods or approaches should be confirmed independently before they are widely adopted. The goal of appropriately structuring and sharing research objects in a transparent fashion is to simplify this peer review process.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The primary way this is achieved is by creating and publicly publishing a <a href="https://book.the-turing-way.org/reproducible-research/compendia"><strong>research compendium</strong></a> along with the paper. A <strong>research compendium</strong> is a collection of digital parts of the research project that supports reuse, including data, code, protocols, documentation, metadata, etc.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 </section>
 <section id="why-does-it-help" class="level2">
 <h2 class="anchored" data-anchor-id="why-does-it-help">Why does it help?</h2>
@@ -536,7 +536,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="key-components-in-a-research-project" class="level2">
 <h2 class="anchored" data-anchor-id="key-components-in-a-research-project">Key components in a research project</h2>
-<p>To make a research project reproducible, it is key to to observe that there is not one object that is produced (i.e.&nbsp;the paper), but 4. <a href="#fig-research-objects" class="quarto-xref">Figure&nbsp;1</a> provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.</p>
+<p>To make a research project reproducible, it is key to observe that there is not one object that is produced (i.e., the paper), but 4. <a href="#fig-research-objects" class="quarto-xref">Figure&nbsp;1</a> provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.</p>
 <div id="fig-research-objects" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-research-objects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -554,28 +554,28 @@ Figure&nbsp;1: Research process
 <li><p><strong>Input data</strong> is the data used to answer research questions. It may be open, closed (proprietary or sensitive), or synthetic. Each is approached separately. Some notable aspects:</p>
 <ul>
 <li><p>Ideally open data is used as this ensures the research can be fully reproducible and the dataset used can act as a benchmark if other methods are tried on it. We list a few available open datasets in the <a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">discipline specific catalogue</a>.</p></li>
-<li><p>While input data is ingested and processed by the research, in itself it is <em>ignored</em> by the research compendium (such as by listing the data files in the <code>.gitingore</code>). Read more in the <a href="../../docs/reproducibility-guidance/howtos/input-data.html">input data guide</a>.</p></li>
+<li><p>While input data is ingested and processed by the research, in itself it is <em>ignored</em> by the research compendium (such as by listing the data files in the <code>.gitignore</code>). Read more in the <a href="../../docs/reproducibility-guidance/howtos/input-data.html">input data guide</a>.</p></li>
 </ul></li>
 <li><p><strong>Ouput data</strong> is data created as part of the research process. Whether (and how) its shared depends on various circumstances and value to later research projects (to say act as an input dataset for other projects). Read <a href="../../docs/reproducibility-guidance/howtos/opening-data.html">about this process here</a>.</p></li>
 </ul>
 </section>
 <section id="the-research-compendium" class="level3">
 <h3 class="anchored" data-anchor-id="the-research-compendium">(2) The research compendium</h3>
-<p>The research compendium is a <strong>structured object</strong> that contains <strong>all the aspects</strong> to recreate the output (i.e.&nbsp;results shared in the paper). Some key sub-components include:</p>
+<p>The research compendium is a <strong>structured object</strong> that contains <strong>all the aspects</strong> to recreate the output (i.e., results shared in the paper). Some key sub-components include:</p>
 <ul>
 <li><p>Its logical <strong>structure</strong> ensures maturity and helps others (or you later) in trying to peer review, reproduce or extend the research. Read more about how and why to set up an appropriate structure <a href="../../docs/reproducibility-guidance/howtos/research-compendium-structure.html">here</a>.</p></li>
-<li><p>The code and workflows <strong>ingest and processes</strong> input data to <strong>create relevant outputs</strong> (output data, figures, etc) in an automated fashion (i.e.&nbsp;avoiding manual steps). As mentioned above, the <strong>input data</strong> itself however <strong>is not</strong> a part of the compendium and is not republished.</p></li>
+<li><p>The code and workflows <strong>ingest and processes</strong> input data to <strong>create relevant outputs</strong> (output data, figures, etc) in an automated fashion (i.e., avoiding manual steps). As mentioned above, the <strong>input data</strong> itself however <strong>is not</strong> a part of the compendium and is not republished.</p></li>
 <li><p>The source for the paper is included so that raw input to final paper can be reproduced in an automated fashion. This allows you to regenerate and change the paper as needed.</p></li>
 </ul>
 <p>It is key to differentiate between <strong>active</strong> and <strong>archived</strong> versions of the compendium:</p>
 <section id="a.-active-research-compendium" class="level4">
 <h4 class="anchored" data-anchor-id="a.-active-research-compendium">2A. Active research compendium</h4>
 <p>When a project is active, it is best to use a version control process (such as GitHub/GitLab) to store and version the whole object. This is a sensible default for research projects.</p>
-<p>There is a risk however with GitHub/GitLab for long term archival as they are not permanent records - i.e.&nbsp;the GitHub repository can be deleted or changed and the URL could change.</p>
+<p>There is a risk however with GitHub/GitLab for long term archival as they are not permanent records—i.e., the GitHub repository can be deleted or changed and the URL could change.</p>
 </section>
 <section id="b.-archived-research-compendium" class="level4">
 <h4 class="anchored" data-anchor-id="b.-archived-research-compendium">2B. Archived research compendium</h4>
-<p>When a research project is complete, the compendium should thus be archived in a repository. The snapshot created at this time should align to the paper that was published. Repositories (such as Zenodo) mint DOIs (or Digitial Object Identifiers) that are unique and are immutable (i.e.&nbsp;don’t change). This ensures that you can find that same snapshot at any point in the future.</p>
+<p>When a research project is complete, the compendium should thus be archived in a repository. The snapshot created at this time should align to the paper that was published. Repositories (such as Zenodo) mint DOIs (or Digitial Object Identifiers) that are unique and are immutable (i.e., don’t change). This ensures that you can find that same snapshot at any point in the future.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
