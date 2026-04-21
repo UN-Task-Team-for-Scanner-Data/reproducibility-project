@@ -87,7 +87,7 @@ An **orchestrator of all the steps** to automate the data cleaning, processing, 
 
 ## How to share your active research compendium while?
 
-Version controlling the research compendium is key.[^1] Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust. Later, [we will cover how to publish your research compendium](/docs/reproducibility-guidance/howtos/publishing-research-compendium.qmd) to a repository like Zenodo in order to create a 'snapshot' for archival purposes.
+Version controlling the research compendium is key.[^1] Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust. Later, [we will cover how to publish your research compendium](/docs/reproducibility-guidance/howtos/publishing-research-compendium.qmd) to a repository like Zenodo in order to create a "snapshot" for archival purposes.
 
 [^1]: See overview and explanations of [version control in The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs) for more info.
 
@@ -143,7 +143,7 @@ So what to do instead?
 
 -   **Project management/design** documentation – such as the project charter, [data management plan](https://book.the-turing-way.org/reproducible-research/rdm/rdm-dmp/), etc. These help clearly [state the success criteria for a project and keep you on track](https://book.the-turing-way.org/project-design/pd-overview/).
 
--   Documenation that **explains the code**. No matter how clear the structure or the scripts, the narrative explanation of steps to follow will still requires some documentation. Indeed the list of specific steps may be clear from the analysis steps, but the **why** and the **how** will not be---hence both will also benefit from being made explicit.
+-   Documenation that **explains the code**. No matter how clear the structure or the scripts, the narrative explanation of steps to follow will still requires some documentation. Indeed, the list of specific steps may be clear from the analysis steps, but the **why** and the **how** will not be---hence both will also benefit from being made explicit.
 
 -   Documenation to **explain the process**. A good way to provide clarity to any user without the context is to create a visual of the process flow. For instance, you can outline the process using [**mermaid diagrams**](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/process_mapping/#example-using-markdown-and-mermaid), or use open source diagram tool (like [draw.io](https://app.diagrams.net/) or [lucidchart](https://www.lucidchart.com/pages)) to draw the process yourself, export the image and embed that into the documentation (be sure you version to diagram file itself so that you can always tune the diagram and don't have to recreate it!).[^3]
 
