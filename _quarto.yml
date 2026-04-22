@@ -105,3 +105,4 @@ format:
       light: flatly
       dark: cyborg
     css: docs/styles.css
+    license: "CC BY-SA"
