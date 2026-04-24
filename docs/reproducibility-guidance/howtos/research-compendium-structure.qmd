@@ -85,7 +85,7 @@ An **orchestrator of all the steps** to automate the data cleaning, processing, 
 
 **Finally, a README to introduce the project**. This will be the landing place when someone navigates to the repository, hence it should describe the project at a glance.
 
-## How to share your active research compendium while?
+## How to share your active research compendium?
 
 Version controlling the research compendium is key.[^1] Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust. Later, [we will cover how to publish your research compendium](/docs/reproducibility-guidance/howtos/publishing-research-compendium.qmd) to a repository like Zenodo in order to create a "snapshot" for archival purposes.
 

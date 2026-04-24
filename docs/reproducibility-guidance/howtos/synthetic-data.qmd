@@ -10,9 +10,9 @@ format:
     toc-expand: 3
 ---
 
-It is not always possible to disclose the internal dataset used in a research project. Nevertheless, publishing some form of data in the research compendium can enhance openness and reproducibility, and can help to illustrate the objectives of the research. 
+If you are working with properietary or sensitive (input) datasets, it is not possible to disclose these data in a research project. Nevertheless, publishing a version of the intput data and documenting it in some form in the research compendium can enhance openness and reproducibility, and can help to illustrate the objectives of the research.
 
-There are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility — ensuring the data retains analytical value — and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives. 
+There are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility — ensuring the data retains analytical value — and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives.
 
 A comprehensive overview of existing methods can be found in the [ESS Statistical Disclosure Control Handbook](https://sdctools.github.io/HandbookSDC/Handbook-on-Statistical-Disclosure-Control.pdf). In price statistics, variables are typically continuous (e.g., prices, quantities) and often organized as panel data, with repeated observations over time. More practical implementations and shared experiences in that context are needed to identify effective approaches and establish good practices.
 
