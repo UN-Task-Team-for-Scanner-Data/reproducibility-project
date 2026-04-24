@@ -1,6 +1,6 @@
 ---
-title: "How to approach publication of data"
-subtitle: "Publish dummy files, create synthetic data or modifiy the original data"
+title: "How to work with sensitive and proprietary data"
+subtitle: "Creating dummy files or creating synthetic data or modifiy the original data"
 draft: true
 sidebar: true
 date: 2026-02-23
