@@ -99,7 +99,7 @@
     "href": "docs/catalogue/catalogue.html",
     "title": "Browse the catalogue",
     "section": "",
-    "text": "TipThe catalogue is actually a standalone site\n\n\n\nThis page integrates the catalogue into the page for simplicity—however if you wish to browse the catalogue directly outside this site, check out its site here.\n\n\n\n\n\n\n Back to top",
+    "text": "TipThe catalogue is actually a standalone site\n\n\n\nThis page integrates the catalogue into the page for simplicity—however if you wish to browse the catalogue directly outside this site, check out its site here.\n\n\n\n\n\n\n Back to topReuseCC BY-SA 4.0",
     "crumbs": [
       "Data Catalogue",
       "Browse the catalogue"
@@ -708,7 +708,7 @@
     "href": "CODE_OF_CONDUCT.html",
     "title": "Code of Conduct",
     "section": "",
-    "text": "Code of Conduct\nWe are a community based on openness, as well as friendly and didactic discussions.\nWe aspire to treat everybody equally, and value their contributions.\nDecisions are made based on technical merit and consensus.\nCode is not the only way to help the project. Reviewing pull requests, answering questions to help others on mailing lists or issues, organizing and teaching tutorials, working on the website, improving the documentation, are all priceless contributions.\nWe abide by the principles of openness, respect, and consideration of others of the Python Software Foundation: https://www.python.org/psf/codeofconduct/\n\n\n\n\n Back to top"
+    "text": "Code of Conduct\nWe are a community based on openness, as well as friendly and didactic discussions.\nWe aspire to treat everybody equally, and value their contributions.\nDecisions are made based on technical merit and consensus.\nCode is not the only way to help the project. Reviewing pull requests, answering questions to help others on mailing lists or issues, organizing and teaching tutorials, working on the website, improving the documentation, are all priceless contributions.\nWe abide by the principles of openness, respect, and consideration of others of the Python Software Foundation: https://www.python.org/psf/codeofconduct/\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
     "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html",
@@ -923,7 +923,7 @@
     "href": "docs/reproducibility-guidance/guides-summary.html",
     "title": "Guides and how-tos",
     "section": "",
-    "text": "Find guides on topics that you specifically need\n\nHow to create and structure a research compendium\n\n\nHow to cite objects in your paper\n\n\nWhat to do about data\n\n\n\n\n Back to top"
+    "text": "Find guides on topics that you specifically need\n\nHow to create and structure a research compendium\n\n\nHow to cite objects in your paper\n\n\nWhat to do about data\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
     "objectID": "docs/reproducibility-guidance/intro.html",
