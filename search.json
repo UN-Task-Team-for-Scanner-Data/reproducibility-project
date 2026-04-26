@@ -236,14 +236,40 @@
   {
     "objectID": "docs/reproducibility-guidance/howtos/opening-data.html",
     "href": "docs/reproducibility-guidance/howtos/opening-data.html",
-    "title": "What to do with data your research project creates",
+    "title": "Publishing data part of the research project",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works. Possible topics:\n\nWhen to push your /output/ data to zenodo so that others can benefit from it or to keep it in your GitHub repo.\nNote, the guide should not focus on opening a new dataset that can be used as input for the resarch. This is covered in the contributing to the catalog section.\n\n\n\n\n\n\n Back to top",
+    "text": "Using input data is one of the most immediate priorities to tackle when it comes to data management, however the output of a research project may also be worth a second look. Outputs could be complex data files that may serve multiple functions, in which case their documentation and further preservation could be desirable.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The data",
-      "What to do with data your research project creates"
+      "Publishing data part of the research project"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/opening-data.html#publishing-input-data",
+    "href": "docs/reproducibility-guidance/howtos/opening-data.html#publishing-input-data",
+    "title": "Publishing data part of the research project",
+    "section": "Publishing input data",
+    "text": "Publishing input data\nSynthetic or modified datasets are the most notable examples of datasets that may be valuable to publish publicly. Synthetic or modified datasets that are often reused for research are common in the discipline, such as the Turvey, the European seasonal, or the NZ electronics dataset. If you see value in your modified or synthetic dataset to the discipline, we encourage you to make it available (such as on a data repository like Zenodo) and submit a request to the open data catalogue so that we can document it.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "Publishing data part of the research project"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/opening-data.html#publishing-output-data",
+    "href": "docs/reproducibility-guidance/howtos/opening-data.html#publishing-output-data",
+    "title": "Publishing data part of the research project",
+    "section": "Publishing output data",
+    "text": "Publishing output data\nOutput datasets (i.e., data in the /output/ directory in a compendium) in our experience are typically aggregated versions that are used as inputs to generate visuals. In this case they may not be of much value to other researchers in the future as inputs. These datasets are however useful and may be versioned with the research compendium (if it is permissible to do so based on the data). This facilitates validation of the code in the compendium, as another researcher could easily confirm if using the same input data returned the same output data.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "Publishing data part of the research project"
     ]
   },
   {
@@ -299,11 +325,11 @@
     ]
   },
   {
-    "objectID": "docs/reproducibility-guidance/howtos/research-compendium-structure.html#how-to-share-your-active-research-compendium-while",
-    "href": "docs/reproducibility-guidance/howtos/research-compendium-structure.html#how-to-share-your-active-research-compendium-while",
+    "objectID": "docs/reproducibility-guidance/howtos/research-compendium-structure.html#how-to-share-your-active-research-compendium",
+    "href": "docs/reproducibility-guidance/howtos/research-compendium-structure.html#how-to-share-your-active-research-compendium",
     "title": "Components, structure and why they matter",
-    "section": "How to share your active research compendium while?",
-    "text": "How to share your active research compendium while?\nVersion controlling the research compendium is key.1 Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust. Later, we will cover how to publish your research compendium to a repository like Zenodo in order to create a “snapshot” for archival purposes.",
+    "section": "How to share your active research compendium?",
+    "text": "How to share your active research compendium?\nVersion controlling the research compendium is key.1 Once version controlled, it is best to push it to a hosting service like GitHub. Working with something like GitHub makes it easy for researchers to ensure their projects are well structured and robust. Later, we will cover how to publish your research compendium to a repository like Zenodo in order to create a “snapshot” for archival purposes.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -381,7 +407,33 @@
     "href": "docs/reproducibility-guidance/howtos/input-data.html",
     "title": "What to do with input data to your project",
     "section": "",
-    "text": "CautionWIP\n\n\n\nThis page is still in the works. Overview of possible topics to summarize:\n\nSummarize the main types of input data:\n\nOpen data - this is data that is openly available and can be downloaded and used for analysis. We aim to document the most valuable open data on the open data catalogue. Open data makes reproducibility easy as these datasets can become benchmarks for empirical studies.\nProprietary data - this data is in theory available, however it may need to be purchased. If the organization the researcher is in has access to the data, this dataset can be used for research. As most researchers do not have access to this data and the structure and exact details (i.e. metadata) of the dataset is often not summarized.\nSensitive data - most data at NSOs is data provided to the organization by data owners in that country, which is likely never going to be available to researchers outside the NSO that owns the data.\n\nNOTE: This is the most common case. In this case, creating a synthetic dataset to simulate the sensitive one could help make the project at least replicable.\n\n\nEither download the raw data directly or save downloaded input data into /data/ folder and use .gitignore to ensure that the raw data is not saved - as per the deeper dive on structure:\n\nIf data and analysis is simple, the analysis scripts in /src/analysis/ will take the data and generate relevant outputs (data and visuals) in /output/\nIf data cleaning is more complex, you can create a /data/raw, a /data/clean/, and a /src/data_cleaning.py that converts from raw to clean (before analysis). This way anyone can reproduce this process and modify the analysis with new data as they can understand exactly how to preprocess the data before analysis.\n\nUse precommit hooks to ensure that analysis notebooks don’t render the output that may be sensitive. precommit hooks to ensure privacy\nMake sure you don’t commit other sensitive information with the code and writeup - like access tokens or secrets. There are ways to set this up in a way that others can repeat that doesn’t commit it in git.\nOff course avoid mentioning sensitive things in the prose (say the documentation)\n\nNOTE: Use of these best practices is key you use sensitive or confidential data. For public data, .gitignore is still a good practice so that you don’t repost the raw data. Should also touch upon how researchers should approach propietary datasets (#46)\n\n\n\n\n\n Back to top",
+    "text": "Most research in price statistics is empirical, hence figuring out how to work with input datasets that drive downstream analysis is the one of the first problems to tackle. Solving this problem properly of course makes the project reproducible. More than that though, robustness at this step helps ensure that the overall data flow within the project is clear to both the research team and external peer reviewers, helps facilitate efficient resolution of data issues that arise, simplify the expansion or change of analysis, or even make it simpler to re-run the analysis end-to-end and ensure no issues were accidentally left unaddressed along the way.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "What to do with input data to your project"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/input-data.html#types-of-data-in-price-statistics",
+    "href": "docs/reproducibility-guidance/howtos/input-data.html#types-of-data-in-price-statistics",
+    "title": "What to do with input data to your project",
+    "section": "Types of data in price statistics",
+    "text": "Types of data in price statistics\nFirst off, there are three types of input data to consider—open, proprietary, and sensitive.\n\nOpen data\nThis data is openly available and can be downloaded and used for analysis. Open datasets enable true reproducibility as a second researcher can reproduce all the steps done in an original project, expand the analysis, try new methods, etc. Open datasets can also become benchmarks to try different methods—allowing researchers to see which method is best without worrying that the value of the method is applicable only to the specific data the researcher is using.\nWe aim to document the most valuable open data on the open data catalogue. If you have ideas of good datasets to include, check out the contribution process.\n\n\nProprietary data\nThere are datasets that can be used for research but typically need to be purchased, hence limiting their use to many. This data can be quite detailed and comprehensive in coverage, making it desirable to test specific properties. Two notable example proprietary datasets are Nielsen and IRI.\nProprietary datasets have their value, although the acquisition challenges (cost wise or administrative) lower the bar for reproducibility. As a result, it is best to summarize the metadata or modify the dataset so that others can reproduce the results even if in part. The guide on working with sensitive data and modifying to enable sharing the input data provides more detail on this.\n\n\nSensitive data\nThe datasets that an NSO has to do its work are typically highly sensitive and cannot be shared outside the NSO. This data is not best for developing new methods as it guarantees that no outside researchers could validate the method on the same data. Lack of access also guarantees that repeated studies with different data leading to a consensus over time is the only way that the new method could eventually be accepted.\nSimilar to proprietary data, setting up robust processes with synthetic data and documenting the process is covered well in a separate guide.",
+    "crumbs": [
+      "How to be reproducible",
+      "Guides and how-tos",
+      "The data",
+      "What to do with input data to your project"
+    ]
+  },
+  {
+    "objectID": "docs/reproducibility-guidance/howtos/input-data.html#tips-on-structuring-input-data",
+    "href": "docs/reproducibility-guidance/howtos/input-data.html#tips-on-structuring-input-data",
+    "title": "What to do with input data to your project",
+    "section": "Tips on structuring input data",
+    "text": "Tips on structuring input data\nAs outlined in the research compendium guide, specifically the standardized structure section, setting up a set of folders where various grades of data are stored makes the process really clear and transparent.\nFor instance consider Figure 1:\n\n\n\n\n\n\nflowchart TD\n    subgraph data[\"/data directory; (each dataset ignored in git)\"]\n        node1[/\"data/raw/public_data.csv\"/]\n        node2[/\"data/processed/public_data.parquet\"/]\n        node3[/\"data/final/public_data_index_ready.parquet\"/]\n    end\n\n    subgraph src[\"'/src/ directory (for code)'\"]\n        script0{{\"download_raw.R\n            (automated if possible)\"}}\n        script1{{\"clean_raw.R\"}}\n        script2{{\"calc_unit_value.R\"}}\n    end\n        script0--&gt;node1\n        node1--&gt;script1\n        script1--&gt;node2\n        node2--&gt;script2\n        script2--&gt;node3\n\n\n\n\nFigure 1: Example data flow\n\n\n\n\n\n\nIf data is open, download_raw.R is included in the research compendium, which enables full end-to-end replication. This is optional as placing the raw dataset in /data/raw/ also supports the downstream process\nclean_raw.R and calc_unit_values.R process the data through the various data folders and creates the final dataset that can be used to calculate a price index.\nIf sensitive or proprietary data is used instead, it would also follow this process, however definition of the input data and creating a synthetic or dummy version of the data would add considerable value to ensure that the data flow works effectively.\nIn all cases, including file formats in a .gitignore that the data is in ensures that when a researcher is working locally with the data, that data is not pushed to the git application.\nIf a researcher uses Jupyter notebooks, it can also be valuable to use precommit hooks to strip out the outputs—which ensures that analytical information is not version controlled.\n\n\n\n\n\n\n\nTipCaution takes a little bit of work\n\n\n\nMaking sure that sensitive information is not version controlled takes a little bit of preparation and practice. However, the benefit of all this far outweigh cost.\nFurthermore, data may not be the only sensitive information that is worth controlling—tokens, secrets, etc. should be carefully managed as well.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
@@ -661,66 +713,66 @@
   {
     "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html",
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html",
-    "title": "How to approach publication of data",
+    "title": "How to work with sensitive and proprietary data",
     "section": "",
-    "text": "It is not always possible to disclose the internal dataset used in a research project. Nevertheless, publishing some form of data in the research compendium can enhance openness and reproducibility, and can help to illustrate the objectives of the research.\nThere are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility — ensuring the data retains analytical value — and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives.\nA comprehensive overview of existing methods can be found in the ESS Statistical Disclosure Control Handbook. In price statistics, variables are typically continuous (e.g., prices, quantities) and often organized as panel data, with repeated observations over time. More practical implementations and shared experiences in that context are needed to identify effective approaches and establish good practices.",
+    "text": "If you are working with properietary or sensitive (input) datasets, it is not possible to disclose these data in a research project. Nevertheless, publishing a version of the intput data and documenting it in some form in the research compendium can enhance openness and reproducibility, and can help to illustrate the objectives of the research.\nThere are several techniques available to protect microdata prior to release. In most cases, a balance must be struck between utility — ensuring the data retains analytical value — and privacy—minimizing disclosure risks. There is thus a continuum of approaches, ranging from the release of datasets with low analytical value to the publication of datasets that closely resemble the original data.The choice of method should be made on a case-by-case basis, taking into account factors such as the type and characteristics of the data, the reasons for protection, and the research objectives.\nA comprehensive overview of existing methods can be found in the ESS Statistical Disclosure Control Handbook. In price statistics, variables are typically continuous (e.g., prices, quantities) and often organized as panel data, with repeated observations over time. More practical implementations and shared experiences in that context are needed to identify effective approaches and establish good practices.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The data",
-      "How to approach publication of data"
+      "How to work with sensitive and proprietary data"
     ]
   },
   {
     "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#publish-dummy-files",
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#publish-dummy-files",
-    "title": "How to approach publication of data",
+    "title": "How to work with sensitive and proprietary data",
     "section": "Publish dummy files",
     "text": "Publish dummy files\nIn certain cases, providing a dummy file alongside the code can be helpful. A dummy file contains data with the variables in the required format. The datat itself can be randomly created. As a minimum, this allows others to execute and test the code, while offering a basic understanding of the data’s structure and characteristics. However, the analytical value of such dummy files is often limited. For this reason, it may be worthwhile to explore alternative approaches that better address analytical needs and support validation of the research.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The data",
-      "How to approach publication of data"
+      "How to work with sensitive and proprietary data"
     ]
   },
   {
     "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#create-synthetic-data",
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#create-synthetic-data",
-    "title": "How to approach publication of data",
+    "title": "How to work with sensitive and proprietary data",
     "section": "Create synthetic data",
     "text": "Create synthetic data\nDatasets can be created using synthetic data generation methods. These techniques produce a new, artificial dataset that preserves specific statistical properties of the original data. The UNECE Starter Guide on Synthetic Data provides an overview of various methods and good practices for implementing these approaches.\nOne approach to synthetic data generation consists of creating data from an underlying probability distribution or model. For example, prices often follow a log-normal distribution. By specifying the parameters of this distribution (mean and standard deviation), random data points can be generated. Some studies in price statistics use prices and quantities that satisfy the Constant Elasticity of Substitution (CES) assumption. A practical option would be to create datasets that are consistent with the CES model.\nInstead of publishing theoretic datasets, more realistic datasets can be created. One way for achieving this is to estimate a model from the original data. This model then serves to generate a new, synthetic, data.\nData may be also be created using advanced AI models. For example, Large Language Models, possibly combined with some knowledge base, could be leveraged to create product labels.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The data",
-      "How to approach publication of data"
+      "How to work with sensitive and proprietary data"
     ]
   },
   {
     "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#modify-the-original-data",
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#modify-the-original-data",
-    "title": "How to approach publication of data",
+    "title": "How to work with sensitive and proprietary data",
     "section": "Modify the original data",
     "text": "Modify the original data\nThe original data could be modified in a way that that it can be publicly released.\nSome simple transformations can enhance data protection. For instance, product or outlet names can be replaced with artificial identifiers. Absolute values may be converted into relative measures, which is particularly useful since many price indices can be compiled using only relative information, such as price changes or expenditure shares.\nBelow are some examples of methods that introduce some kind of perturbation in the original data and that may be useful to protect price statistics data:\n\nNoise Addition Methods: Various algorithms exist for adding random noise to data. In the context of price statistics, introducing (multiplicative) random noise to prices or quantities can make the original dataset less identifiable while preserving plausibility and analytical value.\nMicro-Aggregation Methods: Micro-aggregation involves grouping individual records into clusters of sufficient size so that specific records cannot be distinguished. There are several strategies for forming these groups. This approach aligns well with common practices in price statistics, such as averaging across time periods, outlets, and products.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The data",
-      "How to approach publication of data"
+      "How to work with sensitive and proprietary data"
     ]
   },
   {
     "objectID": "docs/reproducibility-guidance/howtos/synthetic-data.html#tools",
     "href": "docs/reproducibility-guidance/howtos/synthetic-data.html#tools",
-    "title": "How to approach publication of data",
+    "title": "How to work with sensitive and proprietary data",
     "section": "Tools",
     "text": "Tools\nThe following tools may be helpful when generating synthetic or modified data:\n\nThe R package PriceIndices includes functions for generating artificial datasets where prices and quantities are lognormally distributed and comply with the CES model (see functions generate and generate_CES).\nThe R package gratis enables the generation of synthetic time series based on various univariate time series models, providing flexibility for simulating realistic price dynamics.\nThe R package synthpop is a popular tool for implementing the The Fully Conditional Specification (FCS) method. It offers extensive customization to reflect the characteristics of the original data, including the use of continuous variables, panel structures, correlations between variables (e.g. between prices and quantities), and patterns of missingness (e.g., product churn).\nThe R packacke sdcMicro is a popular tool that can be used for the generation of anonymized microdata, implementing a wide range of anonymization methods.\nThe R package synthsizer is a tool that can adapt to different types of data. A single parameter allows balancing between high-quality synthetic data that represents correlations of the original data and lower quality but more privacy safe synthetic data without correlations.",
     "crumbs": [
       "How to be reproducible",
       "Guides and how-tos",
       "The data",
-      "How to approach publication of data"
+      "How to work with sensitive and proprietary data"
     ]
   },
   {

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-04-24">
 
-<title>What to do with data your research project creates – Price Statistics Reproducibility Project</title>
+<title>Publishing data part of the research project – Price Statistics Reproducibility Project</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -317,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/opening-data.html">What to do with data your research project creates</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/opening-data.html">Publishing data part of the research project</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -406,13 +407,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How to approach publication of data</span></a>
+ <span class="menu-text">How to work with sensitive and proprietary data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../docs/reproducibility-guidance/howtos/opening-data.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">What to do with data your research project creates</span></a>
+ <span class="menu-text">Publishing data part of the research project</span></a>
   </div>
 </li>
       </ul>
@@ -472,17 +473,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#publishing-input-data" id="toc-publishing-input-data" class="nav-link active" data-scroll-target="#publishing-input-data">Publishing input data</a></li>
+  <li><a href="#publishing-output-data" id="toc-publishing-output-data" class="nav-link" data-scroll-target="#publishing-output-data">Publishing output data</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/opening-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/opening-data.html">What to do with data your research project creates</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guides and how-tos</li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/input-data.html">The data</a></li><li class="breadcrumb-item"><a href="../../../docs/reproducibility-guidance/howtos/opening-data.html">Publishing data part of the research project</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">What to do with data your research project creates</h1>
-<p class="subtitle lead">When to keep it in GitHub and when to publish it to a data repository</p>
+<h1 class="title">Publishing data part of the research project</h1>
+<p class="subtitle lead">When to keep it in GitHub and when to publish it to a data repository?</p>
 </div>
 
 
@@ -490,6 +498,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 24, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -499,25 +513,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-caution callout-titled">
+<p>Using input data is one of the most immediate priorities to tackle when it comes to data management, however the output of a research project may also be worth a second look. Outputs could be complex data files that may serve multiple functions, in which case their documentation and further preservation could be desirable.</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Caution</span>WIP
+<span class="screen-reader-only">Note</span>There is probably no rule of thumb
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This page is still in the works. Possible topics:</p>
-<ul>
-<li><p>When to push your <code>/output/</code> data to zenodo so that others can benefit from it or to keep it in your GitHub repo.</p></li>
-<li><p>Note, the guide should not focus on opening a new dataset that can be used as <code>input</code> for the resarch. This is covered in the <a href="../../../docs/catalogue/contributing.html#where-to-host-the-dataset-itself">contributing to the catalog</a> section.</p></li>
-</ul>
+<p>However if the dataset is only valuable within a research project itself (such as to reproduce it or to render diagrams used in the paper), then its probably alright to keep the dataset versioned with the research compendium. However if the dataset could be of use for other analysis, then publishing it separately to a data repository would be useful, as this would simplify its adoption by others.</p>
 </div>
 </div>
+<section id="publishing-input-data" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-input-data">Publishing input data</h2>
+<p>Synthetic or modified datasets are the most notable examples of datasets that may be valuable to publish publicly. Synthetic or modified datasets that are often reused for research are common in the discipline, such as the Turvey, the European seasonal, or the NZ electronics dataset. If you see value in your modified or synthetic dataset to the discipline, we encourage you to make it available (such as on a data repository like Zenodo) and <a href="../../../docs/catalogue/contributing.html">submit a request to the open data catalogue</a> so that we can document it.</p>
+</section>
+<section id="publishing-output-data" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-output-data">Publishing output data</h2>
+<p>Output datasets (i.e., data in the <code>/output/</code> directory in a compendium) in our experience are typically aggregated versions that are used as inputs to generate visuals. In this case they may not be of much value to other researchers in the future as inputs. These datasets are however useful and may be versioned with the research compendium (if it is permissible to do so based on the data). This facilitates validation of the code in the compendium, as another researcher could easily confirm if using the same input data returned the same output data.</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -935,8 +954,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html" class="pagination-link" aria-label="How to approach publication of data">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How to approach publication of data</span>
+      <a href="../../../docs/reproducibility-guidance/howtos/synthetic-data.html" class="pagination-link" aria-label="How to work with sensitive and proprietary data">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How to work with sensitive and proprietary data</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -964,7 +983,7 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/opening-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/blob/main/docs/reproducibility-guidance/howtos/opening-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
