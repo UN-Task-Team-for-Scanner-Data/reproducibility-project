@@ -4,6 +4,7 @@ version: 0.1
 license: CC-BY-SA-4.0
 abstract: The most recent release of the Price Statistics Reproducibility Project.
 message: To reference the latest version of this project, please cite it as below.
+doi: 10.5281/zenodo.19779578
 authors:
   - given-names: Serge
     family-names: Goussev
