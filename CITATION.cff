@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: Price Statistics Reproducibility Project
+version: 0.1
+license: CC BY-SA
+type: manual
+abstract: The most recent release of the Price Statistics Reproducibility Project.
+message: To reference the latest version of this project, please cite it as below.
+authors:
+  - given-names: Serge
+    family-names: Goussev
+    affiliation: Statistcs Canada
+    orcid: 0009-0008-2359-5322
+  - given-names: Steve
+    family-names: Martin
+    affiliation: Statistcs Canada
+    orcid: 0000-0003-2544-9480
+  - given-names: Claude
+    family-names: Lamboray
+  - given-names: Christophe
+    family-names: Bontemps
+  - given-names: Tanya
+    family-names: Flower
+  - given-names: Ben
+    family-names: Hillman
+  - given-names: Caroline
+    family-names: White
+    affiliation: Statistcs Canada
+  - given-names: Jens
+    family-names: Mehroff
+keywords:
+  - official statistics
+  - price statistics
+  - reproducible resesarch
