@@ -10,23 +10,23 @@ format:
     toc-expand: 3
 ---
 
-Most research in price statistics is empirical, hence figuring out how to work with input datasets that drive downstream analysis is the one of the first problems to tackle. Solving this problem properly off course makes the project reproducible. More that that though, robustness at this step helps ensure that the overall data flow within the project is clear to both the research team and external peer reviewers, helps facilitate efficient resolution of data issues that arise, simplify the expansion or change of analysis, or even make it simpler to re-run the analysis end-to-end and ensure no issues were accidentally left unaddressed along the way.
+Most research in price statistics is empirical, hence figuring out how to work with input datasets that drive downstream analysis is the one of the first problems to tackle. Solving this problem properly of course makes the project reproducible. More than that though, robustness at this step helps ensure that the overall data flow within the project is clear to both the research team and external peer reviewers, helps facilitate efficient resolution of data issues that arise, simplify the expansion or change of analysis, or even make it simpler to re-run the analysis end-to-end and ensure no issues were accidentally left unaddressed along the way.
 
 ## Types of data in price statistics
 
-First off, there are three types of input data to consider - open, proprietary, and sensitive.
+First off, there are three types of input data to consider---open, proprietary, and sensitive.
 
 ### Open data
 
-This data is openly available and can be downloaded and used for analysis. Open datasets enable true reproducibility as a second researcher can reproduce all the steps done in an original project, expand the analysis, try new methods, etc. Open datasets can also become benchmarks to try different methods–allowing researchers to see which method is best without worrying that the value of the method is applicable only to the specific data the researcher is using.
+This data is openly available and can be downloaded and used for analysis. Open datasets enable true reproducibility as a second researcher can reproduce all the steps done in an original project, expand the analysis, try new methods, etc. Open datasets can also become benchmarks to try different methods---allowing researchers to see which method is best without worrying that the value of the method is applicable only to the specific data the researcher is using.
 
 We aim to document the most valuable open data on the [open data catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). If you have ideas of good datasets to include, check out the [contribution process](/docs/catalogue/contributing.qmd).
 
 ### Proprietary data
 
-There are datasets that can be used for research but typically need to be purchased, hence limiting their use to many. This data is can be quite detailed and comprehensive in coverage, making it desirable to test specific properties. Two notable example proprietary datasets are [Nielsen](https://doi.org/10.1016/j.jacceco.2022.101495) and [IRI](https://doi.org/10.1287/mksc.1080.0450).
+There are datasets that can be used for research but typically need to be purchased, hence limiting their use to many. This data can be quite detailed and comprehensive in coverage, making it desirable to test specific properties. Two notable example proprietary datasets are [Nielsen](https://doi.org/10.1016/j.jacceco.2022.101495) and [IRI](https://doi.org/10.1287/mksc.1080.0450).
 
-Proprietary datasets have their value, although the acquisition challenges (cost wise or administrative) lower the bar for reproducibility. As a result it is best to summarize the metadata or modify the dataset so that others can reproduce the results even if in part. The [guide on working with sensitive data and modifying to enable sharing the input data](/docs/reproducibility-guidance/howtos/synthetic-data.qmd) provides more detail on this.
+Proprietary datasets have their value, although the acquisition challenges (cost wise or administrative) lower the bar for reproducibility. As a result, it is best to summarize the metadata or modify the dataset so that others can reproduce the results even if in part. The [guide on working with sensitive data and modifying to enable sharing the input data](/docs/reproducibility-guidance/howtos/synthetic-data.qmd) provides more detail on this.
 
 ### Sensitive data
 
@@ -36,7 +36,7 @@ Similar to proprietary data, setting up robust processes with synthetic data and
 
 ## Tips on structuring input data
 
-As outlined in the research compendium guide, specifically the standardized structure section, setting up a set of folders where various grades of data are stored – makes the process really clear and transparent.
+As outlined in the research compendium guide, specifically the standardized structure section, setting up a set of folders where various grades of data are stored makes the process really clear and transparent.
 
 For instance consider @fig-data-flow:
 
@@ -63,7 +63,7 @@ flowchart TD
         script2-->node3
 ```
 
--   If data is open, `download_raw.R` is included in the research compendium – which enables full end-to-end replication. This is optional as placing the raw dataset in `/data/raw/` also supports the downstream process
+-   If data is open, `download_raw.R` is included in the research compendium, which enables full end-to-end replication. This is optional as placing the raw dataset in `/data/raw/` also supports the downstream process
 
 -   `clean_raw.R` and `calc_unit_values.R` process the data through the various data folders and creates the final dataset that can be used to calculate a price index.
 
@@ -71,12 +71,12 @@ flowchart TD
 
 -   In all cases, including file formats in a `.gitignore` that the data is in ensures that when a researcher is working locally with the data, that data is not pushed to the git application.
 
--   If a researcher uses Jupyter notebooks, it can also be valuable to use `precommit` hooks to strip out the outputs --- which ensures that analytical information is not version controlled.
+-   If a researcher uses Jupyter notebooks, it can also be valuable to use `precommit` hooks to strip out the outputs---which ensures that analytical information is not version controlled.
 
 ::: callout-tip
 ## Caution takes a little bit of work
 
-Making sure that sensitive information is not version controlled takes a little bit of prep and practice. However the benefit of all this far outweigh cost.
+Making sure that sensitive information is not version controlled takes a little bit of preparation and practice. However, the benefit of all this far outweigh cost.
 
-Furthermore – data may not be the only sensitive information that is worth controlling – tokens, secrets, etc – should be carefully managed as well.
+Furthermore, data may not be the only sensitive information that is worth controlling---tokens, secrets, etc. should be carefully managed as well.
 :::
