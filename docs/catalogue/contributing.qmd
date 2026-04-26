@@ -63,7 +63,7 @@ When we are ready, we will either merge your PR and thus register your dataset o
 
 You could also just give us a ping to let us know that a good dataset exists and we can review and register it when we get a chance.
 
-1.  Create [a new issue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/new) and describe the dataset you wish that we register. Include the relevant details that we can use to find out more about the dataset. Please also tag the issue with the [dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/labels/dataset) label.
+1.  Create [a new issue](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/new) and describe the dataset you wish that we register. Include the relevant details that we can use to find out more about the dataset. Please also tag the issue with the [dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/labels/dataset) label. Note that the *Dataset Idea* issue option will walk you through the information worth summarizing about the dataset.
 
 # Maturity model of registered datasets {#maturity-model}
 

@@ -1,7 +1,7 @@
 ---
 title: "What to do with input data to your project"
 subtitle: "Common best practices, whether data is sensitive or not"
-date: 2025-11-25
+date: 2026-04-24
 draft: true
 sidebar: true
 format:
@@ -10,32 +10,73 @@ format:
     toc-expand: 3
 ---
 
-::: callout-caution
-## WIP
+Most research in price statistics is empirical, hence figuring out how to work with input datasets that drive downstream analysis is the one of the first problems to tackle. Solving this problem properly of course makes the project reproducible. More than that though, robustness at this step helps ensure that the overall data flow within the project is clear to both the research team and external peer reviewers, helps facilitate efficient resolution of data issues that arise, simplify the expansion or change of analysis, or even make it simpler to re-run the analysis end-to-end and ensure no issues were accidentally left unaddressed along the way.
 
-This page is still in the works. Overview of possible topics to summarize:
+## Types of data in price statistics
 
--   Summarize the main types of input data:
+First off, there are three types of input data to consider---open, proprietary, and sensitive.
 
-    -   **Open data** - this is data that is openly available and can be downloaded and used for analysis. We aim to document the most valuable open data on the open data catalogue. Open data makes reproducibility easy as these datasets can become benchmarks for empirical studies.
+### Open data
 
-    -   **Proprietary data** - this data is in theory available, however it may need to be purchased. If the organization the researcher is in has access to the data, this dataset can be used for research. As most researchers do not have access to this data and the structure and exact details (i.e. metadata) of the dataset is often not summarized.
+This data is openly available and can be downloaded and used for analysis. Open datasets enable true reproducibility as a second researcher can reproduce all the steps done in an original project, expand the analysis, try new methods, etc. Open datasets can also become benchmarks to try different methods---allowing researchers to see which method is best without worrying that the value of the method is applicable only to the specific data the researcher is using.
 
-    -   **Sensitive data** - most data at NSOs is data provided to the organization by data owners in that country, which is likely never going to be available to researchers outside the NSO that owns the data.
+We aim to document the most valuable open data on the [open data catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/). If you have ideas of good datasets to include, check out the [contribution process](/docs/catalogue/contributing.qmd).
 
-        -   NOTE: This is the most common case. In this case, creating a **synthetic dataset** to simulate the sensitive one could help make the project at least replicable.
+### Proprietary data
 
--   Either download the raw data directly or save downloaded input data into `/data/` folder and use `.gitignore` to ensure that the raw data is not saved - as per the deeper dive on structure:
+There are datasets that can be used for research but typically need to be purchased, hence limiting their use to many. This data can be quite detailed and comprehensive in coverage, making it desirable to test specific properties. Two notable example proprietary datasets are [Nielsen](https://doi.org/10.1016/j.jacceco.2022.101495) and [IRI](https://doi.org/10.1287/mksc.1080.0450).
 
-    -   If data and analysis is simple, the analysis scripts in `/src/analysis/` will take the data and generate relevant outputs (data and visuals) in `/output/`
+Proprietary datasets have their value, although the acquisition challenges (cost wise or administrative) lower the bar for reproducibility. As a result, it is best to summarize the metadata or modify the dataset so that others can reproduce the results even if in part. The [guide on working with sensitive data and modifying to enable sharing the input data](/docs/reproducibility-guidance/howtos/synthetic-data.qmd) provides more detail on this.
 
-    -   If data cleaning is more complex, you can create a `/data/raw`, a `/data/clean/`, and a `/src/data_cleaning.py` that converts from raw to clean (before analysis). This way anyone can reproduce this process and modify the analysis with new data as they can understand exactly how to preprocess the data before analysis.
+### Sensitive data
 
--   Use `precommit` hooks to ensure that analysis notebooks don't render the output that may be sensitive. precommit hooks to ensure privacy
+The datasets that an NSO has to do its work are typically highly sensitive and cannot be shared outside the NSO. This data is not best for developing new methods as it guarantees that no outside researchers could validate the method on the same data. Lack of access also guarantees that repeated studies with different data leading to a consensus over time is the only way that the new method could eventually be accepted.
 
--   Make sure you don't commit other sensitive information with the code and writeup - like access tokens or secrets. There are ways to set this up in a way that others can repeat that doesn't commit it in git.
+Similar to proprietary data, setting up robust processes with synthetic data and documenting the process is covered well in [a separate guide](/docs/reproducibility-guidance/howtos/synthetic-data.qmd).
 
--   Off course avoid mentioning sensitive things in the prose (say the documentation)
+## Tips on structuring input data
 
-**NOTE**: Use of these best practices is key you use sensitive or confidential data. For public data, `.gitignore` is still a good practice so that you don't repost the raw data. Should also touch upon how researchers should approach propietary datasets ([#46](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46))
+As outlined in the research compendium guide, specifically the standardized structure section, setting up a set of folders where various grades of data are stored makes the process really clear and transparent.
+
+For instance consider @fig-data-flow:
+
+```{mermaid}
+%%| label: fig-data-flow
+%%| fig-cap: "Example data flow"
+flowchart TD
+    subgraph data["/data directory; (each dataset ignored in git)"]
+        node1[/"data/raw/public_data.csv"/]
+        node2[/"data/processed/public_data.parquet"/]
+        node3[/"data/final/public_data_index_ready.parquet"/]
+    end
+
+    subgraph src["'/src/ directory (for code)'"]
+        script0{{"download_raw.R
+            (automated if possible)"}}
+        script1{{"clean_raw.R"}}
+        script2{{"calc_unit_value.R"}}
+    end
+        script0-->node1
+        node1-->script1
+        script1-->node2
+        node2-->script2
+        script2-->node3
+```
+
+-   If data is open, `download_raw.R` is included in the research compendium, which enables full end-to-end replication. This is optional as placing the raw dataset in `/data/raw/` also supports the downstream process
+
+-   `clean_raw.R` and `calc_unit_values.R` process the data through the various data folders and creates the final dataset that can be used to calculate a price index.
+
+-   If sensitive or proprietary data is used instead, it would also follow this process, however definition of the input data and [creating a synthetic or dummy version of the data](/docs/reproducibility-guidance/howtos/synthetic-data.qmd) would add considerable value to ensure that the data flow works effectively.
+
+-   In all cases, including file formats in a `.gitignore` that the data is in ensures that when a researcher is working locally with the data, that data is not pushed to the git application.
+
+-   If a researcher uses Jupyter notebooks, it can also be valuable to use `precommit` hooks to strip out the outputs---which ensures that analytical information is not version controlled.
+
+::: callout-tip
+## Caution takes a little bit of work
+
+Making sure that sensitive information is not version controlled takes a little bit of preparation and practice. However, the benefit of all this far outweigh cost.
+
+Furthermore, data may not be the only sensitive information that is worth controlling---tokens, secrets, etc. should be carefully managed as well.
 :::

@@ -1,6 +1,7 @@
 ---
-title: "What to do with data your research project creates"
-subtitle: "When to keep it in GitHub and when to publish it to a data repository"
+title: "Publishing data part of the research project"
+subtitle: "When to keep it in GitHub and when to publish it to a data repository?"
+date: 2026-04-24
 draft: true
 sidebar: true
 format:
@@ -9,12 +10,18 @@ format:
     toc-expand: 3
 ---
 
-::: callout-caution
-## WIP
+Using input data is one of the most immediate priorities to tackle when it comes to data management, however the output of a research project may also be worth a second look. Outputs could be complex data files that may serve multiple functions, in which case their documentation and further preservation could be desirable.
 
-This page is still in the works. Possible topics:
+::: callout-note
+## There is probably no rule of thumb
 
--   When to push your `/output/` data to zenodo so that others can benefit from it or to keep it in your GitHub repo.
-
--   Note, the guide should not focus on opening a new dataset that can be used as `input` for the resarch. This is covered in the [contributing to the catalog](/docs/catalogue/contributing.qmd#where-to-host-the-dataset-itself) section. 
+However if the dataset is only valuable within a research project itself (such as to reproduce it or to render diagrams used in the paper), then its probably alright to keep the dataset versioned with the research compendium. However if the dataset could be of use for other analysis, then publishing it separately to a data repository would be useful, as this would simplify its adoption by others.
 :::
+
+## Publishing input data
+
+Synthetic or modified datasets are the most notable examples of datasets that may be valuable to publish publicly. Synthetic or modified datasets that are often reused for research are common in the discipline, such as the Turvey, the European seasonal, or the NZ electronics dataset. If you see value in your modified or synthetic dataset to the discipline, we encourage you to make it available (such as on a data repository like Zenodo) and [submit a request to the open data catalogue](/docs/catalogue/contributing.qmd) so that we can document it.
+
+## Publishing output data
+
+Output datasets (i.e., data in the `/output/` directory in a compendium) in our experience are typically aggregated versions that are used as inputs to generate visuals. In this case they may not be of much value to other researchers in the future as inputs. These datasets are however useful and may be versioned with the research compendium (if it is permissible to do so based on the data). This facilitates validation of the code in the compendium, as another researcher could easily confirm if using the same input data returned the same output data.
