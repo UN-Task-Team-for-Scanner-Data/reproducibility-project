@@ -18,25 +18,41 @@ format:
       width: wide
     slide-number: true
     show-slide-number: print
+    fontsize: 26px
+    width: 1280
+    height: 720
 ---
 
 ## Current state: pain even to replicate
 
 Found a cool methodological paper with an empirical section? Cool, lets try to
+
 -   understand it / learn from it by trying it
+
 -   peer review it
--   evaluate it on your own data and maybe use it in production 
+
+-   evaluate it on your own data and maybe use it in production
+
 -   extend it, there is a cool change that may make it better
 
 Can we do any of the above right now in price statistics?
 
 ## Replication crisis is well acknowledged in science
 
-@10.1371/journal.pmed.0020124 and @baker20161 put the replication crisis on the map. 
+@10.1371/journal.pmed.0020124 and @baker20161 put the replication crisis on the map.
 
-Ever since then, there have been a set of notable movements that have sought to help solve this problem. For example:
--   FAIR - Findable, Accessible, Interoperable, Reusable - a set of principles for open science
--   Turing way - a set of guides and processes to follow that 
+Ever since then, there have been a set of notable movements that have sought to help solve this problem.
+
+For example:
+
+-   **FAIR** - Findable, Accessible, Interoperable, Reusable - a set of principles for open science
+
+-   **Turing way** - a set of guides and processes to follow that
+
+##### References
+
+::: {#refs}
+:::
 
 ## It doesn't have to be this way!
 
@@ -50,15 +66,19 @@ We can apply it to research, and also bring in good practices from others!
 
 ## How we help
 
-The FAIR/Reproducibility workstream on the UN Task Team has worked to support our discipline. 
+The FAIR/Reproducibility workstream on the UN Task Team has worked to support our discipline.
 
 There are two main problems:
--   With what data? We typically use internal data as its already processed, classified, and ready. Good open datasets are few and far between.
--   How to do it? What works for our discipline and how to start in a gradual manner? The skills needed aren't obvious at first and the path is steep
+
+-   **With what data?** We typically use internal data as its already processed, classified, and ready. Good open datasets are few and far between.
+
+-   **How to do it?** What works for our discipline and how to start in a gradual manner? The skills needed aren't obvious at first and the path is steep
 
 We solve both by:
+
 -   Deveoping and supporting a curated catalog of open data. Use this to find datasets that apply to your project.
--   Providing guidance on practices that apply to our discipline.  
+
+-   Providing guidance on practices that apply to our discipline.
 
 ## Sneak peak
 
@@ -75,7 +95,9 @@ In the following slides, we'll showcase the key ideas!
 ## Maturity model
 
 ### Maturity level 0
+
 ### Maturity level 1
+
 ### Maturity level 2
 
 ## Structure your research compendium
@@ -90,7 +112,7 @@ In the following slides, we'll showcase the key ideas!
 
 ## Publish your data or your compendium
 
-## Metadata of the resarch process
+## Metadata of the research process
 
 ![](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg)
 
@@ -102,7 +124,7 @@ In the following slides, we'll showcase the key ideas!
 
 Great!
 
--   Use open data 
+-   Use open data
 -   Follow our guides (or that of others that we reference)
 -   Let us know if we're missing anything
 -   Recommend datasets if you see some missing
@@ -110,7 +132,7 @@ Great!
 
 > Goussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579
 
-## Not convinced? 
+## Not convinced?
 
 Tell us what we're missing? What would make it easy for you develop your project in a reproducible way?
 
