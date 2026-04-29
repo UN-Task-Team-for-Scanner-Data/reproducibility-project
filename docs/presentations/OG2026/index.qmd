@@ -40,7 +40,7 @@ format:
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="55%"}
 -   @10.1371/journal.pmed.0020124 and @baker20161 put the replication crisis on the map.
 
 -   There have been a number of notable movements that have sought to help solve this problem. For example:
@@ -52,7 +52,7 @@ format:
 -   A lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% [@brodeur2026reproducibility].
 :::
 
-::: {.column width="40%"}
+::: {.column width="45%"}
 
 ### Check out the references for more info
 
@@ -62,8 +62,6 @@ format:
 :::
 
 ::::
-
-
 
 
 ## The bar for price statistics is lower, but it doesn't have to be this way!
@@ -105,7 +103,7 @@ format:
 ## Prioritize reproducibility or replicability
 
 ::::: columns
-::: {.column width="60%"}
+::: {.column width="65%"}
 -   We should aim for **reproducibility** for methodological studies – i.e. if the analysis (i.e. the code) is public and the data is open.
 
 -   **Replicability** can be the backup – if the same data can't be used or to try other data with the same code
@@ -119,36 +117,36 @@ format:
     -   *We incentivize novelty over robustness or production benefits* - the breadth of options to consider is large but work is left on NSOs to operationalize 
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 
 ![Reproducibility quadrant](/docs/images/reproducibility-grid.svg){fig-align="center"}
 
 :::
 :::::
 
-## Be aware of the main objects of the research
+## Keep an eye on the how the research compenidum helps structure the objects of research
 
 ::::: columns
-::: {.column width="40%"}
+::: {.column width="55%"}
 -   The **input** data is used to answer research questions. **Output** data is produced by your research project (such as final indices)
 
--   The broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the research compendium
+-   The broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the **research compendium**:
 
-    -   The mutable (i.e. active or live) version can be on github.
+    -   The active version can be on GitHub.
 
-    -   Once you are ready to present (or published it), archive a copy to a repository
+    -   Final verison is archived.
 
--   Software you use should be tracked in the computatioal environment to avoid the "it works on my device" situation
+-   Track software used in the computatioal environment file (no more "it works on my device")
 
--   The paper is intuitive. If possible, store the source in the research compendium
+-   Store the source for your paper in your research compendim
 :::
 
-::: {.column width="60%"}
+::: {.column width="45%"}
 ![Reseach objects](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
 :::
 :::::
 
-## Be aware of the gradual on-ramp
+## Adopt the pace that works for you
 
 -   Apply the Reproducible Analytical Pipelines (RAP) framework to research
 
@@ -204,17 +202,24 @@ format:
 
 -   Irrespective of the data type, structure the research compendium in a standardized way and ignore the data files themselves (i.e. add `*.csv` to your `.gitignore` file)
 
-## If you choose open datasets, choose from the set in open data catalogue
+## Use open datasets if you can
 
 ::::: columns
 ::: {.column width="40%"}
--   The discipline specific open data catalog documents each dataset in a standard way
+-   We document discipline specific open datasets in the catalogue
+
+-   [https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/) - (or find it embedded in our project site)
 
 -   ::: callout-caution
-    ## We are not a reposity
+    ## The catalogue documents each dataset in a standardized way
 
-    We do not store datasets
+    The datasets themselves still belong to the owners.
+
+    Ideally, each dataset is in a data repository (e.g. Zenodo)
     :::
+
+-   Let us know if you know a good dataset to add!
+
 :::
 
 ::: {.column width="60%"}
@@ -222,7 +227,7 @@ format:
 :::
 :::::
 
-## If you chose sensitive data, know how to still work with it
+## You can still be reporoducible if you work with sensitive data
 
 -   If you still prefer to use proprietary or internal data, you can modify lightly to make your project reproducible
 
@@ -232,19 +237,21 @@ format:
 
 -   As with the previous guide, make sure to `.gitignore` the data itself!
 
-## Metadata of the research process
+## When you are finalzing your paper, lean on metadata to cite things properly
 
 ::::: columns
 ::: {.column width="40%"}
--   Knowing about the 4 main objects of research process helps you cite them. Don't forget about your name!
+-   Knowing about the 4 main objects of research process helps you cite them. 
 
--   Why though?
+-   Archiving you active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.
 
-    -   Findability of different research objects is key
+-   Why does it matter?
 
-    -   Findability of authors is also key - sign up to ORCID if you haven't yet!
+    -   Each object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never dissapear, meaning that you aren't guessing years later where something is.
 
--   Metadata of the input data is valuable, however it is not secondarily the main thing you need to worry about!
+    -   You as the author also matter! Sign up to ORCID to get a unique researcher identifier (belongs to you, not your organization).
+
+-   You probably also heard about metadata around SDMX/DDI, etc. In our experience this typically applies to publishing new input data.
 :::
 
 ::: {.column width="60%"}
@@ -263,16 +270,17 @@ Great!
 -   Let us know if we're missing anything
 -   Recommend datasets if you see some missing
 -   Cite our guide!
-
-> Goussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579
+    -   > Goussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579
 
 ## Not convinced?
 
-Tell us what we're missing? What would make it easy for you develop your project in a reproducible way?
+Tell us what is in your way to research in a reproducible way?
+
 
 <https://forms.gle/DZRzqNbPHCfgdReLA>
 
-TO DO - figure out QR code!
+
+> TO DO - figure out QR code!
 
 # What's happening next?
 
