@@ -30,11 +30,11 @@ The main principle of the [**research compendium**](https://book.the-turing-way.
 -   Make it much easier to transition a new method to production.[^4]
 -   Increase research visibility and citations.
 
-[^4]: Research compendia are conceptually quite similar to **Reproducible Analytical Pipelines (RAPs)**, although the latter focuses more on production processes. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
+[^4]: Research compendia are conceptually quite similar to **Reproducible Analytical Pipelines (RAPs)**, although the latter focuses more on production processes. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, the operationalization of a new method could be dramatically simplified. For more on RAPs in price statistics, see a [RAP class recently done by ESCAP](https://escap-sd.github.io/ESCAP_RAP_class/docs/), as well as a good paper by [Price and Marques (2023)](https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf) showcasing RAP for production processes.
 
 ## Key components in a research project
 
-To make a research project reproducible, it is key to  observe that there is not one object that is produced (i.e., the paper), but 4. @fig-research-objects provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.
+To make a research project reproducible, it is key to  observe that there is not one object that is produced (i.e., the paper), but four different objects. @fig-research-objects provides a visual that can help understand what each is intended for, and how to approach each for reproducibility.
 
 ![Research process](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg){#fig-research-objects fig-align="center"}
 
@@ -48,7 +48,7 @@ It is key to differentiate **input data** and **output data**:
 
     -   While input data is ingested and processed by the research, in itself it is *ignored* by the research compendium (such as by listing the data files in the `.gitignore`). Read more in the [input data guide](/docs/reproducibility-guidance/howtos/input-data.qmd).
 
--   **Ouput data** is data created as part of the research process. Whether (and how) its shared depends on various circumstances and value to later research projects (to say act as an input dataset for other projects). Read [about this process here](/docs/reproducibility-guidance/howtos/opening-data.qmd).
+-   **Output data** is data created as part of the research process. Whether (and how) it is shared depends on various circumstances and value to later research projects. For example, it may be used as an input dataset for other projects. Read [about this process here](/docs/reproducibility-guidance/howtos/opening-data.qmd).
 
 ### (2) The research compendium
 
@@ -84,7 +84,7 @@ Not all code in the research compendium will be written by the researchers from 
 
 -   If the code is pivotal to the methodology (for instance the package was used to calculate price indices), then it is best to acknowledge this in the paper ([by citing it](/docs/reproducibility-guidance/howtos/citing-code.qmd)).
 
--   A snapshot of the **computational environment** should be taken and included in the research compendium. This ensures that the exact computation requirement can be replicated, but also to ensure that dependencies on specific versions of other packages is saved.
+-   A snapshot of the **computational environment** should be taken and included in the research compendium. This ensures that the exact computation requirement can be replicated, but also ensures that dependencies on specific versions of other packages is saved.
 
 ### (4) The paper
 
