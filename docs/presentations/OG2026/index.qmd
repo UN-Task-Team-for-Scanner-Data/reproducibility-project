@@ -1,6 +1,6 @@
 ---
 title: "Reproducible research in Price Statistics: Call for action!"
-subtile: Overivew presented at the 2026 Ottawa Group (Warsaw, Poland)
+subtitle: "*Presented at the 2026 Ottawa Group (Warsaw, Poland)*"
 bibliography: references.bib
 authors:
 - Serge Goussev
@@ -20,7 +20,7 @@ format:
       width: wide
     slide-number: true
     show-slide-number: print
-    fontsize: 26px
+    fontsize: 30px
     width: 1280
     height: 720
 ---
@@ -48,10 +48,14 @@ format:
 
 -   A lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% [@brodeur2026reproducibility].
 
+:::: {.incremental}
+
 ### Check out the references for more info
 
 ::: {#refs}
 :::
+
+::::
 
 ## The bar for price statistics is lower, but it doesn't have to be this way!
 
@@ -87,7 +91,7 @@ format:
 
 # What can you do about it?
 
-## First off - prioritize reproducibility or replicability
+## Prioritize reproducibility or replicability
 
 ::::: columns
 ::: {.column width="50%"}
@@ -109,44 +113,140 @@ format:
 :::
 :::::
 
-## Main objects of the research
+## Be aware of the main objects of the research
 
-![](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
+::::: columns
+::: {.column width="40%"}
+-   The **input** data is used to answer research questions. **Output** data is produced by your research project (such as final indices)
 
-## Maturity model
+-   The broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the research compendium
 
-### Maturity level 0
+    -   The mutable (i.e. active or live) version can be on github.
 
-### Maturity level 1
+    -   Once you are ready to present (or published it), archive a copy to a repository
 
-### Maturity level 2
+-   Software you use should be tracked in the computatioal environment to avoid the "it works on my device" situation
+
+-   The paper is intuitive. If possible, store the source in the research compendium
+:::
+
+::: {.column width="60%"}
+![Reseach objects](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
+:::
+:::::
+
+## Be aware of the gradual on-ramp
+
+-   Apply the Reproducible Analytical Pipelines (RAP) framework to research
+
+    -   Its structured, robust and is increasingly adopted!
+
+-   Get started by:
+
+    -   Using open tools - i.e. R and python
+    -   Use *git* to version the project / research compendium
+    -   Explain to users how to reproduce the project
+    -   Make the compendium available (i.e. on GitHub)
+    -   If you are trying a methodology, try it on open data
+
+-   As you start – there is a 3 step maturity model that can be followed. Step 1 is very approachable
 
 ## Structure your research compendium
 
+::::: columns
+::: {.column width="60%"}
+-   Add coherent structure to the compendium!
+
+    -   (input) data folders (even though you should ignore the data itself) make it clear how it runs end-to-end
+
+    -   code is grouped
+
+    -   document the process - from the project design to project documentation (such as the paper)
+
+    -   (output) data for data the code produces
+
+    -   choose a licence to tell others how to use your materials
+
+    -   include a file that lists your computational environment
+
+    -   carefully track what packages are used
+:::
+
+::: {.column width="40%"}
 ![](/docs/images/price-stats-exemplar.svg)
+:::
+:::::
 
-## Choose a licence
+## Choose the most applicable input data for the project
 
-## Process the input data (or document it)
+-   There are 3 types of (input) data
 
-## Sensitive data
+    -   **Open data** - common types include Dominick's or Turvey
 
-## Publish your data or your compendium
+    -   **Proprietary data** - commonly used ones include Nielsen and IRI
+
+    -   **Sensitive data** - the internal data holdings in NSOs
+
+-   Open data is the default, but other data could be okay (next slide)
+
+-   Irrespective of the data type, structure the research compendium in a standardized way and ignore the data files themselves (i.e. add `*.csv` to your `.gitignore` file)
+
+## If you choose open datasets, choose from the set in open data catalogue
+
+::::: columns
+::: {.column width="40%"}
+-   The discipline specific open data catalog documents each dataset in a standard way
+
+-   ::: callout-caution
+    ## We are not a reposity
+
+    We do not store datasets
+    :::
+:::
+
+::: {.column width="60%"}
+![](/docs/images/data-catalogue-idea.svg)
+:::
+:::::
+
+## If you chose sensitive data, know how to still work with it
+
+-   If you still prefer to use proprietary or internal data, you can modify lightly to make your project reproducible
+
+    -   **Publish dummy files** - to make sure the code runs end-to-end
+    -   **Create synthetic data** - to ensure make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.
+    -   **Modify the original data** - to help publicly release a copy of the data
+
+-   As with the previous guide, make sure to `.gitignore` the data itself!
 
 ## Metadata of the research process
 
+::::: columns
+::: {.column width="40%"}
+-   Knowing about the 4 main objects of research process helps you cite them. Don't forget about your name!
+
+-   Why though?
+
+    -   Findability of different research objects is key
+
+    -   Findability of authors is also key - sign up to ORCID if you haven't yet!
+
+-   Metadata of the input data is valuable, however it is not secondarily the main thing you need to worry about!
+:::
+
+::: {.column width="60%"}
 ![](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg)
+:::
+:::::
 
-## What about the data?
+# Are you convinced? 
 
-![](/docs/images/data-catalogue-idea.svg)
-
-## Are you convinced?
+## Takeaways - what you can do if you are convinced!
 
 Great!
 
 -   Use open data
--   Follow our guides (or that of others that we reference)
+-   Read and follow our guides (or that of others that we reference)
 -   Let us know if we're missing anything
 -   Recommend datasets if you see some missing
 -   Cite our guide!
@@ -157,10 +257,20 @@ Great!
 
 Tell us what we're missing? What would make it easy for you develop your project in a reproducible way?
 
-> should we do a survey?
+<https://forms.gle/DZRzqNbPHCfgdReLA>
 
-## Our next steps
+TO DO - figure out QR code!
 
--   Proprietary datasets - add to the catalog and provide guidance
--   Work with CPI EG and OG to make reproducibitliy simpler for conference participants
--   Flush out advanced topics not currently flushed out
+# What's happening next?
+
+## What is on the docket for our workstream
+
+-   Add more open data to the catalogue – ideally with your help! Add new datasets that can be used
+-   Invesigate adding proprietary datatases to the catalogue - for those cases where open data is not enough
+-   Flush out further guidance on topics that are most valuable
+-   Work with CPI EG and OG to instill reproducibitliy within the conference process
+-   Perhaps host a training session if of value
+
+## Questions?
+
+More than anything – are you convinced?
