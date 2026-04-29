@@ -361,5 +361,5 @@ This document summarizes the meetings of the workstream
 
 ### Notes
 
--   The team discussed the latest guidance on synthetic data, licenses, metadata, and on publishing to zenodo. Main task seen as most valuable over the next two weeks was to merge in ongoing drafts, write drafts for outstanding guides.
--   The use of a `revealjs` presentation embedded within the project was discussed and approved as the approach that will be taken for the OG 2026 presentation. Draft materials to be discussed last time.
+-   The team discussed the latest draft guidance on synthetic data, licenses, metadata, and on publishing to zenodo. Main task seen as most valuable over the next two weeks will be to finish, merge in ongoing drafts, and write drafts for outstanding guides.
+-   The use of a `revealjs` presentation embedded within the project was discussed and approved as the approach that will be taken for the OG 2026 presentation. Draft materials to be discussed at the next meeting.
