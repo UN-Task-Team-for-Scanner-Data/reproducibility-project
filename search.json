@@ -35,130 +35,123 @@
     "text": "Option 2: Contact us directly\nCheck out the about the team section for our info. The project lead’s email will be included if you wish to use it."
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#current-state-pain-even-to-replicate",
-    "href": "docs/presentations/OG2026/index.html#current-state-pain-even-to-replicate",
+    "objectID": "docs/presentations/OG2026/index.html#right-now-it-is-a-pain-to-replicate-most-research-in-price-statistics",
+    "href": "docs/presentations/OG2026/index.html#right-now-it-is-a-pain-to-replicate-most-research-in-price-statistics",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Current state: pain even to replicate",
-    "text": "Current state: pain even to replicate\nFound a cool methodological paper with an empirical section? Cool, lets try to\n\nunderstand it / learn from it by trying it\npeer review it\nevaluate it on your own data and maybe use it in production\nextend it, there is a cool change that may make it better\n\nCan we do any of the above right now in price statistics?"
+    "section": "Right now, it is a pain to replicate most research in price statistics",
+    "text": "Right now, it is a pain to replicate most research in price statistics\n\nSay you found a cool methodological paper with an empirical section. Let’s try to\n\nunderstand it / learn from it by trying it\npeer review it\nevaluate it on your own data and maybe use it in production\nextend it, there is a cool change that may make it better\n\nCan we do any of the above right now in price statistics without a large amount of effort?"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#replication-crisis-is-well-acknowledged-in-science",
-    "href": "docs/presentations/OG2026/index.html#replication-crisis-is-well-acknowledged-in-science",
+    "objectID": "docs/presentations/OG2026/index.html#replication-crisis-is-not-new-its-actually-well-acknowledged-in-science",
+    "href": "docs/presentations/OG2026/index.html#replication-crisis-is-not-new-its-actually-well-acknowledged-in-science",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Replication crisis is well acknowledged in science",
-    "text": "Replication crisis is well acknowledged in science\nIoannidis (2005) and Baker (2016) put the replication crisis on the map.\nEver since then, there have been a set of notable movements that have sought to help solve this problem.\nFor example:\n\nFAIR - Findable, Accessible, Interoperable, Reusable - a set of principles for open science\nTuring way - a set of guides and processes to follow that\n\nReferences\n\n\nBaker, Monya. 2016. 1,500 Scientists Lift the Lid on Reproducibility. Nature Publishing Group UK London.\n\n\nIoannidis, John P. A. 2005. “Why Most Published Research Findings Are False.” PLOS Medicine 2 (8): null. https://doi.org/10.1371/journal.pmed.0020124."
+    "section": "Replication crisis is not new, it’s actually well acknowledged in science",
+    "text": "Replication crisis is not new, it’s actually well acknowledged in science\n\n\n\nIoannidis (2005) and Baker (2016) put the replication crisis on the map.\nThere have been a number of notable movements that have sought to help solve this problem. For example:\n\nFAIR - Findable, Accessible, Interoperable, Reusable - a set of principles for open science\nTuring way - a set of guides and processes to follow that\n\nA lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% (Brodeur et al. 2026).\n\n\nCheck out the references for more info\n\n\nBaker, Monya. 2016. 1,500 Scientists Lift the Lid on Reproducibility. Nature Publishing Group UK London.\n\n\nBrodeur, Abel, Derek Mikola, Nikolai Cook, et al. 2026. “Reproducibility and Robustness of Economics and Political Science Research.” Nature 652 (8108): 151–56.\n\n\nIoannidis, John P. A. 2005. “Why Most Published Research Findings Are False.” PLOS Medicine 2 (8): null. https://doi.org/10.1371/journal.pmed.0020124."
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#it-doesnt-have-to-be-this-way",
-    "href": "docs/presentations/OG2026/index.html#it-doesnt-have-to-be-this-way",
+    "objectID": "docs/presentations/OG2026/index.html#the-bar-for-price-statistics-is-lower-but-it-doesnt-have-to-be-this-way",
+    "href": "docs/presentations/OG2026/index.html#the-bar-for-price-statistics-is-lower-but-it-doesnt-have-to-be-this-way",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "It doesn’t have to be this way!",
-    "text": "It doesn’t have to be this way!\nWe can adopt a set of practices to improve replicability (and ideally reproducibility) in Price Statistics.\n\nWe can move from a “trust me, it works on my data” toward “here is exactly how I did what I did, and here is everything you need to check my work.”\n\nWe’ve already started! The Reproducible Analytical Pipelines (RAP) framework is increasingly adopted in official statistics.\nWe can apply it to research, and also bring in good practices from others!"
+    "section": "The bar for price statistics is lower, but it doesn’t have to be this way!",
+    "text": "The bar for price statistics is lower, but it doesn’t have to be this way!\n\nIn Price Statistics, we can adopt common practices to improve replicability (and ideally aim for reproducibility).\n\nWe can move from a “trust me, it works on my data” toward “here is exactly how I did what I did, and here is everything you need to check my work.”\n\nThe movement is actually already underway! For example increasing adoption of Reproducible Analytical Pipelines (RAP) is a step in the right direction!\nWhat is left is to confirm discipline specific research practices."
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#how-we-help",
-    "href": "docs/presentations/OG2026/index.html#how-we-help",
+    "objectID": "docs/presentations/OG2026/index.html#a-bit-about-us",
+    "href": "docs/presentations/OG2026/index.html#a-bit-about-us",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "How we help",
-    "text": "How we help\nThe FAIR/Reproducibility workstream on the UN Task Team has worked to support our discipline.\nThere are two main problems:\n\nWith what data? We typically use internal data as its already processed, classified, and ready. Good open datasets are few and far between.\nHow to do it? What works for our discipline and how to start in a gradual manner? The skills needed aren’t obvious at first and the path is steep\n\nWe solve both by:\n\nDeveoping and supporting a curated catalog of open data. Use this to find datasets that apply to your project.\nProviding guidance on practices that apply to our discipline."
+    "section": "A bit about us",
+    "text": "A bit about us\n\nAs a workstream in the UN Task Team, we are a group of price statisticians from NSOs and research institutes around the world.\nIn 2024, we formed the FAIR/Reproducibility workstream to instill reproducibility within the discipline.\nWe introduced the topic to the community a year ago (at 2025 CPI Expert Group)"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#sneak-peak",
-    "href": "docs/presentations/OG2026/index.html#sneak-peak",
+    "objectID": "docs/presentations/OG2026/index.html#how-do-we-help",
+    "href": "docs/presentations/OG2026/index.html#how-do-we-help",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Sneak peak",
-    "text": "Sneak peak\nIn the following slides, we’ll showcase the key ideas!"
+    "section": "How do we help?",
+    "text": "How do we help?\n\nWe see two main blockers for reproducibility in price statistics:\n\nOpen datasets are few and far between, or are undocumented! To get to reproducibilty, we all need access to high value open datasets. Without that, it is natural to default to internal data at our NSOs that is already processed, classified, and ready to go.\nUnclear how to be reproducible! There is a lot of guidance out there, but what works for our discipline? The learning curve is non-trivial – so why bother if the “how to do this” path isn’t clear, and the mission isn’t obvious?\n\nWe are working to solve both by:\n\nDeveoping and supporting a curated catalogue of good research datasets.\nProviding guidance on practices that apply to our discipline."
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#replicability-quadrant",
-    "href": "docs/presentations/OG2026/index.html#replicability-quadrant",
+    "objectID": "docs/presentations/OG2026/index.html#prioritize-reproducibility-or-replicability",
+    "href": "docs/presentations/OG2026/index.html#prioritize-reproducibility-or-replicability",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Replicability quadrant",
-    "text": "Replicability quadrant"
+    "section": "Prioritize reproducibility or replicability",
+    "text": "Prioritize reproducibility or replicability\n\n\n\nWe should aim for reproducibility for methodological studies – i.e. if the analysis (i.e. the code) is public and the data is open.\nReplicability can be the backup – if the same data can’t be used or to try other data with the same code\nWithout either, generalizability is the default. Generalizability however is:\n\nSlower – it takes much more time and resources to reach consensus *for all of\nSensitive to local patterns – an observed trend may be sensitive to local conditions (data, geography, etc)\nWe incentivize novelty over robustness or production benefits - the breadth of options to consider is large but work is left on NSOs to operationalize\n\n\n\n\n\n\nReproducibility quadrant"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#main-objects-of-the-resarch",
-    "href": "docs/presentations/OG2026/index.html#main-objects-of-the-resarch",
+    "objectID": "docs/presentations/OG2026/index.html#keep-an-eye-on-the-how-the-research-compenidum-helps-structure-the-objects-of-research",
+    "href": "docs/presentations/OG2026/index.html#keep-an-eye-on-the-how-the-research-compenidum-helps-structure-the-objects-of-research",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Main objects of the resarch",
-    "text": "Main objects of the resarch"
+    "section": "Keep an eye on the how the research compenidum helps structure the objects of research",
+    "text": "Keep an eye on the how the research compenidum helps structure the objects of research\n\n\n\nThe input data is used to answer research questions. Output data is produced by your research project (such as final indices)\nThe broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the research compendium:\n\nThe active version can be on GitHub.\nFinal verison is archived.\n\nTrack software used in the computatioal environment file (no more “it works on my device”)\nStore the source for your paper in your research compendim\n\n\n\n\n\nReseach objects"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#maturity-model",
-    "href": "docs/presentations/OG2026/index.html#maturity-model",
+    "objectID": "docs/presentations/OG2026/index.html#adopt-the-pace-that-works-for-you",
+    "href": "docs/presentations/OG2026/index.html#adopt-the-pace-that-works-for-you",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Maturity model",
-    "text": "Maturity model\nMaturity level 0\nMaturity level 1\nMaturity level 2"
+    "section": "Adopt the pace that works for you",
+    "text": "Adopt the pace that works for you\n\nApply the Reproducible Analytical Pipelines (RAP) framework to research\n\nIts structured, robust and is increasingly adopted!\n\nGet started by:\n\nUsing open tools - i.e. R and python\nUse git to version the project / research compendium\nExplain to users how to reproduce the project\nMake the compendium available (i.e. on GitHub)\nIf you are trying a methodology, try it on open data\n\nAs you start – there is a 3 step maturity model that can be followed. Step 1 is very approachable"
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#structure-your-research-compendium",
     "href": "docs/presentations/OG2026/index.html#structure-your-research-compendium",
     "title": "Reproducible research in Price Statistics: Call for action!",
     "section": "Structure your research compendium",
-    "text": "Structure your research compendium"
+    "text": "Structure your research compendium\n\n\n\nAdd coherent structure to the compendium!\n\n(input) data folders (even though you should ignore the data itself) make it clear how it runs end-to-end\ncode is grouped\ndocument the process - from the project design to project documentation (such as the paper)\n(output) data for data the code produces\nchoose a licence to tell others how to use your materials\ninclude a file that lists your computational environment\ncarefully track what packages are used"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#choose-a-licence",
-    "href": "docs/presentations/OG2026/index.html#choose-a-licence",
+    "objectID": "docs/presentations/OG2026/index.html#choose-the-most-applicable-input-data-for-the-project",
+    "href": "docs/presentations/OG2026/index.html#choose-the-most-applicable-input-data-for-the-project",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Choose a licence",
-    "text": "Choose a licence"
+    "section": "Choose the most applicable input data for the project",
+    "text": "Choose the most applicable input data for the project\n\nThere are 3 types of (input) data\n\nOpen data - common types include Dominick’s or Turvey\nProprietary data - commonly used ones include Nielsen and IRI\nSensitive data - the internal data holdings in NSOs\n\nOpen data is the default, but other data could be okay (next slide)\nIrrespective of the data type, structure the research compendium in a standardized way and ignore the data files themselves (i.e. add *.csv to your .gitignore file)"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#process-the-input-data-or-document-it",
-    "href": "docs/presentations/OG2026/index.html#process-the-input-data-or-document-it",
+    "objectID": "docs/presentations/OG2026/index.html#use-open-datasets-if-you-can",
+    "href": "docs/presentations/OG2026/index.html#use-open-datasets-if-you-can",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Process the input data (or document it)",
-    "text": "Process the input data (or document it)"
+    "section": "Use open datasets if you can",
+    "text": "Use open datasets if you can\n\n\n\nWe document discipline specific open datasets in the catalogue\nhttps://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/ - (or find it embedded in our project site)\n\n\n\n\n\n\nThe catalogue documents each dataset in a standardized way\n\n\nThe datasets themselves still belong to the owners.\nIdeally, each dataset is in a data repository (e.g. Zenodo)\n\n\n\nLet us know if you know a good dataset to add!"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#sensitive-data",
-    "href": "docs/presentations/OG2026/index.html#sensitive-data",
+    "objectID": "docs/presentations/OG2026/index.html#you-can-still-be-reporoducible-if-you-work-with-sensitive-data",
+    "href": "docs/presentations/OG2026/index.html#you-can-still-be-reporoducible-if-you-work-with-sensitive-data",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Sensitive data",
-    "text": "Sensitive data"
+    "section": "You can still be reporoducible if you work with sensitive data",
+    "text": "You can still be reporoducible if you work with sensitive data\n\nIf you still prefer to use proprietary or internal data, you can modify lightly to make your project reproducible\n\nPublish dummy files - to make sure the code runs end-to-end\nCreate synthetic data - to ensure make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.\nModify the original data - to help publicly release a copy of the data\n\nAs with the previous guide, make sure to .gitignore the data itself!"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#publish-your-data-or-your-compendium",
-    "href": "docs/presentations/OG2026/index.html#publish-your-data-or-your-compendium",
+    "objectID": "docs/presentations/OG2026/index.html#when-you-are-finalzing-your-paper-lean-on-metadata-to-cite-things-properly",
+    "href": "docs/presentations/OG2026/index.html#when-you-are-finalzing-your-paper-lean-on-metadata-to-cite-things-properly",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Publish your data or your compendium",
-    "text": "Publish your data or your compendium"
+    "section": "When you are finalzing your paper, lean on metadata to cite things properly",
+    "text": "When you are finalzing your paper, lean on metadata to cite things properly\n\n\n\nKnowing about the 4 main objects of research process helps you cite them.\nArchiving you active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.\nWhy does it matter?\n\nEach object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never dissapear, meaning that you aren’t guessing years later where something is.\nYou as the author also matter! Sign up to ORCID to get a unique researcher identifier (belongs to you, not your organization).\n\nYou probably also heard about metadata around SDMX/DDI, etc. In our experience this typically applies to publishing new input data."
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#metadata-of-the-research-process",
-    "href": "docs/presentations/OG2026/index.html#metadata-of-the-research-process",
+    "objectID": "docs/presentations/OG2026/index.html#takeaways---what-you-can-do-if-you-are-convinced",
+    "href": "docs/presentations/OG2026/index.html#takeaways---what-you-can-do-if-you-are-convinced",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Metadata of the research process",
-    "text": "Metadata of the research process"
-  },
-  {
-    "objectID": "docs/presentations/OG2026/index.html#what-about-the-data",
-    "href": "docs/presentations/OG2026/index.html#what-about-the-data",
-    "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "What about the data?",
-    "text": "What about the data?"
-  },
-  {
-    "objectID": "docs/presentations/OG2026/index.html#are-you-convinced",
-    "href": "docs/presentations/OG2026/index.html#are-you-convinced",
-    "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Are you convinced?",
-    "text": "Are you convinced?\nGreat!\n\nUse open data\nFollow our guides (or that of others that we reference)\nLet us know if we’re missing anything\nRecommend datasets if you see some missing\nCite our guide!\n\n\nGoussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579"
+    "section": "Takeaways - what you can do if you are convinced!",
+    "text": "Takeaways - what you can do if you are convinced!\nGreat!\n\nUse open data\nRead and follow our guides (or that of others that we reference)\nLet us know if we’re missing anything\nRecommend datasets if you see some missing\nCite our guide!\n\n\nGoussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579"
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#not-convinced",
     "href": "docs/presentations/OG2026/index.html#not-convinced",
     "title": "Reproducible research in Price Statistics: Call for action!",
     "section": "Not convinced?",
-    "text": "Not convinced?\nTell us what we’re missing? What would make it easy for you develop your project in a reproducible way?\n\nshould we do a survey?"
+    "text": "Not convinced?\nTell us what is in your way to research in a reproducible way?\nhttps://forms.gle/DZRzqNbPHCfgdReLA\n\nTO DO - figure out QR code!"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#our-next-steps",
-    "href": "docs/presentations/OG2026/index.html#our-next-steps",
+    "objectID": "docs/presentations/OG2026/index.html#what-is-on-the-docket-for-our-workstream",
+    "href": "docs/presentations/OG2026/index.html#what-is-on-the-docket-for-our-workstream",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Our next steps",
-    "text": "Our next steps\n\nProprietary datasets - add to the catalog and provide guidance\nWork with CPI EG and OG to make reproducibitliy simpler for conference participants\nFlush out advanced topics not currently flushed out"
+    "section": "What is on the docket for our workstream",
+    "text": "What is on the docket for our workstream\n\nAdd more open data to the catalogue – ideally with your help! Add new datasets that can be used\nInvesigate adding proprietary datatases to the catalogue - for those cases where open data is not enough\nFlush out further guidance on topics that are most valuable\nWork with CPI EG and OG to instill reproducibitliy within the conference process\nPerhaps host a training session if of value"
+  },
+  {
+    "objectID": "docs/presentations/OG2026/index.html#questions",
+    "href": "docs/presentations/OG2026/index.html#questions",
+    "title": "Reproducible research in Price Statistics: Call for action!",
+    "section": "Questions?",
+    "text": "Questions?\nMore than anything – are you convinced?"
   },
   {
     "objectID": "docs/catalogue/contributing.html",
@@ -1219,11 +1212,11 @@
     "text": "Presentations by the team\nThe team have presented to various group over the years:\n\nPresentation at the 2025 CPI Expert Group (Geneva, Switzerland) (see slides 9-13).\nPresentation at the 2026 Ottawa Group (Warsaw, Poland)"
   },
   {
-    "objectID": "docs/about.html#serge-goussev",
-    "href": "docs/about.html#serge-goussev",
+    "objectID": "docs/about.html#serge-goussev-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e6473206f72636964203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
+    "href": "docs/about.html#serge-goussev-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e6473206f72636964203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
     "title": "About this project",
-    "section": "Serge Goussev",
-    "text": "Serge Goussev\n\nRole: Workstream lead (2024 - current)\nGitHub id: sergegoussev\nEmail: serge.goussev@statcan.gc.ca"
+    "section": "Serge Goussev  ",
+    "text": "Serge Goussev  \n\nRole: Workstream lead (2024 - current)\nEmail: serge.goussev@statcan.gc.ca"
   },
   {
     "objectID": "docs/about.html#steve-martin-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e6473206f72636964203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
@@ -1233,18 +1226,18 @@
     "text": "Steve Martin  \n\nRole: Contributor (2024 - current)"
   },
   {
-    "objectID": "docs/about.html#claude-lamboray",
-    "href": "docs/about.html#claude-lamboray",
+    "objectID": "docs/about.html#claude-lamboray-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
+    "href": "docs/about.html#claude-lamboray-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
     "title": "About this project",
-    "section": "Claude Lamboray",
-    "text": "Claude Lamboray\n\nRole: Contributor (2024 - current)"
+    "section": "Claude Lamboray ",
+    "text": "Claude Lamboray \n\nRole: Contributor (2024 - current)"
   },
   {
-    "objectID": "docs/about.html#christophe-bontemps",
-    "href": "docs/about.html#christophe-bontemps",
+    "objectID": "docs/about.html#christophe-bontemps-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
+    "href": "docs/about.html#christophe-bontemps-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
     "title": "About this project",
-    "section": "Christophe Bontemps",
-    "text": "Christophe Bontemps\n\nRole: Contributor (2024 - current)"
+    "section": "Christophe Bontemps ",
+    "text": "Christophe Bontemps \n\nRole: Contributor (2024 - current)"
   },
   {
     "objectID": "docs/about.html#tanya-flower",
@@ -1254,25 +1247,25 @@
     "text": "Tanya Flower\n\nRole: Contributor (2024 - current)"
   },
   {
-    "objectID": "docs/about.html#ben-hillman",
-    "href": "docs/about.html#ben-hillman",
+    "objectID": "docs/about.html#ben-hillman-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
+    "href": "docs/about.html#ben-hillman-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
     "title": "About this project",
-    "section": "Ben Hillman",
-    "text": "Ben Hillman\n\nRole: Contributor (2024 - current)"
+    "section": "Ben Hillman ",
+    "text": "Ben Hillman \n\nRole: Contributor (2024 - current)"
   },
   {
-    "objectID": "docs/about.html#caroline-white",
-    "href": "docs/about.html#caroline-white",
+    "objectID": "docs/about.html#caroline-white-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
+    "href": "docs/about.html#caroline-white-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206272616e647320676974687562203e7d7d",
     "title": "About this project",
-    "section": "Caroline White",
-    "text": "Caroline White\n\nRole: Contributor (2024 - current)\nGitHub id: carolinewsc"
+    "section": "Caroline White ",
+    "text": "Caroline White \n\nRole: Contributor (2024 - current)"
   },
   {
     "objectID": "docs/about.html#jens-mehrhoff",
     "href": "docs/about.html#jens-mehrhoff",
     "title": "About this project",
     "section": "Jens Mehrhoff",
-    "text": "Jens Mehrhoff\n\nRole: Contributor (2024 - current)\nEmail: jens.mehrhoff@bundesbank.de"
+    "text": "Jens Mehrhoff\n\nRole: Contributor (2024)"
   },
   {
     "objectID": "docs/about.html#footnotes",

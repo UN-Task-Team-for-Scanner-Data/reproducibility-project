@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-ae1dcd72157ffa0c5715f671085a1333.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-0085191cffcf3617768ef1c0a45933e5.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -151,6 +151,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Reproducible research in Price Statistics: Call for action!</h1>
+  <p class="subtitle"><em>Presented at the 2026 Ottawa Group (Warsaw, Poland)</em></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -192,132 +193,300 @@ Caroline White
 
   <p class="date">2026-05-14</p>
 </section>
-<section id="current-state-pain-even-to-replicate" class="slide level2">
-<h2>Current state: pain even to replicate</h2>
-<p>Found a cool methodological paper with an empirical section? Cool, lets try to</p>
-<ul>
-<li><p>understand it / learn from it by trying it</p></li>
-<li><p>peer review it</p></li>
-<li><p>evaluate it on your own data and maybe use it in production</p></li>
-<li><p>extend it, there is a cool change that may make it better</p></li>
-</ul>
-<p>Can we do any of the above right now in price statistics?</p>
+<section>
+<section id="why-should-you-care" class="title-slide slide level1 center">
+<h1>Why should you care?</h1>
+
 </section>
-<section id="replication-crisis-is-well-acknowledged-in-science" class="slide level2 smaller scrollable">
-<h2>Replication crisis is well acknowledged in science</h2>
-<p><span class="citation" data-cites="10.1371/journal.pmed.0020124">Ioannidis (<a href="#/replication-crisis-is-well-acknowledged-in-science" role="doc-biblioref" onclick="">2005</a>)</span> and <span class="citation" data-cites="baker20161">Baker (<a href="#/replication-crisis-is-well-acknowledged-in-science" role="doc-biblioref" onclick="">2016</a>)</span> put the replication crisis on the map.</p>
-<p>Ever since then, there have been a set of notable movements that have sought to help solve this problem.</p>
-<p>For example:</p>
+<section id="right-now-it-is-a-pain-to-replicate-most-research-in-price-statistics" class="slide level2">
+<h2>Right now, it is a pain to replicate most research in price statistics</h2>
 <ul>
-<li><p><strong>FAIR</strong> - Findable, Accessible, Interoperable, Reusable - a set of principles for open science</p></li>
-<li><p><strong>Turing way</strong> - a set of guides and processes to follow that</p></li>
+<li class="fragment">Say you found a cool methodological paper with an empirical section. Let’s try to
+<ul>
+<li class="fragment">understand it / learn from it by trying it</li>
+<li class="fragment">peer review it</li>
+<li class="fragment">evaluate it on your own data and maybe use it in production</li>
+<li class="fragment">extend it, there is a cool change that may make it better</li>
+</ul></li>
+<li class="fragment">Can we do any of the above right now in price statistics <strong>without a large amount of effort</strong>?</li>
 </ul>
-<h5 id="references">References</h5>
+</section>
+<section id="replication-crisis-is-not-new-its-actually-well-acknowledged-in-science" class="slide level2 smaller scrollable">
+<h2>Replication crisis is not new, it’s actually well acknowledged in science</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li class="fragment"><p><span class="citation" data-cites="10.1371/journal.pmed.0020124">Ioannidis (<a href="#/replication-crisis-is-not-new-its-actually-well-acknowledged-in-science" role="doc-biblioref" onclick="">2005</a>)</span> and <span class="citation" data-cites="baker20161">Baker (<a href="#/replication-crisis-is-not-new-its-actually-well-acknowledged-in-science" role="doc-biblioref" onclick="">2016</a>)</span> put the replication crisis on the map.</p></li>
+<li class="fragment"><p>There have been a number of notable movements that have sought to help solve this problem. For example:</p>
+<ul>
+<li class="fragment"><p><strong>FAIR</strong> - Findable, Accessible, Interoperable, Reusable - a set of principles for open science</p></li>
+<li class="fragment"><p><strong>Turing way</strong> - a set of guides and processes to follow that</p></li>
+</ul></li>
+<li class="fragment"><p>A lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% <span class="citation" data-cites="brodeur2026reproducibility">(<a href="#/replication-crisis-is-not-new-its-actually-well-acknowledged-in-science" role="doc-biblioref" onclick=""><span class="nocase">Brodeur et al.</span> 2026</a>)</span>.</p></li>
+</ul>
+</div><div class="column" style="width:45%;">
+<h3 id="check-out-the-references-for-more-info">Check out the references for more info</h3>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-baker20161" class="csl-entry" role="listitem">
 Baker, Monya. 2016. <em>1,500 Scientists Lift the Lid on Reproducibility</em>. Nature Publishing Group UK London.
+</div>
+<div id="ref-brodeur2026reproducibility" class="csl-entry" role="listitem">
+<span class="nocase">Brodeur, Abel, Derek Mikola, Nikolai Cook, et al.</span> 2026. <span>“Reproducibility and Robustness of Economics and Political Science Research.”</span> <em>Nature</em> 652 (8108): 151–56.
 </div>
 <div id="ref-10.1371/journal.pmed.0020124" class="csl-entry" role="listitem">
 Ioannidis, John P. A. 2005. <span>“Why Most Published Research Findings Are False.”</span> <em>PLOS Medicine</em> 2 (8): null. <a href="https://doi.org/10.1371/journal.pmed.0020124">https://doi.org/10.1371/journal.pmed.0020124</a>.
 </div>
 </div>
+</div></div>
 </section>
-<section id="it-doesnt-have-to-be-this-way" class="slide level2">
-<h2>It doesn’t have to be this way!</h2>
-<p>We can adopt a set of practices to improve replicability (and ideally reproducibility) in Price Statistics.</p>
-<blockquote>
+<section id="the-bar-for-price-statistics-is-lower-but-it-doesnt-have-to-be-this-way" class="slide level2">
+<h2>The bar for price statistics is lower, but it doesn’t have to be this way!</h2>
+<ul>
+<li class="fragment"><p>In Price Statistics, we can adopt common practices to improve <strong>replicability</strong> (and ideally aim for <strong>reproducibility</strong>).</p></li>
+<li class="fragment"><blockquote>
 <p>We can move from a “trust me, it works on my data” toward “here is exactly how I did what I did, and here is everything you need to check my work.”</p>
-</blockquote>
-<p>We’ve already started! The Reproducible Analytical Pipelines (RAP) framework is increasingly adopted in official statistics.</p>
-<p>We can apply it to research, and also bring in good practices from others!</p>
-</section>
-<section id="how-we-help" class="slide level2">
-<h2>How we help</h2>
-<p>The FAIR/Reproducibility workstream on the UN Task Team has worked to support our discipline.</p>
-<p>There are two main problems:</p>
-<ul>
-<li><p><strong>With what data?</strong> We typically use internal data as its already processed, classified, and ready. Good open datasets are few and far between.</p></li>
-<li><p><strong>How to do it?</strong> What works for our discipline and how to start in a gradual manner? The skills needed aren’t obvious at first and the path is steep</p></li>
+</blockquote></li>
+<li class="fragment"><p>The movement is actually already underway! For example increasing adoption of Reproducible Analytical Pipelines (RAP) is a step in the right direction!</p></li>
+<li class="fragment"><p>What is left is to confirm <strong>discipline specific research practices</strong>.</p></li>
 </ul>
-<p>We solve both by:</p>
+</section></section>
+<section>
+<section id="who-are-we" class="title-slide slide level1 center">
+<h1>Who are we?</h1>
+
+</section>
+<section id="a-bit-about-us" class="slide level2">
+<h2>A bit about us</h2>
 <ul>
-<li><p>Deveoping and supporting a curated catalog of open data. Use this to find datasets that apply to your project.</p></li>
-<li><p>Providing guidance on practices that apply to our discipline.</p></li>
+<li class="fragment"><p>As a workstream in the UN Task Team, we are a group of price statisticians from NSOs and research institutes around the world.</p></li>
+<li class="fragment"><p>In 2024, we formed the FAIR/Reproducibility workstream to instill reproducibility within the discipline.</p></li>
+<li class="fragment"><p>We introduced the topic to the community a year ago (at 2025 CPI Expert Group)</p></li>
 </ul>
 </section>
-<section id="sneak-peak" class="slide level2">
-<h2>Sneak peak</h2>
-<p>In the following slides, we’ll showcase the key ideas!</p>
+<section id="how-do-we-help" class="slide level2">
+<h2>How do we help?</h2>
+<ul>
+<li class="fragment"><p>We see two main blockers for reproducibility in price statistics:</p>
+<ul>
+<li class="fragment"><p><strong>Open datasets are few and far between, or are undocumented!</strong> To get to reproducibilty, we all need access to high value open datasets. Without that, it is natural to default to internal data at our NSOs that is already processed, classified, and ready to go.</p></li>
+<li class="fragment"><p><strong>Unclear how to be reproducible!</strong> There is a lot of guidance out there, but what works for our discipline? The learning curve is non-trivial – so why bother if the “how to do this” path isn’t clear, and the mission isn’t obvious?</p></li>
+</ul></li>
+<li class="fragment"><p>We are working to solve both by:</p>
+<ul>
+<li class="fragment"><p>Deveoping and supporting a <strong>curated catalogue</strong> of good research datasets.</p></li>
+<li class="fragment"><p>Providing <strong>guidance on practices</strong> that apply to our discipline.</p></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="how-can-you-share-your-research-findings-in-a-reproducible-way" class="title-slide slide level1 center">
+<h1>How can you share your research findings in a reproducible way?</h1>
+
 </section>
-<section id="replicability-quadrant" class="slide level2">
-<h2>Replicability quadrant</h2>
-
-<img data-src="../../../docs/images/reproducibility-grid.svg" class="r-stretch"></section>
-<section id="main-objects-of-the-resarch" class="slide level2">
-<h2>Main objects of the resarch</h2>
-
-<img data-src="../../../docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg" class="r-stretch"></section>
-<section id="maturity-model" class="slide level2">
-<h2>Maturity model</h2>
-<h3 id="maturity-level-0">Maturity level 0</h3>
-<h3 id="maturity-level-1">Maturity level 1</h3>
-<h3 id="maturity-level-2">Maturity level 2</h3>
+<section id="prioritize-reproducibility-or-replicability" class="slide level2">
+<h2>Prioritize reproducibility or replicability</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<ul>
+<li class="fragment"><p>We should aim for <strong>reproducibility</strong> for methodological studies – i.e.&nbsp;if the analysis (i.e.&nbsp;the code) is public and the data is open.</p></li>
+<li class="fragment"><p><strong>Replicability</strong> can be the backup – if the same data can’t be used or to try other data with the same code</p></li>
+<li class="fragment"><p>Without either, <strong>generalizability</strong> is the default. Generalizability however is:</p>
+<ul>
+<li class="fragment"><p><em>Slower</em> – it takes much more time and resources to reach consensus *for all of</p></li>
+<li class="fragment"><p><em>Sensitive to local patterns</em> – an observed trend may be sensitive to local conditions (data, geography, etc)</p></li>
+<li class="fragment"><p><em>We incentivize novelty over robustness or production benefits</em> - the breadth of options to consider is large but work is left on NSOs to operationalize</p></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../../docs/images/reproducibility-grid.svg"></p>
+<figcaption>Reproducibility quadrant</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="keep-an-eye-on-the-how-the-research-compenidum-helps-structure-the-objects-of-research" class="slide level2">
+<h2>Keep an eye on the how the research compenidum helps structure the objects of research</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li class="fragment"><p>The <strong>input</strong> data is used to answer research questions. <strong>Output</strong> data is produced by your research project (such as final indices)</p></li>
+<li class="fragment"><p>The broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the <strong>research compendium</strong>:</p>
+<ul>
+<li class="fragment"><p>The active version can be on GitHub.</p></li>
+<li class="fragment"><p>Final verison is archived.</p></li>
+</ul></li>
+<li class="fragment"><p>Track software used in the computatioal environment file (no more “it works on my device”)</p></li>
+<li class="fragment"><p>Store the source for your paper in your research compendim</p></li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../../docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg"></p>
+<figcaption>Reseach objects</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="adopt-the-pace-that-works-for-you" class="slide level2">
+<h2>Adopt the pace that works for you</h2>
+<ul>
+<li class="fragment"><p>Apply the Reproducible Analytical Pipelines (RAP) framework to research</p>
+<ul>
+<li class="fragment">Its structured, robust and is increasingly adopted!</li>
+</ul></li>
+<li class="fragment"><p>Get started by:</p>
+<ul>
+<li class="fragment">Using open tools - i.e.&nbsp;R and python</li>
+<li class="fragment">Use <em>git</em> to version the project / research compendium</li>
+<li class="fragment">Explain to users how to reproduce the project</li>
+<li class="fragment">Make the compendium available (i.e.&nbsp;on GitHub)</li>
+<li class="fragment">If you are trying a methodology, try it on open data</li>
+</ul></li>
+<li class="fragment"><p>As you start – there is a 3 step maturity model that can be followed. Step 1 is very approachable</p></li>
+</ul>
 </section>
 <section id="structure-your-research-compendium" class="slide level2">
 <h2>Structure your research compendium</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li class="fragment"><p>Add coherent structure to the compendium!</p>
+<ul>
+<li class="fragment"><p>(input) data folders (even though you should ignore the data itself) make it clear how it runs end-to-end</p></li>
+<li class="fragment"><p>code is grouped</p></li>
+<li class="fragment"><p>document the process - from the project design to project documentation (such as the paper)</p></li>
+<li class="fragment"><p>(output) data for data the code produces</p></li>
+<li class="fragment"><p>choose a licence to tell others how to use your materials</p></li>
+<li class="fragment"><p>include a file that lists your computational environment</p></li>
+<li class="fragment"><p>carefully track what packages are used</p></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="../../../docs/images/price-stats-exemplar.svg"></p>
+</div></div>
+</section>
+<section id="choose-the-most-applicable-input-data-for-the-project" class="slide level2">
+<h2>Choose the most applicable input data for the project</h2>
+<ul>
+<li class="fragment"><p>There are 3 types of (input) data</p>
+<ul>
+<li class="fragment"><p><strong>Open data</strong> - common types include Dominick’s or Turvey</p></li>
+<li class="fragment"><p><strong>Proprietary data</strong> - commonly used ones include Nielsen and IRI</p></li>
+<li class="fragment"><p><strong>Sensitive data</strong> - the internal data holdings in NSOs</p></li>
+</ul></li>
+<li class="fragment"><p>Open data is the default, but other data could be okay (next slide)</p></li>
+<li class="fragment"><p>Irrespective of the data type, structure the research compendium in a standardized way and ignore the data files themselves (i.e.&nbsp;add <code>*.csv</code> to your <code>.gitignore</code> file)</p></li>
+</ul>
+</section>
+<section id="use-open-datasets-if-you-can" class="slide level2">
+<h2>Use open datasets if you can</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li class="fragment"><p>We document discipline specific open datasets in the catalogue</p></li>
+<li class="fragment"><p><a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/</a> - (or find it embedded in our project site)</p></li>
+<li class="fragment"><div class="callout callout-caution callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>The catalogue documents each dataset in a standardized way</strong></p>
+</div>
+<div class="callout-content">
+<p>The datasets themselves still belong to the owners.</p>
+<p>Ideally, each dataset is in a data repository (e.g.&nbsp;Zenodo)</p>
+</div>
+</div>
+</div></li>
+<li class="fragment"><p>Let us know if you know a good dataset to add!</p></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="../../../docs/images/data-catalogue-idea.svg"></p>
+</div></div>
+</section>
+<section id="you-can-still-be-reporoducible-if-you-work-with-sensitive-data" class="slide level2">
+<h2>You can still be reporoducible if you work with sensitive data</h2>
+<ul>
+<li class="fragment"><p>If you still prefer to use proprietary or internal data, you can modify lightly to make your project reproducible</p>
+<ul>
+<li class="fragment"><strong>Publish dummy files</strong> - to make sure the code runs end-to-end</li>
+<li class="fragment"><strong>Create synthetic data</strong> - to ensure make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.</li>
+<li class="fragment"><strong>Modify the original data</strong> - to help publicly release a copy of the data</li>
+</ul></li>
+<li class="fragment"><p>As with the previous guide, make sure to <code>.gitignore</code> the data itself!</p></li>
+</ul>
+</section>
+<section id="when-you-are-finalzing-your-paper-lean-on-metadata-to-cite-things-properly" class="slide level2">
+<h2>When you are finalzing your paper, lean on metadata to cite things properly</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li class="fragment"><p>Knowing about the 4 main objects of research process helps you cite them.</p></li>
+<li class="fragment"><p>Archiving you active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.</p></li>
+<li class="fragment"><p>Why does it matter?</p>
+<ul>
+<li class="fragment"><p>Each object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never dissapear, meaning that you aren’t guessing years later where something is.</p></li>
+<li class="fragment"><p>You as the author also matter! Sign up to ORCID to get a unique researcher identifier (belongs to you, not your organization).</p></li>
+</ul></li>
+<li class="fragment"><p>You probably also heard about metadata around SDMX/DDI, etc. In our experience this typically applies to publishing new input data.</p></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="../../../docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg"></p>
+</div></div>
+</section></section>
+<section>
+<section id="are-you-convinced" class="title-slide slide level1 center">
+<h1>Are you convinced?</h1>
 
-<img data-src="../../../docs/images/price-stats-exemplar.svg" class="r-stretch"></section>
-<section id="choose-a-licence" class="slide level2">
-<h2>Choose a licence</h2>
 </section>
-<section id="process-the-input-data-or-document-it" class="slide level2">
-<h2>Process the input data (or document it)</h2>
-</section>
-<section id="sensitive-data" class="slide level2">
-<h2>Sensitive data</h2>
-</section>
-<section id="publish-your-data-or-your-compendium" class="slide level2">
-<h2>Publish your data or your compendium</h2>
-</section>
-<section id="metadata-of-the-research-process" class="slide level2">
-<h2>Metadata of the research process</h2>
-
-<img data-src="../../../docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg" class="r-stretch"></section>
-<section id="what-about-the-data" class="slide level2">
-<h2>What about the data?</h2>
-
-<img data-src="../../../docs/images/data-catalogue-idea.svg" class="r-stretch"></section>
-<section id="are-you-convinced" class="slide level2">
-<h2>Are you convinced?</h2>
+<section id="takeaways---what-you-can-do-if-you-are-convinced" class="slide level2">
+<h2>Takeaways - what you can do if you are convinced!</h2>
 <p>Great!</p>
 <ul>
-<li>Use open data</li>
-<li>Follow our guides (or that of others that we reference)</li>
-<li>Let us know if we’re missing anything</li>
-<li>Recommend datasets if you see some missing</li>
-<li>Cite our guide!</li>
-</ul>
-<blockquote>
+<li class="fragment">Use open data</li>
+<li class="fragment">Read and follow our guides (or that of others that we reference)</li>
+<li class="fragment">Let us know if we’re missing anything</li>
+<li class="fragment">Recommend datasets if you see some missing</li>
+<li class="fragment">Cite our guide!
+<ul>
+<li class="fragment"><blockquote>
 <p>Goussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., &amp; Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579</p>
-</blockquote>
+</blockquote></li>
+</ul></li>
+</ul>
 </section>
 <section id="not-convinced" class="slide level2">
 <h2>Not convinced?</h2>
-<p>Tell us what we’re missing? What would make it easy for you develop your project in a reproducible way?</p>
+<p>Tell us what is in your way to research in a reproducible way?</p>
+<p><a href="https://forms.gle/DZRzqNbPHCfgdReLA" class="uri">https://forms.gle/DZRzqNbPHCfgdReLA</a></p>
 <blockquote>
-<p>should we do a survey?</p>
+<p>TO DO - figure out QR code!</p>
 </blockquote>
+</section></section>
+<section>
+<section id="whats-happening-next" class="title-slide slide level1 center">
+<h1>What’s happening next?</h1>
+
 </section>
-<section id="our-next-steps" class="slide level2">
-<h2>Our next steps</h2>
+<section id="what-is-on-the-docket-for-our-workstream" class="slide level2">
+<h2>What is on the docket for our workstream</h2>
 <ul>
-<li>Proprietary datasets - add to the catalog and provide guidance</li>
-<li>Work with CPI EG and OG to make reproducibitliy simpler for conference participants</li>
-<li>Flush out advanced topics not currently flushed out</li>
+<li class="fragment">Add more open data to the catalogue – ideally with your help! Add new datasets that can be used</li>
+<li class="fragment">Invesigate adding proprietary datatases to the catalogue - for those cases where open data is not enough</li>
+<li class="fragment">Flush out further guidance on topics that are most valuable</li>
+<li class="fragment">Work with CPI EG and OG to instill reproducibitliy within the conference process</li>
+<li class="fragment">Perhaps host a training session if of value</li>
 </ul>
-
-
 </section>
+<section id="questions" class="slide level2">
+<h2>Questions?</h2>
+<p>More than anything – are you convinced?</p>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
