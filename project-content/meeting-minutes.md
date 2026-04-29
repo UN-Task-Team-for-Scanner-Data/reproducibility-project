@@ -351,3 +351,15 @@ This document summarizes the meetings of the workstream
 
 -   The team discussed guidance that remains to be completed. Final topics were assigned and will be prioritized in the next few weeks. Review by the team can commence after to help prepare for Ottawa Group.
 -   The team also agreed that adding additional datasets to the catalogue should be lower priority before the Ottawa Group.
+
+## 2026-04-14
+
+### Agenda
+
+-   Discussion latest draft materials
+-   Discussion on next steps and presentation to the Ottawa Group
+
+### Notes
+
+-   The team discussed the latest draft guidance on synthetic data, licenses, metadata, and on publishing to zenodo. Main task seen as most valuable over the next two weeks will be to finish, merge in ongoing drafts, and write drafts for outstanding guides.
+-   The use of a `revealjs` presentation embedded within the project was discussed and approved as the approach that will be taken for the OG 2026 presentation. Draft materials to be discussed at the next meeting.
