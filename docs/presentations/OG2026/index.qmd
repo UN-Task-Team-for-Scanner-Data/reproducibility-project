@@ -38,6 +38,9 @@ format:
 
 ## Replication crisis is not new, it's actually well acknowledged in science
 
+:::: {.columns}
+
+::: {.column width="60%"}
 -   @10.1371/journal.pmed.0020124 and @baker20161 put the replication crisis on the map.
 
 -   There have been a number of notable movements that have sought to help solve this problem. For example:
@@ -47,21 +50,27 @@ format:
     -   **Turing way** - a set of guides and processes to follow that
 
 -   A lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% [@brodeur2026reproducibility].
+:::
 
-:::: {.incremental}
+::: {.column width="40%"}
 
 ### Check out the references for more info
 
 ::: {#refs}
 :::
 
+:::
+
 ::::
+
+
+
 
 ## The bar for price statistics is lower, but it doesn't have to be this way!
 
 -   In Price Statistics, we can adopt common practices to improve **replicability** (and ideally aim for **reproducibility**).
 
-> We can move from a "trust me, it works on my data" toward "here is exactly how I did what I did, and here is everything you need to check my work."
+-   > We can move from a "trust me, it works on my data" toward "here is exactly how I did what I did, and here is everything you need to check my work."
 
 -   The movement is actually already underway! For example increasing adoption of Reproducible Analytical Pipelines (RAP) is a step in the right direction!
 
@@ -74,6 +83,8 @@ format:
 -   As a workstream in the UN Task Team, we are a group of price statisticians from NSOs and research institutes around the world.
 
 -   In 2024, we formed the FAIR/Reproducibility workstream to instill reproducibility within the discipline.
+
+-   We introduced the topic to the community a year ago (at 2025 CPI Expert Group)
 
 ## How do we help?
 
@@ -89,27 +100,29 @@ format:
 
     -   Providing **guidance on practices** that apply to our discipline.
 
-# What can you do about it?
+# How can you share your research findings in a reproducible way?
 
 ## Prioritize reproducibility or replicability
 
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 -   We should aim for **reproducibility** for methodological studies – i.e. if the analysis (i.e. the code) is public and the data is open.
 
 -   **Replicability** can be the backup – if the same data can't be used or to try other data with the same code
 
 -   Without either, **generalizability** is the default. Generalizability however is:
 
-    -   slower – it takes more time and resources to reach consensus
+    -   *Slower* – it takes much more time and resources to reach consensus *for all of
 
-    -   sensitive to local patterns – an observed trend may be caused by the data or location, tough to tease out from an individual study
+    -   *Sensitive to local patterns* – an observed trend may be sensitive to local conditions (data, geography, etc) 
 
-    -   publication bias is possible – it is natural to want to present findings that are appropriate for the data used
+    -   *We incentivize novelty over robustness or production benefits* - the breadth of options to consider is large but work is left on NSOs to operationalize 
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
+
 ![Reproducibility quadrant](/docs/images/reproducibility-grid.svg){fig-align="center"}
+
 :::
 :::::
 
