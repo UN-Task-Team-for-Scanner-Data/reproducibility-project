@@ -80,7 +80,7 @@ format:
 
 -   As a workstream in the UN Task Team, we are a group of price statisticians from NSOs and research institutes around the world.
 
--   In 2024, we formed the FAIR/Reproducibility workstream to instill reproducibility within the discipline.
+-   In 2024, we formed the FAIR/Reproducibility workstream to instil reproducibility within the discipline.
 
 -   We introduced the topic to the community a year ago (at 2025 CPI Expert Group)
 
@@ -88,13 +88,13 @@ format:
 
 -   We see two main blockers for reproducibility in price statistics:
 
-    -   **Open datasets are few and far between, or are undocumented!** To get to reproducibilty, we all need access to high value open datasets. Without that, it is natural to default to internal data at our NSOs that is already processed, classified, and ready to go.
+    -   **Open datasets are few and far between, or are undocumented!** To get to reproducibility, we all need access to high value open datasets. Without that, it is natural to default to internal data at our NSOs that is already processed, classified, and ready to go.
 
     -   **Unclear how to be reproducible!** There is a lot of guidance out there, but what works for our discipline? The learning curve is non-trivial – so why bother if the "how to do this" path isn't clear, and the mission isn't obvious?
 
 -   We are working to solve both by:
 
-    -   Deveoping and supporting a **curated catalogue** of good research datasets.
+    -   Developing and supporting a **curated catalogue** of good research datasets.
 
     -   Providing **guidance on practices** that apply to our discipline.
 
@@ -108,13 +108,13 @@ format:
 
 -   **Replicability** can be the backup – if the same data can't be used or to try other data with the same code
 
--   Without either, **generalizability** is the default. Generalizability however is:
+-   Without either, **generalizability** is the default. Generalizability means that research however is:
 
-    -   *Slower* – it takes much more time and resources to reach consensus *for all of
+    -   *Slower* – it takes much more time and resources to reach consensus 
 
     -   *Sensitive to local patterns* – an observed trend may be sensitive to local conditions (data, geography, etc) 
 
-    -   *We incentivize novelty over robustness or production benefits* - the breadth of options to consider is large but work is left on NSOs to operationalize 
+    -   *More inclined to novelty over robustness or production benefits* – the breadth of options to consider is large but work is left for NSOs to operationalize 
 :::
 
 ::: {.column width="35%"}
@@ -124,7 +124,7 @@ format:
 :::
 :::::
 
-## Keep an eye on the how the research compenidum helps structure the objects of research
+## Keep an eye on the how the research compendium helps structure the objects of research
 
 ::::: columns
 ::: {.column width="55%"}
@@ -134,15 +134,15 @@ format:
 
     -   The active version can be on GitHub.
 
-    -   Final verison is archived.
+    -   Final version is archived.
 
--   Track software used in the computatioal environment file (no more "it works on my device")
+-   Track software used in the computational environment file (no more "it works on my device")
 
--   Store the source for your paper in your research compendim
+-   Store the source for your paper in your research compendium
 :::
 
 ::: {.column width="45%"}
-![Reseach objects](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
+![Research objects](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
 :::
 :::::
 
@@ -227,27 +227,27 @@ format:
 :::
 :::::
 
-## You can still be reporoducible if you work with sensitive data
+## You can still be reproducible if you work with sensitive data
 
--   If you still prefer to use proprietary or internal data, you can modify lightly to make your project reproducible
+-   If you still need to use proprietary or internal data, you can modify these data lightly to make your project reproducible:
 
     -   **Publish dummy files** - to make sure the code runs end-to-end
-    -   **Create synthetic data** - to ensure make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.
+    -   **Create synthetic data** - to make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.
     -   **Modify the original data** - to help publicly release a copy of the data
 
 -   As with the previous guide, make sure to `.gitignore` the data itself!
 
-## When you are finalzing your paper, lean on metadata to cite things properly
+## When you are finalizing your paper, lean on metadata to cite things properly
 
 ::::: columns
 ::: {.column width="40%"}
 -   Knowing about the 4 main objects of research process helps you cite them. 
 
--   Archiving you active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.
+-   Archiving your active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.
 
 -   Why does it matter?
 
-    -   Each object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never dissapear, meaning that you aren't guessing years later where something is.
+    -   Each object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never disappear, meaning that you aren't guessing years later where something is.
 
     -   You as the author also matter! Sign up to ORCID to get a unique researcher identifier (belongs to you, not your organization).
 
@@ -287,9 +287,9 @@ Tell us what is in your way to research in a reproducible way?
 ## What is on the docket for our workstream
 
 -   Add more open data to the catalogue – ideally with your help! Add new datasets that can be used
--   Invesigate adding proprietary datatases to the catalogue - for those cases where open data is not enough
+-   Investigate adding proprietary databases to the catalogue – for those cases where open data is not enough
 -   Flush out further guidance on topics that are most valuable
--   Work with CPI EG and OG to instill reproducibitliy within the conference process
+-   Work with CPI EG and OG to instil reproducibility within the conference process
 -   Perhaps host a training session if of value
 
 ## Questions?
