@@ -47,21 +47,20 @@ The team have presented to various group over the years:
 
 The following are current or historic members of Workstream 5 of the UN Task Team.
 
-## Serge Goussev
+## Serge Goussev [{{< fa brands orcid >}}](https://orcid.org/0009-0008-2359-5322) [{{< fa brands github >}}](https://github.com/sergegoussev)
 
 -   Role: Workstream lead (2024 - current)
--   GitHub id: [sergegoussev](https://github.com/sergegoussev)
--   Email: [serge.goussev\@statcan.gc.ca](mailto:%20serge.goussev@statcan.gc.ca)
+-   Email: [serge.goussev\@statcan.gc.ca](mailto:serge.goussev@statcan.gc.ca)
 
 ## Steve Martin [{{< fa brands orcid >}}](https://orcid.org/0000-0003-2544-9480) [{{< fa brands github >}}](https://github.com/marberts)
 
 -   Role: Contributor (2024 - current)
 
-## Claude Lamboray
+## Claude Lamboray [{{< fa brands github >}}](https://github.com/clambora)
 
 -   Role: Contributor (2024 - current)
 
-## Christophe Bontemps
+## Christophe Bontemps [{{< fa brands github >}}](https://github.com/XtopheB)
 
 -   Role: Contributor (2024 - current)
 
@@ -69,16 +68,14 @@ The following are current or historic members of Workstream 5 of the UN Task Tea
 
 -   Role: Contributor (2024 - current)
 
-## Ben Hillman
+## Ben Hillman [{{< fa brands github >}}](https://github.com/ONSBen)
 
 -   Role: Contributor (2024 - current)
 
-## Caroline White
+## Caroline White [{{< fa brands github >}}](https://github.com/carolinewsc)
 
 -   Role: Contributor (2024 - current)
--   GitHub id: [carolinewsc](https://github.com/carolinewsc)
 
 ## Jens Mehrhoff
 
--   Role: Contributor (2024 - current)
--   Email: [jens.mehrhoff\@bundesbank.de](mailto:jens.mehrhoff@bundesbank.de)
+-   Role: Contributor (2024)
