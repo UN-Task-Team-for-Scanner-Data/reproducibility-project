@@ -3,7 +3,8 @@ title: "Reproducible research in Price Statistics: Call for action!"
 subtitle: "*Presented at the 2026 Ottawa Group (Warsaw, Poland)*"
 bibliography: references.bib
 authors:
-- Serge Goussev
+- name: Serge Goussev
+  orcid: 0009-0008-2359-5322
 - name: Steve Martin
   orcid: 0000-0003-2544-9480
 - Claude Lamboray
@@ -41,25 +42,26 @@ format:
 
 :::: {.columns}
 
-::: {.column width="55%"}
--   @10.1371/journal.pmed.0020124 and @baker20161 put the replication crisis on the map.
+::: {.column width="45%"}
+-   @10.1371/journal.pmed.0020124, @baker20161, and many others put the replication crisis on the map.
 
 -   There have been a number of notable movements that have sought to help solve this problem. For example:
 
-    -   **FAIR**---Findable, Accessible, Interoperable, Reusable---a set of principles for open science.
+    -   **FAIR**---Findable, Accessible, Interoperable, Reusable---a set of principles for open science [@wilkinson2016fair].
 
-    -   **Turing way**---a set of guides and processes to follow that.
+    -   **Turing way**---a set of guides and processes to follow that [@the_turing_way_community_2025_15213042].
 
 -   A lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% [@brodeur2026reproducibility].
 :::
 
-::: {.column width="45%"}
-
-### Check out the references for more info
+::: {.column width="55%"}
+::::: {.fragment}
+#### (Check out the references for more info)
 
 ::: {#refs}
 :::
 
+:::::
 :::
 
 ::::
@@ -69,7 +71,9 @@ format:
 
 -   In Price Statistics, we can adopt common practices to improve **replicability** (and ideally aim for **reproducibility**).
 
--   > We can move from a "trust me, it works on my data" toward "here is exactly how I did what I did, and here is everything you need to check my work."
+::: {.fragment}
+> We can move from a "trust me, it works on my data" toward "here is exactly how I did what I did, and here is everything you need to check my work."
+:::
 
 -   The movement is actually already underway! For example increasing adoption of Reproducible Analytical Pipelines (RAP) is a step in the right direction!
 
@@ -104,6 +108,15 @@ format:
 ## Prioritize reproducibility or replicability
 
 ::::: columns
+
+::: {.column width="35%"}
+
+:::: {.fragment}
+![Reproducibility quadrant](/docs/images/reproducibility-grid.svg){fig-align="center"}
+::::
+
+:::
+
 ::: {.column width="65%"}
 -   We should aim for **reproducibility** for methodological studies---i.e. if the analysis (i.e. the code) is public and the data is open.
 
@@ -118,16 +131,20 @@ format:
     -   *More inclined to novelty over robustness or production benefits*---the breadth of options to consider is large but work is left on NSOs to operationalize.
 :::
 
-::: {.column width="35%"}
-
-![Reproducibility quadrant](/docs/images/reproducibility-grid.svg){fig-align="center"}
-
-:::
 :::::
 
 ## Keep an eye on the how the research compendium helps structure the objects of research
 
 ::::: columns
+
+::: {.column width="45%"}
+
+:::: {.fragment}
+![Research objects](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
+::::
+
+:::
+
 ::: {.column width="55%"}
 -   The **input** data is used to answer research questions. **Output** data is produced by your research project (such as final indices).
 
@@ -142,9 +159,6 @@ format:
 -   Store the source for your paper in your research compendium.
 :::
 
-::: {.column width="45%"}
-![Research objects](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
-:::
 :::::
 
 ## Adopt the pace that works for you
@@ -166,6 +180,15 @@ format:
 ## Structure your research compendium
 
 ::::: columns
+
+::: {.column width="40%"}
+
+:::: {.fragment}
+![](/docs/images/price-stats-exemplar.svg)
+::::
+
+:::
+
 ::: {.column width="60%"}
 -   Add coherent structure to the compendium!
 
@@ -184,9 +207,6 @@ format:
     -   carefully track what packages are used;
 :::
 
-::: {.column width="40%"}
-![](/docs/images/price-stats-exemplar.svg)
-:::
 :::::
 
 ## Choose the most applicable input data for the project
@@ -206,26 +226,34 @@ format:
 ## Use open datasets if you can
 
 ::::: columns
+
+::: {.column width="60%"}
+
+:::: {.fragment}
+![](/docs/images/data-catalogue-idea.svg)
+::::
+
+:::
+
 ::: {.column width="40%"}
 -   We document discipline specific open datasets in the catalogue.
 
+:::: {.fragment}
+::: callout-caution
+## The catalogue documents each dataset in a standardized way
+
+The datasets themselves still belong to the owners.
+
+Ideally, each dataset is in a data repository (e.g., Zenodo)
+:::
+::::
+
 -   [https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/) (or find it embedded in our project site).
-
--   ::: callout-caution
-    ## The catalogue documents each dataset in a standardized way
-
-    The datasets themselves still belong to the owners.
-
-    Ideally, each dataset is in a data repository (e.g., Zenodo)
-    :::
 
 -   Let us know if you know a good dataset to add!
 
 :::
 
-::: {.column width="60%"}
-![](/docs/images/data-catalogue-idea.svg)
-:::
 :::::
 
 ## You can still be reproducible if you work with sensitive data
@@ -241,23 +269,27 @@ format:
 ## When you are finalizing your paper, lean on metadata to cite things properly
 
 ::::: columns
-::: {.column width="40%"}
--   Knowing about the 4 main objects of research process helps you cite them. 
 
--   Archiving your active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.
+::: {.column width="55%"}
 
--   Why does it matter?
-
-    -   Each object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never disappear, meaning that you aren't guessing years later where something is.
-
-    -   You as the author also matter! Sign up to ORCID to get a unique researcher identifier (belongs to you, not your organization).
-
--   You probably also heard about metadata around SDMX/DDI, etc. In our experience this typically applies to publishing new input data.
-:::
-
-::: {.column width="60%"}
+:::: {.fragment}
 ![](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg)
+::::
+
 :::
+
+::: {.column width="45%"}
+-   Archive your research compendium (immutable copy tied to your submission).
+
+-   Cite the objects of research using its findability metadata: 
+
+    -   Find each object with its (permanent) unique digital identifier (typically a DOI).
+
+    -   Cite the unique identifier assigned to author (sign up to ORCID if you haven't yet).
+
+-   Metadata standards (i.e. SDMX/DDI/etc) typically applies to publishing new input data.
+:::
+
 :::::
 
 # Are you convinced? 
@@ -271,7 +303,10 @@ Great!
 -   Let us know if we're missing anything.
 -   Recommend datasets if you see some missing.
 -   Cite our guide!
-    -   > Goussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579
+
+::: {.fragment}
+> Goussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579
+:::
 
 ## Not convinced?
 
@@ -293,6 +328,6 @@ Tell us what is in your way to research in a reproducible way?
 -   Work with CPI EG and OG to instill reproducibitliy within the conference process.
 -   Perhaps host a training session if it's of value.
 
-## Questions?
+# Questions?
 
 More than anything---are you convinced?
