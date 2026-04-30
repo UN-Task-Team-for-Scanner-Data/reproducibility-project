@@ -108,7 +108,7 @@ format:
 
 -   **Replicability** can be the backup – if the same data can't be used or to try other data with the same code
 
--   Without either, **generalizability** is the default. Generalizability means that research however is:
+-   Without either, **generalizability** is the default. Generalizability however means that research is:
 
     -   *Slower* – it takes much more time and resources to reach consensus 
 
