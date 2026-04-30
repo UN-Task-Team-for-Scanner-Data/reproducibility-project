@@ -287,7 +287,7 @@ Tell us what is in your way to research in a reproducible way?
 ## What is on the docket for our workstream
 
 -   Add more open data to the catalogue – ideally with your help! Add new datasets that can be used
--   Investigate adding proprietary databases to the catalogue – for those cases where open data is not enough
+-   Investigate adding proprietary datasets to the catalogue – for those cases where open data is not enough
 -   Flush out further guidance on topics that are most valuable
 -   Work with CPI EG and OG to instil reproducibility within the conference process
 -   Perhaps host a training session if of value
