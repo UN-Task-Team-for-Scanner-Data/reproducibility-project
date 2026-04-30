@@ -64,7 +64,7 @@ The following are current or historic members of Workstream 5 of the UN Task Tea
 
 -   Role: Contributor (2024 - current)
 
-## Tanya Flower
+## Tanya Flower [{{< fa brands github >}}](https://github.com/tanyaflower-ons)
 
 -   Role: Contributor (2024 - current)
 
