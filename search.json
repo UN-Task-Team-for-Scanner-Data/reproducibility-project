@@ -60,28 +60,28 @@
     "href": "docs/presentations/OG2026/index.html#a-bit-about-us",
     "title": "Reproducible research in Price Statistics: Call for action!",
     "section": "A bit about us",
-    "text": "A bit about us\n\nAs a workstream in the UN Task Team, we are a group of price statisticians from NSOs and research institutes around the world.\nIn 2024, we formed the FAIR/Reproducibility workstream to instill reproducibility within the discipline.\nWe introduced the topic to the community a year ago (at 2025 CPI Expert Group)"
+    "text": "A bit about us\n\nAs a workstream in the UN Task Team, we are a group of price statisticians from NSOs and research institutes around the world.\nIn 2024, we formed the FAIR/Reproducibility workstream to instil reproducibility within the discipline.\nWe introduced the topic to the community a year ago (at 2025 CPI Expert Group)"
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#how-do-we-help",
     "href": "docs/presentations/OG2026/index.html#how-do-we-help",
     "title": "Reproducible research in Price Statistics: Call for action!",
     "section": "How do we help?",
-    "text": "How do we help?\n\nWe see two main blockers for reproducibility in price statistics:\n\nOpen datasets are few and far between, or are undocumented! To get to reproducibilty, we all need access to high value open datasets. Without that, it is natural to default to internal data at our NSOs that is already processed, classified, and ready to go.\nUnclear how to be reproducible! There is a lot of guidance out there, but what works for our discipline? The learning curve is non-trivial – so why bother if the “how to do this” path isn’t clear, and the mission isn’t obvious?\n\nWe are working to solve both by:\n\nDeveoping and supporting a curated catalogue of good research datasets.\nProviding guidance on practices that apply to our discipline."
+    "text": "How do we help?\n\nWe see two main blockers for reproducibility in price statistics:\n\nOpen datasets are few and far between, or are undocumented! To get to reproducibility, we all need access to high value open datasets. Without that, it is natural to default to internal data at our NSOs that is already processed, classified, and ready to go.\nUnclear how to be reproducible! There is a lot of guidance out there, but what works for our discipline? The learning curve is non-trivial – so why bother if the “how to do this” path isn’t clear, and the mission isn’t obvious?\n\nWe are working to solve both by:\n\nDeveloping and supporting a curated catalogue of good research datasets.\nProviding guidance on practices that apply to our discipline."
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#prioritize-reproducibility-or-replicability",
     "href": "docs/presentations/OG2026/index.html#prioritize-reproducibility-or-replicability",
     "title": "Reproducible research in Price Statistics: Call for action!",
     "section": "Prioritize reproducibility or replicability",
-    "text": "Prioritize reproducibility or replicability\n\n\n\nWe should aim for reproducibility for methodological studies – i.e. if the analysis (i.e. the code) is public and the data is open.\nReplicability can be the backup – if the same data can’t be used or to try other data with the same code\nWithout either, generalizability is the default. Generalizability however is:\n\nSlower – it takes much more time and resources to reach consensus *for all of\nSensitive to local patterns – an observed trend may be sensitive to local conditions (data, geography, etc)\nWe incentivize novelty over robustness or production benefits - the breadth of options to consider is large but work is left on NSOs to operationalize\n\n\n\n\n\n\nReproducibility quadrant"
+    "text": "Prioritize reproducibility or replicability\n\n\n\nWe should aim for reproducibility for methodological studies – i.e. if the analysis (i.e. the code) is public and the data is open.\nReplicability can be the backup – if the same data can’t be used or to try other data with the same code\nWithout either, generalizability is the default. Generalizability however means that research is:\n\nSlower – it takes much more time and resources to reach consensus\nSensitive to local patterns – an observed trend may be sensitive to local conditions (data, geography, etc)\nMore inclined to novelty over robustness or production benefits – the breadth of options to consider is large but work is left for NSOs to operationalize\n\n\n\n\n\n\nReproducibility quadrant"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#keep-an-eye-on-the-how-the-research-compenidum-helps-structure-the-objects-of-research",
-    "href": "docs/presentations/OG2026/index.html#keep-an-eye-on-the-how-the-research-compenidum-helps-structure-the-objects-of-research",
+    "objectID": "docs/presentations/OG2026/index.html#keep-an-eye-on-the-how-the-research-compendium-helps-structure-the-objects-of-research",
+    "href": "docs/presentations/OG2026/index.html#keep-an-eye-on-the-how-the-research-compendium-helps-structure-the-objects-of-research",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Keep an eye on the how the research compenidum helps structure the objects of research",
-    "text": "Keep an eye on the how the research compenidum helps structure the objects of research\n\n\n\nThe input data is used to answer research questions. Output data is produced by your research project (such as final indices)\nThe broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the research compendium:\n\nThe active version can be on GitHub.\nFinal verison is archived.\n\nTrack software used in the computatioal environment file (no more “it works on my device”)\nStore the source for your paper in your research compendim\n\n\n\n\n\nReseach objects"
+    "section": "Keep an eye on the how the research compendium helps structure the objects of research",
+    "text": "Keep an eye on the how the research compendium helps structure the objects of research\n\n\n\nThe input data is used to answer research questions. Output data is produced by your research project (such as final indices)\nThe broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the research compendium:\n\nThe active version can be on GitHub.\nFinal version is archived.\n\nTrack software used in the computational environment file (no more “it works on my device”)\nStore the source for your paper in your research compendium\n\n\n\n\n\nResearch objects"
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#adopt-the-pace-that-works-for-you",
@@ -112,18 +112,18 @@
     "text": "Use open datasets if you can\n\n\n\nWe document discipline specific open datasets in the catalogue\nhttps://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/ - (or find it embedded in our project site)\n\n\n\n\n\n\nThe catalogue documents each dataset in a standardized way\n\n\nThe datasets themselves still belong to the owners.\nIdeally, each dataset is in a data repository (e.g. Zenodo)\n\n\n\nLet us know if you know a good dataset to add!"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#you-can-still-be-reporoducible-if-you-work-with-sensitive-data",
-    "href": "docs/presentations/OG2026/index.html#you-can-still-be-reporoducible-if-you-work-with-sensitive-data",
+    "objectID": "docs/presentations/OG2026/index.html#you-can-still-be-reproducible-if-you-work-with-sensitive-data",
+    "href": "docs/presentations/OG2026/index.html#you-can-still-be-reproducible-if-you-work-with-sensitive-data",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "You can still be reporoducible if you work with sensitive data",
-    "text": "You can still be reporoducible if you work with sensitive data\n\nIf you still prefer to use proprietary or internal data, you can modify lightly to make your project reproducible\n\nPublish dummy files - to make sure the code runs end-to-end\nCreate synthetic data - to ensure make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.\nModify the original data - to help publicly release a copy of the data\n\nAs with the previous guide, make sure to .gitignore the data itself!"
+    "section": "You can still be reproducible if you work with sensitive data",
+    "text": "You can still be reproducible if you work with sensitive data\n\nIf you still need to use proprietary or internal data, you can modify these data lightly to make your project reproducible:\n\nPublish dummy files - to make sure the code runs end-to-end\nCreate synthetic data - to make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.\nModify the original data - to help publicly release a copy of the data\n\nAs with the previous guide, make sure to .gitignore the data itself!"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#when-you-are-finalzing-your-paper-lean-on-metadata-to-cite-things-properly",
-    "href": "docs/presentations/OG2026/index.html#when-you-are-finalzing-your-paper-lean-on-metadata-to-cite-things-properly",
+    "objectID": "docs/presentations/OG2026/index.html#when-you-are-finalizing-your-paper-lean-on-metadata-to-cite-things-properly",
+    "href": "docs/presentations/OG2026/index.html#when-you-are-finalizing-your-paper-lean-on-metadata-to-cite-things-properly",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "When you are finalzing your paper, lean on metadata to cite things properly",
-    "text": "When you are finalzing your paper, lean on metadata to cite things properly\n\n\n\nKnowing about the 4 main objects of research process helps you cite them.\nArchiving you active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.\nWhy does it matter?\n\nEach object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never dissapear, meaning that you aren’t guessing years later where something is.\nYou as the author also matter! Sign up to ORCID to get a unique researcher identifier (belongs to you, not your organization).\n\nYou probably also heard about metadata around SDMX/DDI, etc. In our experience this typically applies to publishing new input data."
+    "section": "When you are finalizing your paper, lean on metadata to cite things properly",
+    "text": "When you are finalizing your paper, lean on metadata to cite things properly\n\n\n\nKnowing about the 4 main objects of research process helps you cite them.\nArchiving your active (mutable) research compendium (to make it immutable) helps ensure others can replicate the exact version used to produce your paper.\nWhy does it matter?\n\nEach object has its unique digital identifier (typically a DOI) that helps us find it and thus reproduce the exact steps. They also never disappear, meaning that you aren’t guessing years later where something is.\nYou as the author also matter! Sign up to ORCID to get a unique researcher identifier (belongs to you, not your organization).\n\nYou probably also heard about metadata around SDMX/DDI, etc. In our experience this typically applies to publishing new input data."
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#takeaways---what-you-can-do-if-you-are-convinced",
@@ -144,7 +144,7 @@
     "href": "docs/presentations/OG2026/index.html#what-is-on-the-docket-for-our-workstream",
     "title": "Reproducible research in Price Statistics: Call for action!",
     "section": "What is on the docket for our workstream",
-    "text": "What is on the docket for our workstream\n\nAdd more open data to the catalogue – ideally with your help! Add new datasets that can be used\nInvesigate adding proprietary datatases to the catalogue - for those cases where open data is not enough\nFlush out further guidance on topics that are most valuable\nWork with CPI EG and OG to instill reproducibitliy within the conference process\nPerhaps host a training session if of value"
+    "text": "What is on the docket for our workstream\n\nAdd more open data to the catalogue – ideally with your help! Add new datasets that can be used\nInvestigate adding proprietary datasets to the catalogue – for those cases where open data is not enough\nFlush out further guidance on topics that are most valuable\nWork with CPI EG and OG to instil reproducibility within the conference process\nPerhaps host a training session if of value"
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#questions",
