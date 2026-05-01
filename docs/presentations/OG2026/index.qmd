@@ -67,7 +67,7 @@ format:
 ::::
 
 
-## The bar for price statistics is lower, but it doesn't have to be this way!
+## Progress in price statistics is lower, but it doesn't have to be this way!
 
 -   In Price Statistics, we can adopt common practices to improve **replicability** (and ideally aim for **reproducibility**).
 
@@ -298,10 +298,9 @@ Ideally, each dataset is in a data repository (e.g., Zenodo)
 
 Great!
 
--   Use open data.
--   Read and follow our guides (or that of others that we reference).
--   Let us know if we're missing anything.
--   Recommend datasets if you see some missing.
+-   Use open data. [Checkout the Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/) or [recommend potential datasets](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/contributing.html).
+-   [Read and follow our guides](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html) (or that of others that we reference).
+-   [Let us know](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/faq.html#i-have-questions-on-reproducibility-or-cataloging-a-dataset.-how-and-who-do-i-reach-out-to) if we're missing anything.
 -   Cite our guide!
 
 ::: {.fragment}
