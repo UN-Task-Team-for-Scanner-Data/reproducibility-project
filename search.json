@@ -49,11 +49,11 @@
     "text": "Replication crisis is not new, it’s actually well acknowledged in science\n\n\n\nIoannidis (2005), Baker (2016), and many others put the replication crisis on the map.\nThere have been a number of notable movements that have sought to help solve this problem. For example:\n\nFAIR—Findable, Accessible, Interoperable, Reusable—a set of principles for open science (Wilkinson et al. 2016).\nTuring way—a set of guides and processes to follow that (Community 2025).\n\nA lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% (Brodeur et al. 2026).\n\n\n\n(Check out the references for more info)\n\n\nBaker, Monya. 2016. 1,500 Scientists Lift the Lid on Reproducibility. Nature Publishing Group UK London.\n\n\nBrodeur, Abel, Derek Mikola, Nikolai Cook, et al. 2026. “Reproducibility and Robustness of Economics and Political Science Research.” Nature 652 (8108): 151–56.\n\n\nCommunity, The Turing Way. 2025. The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research. V. 1.2.3. Zenodo, released April. https://doi.org/10.5281/zenodo.15213042.\n\n\nIoannidis, John P. A. 2005. “Why Most Published Research Findings Are False.” PLOS Medicine 2 (8): null. https://doi.org/10.1371/journal.pmed.0020124.\n\n\nWilkinson, Mark D, Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1): 1–9."
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#the-bar-for-price-statistics-is-lower-but-it-doesnt-have-to-be-this-way",
-    "href": "docs/presentations/OG2026/index.html#the-bar-for-price-statistics-is-lower-but-it-doesnt-have-to-be-this-way",
+    "objectID": "docs/presentations/OG2026/index.html#progress-in-price-statistics-is-lower-but-it-doesnt-have-to-be-this-way",
+    "href": "docs/presentations/OG2026/index.html#progress-in-price-statistics-is-lower-but-it-doesnt-have-to-be-this-way",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "The bar for price statistics is lower, but it doesn’t have to be this way!",
-    "text": "The bar for price statistics is lower, but it doesn’t have to be this way!\n\nIn Price Statistics, we can adopt common practices to improve replicability (and ideally aim for reproducibility).\n\n\n\nWe can move from a “trust me, it works on my data” toward “here is exactly how I did what I did, and here is everything you need to check my work.”\n\n\n\nThe movement is actually already underway! For example increasing adoption of Reproducible Analytical Pipelines (RAP) is a step in the right direction!\nWhat is left is to confirm discipline specific research practices."
+    "section": "Progress in price statistics is lower, but it doesn’t have to be this way!",
+    "text": "Progress in price statistics is lower, but it doesn’t have to be this way!\n\nIn Price Statistics, we can adopt common practices to improve replicability (and ideally aim for reproducibility).\n\n\n\nWe can move from a “trust me, it works on my data” toward “here is exactly how I did what I did, and here is everything you need to check my work.”\n\n\n\nThe movement is actually already underway! For example increasing adoption of Reproducible Analytical Pipelines (RAP) is a step in the right direction!\nWhat is left is to confirm discipline specific research practices."
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#a-bit-about-us",
@@ -130,7 +130,7 @@
     "href": "docs/presentations/OG2026/index.html#takeawayswhat-you-can-do-if-you-are-convinced",
     "title": "Reproducible research in Price Statistics: Call for action!",
     "section": "Takeaways—what you can do if you are convinced!",
-    "text": "Takeaways—what you can do if you are convinced!\nGreat!\n\nUse open data.\nRead and follow our guides (or that of others that we reference).\nLet us know if we’re missing anything.\nRecommend datasets if you see some missing.\nCite our guide!\n\n\n\nGoussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579"
+    "text": "Takeaways—what you can do if you are convinced!\nGreat!\n\nUse open data. Checkout the Catalogue or recommend potential datasets.\nRead and follow our guides (or that of others that we reference).\nLet us know if we’re missing anything.\nCite our guide!\n\n\n\nGoussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579"
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#not-convinced",
