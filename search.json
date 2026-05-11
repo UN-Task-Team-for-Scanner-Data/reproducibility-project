@@ -126,18 +126,18 @@
     "text": "When you are finalizing your paper, lean on metadata to cite things properly\n\n\n\n\n\n\n\nArchive your research compendium (immutable copy tied to your submission).\nCite the objects of research using its findability metadata:\n\nFind each object with its (permanent) unique digital identifier (typically a DOI).\nCite the unique identifier assigned to author (sign up to ORCID if you haven’t yet).\n\nMetadata standards (i.e. SDMX/DDI/etc) typically applies to publishing new input data."
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#takeawayswhat-you-can-do-if-you-are-convinced",
-    "href": "docs/presentations/OG2026/index.html#takeawayswhat-you-can-do-if-you-are-convinced",
+    "objectID": "docs/presentations/OG2026/index.html#what-you-can-do-if-you-are-convinced",
+    "href": "docs/presentations/OG2026/index.html#what-you-can-do-if-you-are-convinced",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "Takeaways—what you can do if you are convinced!",
-    "text": "Takeaways—what you can do if you are convinced!\nGreat!\n\nUse open data. Checkout the Catalogue or recommend potential datasets.\nRead and follow our guides (or that of others that we reference).\nLet us know if we’re missing anything.\nCite our guide!\n\n\n\nGoussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579"
+    "section": "What you can do if you are convinced!",
+    "text": "What you can do if you are convinced!\nGreat!\n\nUse open data. Checkout the Catalogue or recommend potential datasets.\nRead and follow our guides (or that of others that we reference).\nLet us know if we’re missing anything.\nCite our guide!\n\n\n\nGoussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579"
   },
   {
-    "objectID": "docs/presentations/OG2026/index.html#what-else-is-blocking-you",
-    "href": "docs/presentations/OG2026/index.html#what-else-is-blocking-you",
+    "objectID": "docs/presentations/OG2026/index.html#help-us-know-about-and-clear-other-hurdles",
+    "href": "docs/presentations/OG2026/index.html#help-us-know-about-and-clear-other-hurdles",
     "title": "Reproducible research in Price Statistics: Call for action!",
-    "section": "What else is blocking you?",
-    "text": "What else is blocking you?\n\nAre you convinced? Do you have blockers we are not addressing? Is something confusing?\n\n\n\n\n\n\n\nImportant\n\n\nFill in a short poll and help us map the hurdles and thus address them together!"
+    "section": "Help us know about and clear other hurdles",
+    "text": "Help us know about and clear other hurdles\n\nWhat are we missing if you are not convinced? Do you have blockers we are not addressing? Is something confusing?\n\n\n\n\n\n\nLend your perspective\n\n\nFill in a short poll and help us map the hurdles and thus address them together!"
   },
   {
     "objectID": "docs/presentations/OG2026/index.html#what-is-on-the-docket-for-our-workstream",
