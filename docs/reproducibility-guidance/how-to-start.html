@@ -542,11 +542,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Use <strong>open tools</strong> for research so that anyone is free to use those same tools. In practice this tends to mean <strong>R and Python</strong> for empirical work.</li>
 <li>Keep track of <strong>the version of the project</strong> so that it is unambiguous how the research was done. In practice this means <strong>using git</strong> to manage the evolution of a project.</li>
 <li>Explain <strong>how to reproduce</strong> the project. In practice this means making a <strong>file called <code>README.md</code></strong> to outlines the steps to reproduce the project (.md stands for markdown, an easy way to markup text).</li>
-<li>Make the project <strong>available for others</strong>. In practice this leverages 1, 2, and 3 by putting the steps to recreate a research project on a service like <strong>GitHub or GitLab</strong>.</li>
-<li>If your research project trials a new method, if you can, <strong>evaluate it with publicly available data</strong>. There are a <a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">few open datasets</a> that are commonly used in the discipline.</li>
+<li>Make the project <strong>available for others</strong>. In practice this leverages 1, 2, and 3 by putting the steps to recreate a research project on a service like <strong>GitHub or GitLab</strong>. Further to reproducibility benefits to the discipline, publicly sharing the code ensures that it can be reviewed by others alongside the method.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>If your research project includes methodological work, consider <strong>evaluating it using publicly available data</strong> whenever possible. There are <a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">several open datasets commonly used within the discipline</a> that can serve as benchmarks. Additionally, if feasible, you <a href="../../docs/catalogue/contributing.html"><strong>may want to publish your own datasets and contribute them to the catalogue</strong></a> to support transparency and reproducibility.</li>
 </ol>
 <p>Although the baseline level for a RAP involves more than just these things, these are the core features of any reproducible project.</p>
-<p>The biggest hurdle to making a project reproducible is using git. This is a complex piece of software intended for software developers and can feel frustrating and unnecessary if you’re not used to it. (But trust me: once you get it, you’ll never want to turn back.) <a href="https://book.the-turing-way.org/reproducible-research/vcs">The Turing Way</a> has a nice introduction to version control and git for researchers. <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> is a more involved introduction to git and github. Although it is targeted primary at users of R, most of the ideas are not restricted to R.</p>
+<p>The biggest hurdle to making a project reproducible is using git. This is a complex piece of software intended for software developers and can feel frustrating and unnecessary if you’re not used to it. (But trust me: once you get it, you’ll never want to turn back.) <a href="https://book.the-turing-way.org/reproducible-research/vcs">The Turing Way</a> has a nice introduction to version control and git for researchers. <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> is a more involved introduction to git and GitHub. Although it is targeted primary at users of R, most of the ideas are not restricted to R.</p>
 </section>
 <section id="levelling-up" class="level2">
 <h2 class="anchored" data-anchor-id="levelling-up">Levelling up</h2>
@@ -597,7 +597,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><label><input type="checkbox">The code includes functions to help the user run it, or is fully packaged.</label></p></li>
 <li><p><label><input type="checkbox">The output data’s metadata is comprehensive (e.g., frequency of update, quality controls, license requirements).</label></p></li>
 <li><p><label><input type="checkbox">The explanatory documentation covers major changes over time (e.g., Semantic Versioning).</label></p></li>
-<li><p><label><input type="checkbox">The project is automated end-to-end, including the writeup of the paper published alongside the code. In essence, it is clear how each figure and table in the paper was generated.</label></p></li>
+<li><p><label><input type="checkbox">The project is automated end-to-end, including the writeup of the paper published alongside the code. In essense, it is clear how each figure and table in the paper was generated.</label></p></li>
 </ul>
 
 
@@ -609,6 +609,7 @@ ul.task-list li input[type="checkbox"] {
 
 <ol>
 <li id="fn1"><p>The RAP framework is not limited to research projects and is also useful for the <a href="https://voorburggroup.org/Documents/2025%20Copenhagen/Papers/1002.pdf">regular production of price statistics</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Peer review of code is a fantastic way to ensure that minor mistakes in the code did not impact broader guidance. The Reinhart and Rogoff analysis issue is a demonstrative example from only so recently. See <a href="https://svmiller.com/blog/2020/04/reinhart-rogoff-ten-years-later-replication/">Steven Miller’s technical blog summarizing the issue and how to reproduce the analysis</a> for a good overview, or check out <a href="https://doi.org/10.1093/cje/bet075">Herdon et al (2014)</a> for the summary by those who caught the issue.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
