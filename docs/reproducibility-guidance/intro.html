@@ -544,7 +544,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="key-components-in-a-research-project" class="level2">
 <h2 class="anchored" data-anchor-id="key-components-in-a-research-project">Key components in a research project</h2>
-<p>To make a research project reproducible, it is key to observe that there is not one object that is produced (i.e., the paper), but 4. <a href="#fig-research-objects" class="quarto-xref">Figure&nbsp;1</a> provides a visual that can help understand what each is intended to for and how to approach each for reproducibility.</p>
+<p>To make a research project reproducible, it is key to observe that there is not one object that is produced (i.e., the paper), but four different objects. <a href="#fig-research-objects" class="quarto-xref">Figure&nbsp;1</a> provides a visual that can help understand what each is intended for, and how to approach each for reproducibility.</p>
 <div id="fig-research-objects" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-research-objects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -564,7 +564,7 @@ Figure&nbsp;1: Research process
 <li><p>Ideally open data is used as this ensures the research can be fully reproducible and the dataset used can act as a benchmark if other methods are tried on it. We list a few available open datasets in the <a href="https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/">discipline specific catalogue</a>.</p></li>
 <li><p>While input data is ingested and processed by the research, in itself it is <em>ignored</em> by the research compendium (such as by listing the data files in the <code>.gitignore</code>). Read more in the <a href="../../docs/reproducibility-guidance/howtos/input-data.html">input data guide</a>.</p></li>
 </ul></li>
-<li><p><strong>Ouput data</strong> is data created as part of the research process. Whether (and how) its shared depends on various circumstances and value to later research projects (to say act as an input dataset for other projects). Read <a href="../../docs/reproducibility-guidance/howtos/opening-data.html">about this process here</a>.</p></li>
+<li><p><strong>Output data</strong> is data created as part of the research process. Whether (and how) it is shared depends on various circumstances and value to later research projects. For example, it may be used as an input dataset for other projects. Read <a href="../../docs/reproducibility-guidance/howtos/opening-data.html">about this process here</a>.</p></li>
 </ul>
 </section>
 <section id="the-research-compendium" class="level3">
@@ -604,7 +604,7 @@ Figure&nbsp;1: Research process
 <p>Not all code in the research compendium will be written by the researchers from scratch using vanilla code. It is likely to use packages to abstract away some or most of the complexity and automate the work. There are two sensible rules of thumb that can be applied:</p>
 <ul>
 <li><p>If the code is pivotal to the methodology (for instance the package was used to calculate price indices), then it is best to acknowledge this in the paper (<a href="../../docs/reproducibility-guidance/howtos/citing-code.html">by citing it</a>).</p></li>
-<li><p>A snapshot of the <strong>computational environment</strong> should be taken and included in the research compendium. This ensures that the exact computation requirement can be replicated, but also to ensure that dependencies on specific versions of other packages is saved.</p></li>
+<li><p>A snapshot of the <strong>computational environment</strong> should be taken and included in the research compendium. This ensures that the exact computation requirement can be replicated, but also ensures that dependencies on specific versions of other packages is saved.</p></li>
 </ul>
 </section>
 <section id="the-paper" class="level3">
@@ -622,7 +622,7 @@ Figure&nbsp;1: Research process
 <li id="fn1"><p>A good overview of <a href="https://book.the-turing-way.org/reproducible-research/overview">reproducible research is done by the Turing Way</a>. The book also covers <a href="https://book.the-turing-way.org/reproducible-research/open">open research</a> and many other topics.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>See <a href="https://book.the-turing-way.org/reproducible-research/compendia">Research Compendia in The Turing Way</a> for more detail on this concept.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>See a more in depth overview of the <a href="https://book.the-turing-way.org/reproducible-research/overview/overview-benefit">benefits of reproducible research</a>, as well as <a href="https://book.the-turing-way.org/reproducible-research/overview/overview-barriers">common barriers</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Research compendia are conceptually quite similar to <strong>Reproducible Analytical Pipelines (RAPs)</strong>, although the latter focuses more on production processes. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, operationalizing of a new method could be dramatically simplified. For more on RAPs in price statistics, see a <a href="https://escap-sd.github.io/ESCAP_RAP_class/docs/">RAP class recently done by ESCAP</a>, as well as a good paper by <a href="https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf">Price and Marques (2023)</a> showcasing RAP for production processes.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Research compendia are conceptually quite similar to <strong>Reproducible Analytical Pipelines (RAPs)</strong>, although the latter focuses more on production processes. Hence if the research is easy to reproduce by adopting a compendium structure and making everything easily reproducible, the operationalization of a new method could be dramatically simplified. For more on RAPs in price statistics, see a <a href="https://escap-sd.github.io/ESCAP_RAP_class/docs/">RAP class recently done by ESCAP</a>, as well as a good paper by <a href="https://unece.org/sites/default/files/2023-05/7.4%20UK_un_systems_railfares_paper.pdf">Price and Marques (2023)</a> showcasing RAP for production processes.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
