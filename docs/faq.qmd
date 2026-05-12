@@ -12,6 +12,10 @@ format:
 Have an idea for a common topic to add to this FAQ? Give us a shout! Submit an issue to the project and tag the the issue using the "question" label.
 :::
 
+# How do I cite the project?
+
+Information on how to cite the project is available [on the home page](/docs/index.qmd#citation).
+
 # How do I register a dataset to the catalogue (or recommend a dataset be registered)?
 
 Check out the detailed guidance on [in the contributing section](/docs/catalogue/contributing.qmd).
@@ -38,3 +42,4 @@ Create [a new issue](https://github.com/UN-Task-Team-for-Scanner-Data/reproducib
 ## Option 2: Contact us directly
 
 Check out the [about the team section](/docs/about.qmd) for our info. The project lead's email will be included if you wish to use it.
+
