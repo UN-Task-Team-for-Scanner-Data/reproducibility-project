@@ -271,3 +271,95 @@ This document summarizes the meetings of the workstream
 -   A rough maturity model was discussed for cataloging datasets, with level 1 as an acceptable starting poing and level 3 as the top level with 'bells and whistles'. Labels to categorized datasets was also introduced. Data type (of the main types of alterantive data) and topic the dataset covers (as this would drive application of the dataset towards testing applicable methods) was agreed as a good starting point. Sections will be finalized for discussed at the next meeting.
 -   As guidance for researchers making their projects reproducible, the value of having a clear maturity level checklist was discussed to expand on general getting started guide. It was agreed that a checklist was of value to ensure that it was discipline specific and [more approachable to the 3 NHS leves of RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/). Material will be finalized for discussion at the next meeting.
 -   It was agreed that drafting [How to structure a research compendium](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html), [Using open data (or opening data)](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/how-to-open-data.html), and [how to work with sensitive or proprietary data](https://github.com/UN-Task-Team-for-Scanner-Data/reproducibility-project/issues/46) are valuable articles to prioritize.
+
+## 2025-12-02
+
+### Agenda
+
+-   Finalized getting started guidance and the maturity model for reproducibility
+-   Updated process to propose datasets to the catalogue and the maturity model for how well flushed out a dataset can be
+-   Updates to other draft/WIP sections to ensure that the site does not look empty
+-   Validate topics for next meeting
+
+### Notes
+
+-   The [getting started guide with a maturity model for reproducibility](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/how-to-start.html) has been drafted and summarized to the group for review. Its purpose is serve as a gentler intro to RAP. Team to review the draft over the coming weeks async.
+-   Guidance on [how to propose ideas to the catalogue](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/contributing.html) was flushed out, along side with [standardized dataset labels](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/about.html#what-are-the-tags-used-in-the-catalogue) that can serve as a starting point, and a [few additional FAQs](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/faq.html). Creation of an issue and PR template to simplify the process still in the works ([#25](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/25)). Team to review over the coming weeks async.
+-   Inital draft mocked up to [research compendium deep dive](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/research-compendium-structure.html), as well as WIP callouts flushed out (the [metadata](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/howtos/metadata.html) one is detailed) so that researchers drafting abstracts for the Ottawa group who visit the site will see a semi put together product.
+-   [New Zealand modified scanner consumer electronics dataset](https://code.officialstatistics.org/scanner-task-team-gwg/FEWS_package/-/blob/master/data/SampleDataSet.csv?ref_type=heads) to be mocked for discussion at a future meeting.
+
+## 2025-12-16
+
+### Agenda
+
+-   Recent minor changes and what is left in scope
+-   PR and issue templates for dataset registration in the catalogue
+-   Project management update - review of progress and next steps
+
+### Notes
+
+-   The team reviewed recent changes and did a call out for review among the group. The material already drafted and a slight expansion could help in the short term as it would be useful to have Ottawa Group 2026 organizers include a link to our project website in the response to researchers accepted to the conference.
+-   A standardized issue and a PR template for dataset registration was discussed. The issue template creates a simple 'workflow' in asking key questions for anyone proposing new datasets to the catalogue. The PR template offers some structure to how a PR is described in Markdown. Templates approved and will be moved over to the catalogue repo shortly.
+
+## 2026-01-13
+
+### Agenda
+
+-   Changes to how reproducibility is introduced and the overview of citation guidance
+-   Discussion on draft guidance on creating synthetic input data
+
+### Notes
+
+-   Discussion on proposed changes to how reproducibility is introduced in the intro page of the "How to be reproducible" guidance, focusing on 4 main components of the research project. Team conditionally accepted with review and feedback to be provided over the coming weeks.
+-   Team discussed draft guidance on synthetic data. Contextualizing the need for synthetic data would be useful and will be added prior to merging the synthetic guidance specifically. Furthermore, guidance on what other actions are possible (such as putting a dummy dataset that can at least run the analysis) if no synthetic data is created. Further review and discussions will follow.
+
+## 2026-02-03
+
+### Agenda
+
+-   Discussion on guidance and potential direction for the work stream after the Ottawa Group conference
+-   Discussion on draft guidance on creating synthetic data
+-   Proposal to register Polish food scanner dataset
+
+### Notes
+
+-   The team discussed objectives for May and what work remains afterwards. Longer term goals included working with institutions to improve reproducibility as a whole, investigating more challenging guidance topics, investigating registry of proprietary dataset that could be purchased to the catalogue, potentially hosting training on this materials at the 2027 CPI EG conference, and many other topics.
+-   The approach to review already drafted material was discussed, with slight preference for gradual light review with more detailed review nearer the conference.
+-   Disussion on draft synthetic data guidance centered around how to best describe it to simplify understanding and adoption by researchers. Material still a WIP.
+-   The [polish open dataset](https://zenodo.org/records/18342253) was accepted as valuable to be registered to the catalogue.
+
+## 2026-02-24
+
+### Agenda
+
+-   Discussion on recent updates
+-   Ideas for future work items
+
+### Notes
+
+-   The team reviewed recent changes to data catalogue: (1) [a detailed issue template](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/tree/main/.github/ISSUE_TEMPLATE) and [PR template](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/blob/main/.github/pull_request_template.md) was recently added to simplify contributing to the catalogue; (2) the conversion of the metadata standard for each dataset record to [the ODCS standard](https://bitol-io.github.io/open-data-contract-standard/v3.1.0/) and other UX changes; (3) the addition of the New Zealand modified electronics dataset; and (4) the addition of the polish scanner dataset.
+-   The team discussed upcoming priorities and changes, including the assignment of topics still needing documentation, and whether [the IMF synthetic house price dataset](https://github.com/UN-Task-Team-for-Scanner-Data/price-stats-data-catalogue/issues/28) was useful for the catalogue.
+
+## 2026-03-17
+
+### Agenda
+
+-   Discussion on remaining guidance
+-   Discussion on priorities for the catalogue
+
+### Notes
+
+-   The team discussed guidance that remains to be completed. Final topics were assigned and will be prioritized in the next few weeks. Review by the team can commence after to help prepare for Ottawa Group.
+-   The team also agreed that adding additional datasets to the catalogue should be lower priority before the Ottawa Group.
+
+## 2026-04-14
+
+### Agenda
+
+-   Discussion latest draft materials
+-   Discussion on next steps and presentation to the Ottawa Group
+
+### Notes
+
+-   The team discussed the latest draft guidance on synthetic data, licenses, metadata, and on publishing to zenodo. Main task seen as most valuable over the next two weeks will be to finish, merge in ongoing drafts, and write drafts for outstanding guides.
+-   The use of a `revealjs` presentation embedded within the project was discussed and approved as the approach that will be taken for the OG 2026 presentation. Draft materials to be discussed at the next meeting.

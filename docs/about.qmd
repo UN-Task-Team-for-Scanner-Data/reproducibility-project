@@ -36,43 +36,46 @@ Not all team members are listed, we will update this section soon.
 
 As there is a lot of great guidance on the topic already, including [The Turing Way](https://book.the-turing-way.org/), [Reproducible Analytical Pipelines or RAP](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/), and many more resources—the idea is to distill key information for the price statistics community, not to create a new standard.
 
+## Presentations by the team
+
+The team have presented to various group over the years:
+
+- [Presentation at the 2025 CPI Expert Group (Geneva, Switzerland)](https://unece.org/sites/default/files/2025-04/1.3_UN%20Task%20Team.pdf) (see slides 9-13).
+- [Presentation at the 2026 Ottawa Group (Warsaw, Poland)](/docs/presentations/OG2026/index.qmd)
+
 # Project team members
 
 The following are current or historic members of Workstream 5 of the UN Task Team.
 
-## Serge Goussev
+## Serge Goussev [{{< fa brands orcid >}}](https://orcid.org/0009-0008-2359-5322) [{{< fa brands github >}}](https://github.com/sergegoussev)
 
 -   Role: Workstream lead (2024 - current)
--   GitHub id: [sergegoussev](https://github.com/sergegoussev)
--   Email: [serge.goussev\@statcan.gc.ca](mailto:%20serge.goussev@statcan.gc.ca)
+-   Email: [serge.goussev\@statcan.gc.ca](mailto:serge.goussev@statcan.gc.ca)
 
-## Steve Martin
-
--   Role: Contributor (2024 - current)
--   GitHub id: [marberts](https://github.com/marberts)
-
-## Claude Lamboray
+## Steve Martin [{{< fa brands orcid >}}](https://orcid.org/0000-0003-2544-9480) [{{< fa brands github >}}](https://github.com/marberts)
 
 -   Role: Contributor (2024 - current)
 
-## Christophe Bontemps
+## Claude Lamboray [{{< fa brands github >}}](https://github.com/clambora)
 
 -   Role: Contributor (2024 - current)
 
-## Tanya Flower
+## Christophe Bontemps [{{< fa brands github >}}](https://github.com/XtopheB)
 
 -   Role: Contributor (2024 - current)
 
-## Ben Hillman
+## Tanya Flower [{{< fa brands github >}}](https://github.com/tanyaflower-ons)
 
 -   Role: Contributor (2024 - current)
 
-## Caroline White
+## Ben Hillman [{{< fa brands github >}}](https://github.com/ONSBen)
 
 -   Role: Contributor (2024 - current)
--   GitHub id: [carolinewsc](https://github.com/carolinewsc)
+
+## Caroline White [{{< fa brands github >}}](https://github.com/carolinewsc)
+
+-   Role: Contributor (2024 - current)
 
 ## Jens Mehrhoff
 
--   Role: Contributor (2024 - current)
--   Email: [jens.mehrhoff\@bundesbank.de](mailto:jens.mehrhoff@bundesbank.de)
+-   Role: Contributor (2024)

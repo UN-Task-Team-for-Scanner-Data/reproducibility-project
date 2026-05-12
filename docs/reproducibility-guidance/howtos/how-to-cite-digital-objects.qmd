@@ -15,29 +15,36 @@ categories:
 
 When writing a paper, a structured approach to citing your research compendium is useful as it creates a coherent approach among the discipline.
 
-## Proposed sensible default
+## Visual
 
-Inspired by [the FAIR research code approach](https://www.nature.com/articles/s41597-022-01710-x#data-availability), we recommend including references to the digital byproducts made available alongside the research (i.e. the research compendium and any new datasets created) in the following manner at the end of your paper.
+Building on the visual seen earlier of the 4 objects of the resarch process, @fig-citing-research-objects shows how each can be cited.
+
+![Citing research objects](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg){#fig-citing-research-objects fig-align="center"}
+
+## How to cite each in your paper
+
+Inspired by [the FAIR research code approach](https://www.nature.com/articles/s41597-022-01710-x#data-availability), we recommend including references to the digital byproducts made available alongside the research in the following manner at the end of your paper.
 
 Add two headers just after the conclusion and before the references section:
 
+> # Data
+>
+> *Cite the input data used in the data section of the paper*
+>
+> ..... *other sections*
+>
 > *... conclusion of the paper*
 >
 > ## Data availability
 >
-> *Summarize where datasets created as part of the paper are published. This could be on a data repository like Zenodo for instance.*
+> *Rererence the output datasets created as part of the research.*
 >
 > ## Code availability
 >
-> *Add link to the GitHub repository where the research compendium is published.*
+> *Reference the research compendium (the archived version ideally, but the active GitHub link works too if no archive was made).*
 >
 > ## References
 >
 > *... rest of the references*
 
-## What about datasets you use or other people's code?
-
-The best place to reference others' code or open datasets is in the bibliography. Ideally these should have a Digitial Object Identifier (or DOI) so they are unique and can be easily found. There may be harder cases, which are detailed out in more detail in separate articles:
-
--   [How to cite data](citing-data.qmd).
--   [How to cite others' code](citing-code.qmd).
+Using proper citation style throughout the paper ensures that the bibliography has the full set of references. The standard structure (while not absolutely necessary as footnotes or other approaches also work) helps ensure that researchers in the discipline follow a standard approach.

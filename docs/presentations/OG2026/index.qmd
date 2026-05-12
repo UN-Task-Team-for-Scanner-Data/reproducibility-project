@@ -1,0 +1,311 @@
+---
+title: "Reproducible research in Price Statistics: Call for action!"
+subtitle: "*Presented at the 2026 Ottawa Group (Warsaw, Poland)*"
+bibliography: references.bib
+authors:
+- name: Serge Goussev
+  orcid: 0009-0008-2359-5322
+- name: Steve Martin
+  orcid: 0000-0003-2544-9480
+- Claude Lamboray
+- Christophe Bontemps
+- Tanya Flower
+- Ben Hillman
+- Caroline White
+date: 2026-05-14
+format:
+  revealjs:
+    theme: sky
+    incremental: true
+    menu:
+      side: right
+      width: wide
+    slide-number: true
+    show-slide-number: print
+    fontsize: 30px
+    width: 1280
+    height: 720
+---
+
+# Why should you care?
+
+## Right now, it is a pain to replicate most research in price statistics
+
+-   Say you found a cool methodological paper with an empirical section. Let's try to
+    -   understand it / learn from it by trying it;
+    -   peer review it;
+    -   evaluate it on your own data and maybe use it in production;
+    -   extend it, there is a cool change that may make it better;
+-   Can we do any of the above right now in price statistics **without a large amount of effort**?
+
+## Replication crisis is not new, it's actually well acknowledged in science
+
+::::::: columns
+::: {.column width="45%"}
+-   @10.1371/journal.pmed.0020124, @baker20161, and many others put the replication crisis on the map.
+
+-   There have been a number of notable movements that have sought to help solve this problem. For example:
+
+    -   **FAIR**---Findable, Accessible, Interoperable, Reusable---a set of principles for open science [@wilkinson2016fair].
+
+    -   **Turing way**---a set of guides and processes to follow that [@the_turing_way_community_2025_15213042].
+
+-   A lot of progress has been made! For example a recent survey of reproducibility in Economics (at least for journals with strict data sharing mandates and policies) reproducibility is as high as 85% [@brodeur2026reproducibility].
+:::
+
+::::: {.column width="55%"}
+:::: fragment
+#### (Check out the references for more info)
+
+::: {#refs}
+:::
+::::
+:::::
+:::::::
+
+## Progress in price statistics is lower, but it doesn't have to be this way!
+
+-   In Price Statistics, we can adopt common practices to improve **replicability** (and ideally aim for **reproducibility**).
+
+::: fragment
+> We can move from a "trust me, it works on my data" toward "here is exactly how I did what I did, and here is everything you need to check my work."
+:::
+
+-   The movement is actually already underway! For example increasing adoption of Reproducible Analytical Pipelines (RAP) is a step in the right direction!
+
+-   What is left is to confirm **discipline specific research practices**.
+
+# Who are we?
+
+## A bit about us
+
+-   As a workstream in the UN Task Team, we are a group of price statisticians from NSOs and research institutes around the world.
+
+-   In 2024, we formed the FAIR/Reproducibility workstream to instil reproducibility within the discipline.
+
+-   We introduced the topic to the community a year ago (at 2025 CPI Expert Group).
+
+## How do we help?
+
+-   We see two main blockers for reproducibility in price statistics:
+
+    -   **Open datasets are few and far between, or are undocumented!** To get to reproducibility, we all need access to high value open datasets. Without that, it is natural to default to internal data at our NSOs that is already processed, classified, and ready to go.
+
+    -   **Unclear how to be reproducible!** There is a lot of guidance out there, but what works for our discipline? The learning curve is non-trivial---so why bother if the "how to do this" path isn't clear, and the mission isn't obvious?
+
+-   We are working to solve both by:
+
+    -   Developing and supporting a **curated catalogue** of good research datasets.
+
+    -   Providing **guidance on practices** that apply to our discipline.
+
+# How can you share your research findings in a reproducible way?
+
+## Prioritize reproducibility or replicability
+
+:::::: columns
+:::: {.column width="35%"}
+::: fragment
+![Reproducibility quadrant](/docs/images/reproducibility-grid.svg){fig-align="center"}
+:::
+::::
+
+::: {.column width="65%"}
+-   We should aim for **reproducibility** for methodological studies---i.e. if the analysis (i.e. the code) is public and the data is open.
+
+-   **Replicability** can be the backup---if the same data can't be used, try with other data but the same code.
+
+-   Without either, **generalizability** is the default. Generalizability however means that research is:
+
+    -   *Slower*---it takes much more time and resources to reach consensus
+
+    -   *Sensitive to local patterns*---an observed trend may be sensitive to local conditions (data, geography, etc).
+
+    -   *More inclined to novelty over robustness or production benefits*---the breadth of options to consider is large but work is left on NSOs to operationalize.
+:::
+::::::
+
+## Keep an eye on the how the research compendium helps structure the objects of research
+
+:::::: columns
+:::: {.column width="45%"}
+::: fragment
+![Research objects](/docs/images/reserarch-objects-deeper-dive-1-research.drawio.svg)
+:::
+::::
+
+::: {.column width="55%"}
+-   The **input** data is used to answer research questions. **Output** data is produced by your research project (such as final indices).
+
+-   The broader (structured) digital object that tracks all the objects of research (code, doc, output, etc) is the **research compendium**:
+
+    -   The active version can be on GitHub.
+
+    -   Final version is archived.
+
+-   Track software used in the computational environment file (no more "it works on my device").
+
+-   Store the source for your paper in your research compendium.
+:::
+::::::
+
+## Adopt the pace that works for you
+
+-   Apply the Reproducible Analytical Pipelines (RAP) framework to research.
+
+    -   It's structured, robust, and is increasingly adopted!
+
+-   Get started by:
+
+    -   Using open tools---i.e., R and python
+    -   Use *git* to version the project / research compendium.
+    -   Explain to users how to reproduce the project.
+    -   Make the compendium available (i.e. on GitHub).
+    -   If you are trying a methodology, try it on open data.
+
+-   As you start---there is a 3 step maturity model that can be followed. Step 1 is very approachable.
+
+## Structure your research compendium
+
+:::::: columns
+:::: {.column width="40%"}
+::: fragment
+![](/docs/images/price-stats-exemplar.svg)
+:::
+::::
+
+::: {.column width="60%"}
+-   Add coherent structure to the compendium!
+
+    -   (input) data folders (even though you should ignore the data itself) make it clear how it runs end-to-end;
+
+    -   code is grouped;
+
+    -   document the process---from the project design to project documentation (such as the paper);
+
+    -   (output) data for data the code produces;
+
+    -   choose a licence to tell others how to use your materials;
+
+    -   include a file that lists your computational environment;
+
+    -   carefully track what packages are used;
+:::
+::::::
+
+## Choose the most applicable input data for the project
+
+-   There are 3 types of (input) data:
+
+    -   **Open data**---common types include Dominick's or Turvey.
+
+    -   **Proprietary data**---commonly used ones include Nielsen and IRI.
+
+    -   **Sensitive data**---the internal data holdings in NSOs.
+
+-   Open data is the default, but other data could be okay (next slide).
+
+-   Irrespective of the data type, structure the research compendium in a standardized way and ignore the data files themselves (i.e. add `*.csv` to your `.gitignore` file).
+
+## Use open datasets if you can
+
+:::::::: columns
+:::: {.column width="60%"}
+::: fragment
+![](/docs/images/data-catalogue-idea.svg)
+:::
+::::
+
+::::: {.column width="40%"}
+-   We document discipline specific open datasets in the catalogue.
+
+:::: fragment
+::: callout-caution
+## The catalogue documents each dataset in a standardized way
+
+The datasets themselves still belong to the owners.
+
+Ideally, each dataset is in a data repository (e.g., Zenodo)
+:::
+::::
+
+-   <https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/> (or find it embedded in our project site).
+
+-   Let us know if you know a good dataset to add!
+:::::
+::::::::
+
+## You can still be reproducible if you work with sensitive data
+
+-   If you still prefer to use proprietary or internal data, you can modify lightly to make your project reproducible.
+
+    -   **Publish dummy files**---to make sure the code runs end-to-end.
+    -   **Create synthetic data**---to ensure make a rich dataset that can then be used for research. Publish it separately from your compendium so that others can also use it.
+    -   **Modify the original data**---to help publicly release a copy of the data.
+
+-   As with the previous guide, make sure to `.gitignore` the data itself!
+
+## When you are finalizing your paper, lean on metadata to cite things properly
+
+:::::: columns
+:::: {.column width="55%"}
+::: fragment
+![](/docs/images/reserarch-objects-deeper-dive-2-citation.drawio.svg)
+:::
+::::
+
+::: {.column width="45%"}
+-   Archive your research compendium (immutable copy tied to your submission).
+
+-   Cite the objects of research using its findability metadata:
+
+    -   Find each object with its (permanent) unique digital identifier (typically a DOI).
+
+    -   Cite the unique identifier assigned to author (sign up to ORCID if you haven't yet).
+
+-   Metadata standards (i.e. SDMX/DDI/etc) typically applies to publishing new input data.
+:::
+::::::
+
+# Are you convinced?
+
+## What you can do if you are convinced!
+
+Great!
+
+-   Use open data. [Checkout the Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/) or [recommend potential datasets](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/contributing.html).
+-   [Read and follow our guides](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html) (or that of others that we reference).
+-   [Let us know](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/faq.html#i-have-questions-on-reproducibility-or-cataloging-a-dataset.-how-and-who-do-i-reach-out-to) if we're missing anything.
+-   Cite our guide!
+
+::: fragment
+> Goussev, S., Martin, S., Lamboray, C., Bontemps, C., Flower, T., Hillman, B., White, C., & Mehroff, J. (2026). Price Statistics Reproducibility Project (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19779579
+:::
+
+## Help us know about and clear other hurdles
+
+::::: fragment
+If you are not convinced, what are we missing? Do you have blockers we are not addressing? Is something confusing?
+
+::: callout-tip
+## Lend your perspective
+Fill in [a short poll](https://forms.gle/DZRzqNbPHCfgdReLA) and help us map the hurdles and thus address them together!
+
+![](qrcode.png){fig-align="center" width="30%"}
+:::
+
+:::::
+
+# What's happening next?
+
+## What is on the docket for our workstream
+
+-   Add more open data to the catalogue---ideally with your help! Add new datasets that can be used.
+-   Investigate adding proprietary datasets to the catalogue---for those cases where open data is not enough.
+-   Flesh out further guidance on topics that are most valuable.
+-   Work with CPI EG and OG to instill reproducibility within the conference process.
+-   Perhaps host a training session if it's of value.
+
+# Questions?
+
+More than anything---do you have what you need to get started?
