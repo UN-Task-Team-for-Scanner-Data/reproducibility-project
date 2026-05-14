@@ -271,8 +271,9 @@ Ideally, each dataset is in a data repository (e.g., Zenodo)
 
 ## What you can do if you are convinced!
 
+::: fragment
 Great!
-
+:::
 -   Use open data. [Checkout the Catalogue](https://un-task-team-for-scanner-data.github.io/price-stats-data-catalogue/) or [recommend potential datasets](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/catalogue/contributing.html).
 -   [Read and follow our guides](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/reproducibility-guidance/intro.html) (or that of others that we reference).
 -   [Let us know](https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/faq.html#i-have-questions-on-reproducibility-or-cataloging-a-dataset.-how-and-who-do-i-reach-out-to) if we're missing anything.
