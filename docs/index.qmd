@@ -2,6 +2,25 @@
 title: "Welcome to the Price Statistics Reproducibility Project"
 date: 2025-04-28
 date-format: YYYY-MM-DD
+citation:
+  title: Price Statistics Reproducibility Project
+  author: 
+    - name: Serge Goussev
+      orcid: 0009-0008-2359-5322
+    - name: Steve Martin
+      orcid: 0000-0003-2544-  9480
+    - name: Claude Lamboray
+    - name: Christophe Bontemps
+    - name: Tanya Flower
+    - name: Ben Hillman
+    - name: Caroline White
+    - name: Jens Mehrhoff
+  type: paper-conference
+  container-title: "Presented at the 19th Ottawa Group meeting, Warsaw, Poland"
+  available-date: 2026/05/14
+  url: https://un-task-team-for-scanner-data.github.io/reproducibility-project/docs/
+  doi: 10.5281/zenodo.19779578
+  issued: 2026-05-14
 format:
   html:
     toc: true
