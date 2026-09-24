@@ -77,6 +77,8 @@ statistics. There are also several software papers related to price statistics.
     {{< fa brands r-project >}}](https://cran.r-project.org/package=hpiR)
 -   [rsmatrix
     {{< fa brands r-project >}}](https://cran.r-project.org/package=rsmatrix)
+-   [REPS
+    {{< fa brands r-project >}}](https://cran.r-project.org/package=REPS)
 
 #### General purpose
 
